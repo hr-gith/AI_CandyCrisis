@@ -1,0 +1,100 @@
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<VBox spacing="2" fx:controller="controllers.GameController"
+      xmlns:fx="http://javafx.com/fxml" alignment="CENTER" >
+    <padding>
+        <Insets top="25" right="25" bottom="25" left="25"/>
+    </padding>
+    <HBox spacing="2" alignment="CENTER">
+        <StackPane >
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile00"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile01"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile02"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile03"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile04"/>
+        </StackPane>
+    </HBox>
+    <HBox spacing="2" alignment="CENTER">
+        <StackPane >
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile10"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile11"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile12"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile13"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile14"/>
+        </StackPane>
+    </HBox>
+    <HBox spacing="2" alignment="CENTER">
+        <padding>
+            <Insets bottom="25" />
+        </padding>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile20"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile21"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile22"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile23"/>
+        </StackPane>
+        <StackPane alignment="CENTER">
+            <Rectangle fill="#808080"  stroke="#6495ed" width="50" height="50"/>
+            <Text fx:id="tile24"/>
+        </StackPane>
+
+    </HBox>
+    <Button alignment="CENTER" text="UP" prefWidth="70"  onKeyPressed="#onKeyPressed" onAction="#OnButtonClicked"></Button>
+    <HBox spacing="50" alignment="CENTER">
+        <Button text="LEFT" prefWidth="70" onKeyPressed="#onKeyPressed" onAction="#OnButtonClicked"></Button>
+        <Button text="RIGHT" prefWidth="70" onKeyPressed="#onKeyPressed" onAction="#OnButtonClicked"></Button>
+    </HBox>
+    <Button alignment="CENTER" prefWidth="70" text="DOWN" onKeyPressed="#onKeyPressed"  onAction="#OnButtonClicked"></Button>
+
+    <Label fx:id="message"/>
+    <HBox spacing="10">
+        <Button text="Next Level" prefWidth="250" onAction="#nextLevelClicked"></Button>
+        <Button text="Solve Current Puzzle" prefWidth="250" onAction="#solveCurrentGame"></Button>
+        <Button text="Automatic Mode" prefWidth="250" onAction="#automaticMode"></Button>
+    </HBox>
+</VBox>
+
+
