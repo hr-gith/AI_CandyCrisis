@@ -232,6 +232,121 @@ public class Board implements Comparable{
         int heuristic=0;
         for(int heuristicIndex=0;heuristicIndex<Configuration.COLUMNS;heuristicIndex++) {
             //-- if values are equal the don't do anything
+            char topElement = this.gridToken[0][heuristicIndex].getSign();
+            char bottomElement = this.gridToken[2][heuristicIndex].getSign();
+            boolean foundInmiddle=false;
+            boolean foundinself=false;
+            if (topElement == bottomElement)
+                continue;
+
+            else {
+                int bottomdistancefromTop=Configuration.MAX_VALUE_OF_HEURISTIC;
+                int bottomdistancefromBottom=Configuration.MAX_VALUE_OF_HEURISTIC;
+                int bottomdistancefromMiddle=Configuration.MAX_VALUE_OF_HEURISTIC;
+                int topdistancefromTop=Configuration.MAX_VALUE_OF_HEURISTIC;
+                int topdistancefromBottom=Configuration.MAX_VALUE_OF_HEURISTIC;
+                int topdistancefromMiddle=Configuration.MAX_VALUE_OF_HEURISTIC;
+                for(int j=0;j<Configuration.COLUMNS;j++){
+                   //check middle ---- Add +2
+                    if(topElement==this.gridToken[1][j].getSign())
+                    {
+                        foundInmiddle=true;
+                        int previoustopdistancefromMiddle=topdistancefromMiddle;
+                        if(previoustopdistancefromMiddle==Configuration.MAX_VALUE_OF_HEURISTIC)
+                            topdistancefromMiddle=j;
+                        else if(Math.abs(heuristicIndex-previoustopdistancefromMiddle)>Math.abs(heuristicIndex-j)){
+                            topdistancefromMiddle=j;
+                        }
+
+                    }
+                    if(bottomElement==this.gridToken[1][j].getSign())
+                    {
+                        foundInmiddle=true;
+                        int previousbottomdistancefromMiddle=bottomdistancefromMiddle;
+                        if(previousbottomdistancefromMiddle==Configuration.MAX_VALUE_OF_HEURISTIC)
+                            bottomdistancefromMiddle=j;
+                        else if(Math.abs(heuristicIndex-previousbottomdistancefromMiddle)>Math.abs(heuristicIndex-j)){
+                            bottomdistancefromMiddle=j;
+                        }
+
+                    }
+                    if(foundInmiddle) {
+                        if (Math.abs(topdistancefromMiddle - heuristicIndex) < Math.abs(bottomdistancefromMiddle - heuristicIndex))
+                            heuristic+= Math.abs(topdistancefromMiddle - heuristicIndex);
+                        else
+                            heuristic+= Math.abs(bottomdistancefromMiddle - heuristicIndex);
+                    }
+
+                }
+                if(!foundInmiddle){
+                    //search in self
+                    for(int j=heuristicIndex;j<Configuration.COLUMNS;j++){
+                        if (j != heuristicIndex) {
+                            if (topElement == this.gridToken[0][j].getSign()) {
+                                int previoustopdistancefromTop = topdistancefromTop;
+                                foundinself=true;
+                                if (previoustopdistancefromTop == Configuration.MAX_VALUE_OF_HEURISTIC)
+                                    topdistancefromTop = j;
+                                else if (Math.abs(heuristicIndex - previoustopdistancefromTop) > Math.abs(heuristicIndex - j)) {
+                                    topdistancefromTop = j;
+                                }
+                            }
+                            if (bottomElement == this.gridToken[2][j].getSign()) {
+                                foundinself=true;
+                                int previousbottomdistancefromBottom = bottomdistancefromBottom;
+                                if (previousbottomdistancefromBottom == Configuration.MAX_VALUE_OF_HEURISTIC)
+                                    bottomdistancefromBottom = j;
+                                else if (Math.abs(heuristicIndex - previousbottomdistancefromBottom) > Math.abs(heuristicIndex - j)) {
+                                    bottomdistancefromBottom = j;
+                                }
+
+                            }
+                        }
+                        if(foundinself) {
+                            if (Math.abs(topdistancefromTop - heuristicIndex) < Math.abs(bottomdistancefromBottom - heuristicIndex))
+                                heuristic += Math.abs(topdistancefromTop - heuristicIndex);
+                            else
+                                heuristic += Math.abs(bottomdistancefromBottom - heuristicIndex);
+                        }
+                    }
+                }
+                else if((!foundInmiddle)||(!foundinself)){
+                    for(int j=heuristicIndex;j<Configuration.COLUMNS;j++){
+                        if (topElement == this.gridToken[2][j].getSign()) {
+                            int previoustopdistancefromBottom = topdistancefromBottom;
+                            if (previoustopdistancefromBottom == Configuration.MAX_VALUE_OF_HEURISTIC)
+                                topdistancefromBottom = j;
+                            else if (Math.abs(heuristicIndex - previoustopdistancefromBottom) > Math.abs(heuristicIndex - j)) {
+                                topdistancefromBottom = j;
+                            }
+
+                        }
+                        if (bottomElement == this.gridToken[0][j].getSign()) {
+                            int previousbottomdistancefromTop = bottomdistancefromTop;
+                            if (previousbottomdistancefromTop == Configuration.MAX_VALUE_OF_HEURISTIC)
+                                bottomdistancefromTop = j;
+                            else if (Math.abs(heuristicIndex - previousbottomdistancefromTop) > Math.abs(heuristicIndex - j)) {
+                                bottomdistancefromTop = j;
+                            }
+
+                        }
+                        if (Math.abs(topdistancefromBottom - heuristicIndex) < Math.abs(bottomdistancefromTop - heuristicIndex))
+                            heuristic+= Math.abs(topdistancefromBottom - heuristicIndex);
+                        else
+                            heuristic+= Math.abs(bottomdistancefromTop - heuristicIndex);
+                    }
+                }
+
+            }
+        }
+                return heuristic;
+    }
+
+/*
+    public int getHeuristic2(){
+        int heuristic=0;
+        for(int heuristicIndex=0;heuristicIndex<Configuration.COLUMNS;heuristicIndex++) {
+            //-- if values are equal the don't do anything
             char topElement=this.gridToken[0][heuristicIndex].getSign();
             char bottomElement=this.gridToken[2][heuristicIndex].getSign();
             if(topElement==bottomElement)
@@ -250,9 +365,11 @@ public class Board implements Comparable{
                     int selfHeuristic=Configuration.MAX_VALUE_OF_HEURISTIC;
                     int otherHeuristic=Configuration.MAX_VALUE_OF_HEURISTIC;
 
+                    boolean foundInmiddle=false;
                     //check middle ---- Add +2
                     if(topElement==this.gridToken[1][j].getSign())
                     {
+                        foundInmiddle=true;
                         int previoustopdistancefromMiddle=topdistancefromMiddle;
                         if(previoustopdistancefromMiddle==Configuration.MAX_VALUE_OF_HEURISTIC)
                             topdistancefromMiddle=j;
@@ -263,6 +380,7 @@ public class Board implements Comparable{
                     }
                     if(bottomElement==this.gridToken[1][j].getSign())
                     {
+                        foundInmiddle=true;
                         int previousbottomdistancefromMiddle=bottomdistancefromMiddle;
                         if(previousbottomdistancefromMiddle==Configuration.MAX_VALUE_OF_HEURISTIC)
                             bottomdistancefromMiddle=j;
@@ -271,66 +389,71 @@ public class Board implements Comparable{
                         }
 
                     }
-                    if(Math.abs(topdistancefromMiddle-heuristicIndex)<Math.abs(bottomdistancefromMiddle-heuristicIndex))
-                        middleHeuristic=Math.abs(topdistancefromMiddle-heuristicIndex);
-                    else
-                        middleHeuristic=Math.abs(bottomdistancefromMiddle-heuristicIndex);
-
-                    //check self --- add +1
-                    // don't need to compare when j= heuristic index
-                    if(j!=heuristicIndex) {
-                        if (topElement == this.gridToken[0][j].getSign()) {
-                            int previoustopdistancefromTop = topdistancefromTop;
-                            if(previoustopdistancefromTop==Configuration.MAX_VALUE_OF_HEURISTIC)
-                                topdistancefromTop=j;
-                            else if(Math.abs(heuristicIndex-previoustopdistancefromTop)<Math.abs(heuristicIndex-j)){
-                                topdistancefromTop=j;
-                            }
-                        }
-                        if (bottomElement == this.gridToken[2][j].getSign()) {
-                            int previousbottomdistancefromBottom = bottomdistancefromBottom;
-                            if(previousbottomdistancefromBottom==Configuration.MAX_VALUE_OF_HEURISTIC)
-                                bottomdistancefromBottom=j;
-                            else if(Math.abs(heuristicIndex-previousbottomdistancefromBottom)<Math.abs(heuristicIndex-j)){
-                                bottomdistancefromBottom=j;
-                            }
-
-                        }
-
-                        if (Math.abs(topdistancefromTop-heuristicIndex) < Math.abs(bottomdistancefromBottom-heuristicIndex))
-                            selfHeuristic = Math.abs(topdistancefromTop-heuristicIndex);
+                    if(foundInmiddle) {
+                        if (Math.abs(topdistancefromMiddle - heuristicIndex) < Math.abs(bottomdistancefromMiddle - heuristicIndex))
+                            heuristic+= Math.abs(topdistancefromMiddle - heuristicIndex);
                         else
-                            selfHeuristic = Math.abs(bottomdistancefromBottom-heuristicIndex);
+                            heuristic+= Math.abs(bottomdistancefromMiddle - heuristicIndex);
                     }
-                    //--check other add +3
-                    if(topElement==this.gridToken[2][j].getSign())
-                    {
-                        int previoustopdistancefromBottom = topdistancefromBottom;
-                        if(previoustopdistancefromBottom==Configuration.MAX_VALUE_OF_HEURISTIC)
-                            topdistancefromBottom=j;
-                        else if(Math.abs(heuristicIndex-previoustopdistancefromBottom)<Math.abs(heuristicIndex-j)){
-                            topdistancefromBottom=j;
+                    else// check top and bottom
+                    {//check self --- add +1
+                        // don't need to compare when j= heuristic index
+                        boolean foundinself=false;
+                        if (j != heuristicIndex) {
+                            if (topElement == this.gridToken[0][j].getSign()) {
+                                int previoustopdistancefromTop = topdistancefromTop;
+                                foundinself=true;
+                                if (previoustopdistancefromTop == Configuration.MAX_VALUE_OF_HEURISTIC)
+                                    topdistancefromTop = j;
+                                else if (Math.abs(heuristicIndex - previoustopdistancefromTop) < Math.abs(heuristicIndex - j)) {
+                                    topdistancefromTop = j;
+                                }
+                            }
+                            if (bottomElement == this.gridToken[2][j].getSign()) {
+                                foundinself=true;
+                                int previousbottomdistancefromBottom = bottomdistancefromBottom;
+                                if (previousbottomdistancefromBottom == Configuration.MAX_VALUE_OF_HEURISTIC)
+                                    bottomdistancefromBottom = j;
+                                else if (Math.abs(heuristicIndex - previousbottomdistancefromBottom) < Math.abs(heuristicIndex - j)) {
+                                    bottomdistancefromBottom = j;
+                                }
+
+                            }
                         }
+                             if(foundinself) {
+                                 if (Math.abs(topdistancefromTop - heuristicIndex) < Math.abs(bottomdistancefromBottom - heuristicIndex))
+                                     heuristic += Math.abs(topdistancefromTop - heuristicIndex);
+                                 else
+                                     heuristic += Math.abs(bottomdistancefromBottom - heuristicIndex);
+                             }
+                             else{
+                                 //--check other add +3
+                                 if (topElement == this.gridToken[2][j].getSign()) {
+                                     int previoustopdistancefromBottom = topdistancefromBottom;
+                                     if (previoustopdistancefromBottom == Configuration.MAX_VALUE_OF_HEURISTIC)
+                                         topdistancefromBottom = j;
+                                     else if (Math.abs(heuristicIndex - previoustopdistancefromBottom) < Math.abs(heuristicIndex - j)) {
+                                         topdistancefromBottom = j;
+                                     }
+
+                                 }
+                                 if (bottomElement == this.gridToken[0][j].getSign()) {
+                                     int previousbottomdistancefromTop = bottomdistancefromTop;
+                                     if (previousbottomdistancefromTop == Configuration.MAX_VALUE_OF_HEURISTIC)
+                                         bottomdistancefromTop = j;
+                                     else if (Math.abs(heuristicIndex - previousbottomdistancefromTop) < Math.abs(heuristicIndex - j)) {
+                                         bottomdistancefromTop = j;
+                                     }
+
+                                 }
+                                 if (Math.abs(topdistancefromBottom - heuristicIndex) < Math.abs(bottomdistancefromTop - heuristicIndex))
+                                     heuristic+= Math.abs(topdistancefromBottom - heuristicIndex);
+                                 else
+                                     heuristic+= Math.abs(bottomdistancefromTop - heuristicIndex);
+                             }
+
 
                     }
-                    if(bottomElement==this.gridToken[0][j].getSign())
-                    {
-                        int previousbottomdistancefromTop = bottomdistancefromTop;
-                        if(previousbottomdistancefromTop==Configuration.MAX_VALUE_OF_HEURISTIC)
-                            bottomdistancefromTop=j;
-                        else if(Math.abs(heuristicIndex-previousbottomdistancefromTop)<Math.abs(heuristicIndex-j)){
-                            bottomdistancefromTop=j;
-                        }
-
-                    }
-                    if(Math.abs(topdistancefromBottom-heuristicIndex)<Math.abs(bottomdistancefromTop-heuristicIndex))
-                        otherHeuristic=Math.abs(topdistancefromBottom-heuristicIndex);
-                    else
-                        otherHeuristic=Math.abs(bottomdistancefromTop-heuristicIndex);
-                    otherHeuristic=(otherHeuristic+1)*7;
-                    selfHeuristic=(selfHeuristic+1)*5;
-                    middleHeuristic=(middleHeuristic+1)*3;
-                    heuristic+=Math.min(Math.min((otherHeuristic+1)*7, (selfHeuristic+1)*5), (middleHeuristic+1)*3);
                 }
 
             }
@@ -340,7 +463,7 @@ public class Board implements Comparable{
         return heuristic;
     }
 
-
+*/
     /**
      * Manhattan distance
      *
