@@ -8,5 +8,5 @@ public class Configuration {
 
     public final static int ROWS=3;
     public final static int COLUMNS=5;
-
+    public final static int MAX_VALUE_OF_HEURISTIC=1000;
 }
