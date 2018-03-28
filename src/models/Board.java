@@ -113,7 +113,7 @@ public class Board implements Comparable{
     }
 
     public void setHeuristicValue() {
-        this.heuristicValue = this.getHeuristic2();
+        this.heuristicValue = this.getHeuristic5();
     }
 
     public void setDirectionFromParent(char directionFromParent) {
@@ -224,11 +224,248 @@ public class Board implements Comparable{
         }
         return pos;
     }
+
+    // works with string
+    public int getHeuristic5(){
+        int heuristicValue = 0;
+        String topOrigin = "", bottomOrigin = "";
+        for (int j = 0; j < 5; j++){
+            topOrigin += gridToken[0][j].getSign();
+            bottomOrigin += gridToken[2][j].getSign();
+        }
+
+        if (topOrigin != bottomOrigin) {
+            int topHeuristic = 0, bottomHeuristic = 0;
+            String middleReverse = "";
+            for (int j = 4; j >= 0; j--) {
+                middleReverse += gridToken[1][j].getSign();
+            }
+
+            //Top row is the source row
+            String strSearch = middleReverse;
+            strSearch += bottomOrigin;
+
+            //search
+            int[] sourceIndexAtSearch = new int[5];
+            int minIndexfound = 10;
+            for (int j = 4; j >= 0; j--){
+                int pos;
+                if (minIndexfound == 10){
+                    pos = strSearch.lastIndexOf(gridToken[0][j].getSign());
+                }else{
+                    String tempSubStr = strSearch.substring(0,minIndexfound);
+                    pos = tempSubStr.lastIndexOf(gridToken[0][j].getSign());
+                    if (pos == -1){
+                        pos = strSearch.indexOf(gridToken[0][j].getSign());
+                    }
+                }
+                sourceIndexAtSearch[j] = pos;
+                if (pos != -1)
+                    minIndexfound = Math.min(minIndexfound, pos);
+            }
+
+            for (int i = 0; i < 5;i++){
+                if (sourceIndexAtSearch[i] == -1)
+                    topHeuristic += 10;
+                else
+                    topHeuristic += Math.abs((i + 5) - sourceIndexAtSearch[i]);
+            }
+
+            //Bottom row is the source row
+            strSearch = topOrigin;
+            strSearch += middleReverse;
+
+            //search
+            int maxIndexfound = -1;
+            for (int j = 0; j < 5; j++) {
+                int pos = strSearch.indexOf(gridToken[2][j].getSign(), maxIndexfound+1);
+                if (pos == -1) {
+                    pos = strSearch.indexOf(gridToken[2][j].getSign());
+                }
+                sourceIndexAtSearch[j] = pos;
+                maxIndexfound = Math.max(maxIndexfound, pos);
+            }
+
+            for (int i = 0; i < 5;i++){
+                if (sourceIndexAtSearch[i] == -1)
+                    bottomHeuristic += 10;
+                else
+                    bottomHeuristic += Math.abs(i - sourceIndexAtSearch[i]);
+            }
+
+            heuristicValue = Math.min(topHeuristic, bottomHeuristic);
+        }
+        return heuristicValue;
+    }
+
+    //stuck on 28th puzzle of d2
+    /*
+    public int getHeuristic4(){
+        int heuristicValue=0;
+        for(int i=0;i<Configuration.COLUMNS;i++){
+            //System.out.println("********* Index " +i+"*********");
+            int topMatchPosition=50;
+            int bottomMatchPosition=50;
+
+            if(this.gridToken[0][i].getSign()==this.gridToken[2][i].getSign())
+                continue;
+            else{
+                for(int j=0;j<Configuration.COLUMNS;j++){
+                    //System.out.println("-----Checking "+j+"th Column---");
+                    if(this.gridToken[0][i].getSign()==this.gridToken[1][j].getSign()){
+                        //TO-DO: Make sure we choose position closest to j
+                        int currentTopMatchPosition=topMatchPosition;
+
+                        if(currentTopMatchPosition==50)
+                            topMatchPosition=j;
+                        else{
+                            if(Math.abs(currentTopMatchPosition-i)<Math.abs(i-j)){
+                                topMatchPosition=j;
+                            }
+                        }
+                        // System.out.println("TOPMatch : "+topMatchPosition+"  J: "+j);
+                    }
+                    if(this.gridToken[2][i].getSign()==this.gridToken[1][j].getSign()){
+                        //TO-DO: Make sure we choose position closest to j
+                        int currentBottomMatchPosition=bottomMatchPosition;
+
+                        if(currentBottomMatchPosition==50)
+                            bottomMatchPosition=j;
+                        else{
+                            if(Math.abs(currentBottomMatchPosition-i)<Math.abs(i-j)){
+                                bottomMatchPosition=j;
+                            }
+                        }
+                        //System.out.println("bottomMatchPosition : "+bottomMatchPosition+"  J: "+j);
+                    }
+                }
+            }
+            if(Math.abs(i-bottomMatchPosition)<Math.abs(i-topMatchPosition)){
+                //Bottom is near to desired tile
+                heuristicValue+=Math.abs(i-bottomMatchPosition);
+            }else{
+                heuristicValue+=Math.abs(i-topMatchPosition);
+            }
+        }
+
+        //if nothing found
+        if (heuristicValue % 50 == 0){
+            for (int j = 0; j<Configuration.COLUMNS; j++){
+                //check if bottom token has the same sign => do nothing
+                if ( gridToken[0][j].getSign() != gridToken[2][j].getSign()) {
+                    Token topToken = gridToken[0][j];
+                    Token bottomToken = gridToken[2][j];
+                    //maximum distance is between (0,0) and (2,4) around:  sqrt(2^2 + 4^2)= 5
+                    int topMinDistance = 50; // assign a value more than maximum distance
+                    int bottomMinDistance = 50;
+                    //check other rows if there is no pair in the middle row
+                    for (int k = j + 1; k < Configuration.COLUMNS; k++) {
+                        int tempDis = 50;
+                        if (topToken.getSign() == gridToken[0][k].getSign()) {
+                            //topMinDistance = Math.min(Math.abs(j-k), topMinDistance);
+                            tempDis = getManhattanDistance(bottomToken.getPos(), gridToken[0][k].getPos());
+                            topMinDistance = Math.min(topMinDistance, tempDis);
+                        }
+                        if (topToken.getSign() == gridToken[2][k].getSign()) {
+                            //topMinDistance = Math.min(Math.abs(j-k), topMinDistance);
+                            tempDis = getManhattanDistance(bottomToken.getPos(), gridToken[2][k].getPos());
+                            topMinDistance = Math.min(topMinDistance, tempDis);
+                        }
+
+                        if (bottomToken.getSign() == gridToken[0][k].getSign()) {
+                            //bottomMinDistance = Math.min(Math.abs(j-k), bottomMinDistance);
+                            tempDis = getManhattanDistance(topToken.getPos(), gridToken[0][k].getPos());
+                            bottomMinDistance = Math.min(bottomMinDistance, tempDis);
+                        }
+                        if (bottomToken.getSign() == gridToken[2][k].getSign()) {
+                            //bottomMinDistance = Math.min(Math.abs(j-k), bottomMinDistance);
+                            tempDis = getManhattanDistance(topToken.getPos(), gridToken[2][k].getPos());
+                            bottomMinDistance = Math.min(bottomMinDistance, tempDis);
+                        }
+                    }
+                    heuristicValue += Math.min(topMinDistance, bottomMinDistance);
+                }
+            }
+        }
+
+        return heuristicValue;
+    }
+    */
+
+    //stuck on 2 of 28-30 puzzles
+    /*
+    public int getHeuristic3(){
+        //get top row as original row
+        int topHeuristicValue = 0;
+        for(int j = 0; j < Configuration.COLUMNS; j++){
+            //check if bottom token has the same sign => do nothing
+            if ( gridToken[0][j].getSign() != gridToken[2][j].getSign()){
+                //search for pair in middle row or bottom row with minimum distance
+                Token topToken = gridToken[0][j];
+                Token bottomToken = gridToken[2][j];
+                //maximum distance is between (0,0) and (2,4) around:  sqrt(2^2 + 4^2)= 5
+                int minDistance = 10; // assign a value more than maximum distance
+                for (int k = 0; k < Configuration.COLUMNS; k++){
+                    int tempDis = 10;
+                    for (int i = 1; i < Configuration.ROWS; i++) {
+                        if (topToken.getSign() == gridToken[i][k].getSign()) {
+                            tempDis = getManhattanDistance(bottomToken.getPos(), gridToken[i][k].getPos());
+                            if (minDistance > tempDis) {
+                                minDistance = tempDis;
+                            }
+                        }
+                    }
+                }
+                //add minDistance to topHeuristic value
+                //Note: if no match found 10 is added to heuristic value
+                topHeuristicValue += minDistance;
+            }
+        }
+
+        //get bottom row as original row
+        int bottomHeuristicValue = 0;
+        for(int j = 0; j < Configuration.COLUMNS; j++){
+            //check if top token has the same sign => do nothing
+            if ( gridToken[0][j].getSign() != gridToken[2][j].getSign()) {
+                //search for pair in middle row or top row with minimum distance
+                Token bottomToken = gridToken[2][j];
+                Token topToken = gridToken[0][j];
+                //maximum distance is between (0,0) and (2,4) around:  sqrt(2^2 + 4^2)= 5
+                int minDistance = 10; // assign a value more than maximum distance
+                for (int k = 0; k < Configuration.COLUMNS; k++){
+                    int tempDis = 10;
+                    for (int i = 0; i < Configuration.ROWS-1; i++) {
+                        if (bottomToken.getSign() == gridToken[i][k].getSign()) {
+                            tempDis = getManhattanDistance(topToken.getPos(), gridToken[i][k].getPos());
+                            if (minDistance > tempDis) {
+                                minDistance = tempDis;
+                            }
+                        }
+                    }
+                }
+                //add minDistance to topHeuristic value
+                //Note: if no match found 10 is added to heuristic value
+                bottomHeuristicValue += minDistance;
+            }
+        }
+
+        //get the minimum value of top and bottom heuristic
+
+        return Math.min(topHeuristicValue, bottomHeuristicValue);
+    }
+*/
     /**
      * Manhattan distance
      *
-    **/
-    public int getHeuristic2(){
+     **/
+    /*
+    public int getManhattanDistance(Position source, Position destination){
+        double result =Math.sqrt((source.getX()- destination.getX())^2 + (source.getY()- destination.getY())^2);
+        return (int)Math.round(result);
+    }
+    */
+
+    /*public int getHeuristic2(){
         int heuristicValue=0;
         for(int i=0;i<Configuration.COLUMNS;i++){
             //System.out.println("********* Index " +i+"*********");
@@ -278,6 +515,8 @@ public class Board implements Comparable{
 
         return heuristicValue;
     }
+    */
+
     //*
     // This Function calculates the number of types of each tile in bottom an top row and then calculates the difference between them
     // eg:
@@ -373,7 +612,7 @@ public class Board implements Comparable{
         if(sucessor1.validateMove('L')){
             sucessor1.move('L');
             sucessor1.directionFromParent='L';
-            //sucessor1.heuristicValue=sucessor1.getHeuristic2();
+            //sucessor1.heuristicValue=sucessor1.getHeuristic4();
             //System.out.println("Left: "+sucessor1.emptyTokenRef.getPos());
             //System.out.println(sucessor1);
             sucessors.add(sucessor1);

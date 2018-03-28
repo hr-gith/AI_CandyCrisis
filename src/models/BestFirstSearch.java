@@ -34,7 +34,7 @@ public class BestFirstSearch {
     private void setSolution() {
         solution = null;
         if (!visitedList.isEmpty()) {
-            if (visitedList.get(visitedList.size() - 1).getHeuristic2() != 0) {
+            if (visitedList.get(visitedList.size() - 1).getHeuristic5() != 0) {
                 //there is no solution
                 return;
             } else {

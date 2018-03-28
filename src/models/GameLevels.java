@@ -20,7 +20,7 @@ public class GameLevels {
             //TO-DO: get difficulty from file
             int dificulty = 1;
             String gameConfig=gameStringIterator.next();
-            System.out.println("Game Config : "+gameConfig);
+            //System.out.println("Game Config : "+gameConfig);
             String[] characters=  gameConfig.split(" ");
             listOfLevels.add(new GameLevel(characters,dificulty ));
         }
