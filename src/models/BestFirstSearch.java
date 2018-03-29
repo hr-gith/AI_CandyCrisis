@@ -70,11 +70,7 @@ public class BestFirstSearch {
         openList.add(this.root);
 
         while(!openList.isEmpty() && !isGoal){
-            if(System.currentTimeMillis()> Configuration.TIMESTARTED) {
-                solution="No solution found";
-               // System.out.println("No solution found : "+Configuration.TIMESTARTED);
-                return;
-            }Board current = openList.remove();
+            Board current = openList.remove();
             visitedList.add(current);
             if (current.checkGoal()){
                 isGoal = true;
