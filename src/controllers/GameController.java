@@ -114,23 +114,23 @@ public class GameController implements Initializable{
         {
             long startTimeLevel=System.currentTimeMillis();
 
-            FileOps.writeFile2("\n Solving game "+(currentLevel+1) );
+            //FileOps.writeFile2("\n Solving game "+(currentLevel+1) );
             automaticBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
 
 
             BestFirstSearch bfs = new BestFirstSearch();
             bfs.search(automaticBoard);
 
-            FileOps.writeFile2("\n "+(currentLevel+1)+"- Original Config : \n"+automaticBoard);
+            FileOps.writeFile2("\n "+(currentLevel+1)+"- Original Config : \n"+automaticBoard+ "\n");
             String solution = bfs.getSolution();
 			String solutionName = bfs.getSolutionName();
             FileOps.writeFile1(solutionName+"\n");
-            FileOps.writeFile2("\n \t \t Solution states : ");
+            //FileOps.writeFile1(solutionName.length()+"--");
+            //FileOps.writeFile2("\n \t \t Solution states : ");
             for(int i = 0; i<solution.length(); ++i){
-                FileOps.writeFile2("\n \t Moving to "+solutionName.charAt(i));
                 automaticBoard.move(solution.charAt(i));
-                FileOps.writeFile2("\t \t"+automaticBoard.toString());
-
+                FileOps.writeFile2("\n \t Moving to "+solutionName.charAt(i)+
+                        "\t \t"+automaticBoard.toString());
             }
             long stopTimeLevel = System.currentTimeMillis();
             long elapsedTime = stopTimeLevel - startTimeLevel;
@@ -141,7 +141,7 @@ public class GameController implements Initializable{
         }
         long stopTimeProcess = System.currentTimeMillis();
         long elapsedTimeWholeProcess = stopTimeProcess - startTimeProcess;
-
+        FileOps.writeFile1(elapsedTimeWholeProcess+"\n");
         //FileOps.writeFile2("\n TOTAL MOVES : "+totalLengthSolution);
         FileOps.writeFile2("\n TOTAL TIME : "+elapsedTimeWholeProcess+" ms");
     }

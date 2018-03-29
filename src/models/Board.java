@@ -248,10 +248,10 @@ public class Board implements Comparable{
             for (int i = 0; i < 5;i++){
                 if (i!= 0 && sourceIndexAtSearch[i]!= -1 && sourceIndexAtSearch[i-1]!= -1 &&
                         sourceIndexAtSearch[i-1]>sourceIndexAtSearch[i]){
-                    topHeuristic += 10;
+                    topHeuristic += 8;
                 }
                 if (sourceIndexAtSearch[i] == -1)
-                    topHeuristic += 10;
+                    topHeuristic += 12;
                 else
                     topHeuristic += Math.abs((i + 5) - sourceIndexAtSearch[i]);
             }
@@ -275,10 +275,10 @@ public class Board implements Comparable{
             for (int i = 0; i < 5;i++){
                 if (i!= 0 && sourceIndexAtSearch[i]!= -1 && sourceIndexAtSearch[i-1]!= -1 &&
                         sourceIndexAtSearch[i-1]>sourceIndexAtSearch[i]){
-                    bottomHeuristic += 10;
+                    bottomHeuristic += 8;
                 }
                 if (sourceIndexAtSearch[i] == -1)
-                    bottomHeuristic += 10;
+                    bottomHeuristic += 12;
                 else
                     bottomHeuristic += Math.abs(i - sourceIndexAtSearch[i]);
             }
