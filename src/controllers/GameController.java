@@ -127,7 +127,7 @@ public class GameController implements Initializable{
 
 
             BestFirstSearch bfs = new BestFirstSearch();
-            Configuration.TIMESTARTED=System.currentTimeMillis()+10000;
+
            // System.out.println(Configuration.TIMESTARTED);
             bfs.search(automaticBoard);
 
