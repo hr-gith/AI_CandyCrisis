@@ -130,7 +130,7 @@ public class GameController implements Initializable{
 
             //LoggingView.getLoggingViewObject().AddAction("\n Solution Path : "+solution+" Length : "+solution.length());
             FileOps.writeFile1(solutionName+"\n");
-            //FileOps.writeFile1("Length: "+solutionName.length()+"---");
+            FileOps.writeFile1("Length: "+solutionName.length()+"---");
             //FileOps.writeFile1("\n Solution Name Path : "+solutionName+" Length : "+solutionName.length());
             FileOps.writeFile2("\n \t \t Solution states : ");
             for(int i = 0; i<solution.length(); ++i){

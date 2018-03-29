@@ -263,8 +263,12 @@ public class Board implements Comparable{
                 if (pos != -1)
                     minIndexfound = Math.min(minIndexfound, pos);
             }
-
+            //calculate distance from the goal
             for (int i = 0; i < 5;i++){
+                if (i!= 0 && sourceIndexAtSearch[i]!= -1 && sourceIndexAtSearch[i-1]!= -1 &&
+                        sourceIndexAtSearch[i-1]>sourceIndexAtSearch[i]){
+                    topHeuristic += 10;
+                }
                 if (sourceIndexAtSearch[i] == -1)
                     topHeuristic += 10;
                 else
@@ -286,7 +290,12 @@ public class Board implements Comparable{
                 maxIndexfound = Math.max(maxIndexfound, pos);
             }
 
+            //calculate distance from the goal
             for (int i = 0; i < 5;i++){
+                if (i!= 0 && sourceIndexAtSearch[i]!= -1 && sourceIndexAtSearch[i-1]!= -1 &&
+                        sourceIndexAtSearch[i-1]>sourceIndexAtSearch[i]){
+                    bottomHeuristic += 10;
+                }
                 if (sourceIndexAtSearch[i] == -1)
                     bottomHeuristic += 10;
                 else
@@ -299,7 +308,7 @@ public class Board implements Comparable{
     }
 
     //stuck on 28th puzzle of d2
-    /*
+/*
     public int getHeuristic4(){
         int heuristicValue=0;
         for(int i=0;i<Configuration.COLUMNS;i++){
@@ -387,10 +396,9 @@ public class Board implements Comparable{
                 }
             }
         }
-
         return heuristicValue;
     }
-    */
+*/
 
     //stuck on 2 of 28-30 puzzles
     /*
@@ -458,14 +466,15 @@ public class Board implements Comparable{
      * Manhattan distance
      *
      **/
-    /*
-    public int getManhattanDistance(Position source, Position destination){
-        double result =Math.sqrt((source.getX()- destination.getX())^2 + (source.getY()- destination.getY())^2);
-        return (int)Math.round(result);
-    }
-    */
 
-    /*public int getHeuristic2(){
+    public int getManhattanDistance(Position source, Position destination){
+        double d1  = Math.pow((source.getX()- destination.getX()),2);
+        double d2 = Math.pow((source.getY()- destination.getY()),2);
+        return (int)Math.round(Math.sqrt( d1 + d2 ));
+    }
+
+
+    public int getHeuristic2(){
         int heuristicValue=0;
         for(int i=0;i<Configuration.COLUMNS;i++){
             //System.out.println("********* Index " +i+"*********");
@@ -515,7 +524,7 @@ public class Board implements Comparable{
 
         return heuristicValue;
     }
-    */
+
 
     //*
     // This Function calculates the number of types of each tile in bottom an top row and then calculates the difference between them
