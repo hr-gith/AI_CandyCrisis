@@ -1,5 +1,7 @@
 package models;
 
+import utilities.Configuration;
+
 import java.util.ArrayList;
 import java.util.PriorityQueue;
 
@@ -13,6 +15,7 @@ public class BestFirstSearch {
     public BestFirstSearch(){
         openList = new PriorityQueue<>();
         visitedList = new ArrayList<>();
+        solution="No solution found";
     }
 
     public PriorityQueue<Board> getOpenList() {
@@ -34,7 +37,7 @@ public class BestFirstSearch {
     private void setSolution() {
         solution = null;
         if (!visitedList.isEmpty()) {
-            if (visitedList.get(visitedList.size() - 1).getHeuristic5() != 0) {
+            if ((visitedList.get(visitedList.size() - 1).getHeuristic5() != 0)) {
                 //there is no solution
                 return;
             } else {
@@ -67,7 +70,11 @@ public class BestFirstSearch {
         openList.add(this.root);
 
         while(!openList.isEmpty() && !isGoal){
-            Board current = openList.remove();
+            if(System.currentTimeMillis()> Configuration.TIMESTARTED) {
+                solution="No solution found";
+               // System.out.println("No solution found : "+Configuration.TIMESTARTED);
+                return;
+            }Board current = openList.remove();
             visitedList.add(current);
             if (current.checkGoal()){
                 isGoal = true;

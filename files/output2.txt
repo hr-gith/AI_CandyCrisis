@@ -1,2321 +1,264 @@
 
  1- Original Config : 
 
-e b r w r 
-g r g b y 
-y r b b w 
+y r y e r 
+r r b w b 
+r b r w b 
 
+ 	 Moving to I	 	
+y r y w r 
+r r b e b 
+r b r w b 
+ 	 Moving to H	 	
+y r y w r 
+r r e b b 
+r b r w b 
+ 	 Moving to G	 	
+y r y w r 
+r e r b b 
+r b r w b 
  	 Moving to F	 	
-g b r w r 
-e r g b y 
-y r b b w 
- 	 Moving to G	 	
-g b r w r 
-r e g b y 
-y r b b w 
- 	 Moving to H	 	
-g b r w r 
-r g e b y 
-y r b b w 
- 	 Moving to C	 	
-g b e w r 
-r g r b y 
-y r b b w 
- 	 Moving to B	 	
-g e b w r 
-r g r b y 
-y r b b w 
- 	 Moving to G	 	
-g g b w r 
-r e r b y 
-y r b b w 
- 	 Moving to H	 	
-g g b w r 
-r r e b y 
-y r b b w 
- 	 Moving to I	 	
-g g b w r 
-r r b e y 
-y r b b w 
- 	 Moving to J	 	
-g g b w r 
-r r b y e 
-y r b b w 
- 	 Moving to E	 	
-g g b w e 
-r r b y r 
-y r b b w 
- 	 Moving to D	 	
-g g b e w 
-r r b y r 
-y r b b w 
- 	 Moving to I	 	
-g g b y w 
-r r b e r 
-y r b b w 
- 	 Moving to H	 	
-g g b y w 
-r r e b r 
-y r b b w 
- 	 Moving to G	 	
-g g b y w 
-r e r b r 
-y r b b w 
- 	 Moving to B	 	
-g e b y w 
-r g r b r 
-y r b b w 
+y r y w r 
+e r r b b 
+r b r w b 
  	 Moving to A	 	
-e g b y w 
-r g r b r 
-y r b b w 
- 	 Moving to F	 	
-r g b y w 
-e g r b r 
-y r b b w 
- 	 Moving to G	 	
-r g b y w 
-g e r b r 
-y r b b w 
- 	 Moving to H	 	
-r g b y w 
-g r e b r 
-y r b b w 
- 	 Moving to C	 	
-r g e y w 
-g r b b r 
-y r b b w 
- 	 Moving to D	 	
-r g y e w 
-g r b b r 
-y r b b w 
- 	 Moving to I	 	
-r g y b w 
-g r b e r 
-y r b b w 
- 	 Moving to H	 	
-r g y b w 
-g r e b r 
-y r b b w 
- 	 Moving to M	 	
-r g y b w 
-g r b b r 
-y r e b w 
- 	 Moving to L	 	
-r g y b w 
-g r b b r 
-y e r b w 
- 	 Moving to K	 	
-r g y b w 
-g r b b r 
-e y r b w 
- 	 Moving to F	 	
-r g y b w 
-e r b b r 
-g y r b w 
- 	 Moving to G	 	
-r g y b w 
-r e b b r 
-g y r b w 
- 	 Moving to H	 	
-r g y b w 
-r b e b r 
-g y r b w 
- 	 Moving to M	 	
-r g y b w 
-r b r b r 
-g y e b w 
- 	 Moving to L	 	
-r g y b w 
-r b r b r 
-g e y b w 
- 	 Moving to K	 	
-r g y b w 
-r b r b r 
-e g y b w 
- 	 Moving to F	 	
-r g y b w 
-e b r b r 
-r g y b w 
- 2- Original Config : 
-
-w w y b b 
-y g r g b 
-e r r r b 
-
- 	 Moving to F	 	
-w w y b b 
-e g r g b 
-y r r r b 
- 	 Moving to G	 	
-w w y b b 
-g e r g b 
-y r r r b 
+e r y w r 
+y r r b b 
+r b r w b 
  	 Moving to B	 	
-w e y b b 
-g w r g b 
-y r r r b 
+r e y w r 
+y r r b b 
+r b r w b 
  	 Moving to C	 	
-w y e b b 
-g w r g b 
-y r r r b 
- 	 Moving to H	 	
-w y r b b 
-g w e g b 
-y r r r b 
- 	 Moving to G	 	
-w y r b b 
-g e w g b 
-y r r r b 
- 	 Moving to F	 	
-w y r b b 
-e g w g b 
-y r r r b 
- 	 Moving to A	 	
-e y r b b 
-w g w g b 
-y r r r b 
- 	 Moving to B	 	
-y e r b b 
-w g w g b 
-y r r r b 
- 	 Moving to G	 	
-y g r b b 
-w e w g b 
-y r r r b 
- 	 Moving to H	 	
-y g r b b 
-w w e g b 
-y r r r b 
- 	 Moving to I	 	
-y g r b b 
-w w g e b 
-y r r r b 
- 	 Moving to D	 	
-y g r e b 
-w w g b b 
-y r r r b 
- 	 Moving to C	 	
-y g e r b 
-w w g b b 
-y r r r b 
- 	 Moving to H	 	
-y g g r b 
-w w e b b 
-y r r r b 
- 	 Moving to G	 	
-y g g r b 
-w e w b b 
-y r r r b 
- 	 Moving to B	 	
-y e g r b 
-w g w b b 
-y r r r b 
- 	 Moving to C	 	
-y g e r b 
-w g w b b 
-y r r r b 
- 	 Moving to H	 	
-y g w r b 
-w g e b b 
-y r r r b 
- 	 Moving to G	 	
-y g w r b 
-w e g b b 
-y r r r b 
- 	 Moving to B	 	
-y e w r b 
-w g g b b 
-y r r r b 
- 	 Moving to C	 	
-y w e r b 
-w g g b b 
-y r r r b 
- 	 Moving to D	 	
-y w r e b 
-w g g b b 
-y r r r b 
- 	 Moving to I	 	
-y w r b b 
-w g g e b 
-y r r r b 
- 	 Moving to H	 	
-y w r b b 
-w g e g b 
-y r r r b 
- 	 Moving to G	 	
-y w r b b 
-w e g g b 
-y r r r b 
- 	 Moving to B	 	
-y e r b b 
-w w g g b 
-y r r r b 
- 	 Moving to C	 	
-y r e b b 
-w w g g b 
-y r r r b 
- 	 Moving to H	 	
-y r g b b 
-w w e g b 
-y r r r b 
- 	 Moving to I	 	
-y r g b b 
-w w g e b 
-y r r r b 
- 	 Moving to D	 	
-y r g e b 
-w w g b b 
-y r r r b 
- 	 Moving to C	 	
-y r e g b 
-w w g b b 
-y r r r b 
- 	 Moving to H	 	
-y r g g b 
-w w e b b 
-y r r r b 
- 	 Moving to I	 	
-y r g g b 
-w w b e b 
-y r r r b 
- 	 Moving to D	 	
-y r g e b 
-w w b g b 
-y r r r b 
- 	 Moving to C	 	
-y r e g b 
-w w b g b 
-y r r r b 
- 	 Moving to B	 	
-y e r g b 
-w w b g b 
-y r r r b 
- 	 Moving to G	 	
-y w r g b 
-w e b g b 
-y r r r b 
- 	 Moving to H	 	
-y w r g b 
-w b e g b 
-y r r r b 
- 	 Moving to I	 	
-y w r g b 
-w b g e b 
-y r r r b 
- 	 Moving to D	 	
-y w r e b 
-w b g g b 
-y r r r b 
- 	 Moving to C	 	
-y w e r b 
-w b g g b 
-y r r r b 
- 	 Moving to H	 	
-y w g r b 
-w b e g b 
-y r r r b 
- 	 Moving to G	 	
-y w g r b 
-w e b g b 
-y r r r b 
- 	 Moving to B	 	
-y e g r b 
-w w b g b 
-y r r r b 
- 	 Moving to C	 	
-y g e r b 
-w w b g b 
-y r r r b 
- 	 Moving to D	 	
-y g r e b 
-w w b g b 
-y r r r b 
- 	 Moving to E	 	
-y g r b e 
-w w b g b 
-y r r r b 
- 	 Moving to J	 	
-y g r b b 
-w w b g e 
-y r r r b 
- 	 Moving to I	 	
-y g r b b 
-w w b e g 
-y r r r b 
- 	 Moving to H	 	
-y g r b b 
-w w e b g 
-y r r r b 
- 	 Moving to G	 	
-y g r b b 
-w e w b g 
-y r r r b 
- 	 Moving to B	 	
-y e r b b 
-w g w b g 
-y r r r b 
- 	 Moving to C	 	
-y r e b b 
-w g w b g 
-y r r r b 
- 	 Moving to D	 	
-y r b e b 
-w g w b g 
-y r r r b 
- 	 Moving to I	 	
-y r b b b 
-w g w e g 
-y r r r b 
- 	 Moving to N	 	
-y r b b b 
-w g w r g 
-y r r e b 
- 	 Moving to O	 	
-y r b b b 
-w g w r g 
-y r r b e 
- 	 Moving to J	 	
-y r b b b 
-w g w r e 
-y r r b g 
- 	 Moving to I	 	
-y r b b b 
-w g w e r 
-y r r b g 
- 	 Moving to H	 	
-y r b b b 
-w g e w r 
-y r r b g 
- 	 Moving to G	 	
-y r b b b 
-w e g w r 
-y r r b g 
- 	 Moving to L	 	
-y r b b b 
-w r g w r 
-y e r b g 
- 	 Moving to M	 	
-y r b b b 
-w r g w r 
-y r e b g 
- 	 Moving to N	 	
-y r b b b 
-w r g w r 
-y r b e g 
- 	 Moving to O	 	
-y r b b b 
-w r g w r 
-y r b g e 
- 	 Moving to J	 	
-y r b b b 
-w r g w e 
-y r b g r 
- 	 Moving to I	 	
-y r b b b 
-w r g e w 
-y r b g r 
- 	 Moving to N	 	
-y r b b b 
-w r g g w 
-y r b e r 
- 	 Moving to M	 	
-y r b b b 
-w r g g w 
-y r e b r 
- 	 Moving to H	 	
-y r b b b 
-w r e g w 
-y r g b r 
- 	 Moving to I	 	
-y r b b b 
-w r g e w 
-y r g b r 
- 	 Moving to J	 	
-y r b b b 
-w r g w e 
-y r g b r 
- 	 Moving to O	 	
-y r b b b 
-w r g w r 
-y r g b e 
- 	 Moving to N	 	
-y r b b b 
-w r g w r 
-y r g e b 
- 	 Moving to M	 	
-y r b b b 
-w r g w r 
-y r e g b 
- 	 Moving to H	 	
-y r b b b 
-w r e w r 
-y r g g b 
- 	 Moving to I	 	
-y r b b b 
-w r w e r 
-y r g g b 
- 	 Moving to N	 	
-y r b b b 
-w r w g r 
-y r g e b 
- 	 Moving to O	 	
-y r b b b 
-w r w g r 
-y r g b e 
- 	 Moving to J	 	
-y r b b b 
-w r w g e 
-y r g b r 
- 	 Moving to I	 	
-y r b b b 
-w r w e g 
-y r g b r 
- 	 Moving to H	 	
-y r b b b 
-w r e w g 
-y r g b r 
- 	 Moving to M	 	
-y r b b b 
-w r g w g 
-y r e b r 
- 	 Moving to N	 	
-y r b b b 
-w r g w g 
-y r b e r 
- 	 Moving to O	 	
-y r b b b 
-w r g w g 
-y r b r e 
- 	 Moving to J	 	
-y r b b b 
-w r g w e 
-y r b r g 
- 	 Moving to I	 	
-y r b b b 
-w r g e w 
-y r b r g 
- 	 Moving to N	 	
-y r b b b 
-w r g r w 
-y r b e g 
- 	 Moving to M	 	
-y r b b b 
-w r g r w 
-y r e b g 
- 	 Moving to L	 	
-y r b b b 
-w r g r w 
-y e r b g 
- 	 Moving to G	 	
-y r b b b 
-w e g r w 
-y r r b g 
- 	 Moving to F	 	
-y r b b b 
-e w g r w 
-y r r b g 
- 	 Moving to K	 	
-y r b b b 
-y w g r w 
-e r r b g 
- 	 Moving to L	 	
-y r b b b 
-y w g r w 
-r e r b g 
- 	 Moving to G	 	
-y r b b b 
-y e g r w 
-r w r b g 
- 	 Moving to H	 	
-y r b b b 
-y g e r w 
-r w r b g 
- 	 Moving to M	 	
-y r b b b 
-y g r r w 
-r w e b g 
- 	 Moving to L	 	
-y r b b b 
-y g r r w 
-r e w b g 
- 	 Moving to K	 	
-y r b b b 
-y g r r w 
-e r w b g 
- 	 Moving to F	 	
-y r b b b 
-e g r r w 
-y r w b g 
- 	 Moving to G	 	
-y r b b b 
-g e r r w 
-y r w b g 
- 	 Moving to H	 	
-y r b b b 
-g r e r w 
-y r w b g 
- 	 Moving to M	 	
-y r b b b 
-g r w r w 
-y r e b g 
- 	 Moving to N	 	
-y r b b b 
-g r w r w 
-y r b e g 
- 	 Moving to I	 	
-y r b b b 
-g r w e w 
-y r b r g 
- 	 Moving to J	 	
-y r b b b 
-g r w w e 
-y r b r g 
- 	 Moving to O	 	
-y r b b b 
-g r w w g 
-y r b r e 
- 	 Moving to N	 	
-y r b b b 
-g r w w g 
-y r b e r 
- 	 Moving to M	 	
-y r b b b 
-g r w w g 
-y r e b r 
- 	 Moving to H	 	
-y r b b b 
-g r e w g 
-y r w b r 
- 	 Moving to I	 	
-y r b b b 
-g r w e g 
-y r w b r 
- 	 Moving to J	 	
-y r b b b 
-g r w g e 
-y r w b r 
- 	 Moving to O	 	
-y r b b b 
-g r w g r 
-y r w b e 
- 	 Moving to N	 	
-y r b b b 
-g r w g r 
-y r w e b 
- 	 Moving to I	 	
-y r b b b 
-g r w e r 
-y r w g b 
- 	 Moving to H	 	
-y r b b b 
-g r e w r 
-y r w g b 
- 	 Moving to M	 	
-y r b b b 
-g r w w r 
-y r e g b 
- 	 Moving to N	 	
-y r b b b 
-g r w w r 
-y r g e b 
- 	 Moving to O	 	
-y r b b b 
-g r w w r 
-y r g b e 
- 	 Moving to J	 	
-y r b b b 
-g r w w e 
-y r g b r 
- 	 Moving to I	 	
-y r b b b 
-g r w e w 
-y r g b r 
- 	 Moving to H	 	
-y r b b b 
-g r e w w 
-y r g b r 
- 	 Moving to M	 	
-y r b b b 
-g r g w w 
-y r e b r 
- 	 Moving to N	 	
-y r b b b 
-g r g w w 
-y r b e r 
- 	 Moving to I	 	
-y r b b b 
-g r g e w 
-y r b w r 
- 	 Moving to J	 	
-y r b b b 
-g r g w e 
-y r b w r 
- 	 Moving to O	 	
-y r b b b 
-g r g w r 
-y r b w e 
- 	 Moving to N	 	
-y r b b b 
-g r g w r 
-y r b e w 
- 	 Moving to M	 	
-y r b b b 
-g r g w r 
-y r e b w 
- 	 Moving to H	 	
-y r b b b 
-g r e w r 
-y r g b w 
- 	 Moving to I	 	
-y r b b b 
-g r w e r 
-y r g b w 
- 	 Moving to J	 	
-y r b b b 
-g r w r e 
-y r g b w 
- 	 Moving to O	 	
-y r b b b 
-g r w r w 
-y r g b e 
- 	 Moving to N	 	
-y r b b b 
-g r w r w 
-y r g e b 
- 	 Moving to M	 	
-y r b b b 
-g r w r w 
-y r e g b 
- 	 Moving to H	 	
-y r b b b 
-g r e r w 
-y r w g b 
- 	 Moving to I	 	
-y r b b b 
-g r r e w 
-y r w g b 
- 	 Moving to N	 	
-y r b b b 
-g r r g w 
-y r w e b 
- 	 Moving to M	 	
-y r b b b 
-g r r g w 
-y r e w b 
- 	 Moving to H	 	
-y r b b b 
-g r e g w 
-y r r w b 
- 	 Moving to I	 	
-y r b b b 
-g r g e w 
-y r r w b 
- 	 Moving to N	 	
-y r b b b 
-g r g w w 
-y r r e b 
- 	 Moving to O	 	
-y r b b b 
-g r g w w 
-y r r b e 
- 	 Moving to J	 	
-y r b b b 
-g r g w e 
-y r r b w 
- 	 Moving to I	 	
-y r b b b 
-g r g e w 
-y r r b w 
- 	 Moving to H	 	
-y r b b b 
-g r e g w 
-y r r b w 
- 	 Moving to G	 	
-y r b b b 
-g e r g w 
-y r r b w 
- 	 Moving to F	 	
-y r b b b 
-e g r g w 
-y r r b w 
- 	 Moving to K	 	
-y r b b b 
-y g r g w 
-e r r b w 
- 	 Moving to L	 	
-y r b b b 
-y g r g w 
-r e r b w 
- 	 Moving to M	 	
-y r b b b 
-y g r g w 
-r r e b w 
- 	 Moving to H	 	
-y r b b b 
-y g e g w 
-r r r b w 
- 	 Moving to I	 	
-y r b b b 
-y g g e w 
-r r r b w 
- 	 Moving to D	 	
-y r b e b 
-y g g b w 
-r r r b w 
- 	 Moving to C	 	
-y r e b b 
-y g g b w 
-r r r b w 
- 	 Moving to H	 	
-y r g b b 
-y g e b w 
-r r r b w 
- 	 Moving to I	 	
-y r g b b 
-y g b e w 
-r r r b w 
- 	 Moving to D	 	
-y r g e b 
-y g b b w 
-r r r b w 
- 	 Moving to E	 	
-y r g b e 
-y g b b w 
-r r r b w 
- 	 Moving to J	 	
-y r g b w 
-y g b b e 
-r r r b w 
- 	 Moving to I	 	
-y r g b w 
-y g b e b 
-r r r b w 
- 	 Moving to H	 	
-y r g b w 
-y g e b b 
-r r r b w 
- 	 Moving to G	 	
-y r g b w 
-y e g b b 
-r r r b w 
- 	 Moving to F	 	
-y r g b w 
-e y g b b 
-r r r b w 
- 	 Moving to A	 	
-e r g b w 
-y y g b b 
-r r r b w 
- 	 Moving to B	 	
-r e g b w 
-y y g b b 
-r r r b w 
- 	 Moving to G	 	
-r y g b w 
-y e g b b 
-r r r b w 
- 	 Moving to H	 	
-r y g b w 
-y g e b b 
-r r r b w 
- 	 Moving to C	 	
-r y e b w 
-y g g b b 
-r r r b w 
- 	 Moving to B	 	
-r e y b w 
-y g g b b 
-r r r b w 
- 	 Moving to A	 	
-e r y b w 
-y g g b b 
-r r r b w 
- 	 Moving to F	 	
-y r y b w 
-e g g b b 
-r r r b w 
- 	 Moving to G	 	
-y r y b w 
-g e g b b 
-r r r b w 
- 	 Moving to H	 	
-y r y b w 
-g g e b b 
-r r r b w 
- 	 Moving to C	 	
-y r e b w 
-g g y b b 
-r r r b w 
- 	 Moving to B	 	
-y e r b w 
-g g y b b 
-r r r b w 
- 	 Moving to A	 	
-e y r b w 
-g g y b b 
-r r r b w 
- 	 Moving to F	 	
-g y r b w 
-e g y b b 
-r r r b w 
- 	 Moving to G	 	
-g y r b w 
-g e y b b 
-r r r b w 
- 	 Moving to B	 	
-g e r b w 
-g y y b b 
-r r r b w 
- 	 Moving to C	 	
-g r e b w 
-g y y b b 
-r r r b w 
- 	 Moving to H	 	
-g r y b w 
-g y e b b 
-r r r b w 
- 	 Moving to I	 	
-g r y b w 
-g y b e b 
-r r r b w 
- 	 Moving to J	 	
-g r y b w 
-g y b b e 
-r r r b w 
- 	 Moving to E	 	
-g r y b e 
-g y b b w 
-r r r b w 
- 	 Moving to D	 	
-g r y e b 
-g y b b w 
-r r r b w 
- 	 Moving to I	 	
-g r y b b 
-g y b e w 
-r r r b w 
- 	 Moving to H	 	
-g r y b b 
-g y e b w 
-r r r b w 
- 	 Moving to C	 	
-g r e b b 
-g y y b w 
-r r r b w 
- 	 Moving to D	 	
-g r b e b 
-g y y b w 
-r r r b w 
- 	 Moving to I	 	
-g r b b b 
-g y y e w 
-r r r b w 
- 	 Moving to H	 	
-g r b b b 
-g y e y w 
-r r r b w 
- 	 Moving to G	 	
-g r b b b 
-g e y y w 
-r r r b w 
- 	 Moving to L	 	
-g r b b b 
-g r y y w 
-r e r b w 
- 	 Moving to K	 	
-g r b b b 
-g r y y w 
-e r r b w 
- 	 Moving to F	 	
-g r b b b 
-e r y y w 
-g r r b w 
- 	 Moving to G	 	
-g r b b b 
-r e y y w 
-g r r b w 
- 	 Moving to H	 	
-g r b b b 
-r y e y w 
-g r r b w 
- 	 Moving to I	 	
-g r b b b 
-r y y e w 
-g r r b w 
- 	 Moving to J	 	
-g r b b b 
-r y y w e 
-g r r b w 
- 	 Moving to O	 	
-g r b b b 
-r y y w w 
-g r r b e 
- 	 Moving to N	 	
-g r b b b 
-r y y w w 
-g r r e b 
- 	 Moving to I	 	
-g r b b b 
-r y y e w 
-g r r w b 
- 	 Moving to H	 	
-g r b b b 
-r y e y w 
-g r r w b 
- 	 Moving to M	 	
-g r b b b 
-r y r y w 
-g r e w b 
- 	 Moving to N	 	
-g r b b b 
-r y r y w 
-g r w e b 
- 	 Moving to O	 	
-g r b b b 
-r y r y w 
-g r w b e 
- 	 Moving to J	 	
-g r b b b 
-r y r y e 
-g r w b w 
- 	 Moving to I	 	
-g r b b b 
-r y r e y 
-g r w b w 
- 	 Moving to H	 	
-g r b b b 
-r y e r y 
-g r w b w 
- 	 Moving to M	 	
-g r b b b 
-r y w r y 
-g r e b w 
- 	 Moving to N	 	
-g r b b b 
-r y w r y 
-g r b e w 
- 	 Moving to O	 	
-g r b b b 
-r y w r y 
-g r b w e 
- 	 Moving to J	 	
-g r b b b 
-r y w r e 
-g r b w y 
- 	 Moving to I	 	
-g r b b b 
-r y w e r 
-g r b w y 
- 	 Moving to N	 	
-g r b b b 
-r y w w r 
-g r b e y 
- 	 Moving to M	 	
-g r b b b 
-r y w w r 
-g r e b y 
- 	 Moving to H	 	
-g r b b b 
 r y e w r 
-g r w b y 
- 	 Moving to I	 	
-g r b b b 
-r y w e r 
-g r w b y 
- 	 Moving to J	 	
-g r b b b 
-r y w r e 
-g r w b y 
- 	 Moving to O	 	
-g r b b b 
-r y w r y 
-g r w b e 
- 	 Moving to N	 	
-g r b b b 
-r y w r y 
-g r w e b 
- 	 Moving to M	 	
-g r b b b 
-r y w r y 
-g r e w b 
+y r r b b 
+r b r w b 
  	 Moving to H	 	
-g r b b b 
-r y e r y 
-g r w w b 
- 	 Moving to I	 	
-g r b b b 
-r y r e y 
-g r w w b 
- 	 Moving to N	 	
-g r b b b 
-r y r w y 
-g r w e b 
- 	 Moving to O	 	
-g r b b b 
-r y r w y 
-g r w b e 
- 	 Moving to J	 	
-g r b b b 
-r y r w e 
-g r w b y 
- 	 Moving to I	 	
-g r b b b 
-r y r e w 
-g r w b y 
- 	 Moving to H	 	
-g r b b b 
-r y e r w 
-g r w b y 
- 	 Moving to M	 	
-g r b b b 
-r y w r w 
-g r e b y 
- 	 Moving to L	 	
-g r b b b 
-r y w r w 
-g e r b y 
+r y r w r 
+y r e b b 
+r b r w b 
  	 Moving to G	 	
-g r b b b 
-r e w r w 
-g y r b y 
- 	 Moving to F	 	
-g r b b b 
-e r w r w 
-g y r b y 
+r y r w r 
+y e r b b 
+r b r w b 
+ 	 Moving to L	 	
+r y r w r 
+y b r b b 
+r e r w b 
  	 Moving to K	 	
-g r b b b 
-g r w r w 
-e y r b y 
- 	 Moving to L	 	
-g r b b b 
-g r w r w 
-y e r b y 
- 	 Moving to G	 	
-g r b b b 
-g e w r w 
-y r r b y 
- 	 Moving to H	 	
-g r b b b 
-g w e r w 
-y r r b y 
- 	 Moving to M	 	
-g r b b b 
-g w r r w 
-y r e b y 
- 	 Moving to L	 	
-g r b b b 
-g w r r w 
-y e r b y 
- 	 Moving to K	 	
-g r b b b 
-g w r r w 
-e y r b y 
+r y r w r 
+y b r b b 
+e r r w b 
  	 Moving to F	 	
-g r b b b 
-e w r r w 
-g y r b y 
- 	 Moving to G	 	
-g r b b b 
-w e r r w 
-g y r b y 
- 	 Moving to L	 	
-g r b b b 
-w y r r w 
-g e r b y 
- 	 Moving to M	 	
-g r b b b 
-w y r r w 
-g r e b y 
- 	 Moving to H	 	
-g r b b b 
-w y e r w 
-g r r b y 
- 	 Moving to G	 	
-g r b b b 
-w e y r w 
-g r r b y 
- 	 Moving to L	 	
-g r b b b 
-w r y r w 
-g e r b y 
- 	 Moving to M	 	
-g r b b b 
-w r y r w 
-g r e b y 
- 	 Moving to H	 	
-g r b b b 
-w r e r w 
-g r y b y 
- 	 Moving to I	 	
-g r b b b 
-w r r e w 
-g r y b y 
- 	 Moving to J	 	
-g r b b b 
-w r r w e 
-g r y b y 
- 	 Moving to O	 	
-g r b b b 
-w r r w y 
-g r y b e 
- 	 Moving to N	 	
-g r b b b 
-w r r w y 
-g r y e b 
- 	 Moving to I	 	
-g r b b b 
-w r r e y 
-g r y w b 
- 	 Moving to H	 	
-g r b b b 
-w r e r y 
-g r y w b 
- 	 Moving to M	 	
-g r b b b 
-w r y r y 
-g r e w b 
- 	 Moving to N	 	
-g r b b b 
-w r y r y 
-g r w e b 
- 	 Moving to O	 	
-g r b b b 
-w r y r y 
-g r w b e 
- 	 Moving to J	 	
-g r b b b 
-w r y r e 
-g r w b y 
- 	 Moving to I	 	
-g r b b b 
-w r y e r 
-g r w b y 
- 	 Moving to H	 	
-g r b b b 
-w r e y r 
-g r w b y 
- 	 Moving to M	 	
-g r b b b 
-w r w y r 
-g r e b y 
- 	 Moving to N	 	
-g r b b b 
-w r w y r 
-g r b e y 
- 	 Moving to I	 	
-g r b b b 
-w r w e r 
-g r b y y 
- 	 Moving to J	 	
-g r b b b 
-w r w r e 
-g r b y y 
- 	 Moving to O	 	
-g r b b b 
-w r w r y 
-g r b y e 
- 	 Moving to N	 	
-g r b b b 
-w r w r y 
-g r b e y 
- 	 Moving to M	 	
-g r b b b 
-w r w r y 
-g r e b y 
- 	 Moving to H	 	
-g r b b b 
-w r e r y 
-g r w b y 
- 	 Moving to I	 	
-g r b b b 
-w r r e y 
-g r w b y 
- 	 Moving to J	 	
-g r b b b 
-w r r y e 
-g r w b y 
- 	 Moving to O	 	
-g r b b b 
-w r r y y 
-g r w b e 
- 	 Moving to N	 	
-g r b b b 
-w r r y y 
-g r w e b 
- 	 Moving to I	 	
-g r b b b 
-w r r e y 
-g r w y b 
- 	 Moving to H	 	
-g r b b b 
-w r e r y 
-g r w y b 
- 	 Moving to M	 	
-g r b b b 
-w r w r y 
-g r e y b 
- 	 Moving to L	 	
-g r b b b 
-w r w r y 
-g e r y b 
- 	 Moving to G	 	
-g r b b b 
-w e w r y 
-g r r y b 
- 	 Moving to H	 	
-g r b b b 
-w w e r y 
-g r r y b 
- 	 Moving to M	 	
-g r b b b 
-w w r r y 
-g r e y b 
- 	 Moving to N	 	
-g r b b b 
-w w r r y 
-g r y e b 
- 	 Moving to O	 	
-g r b b b 
-w w r r y 
-g r y b e 
- 	 Moving to J	 	
-g r b b b 
-w w r r e 
-g r y b y 
- 	 Moving to I	 	
-g r b b b 
-w w r e r 
-g r y b y 
- 	 Moving to H	 	
-g r b b b 
-w w e r r 
-g r y b y 
- 	 Moving to M	 	
-g r b b b 
-w w y r r 
-g r e b y 
- 	 Moving to N	 	
-g r b b b 
-w w y r r 
-g r b e y 
- 	 Moving to I	 	
-g r b b b 
-w w y e r 
-g r b r y 
- 	 Moving to H	 	
-g r b b b 
-w w e y r 
-g r b r y 
+r y r w r 
+e b r b b 
+y r r w b 
+ 	 Moving to A	 	
+e y r w r 
+r b r b b 
+y r r w b 
+ 	 Moving to B	 	
+y e r w r 
+r b r b b 
+y r r w b 
  	 Moving to C	 	
-g r e b b 
-w w b y r 
-g r b r y 
- 	 Moving to D	 	
-g r b e b 
-w w b y r 
-g r b r y 
- 	 Moving to E	 	
-g r b b e 
-w w b y r 
-g r b r y 
+y r e w r 
+r b r b b 
+y r r w b 
+ 	 Moving to H	 	
+y r r w r 
+r b e b b 
+y r r w b 
+ 	 Moving to I	 	
+y r r w r 
+r b b e b 
+y r r w b 
  	 Moving to J	 	
-g r b b r 
-w w b y e 
-g r b r y 
- 	 Moving to I	 	
-g r b b r 
-w w b e y 
-g r b r y 
- 	 Moving to D	 	
-g r b e r 
-w w b b y 
-g r b r y 
- 	 Moving to E	 	
-g r b r e 
-w w b b y 
-g r b r y 
- 	 Moving to J	 	
-g r b r y 
-w w b b e 
-g r b r y 
- 3- Original Config : 
-
-y r r r w 
-b g g w r 
-e b b y b 
-
- 	 Moving to L	 	
-y r r r w 
-b g g w r 
-b e b y b 
- 	 Moving to M	 	
-y r r r w 
-b g g w r 
-b b e y b 
- 	 Moving to N	 	
-y r r r w 
-b g g w r 
-b b y e b 
- 	 Moving to I	 	
-y r r r w 
-b g g e r 
-b b y w b 
- 	 Moving to J	 	
-y r r r w 
-b g g r e 
-b b y w b 
- 	 Moving to O	 	
-y r r r w 
-b g g r b 
-b b y w e 
- 	 Moving to N	 	
-y r r r w 
-b g g r b 
-b b y e w 
- 	 Moving to I	 	
-y r r r w 
-b g g e b 
-b b y r w 
- 	 Moving to H	 	
-y r r r w 
-b g e g b 
-b b y r w 
- 	 Moving to G	 	
-y r r r w 
-b e g g b 
-b b y r w 
- 	 Moving to L	 	
-y r r r w 
-b b g g b 
-b e y r w 
- 	 Moving to M	 	
-y r r r w 
-b b g g b 
-b y e r w 
- 	 Moving to N	 	
-y r r r w 
-b b g g b 
-b y r e w 
- 	 Moving to I	 	
-y r r r w 
-b b g e b 
-b y r g w 
- 	 Moving to H	 	
-y r r r w 
-b b e g b 
-b y r g w 
- 	 Moving to G	 	
-y r r r w 
-b e b g b 
-b y r g w 
- 	 Moving to F	 	
-y r r r w 
-e b b g b 
-b y r g w 
- 	 Moving to K	 	
-y r r r w 
-b b b g b 
-e y r g w 
- 	 Moving to L	 	
-y r r r w 
-b b b g b 
-y e r g w 
- 	 Moving to M	 	
-y r r r w 
-b b b g b 
-y r e g w 
- 	 Moving to H	 	
-y r r r w 
-b b e g b 
-y r b g w 
- 	 Moving to I	 	
-y r r r w 
-b b g e b 
-y r b g w 
- 	 Moving to N	 	
-y r r r w 
-b b g g b 
-y r b e w 
- 	 Moving to M	 	
-y r r r w 
-b b g g b 
-y r e b w 
- 	 Moving to L	 	
-y r r r w 
-b b g g b 
-y e r b w 
- 	 Moving to G	 	
-y r r r w 
-b e g g b 
-y b r b w 
- 	 Moving to H	 	
-y r r r w 
-b g e g b 
-y b r b w 
- 	 Moving to I	 	
-y r r r w 
-b g g e b 
-y b r b w 
- 	 Moving to N	 	
-y r r r w 
-b g g b b 
-y b r e w 
- 	 Moving to M	 	
-y r r r w 
-b g g b b 
-y b e r w 
- 	 Moving to H	 	
-y r r r w 
-b g e b b 
-y b g r w 
- 	 Moving to G	 	
-y r r r w 
-b e g b b 
-y b g r w 
- 	 Moving to L	 	
-y r r r w 
-b b g b b 
-y e g r w 
- 	 Moving to M	 	
-y r r r w 
-b b g b b 
-y g e r w 
- 	 Moving to N	 	
-y r r r w 
-b b g b b 
-y g r e w 
- 	 Moving to O	 	
-y r r r w 
-b b g b b 
-y g r w e 
- 	 Moving to J	 	
-y r r r w 
-b b g b e 
-y g r w b 
- 	 Moving to I	 	
-y r r r w 
-b b g e b 
-y g r w b 
- 	 Moving to H	 	
-y r r r w 
-b b e g b 
-y g r w b 
- 	 Moving to G	 	
-y r r r w 
-b e b g b 
-y g r w b 
- 	 Moving to L	 	
-y r r r w 
-b g b g b 
-y e r w b 
- 	 Moving to M	 	
-y r r r w 
-b g b g b 
-y r e w b 
- 	 Moving to N	 	
-y r r r w 
-b g b g b 
-y r w e b 
- 	 Moving to I	 	
-y r r r w 
-b g b e b 
-y r w g b 
- 	 Moving to J	 	
-y r r r w 
-b g b b e 
-y r w g b 
- 	 Moving to O	 	
-y r r r w 
-b g b b b 
-y r w g e 
- 	 Moving to N	 	
-y r r r w 
-b g b b b 
-y r w e g 
- 	 Moving to M	 	
-y r r r w 
-b g b b b 
-y r e w g 
- 	 Moving to L	 	
-y r r r w 
-b g b b b 
-y e r w g 
- 	 Moving to G	 	
-y r r r w 
-b e b b b 
-y g r w g 
- 	 Moving to H	 	
-y r r r w 
-b b e b b 
-y g r w g 
- 	 Moving to I	 	
-y r r r w 
-b b b e b 
-y g r w g 
- 	 Moving to J	 	
-y r r r w 
-b b b b e 
-y g r w g 
- 	 Moving to O	 	
-y r r r w 
-b b b b g 
-y g r w e 
- 	 Moving to N	 	
-y r r r w 
-b b b b g 
-y g r e w 
- 	 Moving to M	 	
-y r r r w 
-b b b b g 
-y g e r w 
- 	 Moving to H	 	
-y r r r w 
-b b e b g 
-y g b r w 
- 	 Moving to G	 	
-y r r r w 
-b e b b g 
-y g b r w 
- 	 Moving to L	 	
-y r r r w 
-b g b b g 
-y e b r w 
- 	 Moving to M	 	
-y r r r w 
-b g b b g 
-y b e r w 
- 	 Moving to N	 	
-y r r r w 
-b g b b g 
-y b r e w 
- 	 Moving to O	 	
-y r r r w 
-b g b b g 
-y b r w e 
- 	 Moving to J	 	
-y r r r w 
-b g b b e 
-y b r w g 
- 	 Moving to I	 	
-y r r r w 
-b g b e b 
-y b r w g 
- 	 Moving to H	 	
-y r r r w 
-b g e b b 
-y b r w g 
- 	 Moving to G	 	
-y r r r w 
-b e g b b 
-y b r w g 
- 	 Moving to L	 	
-y r r r w 
-b b g b b 
-y e r w g 
- 	 Moving to M	 	
-y r r r w 
-b b g b b 
-y r e w g 
- 	 Moving to N	 	
-y r r r w 
-b b g b b 
-y r w e g 
- 	 Moving to I	 	
-y r r r w 
-b b g e b 
-y r w b g 
- 	 Moving to H	 	
-y r r r w 
-b b e g b 
-y r w b g 
- 	 Moving to C	 	
-y r e r w 
-b b r g b 
-y r w b g 
- 	 Moving to D	 	
-y r r e w 
-b b r g b 
-y r w b g 
+y r r w r 
+r b b b e 
+y r r w b 
  	 Moving to E	 	
 y r r w e 
-b b r g b 
-y r w b g 
- 	 Moving to J	 	
+r b b b r 
 y r r w b 
-b b r g e 
-y r w b g 
- 	 Moving to I	 	
-y r r w b 
-b b r e g 
-y r w b g 
- 	 Moving to H	 	
-y r r w b 
-b b e r g 
-y r w b g 
- 	 Moving to C	 	
-y r e w b 
-b b r r g 
-y r w b g 
  	 Moving to D	 	
-y r w e b 
-b b r r g 
-y r w b g 
+y r r e w 
+r b b b r 
+y r r w b 
+ 	 Moving to I	 	
+y r r b w 
+r b b e r 
+y r r w b 
+ 	 Moving to J	 	
+y r r b w 
+r b b r e 
+y r r w b 
  	 Moving to E	 	
-y r w b e 
-b b r r g 
-y r w b g 
- 	 Moving to J	 	
-y r w b g 
-b b r r e 
-y r w b g 
- 4- Original Config : 
-
-w y w b e 
-b r r b g 
-g y r r b 
-
- 	 Moving to J	 	
-w y w b g 
-b r r b e 
-g y r r b 
- 	 Moving to I	 	
-w y w b g 
-b r r e b 
-g y r r b 
- 	 Moving to H	 	
-w y w b g 
-b r e r b 
-g y r r b 
- 	 Moving to G	 	
-w y w b g 
-b e r r b 
-g y r r b 
- 	 Moving to F	 	
-w y w b g 
-e b r r b 
-g y r r b 
- 	 Moving to K	 	
-w y w b g 
-g b r r b 
-e y r r b 
- 	 Moving to L	 	
-w y w b g 
-g b r r b 
-y e r r b 
- 	 Moving to G	 	
-w y w b g 
-g e r r b 
-y b r r b 
- 	 Moving to F	 	
-w y w b g 
-e g r r b 
-y b r r b 
- 	 Moving to A	 	
-e y w b g 
-w g r r b 
-y b r r b 
- 	 Moving to B	 	
-y e w b g 
-w g r r b 
-y b r r b 
- 	 Moving to C	 	
-y w e b g 
-w g r r b 
-y b r r b 
- 	 Moving to H	 	
-y w r b g 
-w g e r b 
-y b r r b 
- 	 Moving to G	 	
-y w r b g 
-w e g r b 
-y b r r b 
- 	 Moving to B	 	
-y e r b g 
-w w g r b 
-y b r r b 
- 	 Moving to C	 	
-y r e b g 
-w w g r b 
-y b r r b 
+y r r b e 
+r b b r w 
+y r r w b 
  	 Moving to D	 	
-y r b e g 
-w w g r b 
-y b r r b 
- 	 Moving to I	 	
-y r b r g 
-w w g e b 
-y b r r b 
- 	 Moving to H	 	
-y r b r g 
-w w e g b 
-y b r r b 
- 	 Moving to G	 	
-y r b r g 
-w e w g b 
-y b r r b 
- 	 Moving to L	 	
-y r b r g 
-w b w g b 
-y e r r b 
- 	 Moving to M	 	
-y r b r g 
-w b w g b 
-y r e r b 
- 	 Moving to N	 	
-y r b r g 
-w b w g b 
 y r r e b 
+r b b r w 
+y r r w b 
  	 Moving to I	 	
-y r b r g 
-w b w e b 
-y r r g b 
+y r r r b 
+r b b e w 
+y r r w b 
  	 Moving to H	 	
-y r b r g 
-w b e w b 
-y r r g b 
+y r r r b 
+r b e b w 
+y r r w b 
  	 Moving to C	 	
-y r e r g 
-w b b w b 
-y r r g b 
+y r e r b 
+r b r b w 
+y r r w b 
  	 Moving to D	 	
-y r r e g 
-w b b w b 
-y r r g b 
+y r r e b 
+r b r b w 
+y r r w b 
  	 Moving to E	 	
-y r r g e 
-w b b w b 
-y r r g b 
+y r r b e 
+r b r b w 
+y r r w b 
  	 Moving to J	 	
-y r r g b 
-w b b w e 
-y r r g b 
- 5- Original Config : 
-
-b w y b b 
-r b g r g 
-e r y w r 
-
- 	 Moving to L	 	
-b w y b b 
-r b g r g 
-r e y w r 
- 	 Moving to G	 	
-b w y b b 
-r e g r g 
-r b y w r 
- 	 Moving to H	 	
-b w y b b 
-r g e r g 
-r b y w r 
- 	 Moving to M	 	
-b w y b b 
-r g y r g 
-r b e w r 
- 	 Moving to L	 	
-b w y b b 
-r g y r g 
-r e b w r 
- 	 Moving to G	 	
-b w y b b 
-r e y r g 
-r g b w r 
- 	 Moving to H	 	
-b w y b b 
-r y e r g 
-r g b w r 
+y r r b w 
+r b r b e 
+y r r w b 
  	 Moving to I	 	
-b w y b b 
-r y r e g 
-r g b w r 
- 	 Moving to J	 	
-b w y b b 
-r y r g e 
-r g b w r 
- 	 Moving to O	 	
-b w y b b 
-r y r g r 
-r g b w e 
- 	 Moving to N	 	
-b w y b b 
-r y r g r 
-r g b e w 
- 	 Moving to M	 	
-b w y b b 
-r y r g r 
-r g e b w 
- 	 Moving to L	 	
-b w y b b 
-r y r g r 
-r e g b w 
- 	 Moving to G	 	
-b w y b b 
-r e r g r 
-r y g b w 
- 	 Moving to F	 	
-b w y b b 
-e r r g r 
-r y g b w 
- 	 Moving to K	 	
-b w y b b 
-r r r g r 
-e y g b w 
- 	 Moving to L	 	
-b w y b b 
-r r r g r 
-y e g b w 
- 	 Moving to M	 	
-b w y b b 
-r r r g r 
-y g e b w 
- 	 Moving to H	 	
-b w y b b 
-r r e g r 
-y g r b w 
- 	 Moving to G	 	
-b w y b b 
-r e r g r 
-y g r b w 
- 	 Moving to L	 	
-b w y b b 
-r g r g r 
-y e r b w 
- 	 Moving to K	 	
-b w y b b 
-r g r g r 
-e y r b w 
- 	 Moving to F	 	
-b w y b b 
-e g r g r 
-r y r b w 
- 	 Moving to G	 	
-b w y b b 
-g e r g r 
-r y r b w 
- 	 Moving to H	 	
-b w y b b 
-g r e g r 
-r y r b w 
- 	 Moving to M	 	
-b w y b b 
-g r r g r 
-r y e b w 
- 	 Moving to N	 	
-b w y b b 
-g r r g r 
-r y b e w 
- 	 Moving to O	 	
-b w y b b 
-g r r g r 
-r y b w e 
- 	 Moving to J	 	
-b w y b b 
-g r r g e 
-r y b w r 
- 	 Moving to I	 	
-b w y b b 
-g r r e g 
-r y b w r 
- 	 Moving to H	 	
-b w y b b 
-g r e r g 
-r y b w r 
- 	 Moving to G	 	
-b w y b b 
-g e r r g 
-r y b w r 
- 	 Moving to F	 	
-b w y b b 
-e g r r g 
-r y b w r 
- 	 Moving to K	 	
-b w y b b 
-r g r r g 
-e y b w r 
- 	 Moving to L	 	
-b w y b b 
-r g r r g 
-y e b w r 
- 	 Moving to M	 	
-b w y b b 
-r g r r g 
-y b e w r 
- 	 Moving to N	 	
-b w y b b 
-r g r r g 
-y b w e r 
- 	 Moving to I	 	
-b w y b b 
-r g r e g 
-y b w r r 
- 	 Moving to J	 	
-b w y b b 
-r g r g e 
-y b w r r 
- 	 Moving to O	 	
-b w y b b 
-r g r g r 
-y b w r e 
- 	 Moving to N	 	
-b w y b b 
-r g r g r 
-y b w e r 
- 	 Moving to M	 	
-b w y b b 
-r g r g r 
-y b e w r 
- 	 Moving to H	 	
-b w y b b 
-r g e g r 
-y b r w r 
- 	 Moving to G	 	
-b w y b b 
-r e g g r 
-y b r w r 
- 	 Moving to B	 	
-b e y b b 
-r w g g r 
-y b r w r 
- 	 Moving to C	 	
-b y e b b 
-r w g g r 
-y b r w r 
+y r r b w 
+r b r e b 
+y r r w b 
  	 Moving to D	 	
-b y b e b 
-r w g g r 
-y b r w r 
+y r r e w 
+r b r b b 
+y r r w b 
  	 Moving to E	 	
-b y b b e 
-r w g g r 
-y b r w r 
+y r r w e 
+r b r b b 
+y r r w b 
  	 Moving to J	 	
-b y b b r 
-r w g g e 
-y b r w r 
- 	 Moving to I	 	
-b y b b r 
-r w g e g 
-y b r w r 
- 	 Moving to H	 	
-b y b b r 
-r w e g g 
-y b r w r 
- 	 Moving to G	 	
-b y b b r 
-r e w g g 
-y b r w r 
- 	 Moving to F	 	
-b y b b r 
-e r w g g 
-y b r w r 
- 	 Moving to A	 	
-e y b b r 
-b r w g g 
-y b r w r 
- 	 Moving to B	 	
-y e b b r 
-b r w g g 
-y b r w r 
- 	 Moving to C	 	
-y b e b r 
-b r w g g 
-y b r w r 
- 	 Moving to D	 	
-y b b e r 
-b r w g g 
-y b r w r 
- 	 Moving to E	 	
-y b b r e 
-b r w g g 
-y b r w r 
- 	 Moving to J	 	
-y b b r g 
-b r w g e 
-y b r w r 
- 	 Moving to I	 	
-y b b r g 
-b r w e g 
-y b r w r 
- 	 Moving to H	 	
-y b b r g 
-b r e w g 
-y b r w r 
- 	 Moving to C	 	
-y b e r g 
-b r b w g 
-y b r w r 
- 	 Moving to D	 	
-y b r e g 
-b r b w g 
-y b r w r 
- 	 Moving to I	 	
-y b r w g 
-b r b e g 
-y b r w r 
- 	 Moving to J	 	
-y b r w g 
-b r b g e 
-y b r w r 
- 	 Moving to E	 	
-y b r w e 
-b r b g g 
-y b r w r 
- 	 Moving to D	 	
-y b r e w 
-b r b g g 
-y b r w r 
- 	 Moving to C	 	
-y b e r w 
-b r b g g 
-y b r w r 
- 	 Moving to H	 	
-y b b r w 
-b r e g g 
-y b r w r 
- 	 Moving to G	 	
-y b b r w 
-b e r g g 
-y b r w r 
- 	 Moving to B	 	
-y e b r w 
-b b r g g 
-y b r w r 
- 	 Moving to C	 	
-y b e r w 
-b b r g g 
-y b r w r 
- 	 Moving to H	 	
-y b r r w 
-b b e g g 
-y b r w r 
- 	 Moving to I	 	
-y b r r w 
-b b g e g 
-y b r w r 
- 	 Moving to D	 	
-y b r e w 
-b b g r g 
-y b r w r 
- 	 Moving to C	 	
-y b e r w 
-b b g r g 
-y b r w r 
- 	 Moving to B	 	
-y e b r w 
-b b g r g 
-y b r w r 
- 	 Moving to A	 	
-e y b r w 
-b b g r g 
-y b r w r 
- 	 Moving to F	 	
-b y b r w 
-e b g r g 
-y b r w r 
- 	 Moving to G	 	
-b y b r w 
-b e g r g 
-y b r w r 
- 	 Moving to H	 	
-b y b r w 
-b g e r g 
-y b r w r 
- 	 Moving to I	 	
-b y b r w 
-b g r e g 
-y b r w r 
- 	 Moving to J	 	
-b y b r w 
-b g r g e 
-y b r w r 
- 	 Moving to O	 	
-b y b r w 
-b g r g r 
-y b r w e 
- 	 Moving to N	 	
-b y b r w 
-b g r g r 
-y b r e w 
- 	 Moving to M	 	
-b y b r w 
-b g r g r 
-y b e r w 
- 	 Moving to L	 	
-b y b r w 
-b g r g r 
-y e b r w 
- 	 Moving to K	 	
-b y b r w 
-b g r g r 
-e y b r w 
- 	 Moving to F	 	
-b y b r w 
-e g r g r 
-b y b r w 
- 6- Original Config : 
+y r r w b 
+r b r b e 
+y r r w b 
+ 2- Original Config : 
 
-b y g r r 
-b b w w g 
-r r b e y 
+b b w r r 
+y r r e y 
+r b b w r 
 
- 	 Moving to O	 	
-b y g r r 
-b b w w g 
-r r b y e 
- 	 Moving to J	 	
-b y g r r 
-b b w w e 
-r r b y g 
- 	 Moving to I	 	
-b y g r r 
-b b w e w 
-r r b y g 
  	 Moving to H	 	
-b y g r r 
-b b e w w 
-r r b y g 
- 	 Moving to M	 	
-b y g r r 
-b b b w w 
-r r e y g 
- 	 Moving to L	 	
-b y g r r 
-b b b w w 
-r e r y g 
- 	 Moving to K	 	
-b y g r r 
-b b b w w 
-e r r y g 
+b b w r r 
+y r e r y 
+r b b w r 
+ 	 Moving to G	 	
+b b w r r 
+y e r r y 
+r b b w r 
  	 Moving to F	 	
-b y g r r 
-e b b w w 
-b r r y g 
- 	 Moving to G	 	
-b y g r r 
-b e b w w 
-b r r y g 
+b b w r r 
+e y r r y 
+r b b w r 
+ 	 Moving to K	 	
+b b w r r 
+r y r r y 
+e b b w r 
+ 	 Moving to L	 	
+b b w r r 
+r y r r y 
+b e b w r 
+ 	 Moving to M	 	
+b b w r r 
+r y r r y 
+b b e w r 
  	 Moving to H	 	
-b y g r r 
-b b e w w 
-b r r y g 
- 	 Moving to C	 	
-b y e r r 
-b b g w w 
-b r r y g 
- 	 Moving to B	 	
-b e y r r 
-b b g w w 
-b r r y g 
- 	 Moving to G	 	
-b b y r r 
-b e g w w 
-b r r y g 
- 	 Moving to H	 	
-b b y r r 
-b g e w w 
-b r r y g 
+b b w r r 
+r y e r y 
+b b r w r 
  	 Moving to C	 	
 b b e r r 
-b g y w w 
-b r r y g 
+r y w r y 
+b b r w r 
  	 Moving to D	 	
 b b r e r 
-b g y w w 
-b r r y g 
- 	 Moving to E	 	
-b b r r e 
-b g y w w 
-b r r y g 
- 	 Moving to J	 	
-b b r r w 
-b g y w e 
-b r r y g 
+r y w r y 
+b b r w r 
  	 Moving to I	 	
-b b r r w 
-b g y e w 
-b r r y g 
+b b r r r 
+r y w e y 
+b b r w r 
  	 Moving to H	 	
-b b r r w 
-b g e y w 
-b r r y g 
- 	 Moving to G	 	
-b b r r w 
-b e g y w 
-b r r y g 
- 	 Moving to B	 	
-b e r r w 
-b b g y w 
-b r r y g 
+b b r r r 
+r y e w y 
+b b r w r 
  	 Moving to C	 	
-b r e r w 
-b b g y w 
-b r r y g 
+b b e r r 
+r y r w y 
+b b r w r 
  	 Moving to D	 	
-b r r e w 
-b b g y w 
-b r r y g 
+b b r e r 
+r y r w y 
+b b r w r 
  	 Moving to I	 	
-b r r y w 
-b b g e w 
-b r r y g 
- 	 Moving to J	 	
-b r r y w 
-b b g w e 
-b r r y g 
- 	 Moving to E	 	
-b r r y e 
-b b g w w 
-b r r y g 
- 	 Moving to D	 	
-b r r e y 
-b b g w w 
-b r r y g 
- 	 Moving to C	 	
-b r e r y 
-b b g w w 
-b r r y g 
- 	 Moving to B	 	
-b e r r y 
-b b g w w 
-b r r y g 
- 	 Moving to G	 	
-b b r r y 
-b e g w w 
-b r r y g 
- 	 Moving to H	 	
-b b r r y 
-b g e w w 
-b r r y g 
- 	 Moving to I	 	
-b b r r y 
-b g w e w 
-b r r y g 
- 	 Moving to J	 	
-b b r r y 
-b g w w e 
-b r r y g 
- 	 Moving to O	 	
-b b r r y 
-b g w w g 
-b r r y e 
- 	 Moving to N	 	
-b b r r y 
-b g w w g 
-b r r e y 
- 	 Moving to M	 	
-b b r r y 
-b g w w g 
-b r e r y 
- 	 Moving to L	 	
-b b r r y 
-b g w w g 
-b e r r y 
- 	 Moving to K	 	
-b b r r y 
-b g w w g 
-e b r r y 
- 	 Moving to F	 	
-b b r r y 
-e g w w g 
-b b r r y 
+b b r w r 
+r y r e y 
+b b r w r 
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 
+
+ 3- Original Config : 
+
+r y b b w 
+e b y b w 
+r r r r r 

@@ -104,8 +104,16 @@ public class GameController implements Initializable{
     }
     @FXML
     private void automaticMode(ActionEvent event){
+        File file1 = new File(Configuration.outputFile1);
+        File file2 = new File(Configuration.outputFile2);
+        if(file1.exists()){
+            file1.delete();
+        }
+        if(file2.exists()){
+            file2.delete();
+        }
         int currentLevel=0;
-
+        int totalLengthSolution=0;
         long totalTime=0;
         Board automaticBoard=new Board();
         long startTimeProcess = System.currentTimeMillis();
@@ -119,12 +127,22 @@ public class GameController implements Initializable{
 
 
             BestFirstSearch bfs = new BestFirstSearch();
+            Configuration.TIMESTARTED=System.currentTimeMillis()+10000;
+           // System.out.println(Configuration.TIMESTARTED);
             bfs.search(automaticBoard);
 
             FileOps.writeFile2("\n "+(currentLevel+1)+"- Original Config : \n"+automaticBoard+ "\n");
+
             String solution = bfs.getSolution();
+            if (solution=="No solution found")
+            {
+                FileOps.writeFile1("No solution found\n\n");
+                continue;
+            }
+
 			String solutionName = bfs.getSolutionName();
             FileOps.writeFile1(solutionName+"\n");
+            totalLengthSolution+=solutionName.length();
             //FileOps.writeFile1(solutionName.length()+"--");
             //FileOps.writeFile2("\n \t \t Solution states : ");
             for(int i = 0; i<solution.length(); ++i){
@@ -141,8 +159,10 @@ public class GameController implements Initializable{
         }
         long stopTimeProcess = System.currentTimeMillis();
         long elapsedTimeWholeProcess = stopTimeProcess - startTimeProcess;
-        FileOps.writeFile1(elapsedTimeWholeProcess+"\n");
+        //FileOps.writeFile1(elapsedTimeWholeProcess+"\n");
+        FileOps.writeFile1(totalLengthSolution+"\n");
         //FileOps.writeFile2("\n TOTAL MOVES : "+totalLengthSolution);
+        System.out.println("\n TOTAL TIME : "+elapsedTimeWholeProcess+" ms");
         FileOps.writeFile2("\n TOTAL TIME : "+elapsedTimeWholeProcess+" ms");
     }
     @FXML
