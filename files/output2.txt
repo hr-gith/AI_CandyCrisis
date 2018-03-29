@@ -209,56 +209,12320 @@ r y b b w
 e b y b w 
 r r r r r 
 
- 3- Original Config : 
-
+ 	 Moving to G	 	
 r y b b w 
-e b y b w 
+b e y b w 
 r r r r r 
+ 	 Moving to B	 	
+r e b b w 
+b y y b w 
+r r r r r 
+ 	 Moving to A	 	
+e r b b w 
+b y y b w 
+r r r r r 
+ 	 Moving to F	 	
+b r b b w 
+e y y b w 
+r r r r r 
+ 	 Moving to G	 	
+b r b b w 
+y e y b w 
+r r r r r 
+ 	 Moving to H	 	
+b r b b w 
+y y e b w 
+r r r r r 
+ 	 Moving to C	 	
+b r e b w 
+y y b b w 
+r r r r r 
+ 	 Moving to B	 	
+b e r b w 
+y y b b w 
+r r r r r 
+ 	 Moving to G	 	
+b y r b w 
+y e b b w 
+r r r r r 
+ 	 Moving to H	 	
+b y r b w 
+y b e b w 
+r r r r r 
+ 	 Moving to I	 	
+b y r b w 
+y b b e w 
+r r r r r 
+ 	 Moving to J	 	
+b y r b w 
+y b b w e 
+r r r r r 
+ 	 Moving to E	 	
+b y r b e 
+y b b w w 
+r r r r r 
+ 	 Moving to D	 	
+b y r e b 
+y b b w w 
+r r r r r 
+ 	 Moving to I	 	
+b y r w b 
+y b b e w 
+r r r r r 
+ 	 Moving to H	 	
+b y r w b 
+y b e b w 
+r r r r r 
+ 	 Moving to G	 	
+b y r w b 
+y e b b w 
+r r r r r 
+ 	 Moving to F	 	
+b y r w b 
+e y b b w 
+r r r r r 
+ 	 Moving to A	 	
+e y r w b 
+b y b b w 
+r r r r r 
+ 	 Moving to B	 	
+y e r w b 
+b y b b w 
+r r r r r 
+ 	 Moving to G	 	
+y y r w b 
+b e b b w 
+r r r r r 
+ 	 Moving to H	 	
+y y r w b 
+b b e b w 
+r r r r r 
+ 	 Moving to I	 	
+y y r w b 
+b b b e w 
+r r r r r 
+ 	 Moving to D	 	
+y y r e b 
+b b b w w 
+r r r r r 
+ 	 Moving to E	 	
+y y r b e 
+b b b w w 
+r r r r r 
+ 	 Moving to J	 	
+y y r b w 
+b b b w e 
+r r r r r 
+ 	 Moving to I	 	
+y y r b w 
+b b b e w 
+r r r r r 
+ 	 Moving to D	 	
+y y r e w 
+b b b b w 
+r r r r r 
+ 	 Moving to C	 	
+y y e r w 
+b b b b w 
+r r r r r 
+ 	 Moving to H	 	
+y y b r w 
+b b e b w 
+r r r r r 
+ 	 Moving to I	 	
+y y b r w 
+b b b e w 
+r r r r r 
+ 	 Moving to J	 	
+y y b r w 
+b b b w e 
+r r r r r 
+ 	 Moving to E	 	
+y y b r e 
+b b b w w 
+r r r r r 
+ 	 Moving to D	 	
+y y b e r 
+b b b w w 
+r r r r r 
+ 	 Moving to C	 	
+y y e b r 
+b b b w w 
+r r r r r 
+ 	 Moving to B	 	
+y e y b r 
+b b b w w 
+r r r r r 
+ 	 Moving to G	 	
+y b y b r 
+b e b w w 
+r r r r r 
+ 	 Moving to H	 	
+y b y b r 
+b b e w w 
+r r r r r 
+ 	 Moving to C	 	
+y b e b r 
+b b y w w 
+r r r r r 
+ 	 Moving to B	 	
+y e b b r 
+b b y w w 
+r r r r r 
+ 	 Moving to G	 	
+y b b b r 
+b e y w w 
+r r r r r 
+ 	 Moving to H	 	
+y b b b r 
+b y e w w 
+r r r r r 
+ 	 Moving to M	 	
+y b b b r 
+b y r w w 
+r r e r r 
+ 	 Moving to L	 	
+y b b b r 
+b y r w w 
+r e r r r 
+ 	 Moving to K	 	
+y b b b r 
+b y r w w 
+e r r r r 
+ 	 Moving to F	 	
+y b b b r 
+e y r w w 
+b r r r r 
+ 	 Moving to G	 	
+y b b b r 
+y e r w w 
+b r r r r 
+ 	 Moving to L	 	
+y b b b r 
+y r r w w 
+b e r r r 
+ 	 Moving to K	 	
+y b b b r 
+y r r w w 
+e b r r r 
+ 	 Moving to F	 	
+y b b b r 
+e r r w w 
+y b r r r 
+ 	 Moving to G	 	
+y b b b r 
+r e r w w 
+y b r r r 
+ 	 Moving to H	 	
+y b b b r 
+r r e w w 
+y b r r r 
+ 	 Moving to M	 	
+y b b b r 
+r r r w w 
+y b e r r 
+ 	 Moving to N	 	
+y b b b r 
+r r r w w 
+y b r e r 
+ 	 Moving to I	 	
+y b b b r 
+r r r e w 
+y b r w r 
+ 	 Moving to H	 	
+y b b b r 
+r r e r w 
+y b r w r 
+ 	 Moving to C	 	
+y b e b r 
+r r b r w 
+y b r w r 
+ 	 Moving to D	 	
+y b b e r 
+r r b r w 
+y b r w r 
+ 	 Moving to E	 	
+y b b r e 
+r r b r w 
+y b r w r 
+ 	 Moving to J	 	
+y b b r w 
+r r b r e 
+y b r w r 
+ 	 Moving to I	 	
+y b b r w 
+r r b e r 
+y b r w r 
+ 	 Moving to H	 	
+y b b r w 
+r r e b r 
+y b r w r 
+ 	 Moving to C	 	
+y b e r w 
+r r b b r 
+y b r w r 
+ 	 Moving to D	 	
+y b r e w 
+r r b b r 
+y b r w r 
+ 	 Moving to E	 	
+y b r w e 
+r r b b r 
+y b r w r 
+ 	 Moving to J	 	
+y b r w r 
+r r b b e 
+y b r w r 
+ 4- Original Config : 
 
- 3- Original Config : 
+e w r r b 
+b y b r r 
+r r w y b 
 
+ 	 Moving to F	 	
+b w r r b 
+e y b r r 
+r r w y b 
+ 	 Moving to G	 	
+b w r r b 
+y e b r r 
+r r w y b 
+ 	 Moving to H	 	
+b w r r b 
+y b e r r 
+r r w y b 
+ 	 Moving to I	 	
+b w r r b 
+y b r e r 
+r r w y b 
+ 	 Moving to N	 	
+b w r r b 
+y b r y r 
+r r w e b 
+ 	 Moving to M	 	
+b w r r b 
+y b r y r 
+r r e w b 
+ 	 Moving to L	 	
+b w r r b 
+y b r y r 
+r e r w b 
+ 	 Moving to G	 	
+b w r r b 
+y e r y r 
+r b r w b 
+ 	 Moving to F	 	
+b w r r b 
+e y r y r 
+r b r w b 
+ 	 Moving to K	 	
+b w r r b 
+r y r y r 
+e b r w b 
+ 	 Moving to L	 	
+b w r r b 
+r y r y r 
+b e r w b 
+ 	 Moving to M	 	
+b w r r b 
+r y r y r 
+b r e w b 
+ 	 Moving to H	 	
+b w r r b 
+r y e y r 
+b r r w b 
+ 	 Moving to I	 	
+b w r r b 
+r y y e r 
+b r r w b 
+ 	 Moving to N	 	
+b w r r b 
+r y y w r 
+b r r e b 
+ 	 Moving to M	 	
+b w r r b 
+r y y w r 
+b r e r b 
+ 	 Moving to L	 	
+b w r r b 
+r y y w r 
+b e r r b 
+ 	 Moving to G	 	
+b w r r b 
+r e y w r 
+b y r r b 
+ 	 Moving to B	 	
+b e r r b 
+r w y w r 
+b y r r b 
+ 	 Moving to C	 	
+b r e r b 
+r w y w r 
+b y r r b 
+ 	 Moving to H	 	
+b r y r b 
+r w e w r 
+b y r r b 
+ 	 Moving to M	 	
+b r y r b 
+r w r w r 
+b y e r b 
+ 	 Moving to L	 	
+b r y r b 
+r w r w r 
+b e y r b 
+ 	 Moving to K	 	
+b r y r b 
+r w r w r 
+e b y r b 
+ 	 Moving to F	 	
+b r y r b 
+e w r w r 
+r b y r b 
+ 	 Moving to G	 	
+b r y r b 
+w e r w r 
+r b y r b 
+ 	 Moving to L	 	
+b r y r b 
+w b r w r 
+r e y r b 
+ 	 Moving to M	 	
+b r y r b 
+w b r w r 
+r y e r b 
+ 	 Moving to H	 	
+b r y r b 
+w b e w r 
+r y r r b 
+ 	 Moving to I	 	
+b r y r b 
+w b w e r 
+r y r r b 
+ 	 Moving to N	 	
+b r y r b 
+w b w r r 
+r y r e b 
+ 	 Moving to O	 	
+b r y r b 
+w b w r r 
+r y r b e 
+ 	 Moving to J	 	
+b r y r b 
+w b w r e 
+r y r b r 
+ 	 Moving to I	 	
+b r y r b 
+w b w e r 
+r y r b r 
+ 	 Moving to H	 	
+b r y r b 
+w b e w r 
+r y r b r 
+ 	 Moving to G	 	
+b r y r b 
+w e b w r 
+r y r b r 
+ 	 Moving to F	 	
+b r y r b 
+e w b w r 
+r y r b r 
+ 	 Moving to A	 	
+e r y r b 
+b w b w r 
+r y r b r 
+ 	 Moving to B	 	
+r e y r b 
+b w b w r 
+r y r b r 
+ 	 Moving to C	 	
+r y e r b 
+b w b w r 
+r y r b r 
+ 	 Moving to D	 	
+r y r e b 
+b w b w r 
+r y r b r 
+ 	 Moving to E	 	
+r y r b e 
+b w b w r 
+r y r b r 
+ 	 Moving to J	 	
+r y r b r 
+b w b w e 
+r y r b r 
+ 5- Original Config : 
+
+e r b b b 
+w y r r y 
+r r w b r 
+
+ 	 Moving to F	 	
+w r b b b 
+e y r r y 
+r r w b r 
+ 	 Moving to G	 	
+w r b b b 
+y e r r y 
+r r w b r 
+ 	 Moving to H	 	
+w r b b b 
+y r e r y 
+r r w b r 
+ 	 Moving to M	 	
+w r b b b 
+y r w r y 
+r r e b r 
+ 	 Moving to L	 	
+w r b b b 
+y r w r y 
+r e r b r 
+ 	 Moving to G	 	
+w r b b b 
+y e w r y 
+r r r b r 
+ 	 Moving to H	 	
+w r b b b 
+y w e r y 
+r r r b r 
+ 	 Moving to M	 	
+w r b b b 
+y w r r y 
+r r e b r 
+ 	 Moving to L	 	
+w r b b b 
+y w r r y 
+r e r b r 
+ 	 Moving to G	 	
+w r b b b 
+y e r r y 
+r w r b r 
+ 	 Moving to F	 	
+w r b b b 
+e y r r y 
+r w r b r 
+ 	 Moving to K	 	
+w r b b b 
+r y r r y 
+e w r b r 
+ 	 Moving to L	 	
+w r b b b 
+r y r r y 
+w e r b r 
+ 	 Moving to M	 	
+w r b b b 
+r y r r y 
+w r e b r 
+ 	 Moving to H	 	
+w r b b b 
+r y e r y 
+w r r b r 
+ 	 Moving to G	 	
+w r b b b 
+r e y r y 
+w r r b r 
+ 	 Moving to L	 	
+w r b b b 
+r r y r y 
+w e r b r 
+ 	 Moving to M	 	
+w r b b b 
+r r y r y 
+w r e b r 
+ 	 Moving to H	 	
+w r b b b 
+r r e r y 
+w r y b r 
+ 	 Moving to I	 	
+w r b b b 
+r r r e y 
+w r y b r 
+ 	 Moving to J	 	
+w r b b b 
+r r r y e 
+w r y b r 
+ 	 Moving to O	 	
+w r b b b 
+r r r y r 
+w r y b e 
+ 	 Moving to N	 	
+w r b b b 
+r r r y r 
+w r y e b 
+ 	 Moving to I	 	
+w r b b b 
+r r r e r 
+w r y y b 
+ 	 Moving to H	 	
+w r b b b 
+r r e r r 
+w r y y b 
+ 	 Moving to M	 	
+w r b b b 
+r r y r r 
+w r e y b 
+ 	 Moving to L	 	
+w r b b b 
+r r y r r 
+w e r y b 
+ 	 Moving to G	 	
+w r b b b 
+r e y r r 
+w r r y b 
+ 	 Moving to H	 	
+w r b b b 
+r y e r r 
+w r r y b 
+ 	 Moving to M	 	
+w r b b b 
+r y r r r 
+w r e y b 
+ 	 Moving to N	 	
+w r b b b 
+r y r r r 
+w r y e b 
+ 	 Moving to O	 	
+w r b b b 
+r y r r r 
+w r y b e 
+ 	 Moving to J	 	
+w r b b b 
+r y r r e 
+w r y b r 
+ 	 Moving to I	 	
+w r b b b 
+r y r e r 
+w r y b r 
+ 	 Moving to H	 	
+w r b b b 
+r y e r r 
+w r y b r 
+ 	 Moving to M	 	
+w r b b b 
+r y y r r 
+w r e b r 
+ 	 Moving to L	 	
+w r b b b 
+r y y r r 
+w e r b r 
+ 	 Moving to G	 	
+w r b b b 
+r e y r r 
+w y r b r 
+ 	 Moving to F	 	
+w r b b b 
+e r y r r 
+w y r b r 
+ 	 Moving to K	 	
+w r b b b 
+w r y r r 
+e y r b r 
+ 	 Moving to L	 	
+w r b b b 
+w r y r r 
+y e r b r 
+ 	 Moving to G	 	
+w r b b b 
+w e y r r 
+y r r b r 
+ 	 Moving to H	 	
+w r b b b 
+w y e r r 
+y r r b r 
+ 	 Moving to M	 	
+w r b b b 
+w y r r r 
+y r e b r 
+ 	 Moving to L	 	
+w r b b b 
+w y r r r 
+y e r b r 
+ 	 Moving to K	 	
+w r b b b 
+w y r r r 
+e y r b r 
+ 	 Moving to F	 	
+w r b b b 
+e y r r r 
+w y r b r 
+ 	 Moving to G	 	
+w r b b b 
+y e r r r 
+w y r b r 
+ 	 Moving to L	 	
+w r b b b 
+y y r r r 
+w e r b r 
+ 	 Moving to M	 	
+w r b b b 
+y y r r r 
+w r e b r 
+ 	 Moving to N	 	
+w r b b b 
+y y r r r 
+w r b e r 
+ 	 Moving to I	 	
+w r b b b 
+y y r e r 
+w r b r r 
+ 	 Moving to H	 	
+w r b b b 
+y y e r r 
+w r b r r 
+ 	 Moving to C	 	
+w r e b b 
+y y b r r 
+w r b r r 
+ 	 Moving to D	 	
+w r b e b 
+y y b r r 
+w r b r r 
+ 	 Moving to I	 	
+w r b r b 
+y y b e r 
+w r b r r 
+ 	 Moving to J	 	
+w r b r b 
+y y b r e 
+w r b r r 
+ 	 Moving to E	 	
+w r b r e 
+y y b r b 
+w r b r r 
+ 	 Moving to D	 	
+w r b e r 
+y y b r b 
+w r b r r 
+ 	 Moving to I	 	
+w r b r r 
+y y b e b 
+w r b r r 
+ 6- Original Config : 
+
+y w b y r 
+b e b r b 
+r r r w r 
+
+ 	 Moving to H	 	
+y w b y r 
+b b e r b 
+r r r w r 
+ 	 Moving to C	 	
+y w e y r 
+b b b r b 
+r r r w r 
+ 	 Moving to B	 	
+y e w y r 
+b b b r b 
+r r r w r 
+ 	 Moving to G	 	
+y b w y r 
+b e b r b 
+r r r w r 
+ 	 Moving to H	 	
+y b w y r 
+b b e r b 
+r r r w r 
+ 	 Moving to M	 	
+y b w y r 
+b b r r b 
+r r e w r 
+ 	 Moving to N	 	
+y b w y r 
+b b r r b 
+r r w e r 
+ 	 Moving to I	 	
+y b w y r 
+b b r e b 
+r r w r r 
+ 	 Moving to D	 	
+y b w e r 
+b b r y b 
+r r w r r 
+ 	 Moving to E	 	
+y b w r e 
+b b r y b 
+r r w r r 
+ 	 Moving to J	 	
+y b w r b 
+b b r y e 
+r r w r r 
+ 	 Moving to I	 	
+y b w r b 
+b b r e y 
+r r w r r 
+ 	 Moving to H	 	
+y b w r b 
+b b e r y 
+r r w r r 
+ 	 Moving to G	 	
+y b w r b 
+b e b r y 
+r r w r r 
+ 	 Moving to B	 	
+y e w r b 
+b b b r y 
+r r w r r 
+ 	 Moving to A	 	
+e y w r b 
+b b b r y 
+r r w r r 
+ 	 Moving to F	 	
+b y w r b 
+e b b r y 
+r r w r r 
+ 	 Moving to G	 	
+b y w r b 
+b e b r y 
+r r w r r 
+ 	 Moving to B	 	
+b e w r b 
+b y b r y 
+r r w r r 
+ 	 Moving to C	 	
+b w e r b 
+b y b r y 
+r r w r r 
+ 	 Moving to D	 	
+b w r e b 
+b y b r y 
+r r w r r 
+ 	 Moving to I	 	
+b w r r b 
+b y b e y 
+r r w r r 
+ 	 Moving to J	 	
+b w r r b 
+b y b y e 
+r r w r r 
+ 	 Moving to E	 	
+b w r r e 
+b y b y b 
+r r w r r 
+ 	 Moving to D	 	
+b w r e r 
+b y b y b 
+r r w r r 
+ 	 Moving to C	 	
+b w e r r 
+b y b y b 
+r r w r r 
+ 	 Moving to B	 	
+b e w r r 
+b y b y b 
+r r w r r 
+ 	 Moving to G	 	
+b y w r r 
+b e b y b 
+r r w r r 
+ 	 Moving to L	 	
+b y w r r 
+b r b y b 
+r e w r r 
+ 	 Moving to K	 	
+b y w r r 
+b r b y b 
+e r w r r 
+ 	 Moving to F	 	
+b y w r r 
+e r b y b 
+b r w r r 
+ 	 Moving to G	 	
+b y w r r 
+r e b y b 
+b r w r r 
+ 	 Moving to L	 	
+b y w r r 
+r r b y b 
+b e w r r 
+ 	 Moving to M	 	
+b y w r r 
+r r b y b 
+b w e r r 
+ 	 Moving to H	 	
+b y w r r 
+r r e y b 
+b w b r r 
+ 	 Moving to I	 	
+b y w r r 
+r r y e b 
+b w b r r 
+ 	 Moving to D	 	
+b y w e r 
+r r y r b 
+b w b r r 
+ 	 Moving to E	 	
+b y w r e 
+r r y r b 
+b w b r r 
+ 	 Moving to J	 	
+b y w r b 
+r r y r e 
+b w b r r 
+ 	 Moving to I	 	
+b y w r b 
+r r y e r 
+b w b r r 
+ 	 Moving to D	 	
+b y w e b 
+r r y r r 
+b w b r r 
+ 	 Moving to E	 	
+b y w b e 
+r r y r r 
+b w b r r 
+ 	 Moving to J	 	
+b y w b r 
+r r y r e 
+b w b r r 
+ 	 Moving to I	 	
+b y w b r 
+r r y e r 
+b w b r r 
+ 	 Moving to H	 	
+b y w b r 
+r r e y r 
+b w b r r 
+ 	 Moving to G	 	
+b y w b r 
+r e r y r 
+b w b r r 
+ 	 Moving to B	 	
+b e w b r 
+r y r y r 
+b w b r r 
+ 	 Moving to C	 	
+b w e b r 
+r y r y r 
+b w b r r 
+ 	 Moving to D	 	
+b w b e r 
+r y r y r 
+b w b r r 
+ 	 Moving to E	 	
+b w b r e 
+r y r y r 
+b w b r r 
+ 	 Moving to J	 	
+b w b r r 
+r y r y e 
+b w b r r 
+ 7- Original Config : 
+
+r r e b w 
+b r b r y 
+w y r r b 
+
+ 	 Moving to H	 	
+r r b b w 
+b r e r y 
+w y r r b 
+ 	 Moving to M	 	
+r r b b w 
+b r r r y 
+w y e r b 
+ 	 Moving to L	 	
+r r b b w 
+b r r r y 
+w e y r b 
+ 	 Moving to K	 	
+r r b b w 
+b r r r y 
+e w y r b 
+ 	 Moving to F	 	
+r r b b w 
+e r r r y 
+b w y r b 
+ 	 Moving to G	 	
+r r b b w 
+r e r r y 
+b w y r b 
+ 	 Moving to H	 	
+r r b b w 
+r r e r y 
+b w y r b 
+ 	 Moving to M	 	
+r r b b w 
+r r y r y 
+b w e r b 
+ 	 Moving to L	 	
+r r b b w 
+r r y r y 
+b e w r b 
+ 	 Moving to K	 	
+r r b b w 
+r r y r y 
+e b w r b 
+ 	 Moving to F	 	
+r r b b w 
+e r y r y 
+r b w r b 
+ 	 Moving to G	 	
+r r b b w 
+r e y r y 
+r b w r b 
+ 	 Moving to H	 	
+r r b b w 
+r y e r y 
+r b w r b 
+ 	 Moving to I	 	
+r r b b w 
+r y r e y 
+r b w r b 
+ 	 Moving to N	 	
+r r b b w 
+r y r r y 
+r b w e b 
+ 	 Moving to M	 	
+r r b b w 
+r y r r y 
+r b e w b 
+ 	 Moving to L	 	
+r r b b w 
+r y r r y 
+r e b w b 
+ 	 Moving to K	 	
+r r b b w 
+r y r r y 
+e r b w b 
+ 	 Moving to F	 	
+r r b b w 
+e y r r y 
+r r b w b 
+ 	 Moving to G	 	
+r r b b w 
+y e r r y 
+r r b w b 
+ 	 Moving to H	 	
+r r b b w 
+y r e r y 
+r r b w b 
+ 	 Moving to I	 	
+r r b b w 
+y r r e y 
+r r b w b 
+ 	 Moving to D	 	
+r r b e w 
+y r r b y 
+r r b w b 
+ 	 Moving to C	 	
+r r e b w 
+y r r b y 
+r r b w b 
+ 	 Moving to H	 	
+r r r b w 
+y r e b y 
+r r b w b 
+ 	 Moving to I	 	
+r r r b w 
+y r b e y 
+r r b w b 
+ 	 Moving to J	 	
+r r r b w 
+y r b y e 
+r r b w b 
+ 	 Moving to O	 	
+r r r b w 
+y r b y b 
+r r b w e 
+ 	 Moving to N	 	
+r r r b w 
+y r b y b 
+r r b e w 
+ 	 Moving to M	 	
+r r r b w 
+y r b y b 
+r r e b w 
+ 	 Moving to L	 	
+r r r b w 
+y r b y b 
+r e r b w 
+ 	 Moving to G	 	
+r r r b w 
+y e b y b 
+r r r b w 
+ 8- Original Config : 
+
+b r b w r 
+r r y w b 
+r e r y b 
+
+ 	 Moving to G	 	
+b r b w r 
+r e y w b 
+r r r y b 
+ 	 Moving to H	 	
+b r b w r 
+r y e w b 
+r r r y b 
+ 	 Moving to I	 	
+b r b w r 
+r y w e b 
+r r r y b 
+ 	 Moving to N	 	
+b r b w r 
+r y w y b 
+r r r e b 
+ 	 Moving to M	 	
+b r b w r 
+r y w y b 
+r r e r b 
+ 	 Moving to H	 	
+b r b w r 
+r y e y b 
+r r w r b 
+ 	 Moving to C	 	
+b r e w r 
+r y b y b 
+r r w r b 
+ 	 Moving to D	 	
+b r w e r 
+r y b y b 
+r r w r b 
+ 	 Moving to E	 	
+b r w r e 
+r y b y b 
+r r w r b 
+ 	 Moving to J	 	
+b r w r b 
+r y b y e 
+r r w r b 
+ 	 Moving to I	 	
+b r w r b 
+r y b e y 
+r r w r b 
+ 	 Moving to H	 	
+b r w r b 
+r y e b y 
+r r w r b 
+ 	 Moving to G	 	
+b r w r b 
+r e y b y 
+r r w r b 
+ 	 Moving to L	 	
+b r w r b 
+r r y b y 
+r e w r b 
+ 	 Moving to M	 	
+b r w r b 
+r r y b y 
+r w e r b 
+ 	 Moving to N	 	
+b r w r b 
+r r y b y 
+r w r e b 
+ 	 Moving to O	 	
+b r w r b 
+r r y b y 
+r w r b e 
+ 	 Moving to J	 	
+b r w r b 
+r r y b e 
+r w r b y 
+ 	 Moving to I	 	
+b r w r b 
+r r y e b 
+r w r b y 
+ 	 Moving to H	 	
+b r w r b 
+r r e y b 
+r w r b y 
+ 	 Moving to G	 	
+b r w r b 
+r e r y b 
+r w r b y 
+ 	 Moving to F	 	
+b r w r b 
+e r r y b 
+r w r b y 
+ 	 Moving to A	 	
+e r w r b 
+b r r y b 
+r w r b y 
+ 	 Moving to B	 	
+r e w r b 
+b r r y b 
+r w r b y 
+ 	 Moving to C	 	
+r w e r b 
+b r r y b 
+r w r b y 
+ 	 Moving to D	 	
+r w r e b 
+b r r y b 
+r w r b y 
+ 	 Moving to E	 	
+r w r b e 
+b r r y b 
+r w r b y 
+ 	 Moving to J	 	
+r w r b b 
+b r r y e 
+r w r b y 
+ 	 Moving to I	 	
+r w r b b 
+b r r e y 
+r w r b y 
+ 	 Moving to D	 	
+r w r e b 
+b r r b y 
+r w r b y 
+ 	 Moving to E	 	
+r w r b e 
+b r r b y 
+r w r b y 
+ 	 Moving to J	 	
+r w r b y 
+b r r b e 
+r w r b y 
+ 9- Original Config : 
+
+w r b r r 
+r y r r y 
+w b b e b 
+
+ 	 Moving to O	 	
+w r b r r 
+r y r r y 
+w b b b e 
+ 	 Moving to J	 	
+w r b r r 
+r y r r e 
+w b b b y 
+ 	 Moving to I	 	
+w r b r r 
+r y r e r 
+w b b b y 
+ 	 Moving to H	 	
+w r b r r 
+r y e r r 
+w b b b y 
+ 	 Moving to G	 	
+w r b r r 
+r e y r r 
+w b b b y 
+ 	 Moving to B	 	
+w e b r r 
+r r y r r 
+w b b b y 
+ 	 Moving to C	 	
+w b e r r 
+r r y r r 
+w b b b y 
+ 	 Moving to H	 	
+w b y r r 
+r r e r r 
+w b b b y 
+ 	 Moving to I	 	
+w b y r r 
+r r r e r 
+w b b b y 
+ 	 Moving to D	 	
+w b y e r 
+r r r r r 
+w b b b y 
+ 	 Moving to C	 	
+w b e y r 
+r r r r r 
+w b b b y 
+ 	 Moving to B	 	
+w e b y r 
+r r r r r 
+w b b b y 
+ 	 Moving to G	 	
+w r b y r 
+r e r r r 
+w b b b y 
+ 	 Moving to H	 	
+w r b y r 
+r r e r r 
+w b b b y 
+ 	 Moving to I	 	
+w r b y r 
+r r r e r 
+w b b b y 
+ 	 Moving to J	 	
+w r b y r 
+r r r r e 
+w b b b y 
+ 	 Moving to E	 	
+w r b y e 
+r r r r r 
+w b b b y 
+ 	 Moving to D	 	
+w r b e y 
+r r r r r 
+w b b b y 
+ 	 Moving to I	 	
+w r b r y 
+r r r e r 
+w b b b y 
+ 	 Moving to H	 	
+w r b r y 
+r r e r r 
+w b b b y 
+ 	 Moving to G	 	
+w r b r y 
+r e r r r 
+w b b b y 
+ 	 Moving to B	 	
+w e b r y 
+r r r r r 
+w b b b y 
+ 	 Moving to A	 	
+e w b r y 
+r r r r r 
+w b b b y 
+ 	 Moving to F	 	
+r w b r y 
+e r r r r 
+w b b b y 
+ 	 Moving to G	 	
+r w b r y 
+r e r r r 
+w b b b y 
+ 	 Moving to H	 	
+r w b r y 
+r r e r r 
+w b b b y 
+ 	 Moving to I	 	
+r w b r y 
+r r r e r 
+w b b b y 
+ 	 Moving to D	 	
+r w b e y 
+r r r r r 
+w b b b y 
+ 	 Moving to C	 	
+r w e b y 
+r r r r r 
+w b b b y 
+ 	 Moving to B	 	
+r e w b y 
+r r r r r 
+w b b b y 
+ 	 Moving to G	 	
+r r w b y 
+r e r r r 
+w b b b y 
+ 	 Moving to H	 	
+r r w b y 
+r r e r r 
+w b b b y 
+ 	 Moving to M	 	
+r r w b y 
+r r b r r 
+w b e b y 
+ 	 Moving to L	 	
+r r w b y 
+r r b r r 
+w e b b y 
+ 	 Moving to K	 	
+r r w b y 
+r r b r r 
+e w b b y 
+ 	 Moving to F	 	
+r r w b y 
+e r b r r 
+r w b b y 
+ 	 Moving to G	 	
+r r w b y 
+r e b r r 
+r w b b y 
+ 	 Moving to H	 	
+r r w b y 
+r b e r r 
+r w b b y 
+ 	 Moving to M	 	
+r r w b y 
+r b b r r 
+r w e b y 
+ 	 Moving to L	 	
+r r w b y 
+r b b r r 
+r e w b y 
+ 	 Moving to K	 	
+r r w b y 
+r b b r r 
+e r w b y 
+ 	 Moving to F	 	
+r r w b y 
+e b b r r 
+r r w b y 
+ 10- Original Config : 
+
+w e w y b 
+r b r b y 
+b r r r r 
+
+ 	 Moving to G	 	
+w b w y b 
+r e r b y 
+b r r r r 
+ 	 Moving to F	 	
+w b w y b 
+e r r b y 
+b r r r r 
+ 	 Moving to A	 	
+e b w y b 
+w r r b y 
+b r r r r 
+ 	 Moving to B	 	
+b e w y b 
+w r r b y 
+b r r r r 
+ 	 Moving to G	 	
+b r w y b 
+w e r b y 
+b r r r r 
+ 	 Moving to H	 	
+b r w y b 
+w r e b y 
+b r r r r 
+ 	 Moving to C	 	
+b r e y b 
+w r w b y 
+b r r r r 
+ 	 Moving to B	 	
+b e r y b 
+w r w b y 
+b r r r r 
+ 	 Moving to G	 	
+b r r y b 
+w e w b y 
+b r r r r 
+ 	 Moving to H	 	
+b r r y b 
+w w e b y 
+b r r r r 
+ 	 Moving to I	 	
+b r r y b 
+w w b e y 
+b r r r r 
+ 	 Moving to J	 	
+b r r y b 
+w w b y e 
+b r r r r 
+ 	 Moving to O	 	
+b r r y b 
+w w b y r 
+b r r r e 
+ 	 Moving to N	 	
+b r r y b 
+w w b y r 
+b r r e r 
+ 	 Moving to I	 	
+b r r y b 
+w w b e r 
+b r r y r 
+ 	 Moving to J	 	
+b r r y b 
+w w b r e 
+b r r y r 
+ 	 Moving to E	 	
+b r r y e 
+w w b r b 
+b r r y r 
+ 	 Moving to D	 	
+b r r e y 
+w w b r b 
+b r r y r 
+ 	 Moving to C	 	
+b r e r y 
+w w b r b 
+b r r y r 
+ 	 Moving to B	 	
+b e r r y 
+w w b r b 
+b r r y r 
+ 	 Moving to A	 	
+e b r r y 
+w w b r b 
+b r r y r 
+ 	 Moving to F	 	
+w b r r y 
+e w b r b 
+b r r y r 
+ 	 Moving to G	 	
+w b r r y 
+w e b r b 
+b r r y r 
+ 	 Moving to H	 	
+w b r r y 
+w b e r b 
+b r r y r 
+ 	 Moving to I	 	
+w b r r y 
+w b r e b 
+b r r y r 
+ 	 Moving to J	 	
+w b r r y 
+w b r b e 
+b r r y r 
+ 	 Moving to O	 	
+w b r r y 
+w b r b r 
+b r r y e 
+ 	 Moving to N	 	
+w b r r y 
+w b r b r 
+b r r e y 
+ 	 Moving to M	 	
+w b r r y 
+w b r b r 
+b r e r y 
+ 	 Moving to L	 	
+w b r r y 
+w b r b r 
+b e r r y 
+ 	 Moving to K	 	
+w b r r y 
+w b r b r 
+e b r r y 
+ 	 Moving to F	 	
+w b r r y 
+e b r b r 
+w b r r y 
+ 11- Original Config : 
+
+e r r r b 
+b y w r b 
+b w r r y 
+
+ 	 Moving to F	 	
+b r r r b 
+e y w r b 
+b w r r y 
+ 	 Moving to G	 	
+b r r r b 
+y e w r b 
+b w r r y 
+ 	 Moving to L	 	
+b r r r b 
+y w w r b 
+b e r r y 
+ 	 Moving to M	 	
+b r r r b 
+y w w r b 
+b r e r y 
+ 	 Moving to N	 	
+b r r r b 
+y w w r b 
+b r r e y 
+ 	 Moving to I	 	
+b r r r b 
+y w w e b 
+b r r r y 
+ 	 Moving to J	 	
+b r r r b 
+y w w b e 
+b r r r y 
+ 	 Moving to E	 	
+b r r r e 
+y w w b b 
+b r r r y 
+ 	 Moving to D	 	
+b r r e r 
+y w w b b 
+b r r r y 
+ 	 Moving to C	 	
+b r e r r 
+y w w b b 
+b r r r y 
+ 	 Moving to B	 	
+b e r r r 
+y w w b b 
+b r r r y 
+ 	 Moving to G	 	
+b w r r r 
+y e w b b 
+b r r r y 
+ 	 Moving to H	 	
+b w r r r 
+y w e b b 
+b r r r y 
+ 	 Moving to I	 	
+b w r r r 
+y w b e b 
+b r r r y 
+ 	 Moving to J	 	
+b w r r r 
+y w b b e 
+b r r r y 
+ 	 Moving to O	 	
+b w r r r 
+y w b b y 
+b r r r e 
+ 	 Moving to N	 	
+b w r r r 
+y w b b y 
+b r r e r 
+ 	 Moving to M	 	
+b w r r r 
+y w b b y 
+b r e r r 
+ 	 Moving to L	 	
+b w r r r 
+y w b b y 
+b e r r r 
+ 	 Moving to G	 	
+b w r r r 
+y e b b y 
+b w r r r 
+ 12- Original Config : 
+
+b y r b r 
+w r r y e 
+b w r r b 
+
+ 	 Moving to O	 	
+b y r b r 
+w r r y b 
+b w r r e 
+ 	 Moving to N	 	
+b y r b r 
+w r r y b 
+b w r e r 
+ 	 Moving to M	 	
+b y r b r 
+w r r y b 
+b w e r r 
+ 	 Moving to L	 	
+b y r b r 
+w r r y b 
+b e w r r 
+ 	 Moving to K	 	
+b y r b r 
+w r r y b 
+e b w r r 
+ 	 Moving to F	 	
+b y r b r 
+e r r y b 
+w b w r r 
+ 	 Moving to G	 	
+b y r b r 
+r e r y b 
+w b w r r 
+ 	 Moving to H	 	
+b y r b r 
+r r e y b 
+w b w r r 
+ 	 Moving to I	 	
+b y r b r 
+r r y e b 
+w b w r r 
+ 	 Moving to J	 	
+b y r b r 
+r r y b e 
+w b w r r 
+ 	 Moving to O	 	
+b y r b r 
+r r y b r 
+w b w r e 
+ 	 Moving to N	 	
+b y r b r 
+r r y b r 
+w b w e r 
+ 	 Moving to M	 	
+b y r b r 
+r r y b r 
+w b e w r 
+ 	 Moving to L	 	
+b y r b r 
+r r y b r 
+w e b w r 
+ 	 Moving to G	 	
+b y r b r 
+r e y b r 
+w r b w r 
+ 	 Moving to H	 	
+b y r b r 
+r y e b r 
+w r b w r 
+ 	 Moving to I	 	
+b y r b r 
+r y b e r 
+w r b w r 
+ 	 Moving to N	 	
+b y r b r 
+r y b w r 
+w r b e r 
+ 	 Moving to M	 	
+b y r b r 
+r y b w r 
+w r e b r 
+ 	 Moving to L	 	
+b y r b r 
+r y b w r 
+w e r b r 
+ 	 Moving to G	 	
+b y r b r 
+r e b w r 
+w y r b r 
+ 	 Moving to F	 	
+b y r b r 
+e r b w r 
+w y r b r 
+ 	 Moving to K	 	
+b y r b r 
+w r b w r 
+e y r b r 
+ 	 Moving to L	 	
+b y r b r 
+w r b w r 
+y e r b r 
+ 	 Moving to G	 	
+b y r b r 
+w e b w r 
+y r r b r 
+ 	 Moving to F	 	
+b y r b r 
+e w b w r 
+y r r b r 
+ 	 Moving to K	 	
+b y r b r 
+y w b w r 
+e r r b r 
+ 	 Moving to L	 	
+b y r b r 
+y w b w r 
+r e r b r 
+ 	 Moving to G	 	
+b y r b r 
+y e b w r 
+r w r b r 
+ 	 Moving to H	 	
+b y r b r 
+y b e w r 
+r w r b r 
+ 	 Moving to M	 	
+b y r b r 
+y b r w r 
+r w e b r 
+ 	 Moving to L	 	
+b y r b r 
+y b r w r 
+r e w b r 
+ 	 Moving to K	 	
+b y r b r 
+y b r w r 
+e r w b r 
+ 	 Moving to F	 	
+b y r b r 
+e b r w r 
+y r w b r 
+ 	 Moving to G	 	
+b y r b r 
+b e r w r 
+y r w b r 
+ 	 Moving to H	 	
+b y r b r 
+b r e w r 
+y r w b r 
+ 	 Moving to M	 	
+b y r b r 
+b r w w r 
+y r e b r 
+ 	 Moving to L	 	
+b y r b r 
+b r w w r 
+y e r b r 
+ 	 Moving to K	 	
+b y r b r 
+b r w w r 
+e y r b r 
+ 	 Moving to F	 	
+b y r b r 
+e r w w r 
+b y r b r 
+ 13- Original Config : 
+
+y r y w r 
+b b r r r 
+w b r e b 
+
+ 	 Moving to I	 	
+y r y w r 
+b b r e r 
+w b r r b 
+ 	 Moving to H	 	
+y r y w r 
+b b e r r 
+w b r r b 
+ 	 Moving to G	 	
+y r y w r 
+b e b r r 
+w b r r b 
+ 	 Moving to L	 	
+y r y w r 
+b b b r r 
+w e r r b 
+ 	 Moving to M	 	
+y r y w r 
+b b b r r 
+w r e r b 
+ 	 Moving to N	 	
+y r y w r 
+b b b r r 
+w r r e b 
+ 	 Moving to I	 	
+y r y w r 
+b b b e r 
+w r r r b 
+ 	 Moving to D	 	
+y r y e r 
+b b b w r 
+w r r r b 
+ 	 Moving to C	 	
+y r e y r 
+b b b w r 
+w r r r b 
+ 	 Moving to B	 	
+y e r y r 
+b b b w r 
+w r r r b 
+ 	 Moving to G	 	
+y b r y r 
+b e b w r 
+w r r r b 
+ 	 Moving to F	 	
+y b r y r 
+e b b w r 
+w r r r b 
+ 	 Moving to A	 	
+e b r y r 
+y b b w r 
+w r r r b 
+ 	 Moving to B	 	
+b e r y r 
+y b b w r 
+w r r r b 
+ 	 Moving to G	 	
+b b r y r 
+y e b w r 
+w r r r b 
+ 	 Moving to L	 	
+b b r y r 
+y r b w r 
+w e r r b 
+ 	 Moving to K	 	
+b b r y r 
+y r b w r 
+e w r r b 
+ 	 Moving to F	 	
+b b r y r 
+e r b w r 
+y w r r b 
+ 	 Moving to G	 	
+b b r y r 
+r e b w r 
+y w r r b 
+ 	 Moving to H	 	
+b b r y r 
+r b e w r 
+y w r r b 
+ 	 Moving to M	 	
+b b r y r 
+r b r w r 
+y w e r b 
+ 	 Moving to L	 	
+b b r y r 
+r b r w r 
+y e w r b 
+ 	 Moving to K	 	
+b b r y r 
+r b r w r 
+e y w r b 
+ 	 Moving to F	 	
+b b r y r 
+e b r w r 
+r y w r b 
+ 	 Moving to G	 	
+b b r y r 
+b e r w r 
+r y w r b 
+ 	 Moving to H	 	
+b b r y r 
+b r e w r 
+r y w r b 
+ 	 Moving to M	 	
+b b r y r 
+b r w w r 
+r y e r b 
+ 	 Moving to L	 	
+b b r y r 
+b r w w r 
+r e y r b 
+ 	 Moving to K	 	
+b b r y r 
+b r w w r 
+e r y r b 
+ 	 Moving to F	 	
+b b r y r 
+e r w w r 
+b r y r b 
+ 	 Moving to G	 	
+b b r y r 
+r e w w r 
+b r y r b 
+ 	 Moving to B	 	
+b e r y r 
+r b w w r 
+b r y r b 
+ 	 Moving to C	 	
+b r e y r 
+r b w w r 
+b r y r b 
+ 	 Moving to H	 	
+b r w y r 
+r b e w r 
+b r y r b 
+ 	 Moving to I	 	
+b r w y r 
+r b w e r 
+b r y r b 
+ 	 Moving to J	 	
+b r w y r 
+r b w r e 
+b r y r b 
+ 	 Moving to E	 	
+b r w y e 
+r b w r r 
+b r y r b 
+ 	 Moving to D	 	
+b r w e y 
+r b w r r 
+b r y r b 
+ 	 Moving to I	 	
+b r w r y 
+r b w e r 
+b r y r b 
+ 	 Moving to H	 	
+b r w r y 
+r b e w r 
+b r y r b 
+ 	 Moving to C	 	
+b r e r y 
+r b w w r 
+b r y r b 
+ 	 Moving to D	 	
+b r r e y 
+r b w w r 
+b r y r b 
+ 	 Moving to E	 	
+b r r y e 
+r b w w r 
+b r y r b 
+ 	 Moving to J	 	
+b r r y r 
+r b w w e 
+b r y r b 
+ 	 Moving to O	 	
+b r r y r 
+r b w w b 
+b r y r e 
+ 	 Moving to N	 	
+b r r y r 
+r b w w b 
+b r y e r 
+ 	 Moving to M	 	
+b r r y r 
+r b w w b 
+b r e y r 
+ 	 Moving to L	 	
+b r r y r 
+r b w w b 
+b e r y r 
+ 	 Moving to K	 	
+b r r y r 
+r b w w b 
+e b r y r 
+ 	 Moving to F	 	
+b r r y r 
+e b w w b 
+r b r y r 
+ 	 Moving to G	 	
+b r r y r 
+b e w w b 
+r b r y r 
+ 	 Moving to L	 	
+b r r y r 
+b b w w b 
+r e r y r 
+ 	 Moving to K	 	
+b r r y r 
+b b w w b 
+e r r y r 
+ 	 Moving to F	 	
+b r r y r 
+e b w w b 
+b r r y r 
+ 14- Original Config : 
+
+r r r y w 
+b b y b r 
+r w b e r 
+
+ 	 Moving to M	 	
+r r r y w 
+b b y b r 
+r w e b r 
+ 	 Moving to H	 	
+r r r y w 
+b b e b r 
+r w y b r 
+ 	 Moving to C	 	
+r r e y w 
+b b r b r 
+r w y b r 
+ 	 Moving to D	 	
+r r y e w 
+b b r b r 
+r w y b r 
+ 	 Moving to E	 	
+r r y w e 
+b b r b r 
+r w y b r 
+ 	 Moving to J	 	
+r r y w r 
+b b r b e 
+r w y b r 
+ 	 Moving to I	 	
+r r y w r 
+b b r e b 
+r w y b r 
+ 	 Moving to H	 	
+r r y w r 
+b b e r b 
+r w y b r 
+ 	 Moving to G	 	
+r r y w r 
+b e b r b 
+r w y b r 
+ 	 Moving to B	 	
+r e y w r 
+b r b r b 
+r w y b r 
+ 	 Moving to C	 	
+r y e w r 
+b r b r b 
+r w y b r 
+ 	 Moving to D	 	
+r y w e r 
+b r b r b 
+r w y b r 
+ 	 Moving to E	 	
+r y w r e 
+b r b r b 
+r w y b r 
+ 	 Moving to J	 	
+r y w r b 
+b r b r e 
+r w y b r 
+ 	 Moving to I	 	
+r y w r b 
+b r b e r 
+r w y b r 
+ 	 Moving to D	 	
+r y w e b 
+b r b r r 
+r w y b r 
+ 	 Moving to E	 	
+r y w b e 
+b r b r r 
+r w y b r 
+ 	 Moving to J	 	
+r y w b r 
+b r b r e 
+r w y b r 
+ 	 Moving to I	 	
+r y w b r 
+b r b e r 
+r w y b r 
+ 	 Moving to H	 	
+r y w b r 
+b r e b r 
+r w y b r 
+ 	 Moving to M	 	
+r y w b r 
+b r y b r 
+r w e b r 
+ 	 Moving to L	 	
+r y w b r 
+b r y b r 
+r e w b r 
+ 	 Moving to G	 	
+r y w b r 
+b e y b r 
+r r w b r 
+ 	 Moving to F	 	
+r y w b r 
+e b y b r 
+r r w b r 
+ 	 Moving to K	 	
+r y w b r 
+r b y b r 
+e r w b r 
+ 	 Moving to L	 	
+r y w b r 
+r b y b r 
+r e w b r 
+ 	 Moving to M	 	
+r y w b r 
+r b y b r 
+r w e b r 
+ 	 Moving to N	 	
+r y w b r 
+r b y b r 
+r w b e r 
+ 	 Moving to I	 	
+r y w b r 
+r b y e r 
+r w b b r 
+ 	 Moving to H	 	
+r y w b r 
+r b e y r 
+r w b b r 
+ 	 Moving to G	 	
+r y w b r 
+r e b y r 
+r w b b r 
+ 	 Moving to B	 	
+r e w b r 
+r y b y r 
+r w b b r 
+ 	 Moving to C	 	
+r w e b r 
+r y b y r 
+r w b b r 
+ 	 Moving to H	 	
+r w b b r 
+r y e y r 
+r w b b r 
+ 15- Original Config : 
+
+w r b r r 
+b e w b y 
+r y b r r 
+
+ 	 Moving to F	 	
+w r b r r 
+e b w b y 
+r y b r r 
+ 	 Moving to K	 	
+w r b r r 
+r b w b y 
+e y b r r 
+ 	 Moving to L	 	
+w r b r r 
+r b w b y 
+y e b r r 
+ 	 Moving to G	 	
+w r b r r 
+r e w b y 
+y b b r r 
+ 	 Moving to H	 	
+w r b r r 
+r w e b y 
+y b b r r 
+ 	 Moving to M	 	
+w r b r r 
+r w b b y 
+y b e r r 
+ 	 Moving to L	 	
+w r b r r 
+r w b b y 
+y e b r r 
+ 	 Moving to K	 	
+w r b r r 
+r w b b y 
+e y b r r 
+ 	 Moving to F	 	
+w r b r r 
+e w b b y 
+r y b r r 
+ 	 Moving to G	 	
+w r b r r 
+w e b b y 
+r y b r r 
+ 	 Moving to L	 	
+w r b r r 
+w y b b y 
+r e b r r 
+ 	 Moving to K	 	
+w r b r r 
+w y b b y 
+e r b r r 
+ 	 Moving to F	 	
+w r b r r 
+e y b b y 
+w r b r r 
+ 16- Original Config : 
+
+r w r b y 
+b r r y w 
+b b e r r 
+
+ 	 Moving to H	 	
+r w r b y 
+b r e y w 
+b b r r r 
+ 	 Moving to C	 	
+r w e b y 
+b r r y w 
+b b r r r 
+ 	 Moving to D	 	
+r w b e y 
+b r r y w 
+b b r r r 
+ 	 Moving to E	 	
+r w b y e 
+b r r y w 
+b b r r r 
+ 	 Moving to J	 	
+r w b y w 
+b r r y e 
+b b r r r 
+ 	 Moving to I	 	
+r w b y w 
+b r r e y 
+b b r r r 
+ 	 Moving to H	 	
+r w b y w 
+b r e r y 
+b b r r r 
+ 	 Moving to G	 	
+r w b y w 
+b e r r y 
+b b r r r 
+ 	 Moving to B	 	
+r e b y w 
+b w r r y 
+b b r r r 
+ 	 Moving to A	 	
+e r b y w 
+b w r r y 
+b b r r r 
+ 	 Moving to F	 	
+b r b y w 
+e w r r y 
+b b r r r 
+ 	 Moving to G	 	
+b r b y w 
+w e r r y 
+b b r r r 
+ 	 Moving to B	 	
+b e b y w 
+w r r r y 
+b b r r r 
+ 	 Moving to C	 	
+b b e y w 
+w r r r y 
+b b r r r 
+ 	 Moving to H	 	
+b b r y w 
+w r e r y 
+b b r r r 
+ 	 Moving to I	 	
+b b r y w 
+w r r e y 
+b b r r r 
+ 	 Moving to D	 	
+b b r e w 
+w r r y y 
+b b r r r 
+ 	 Moving to C	 	
+b b e r w 
+w r r y y 
+b b r r r 
+ 	 Moving to H	 	
+b b r r w 
+w r e y y 
+b b r r r 
+ 	 Moving to I	 	
+b b r r w 
+w r y e y 
+b b r r r 
+ 	 Moving to J	 	
+b b r r w 
+w r y y e 
+b b r r r 
+ 	 Moving to E	 	
+b b r r e 
+w r y y w 
+b b r r r 
+ 	 Moving to D	 	
+b b r e r 
+w r y y w 
+b b r r r 
+ 	 Moving to C	 	
+b b e r r 
+w r y y w 
+b b r r r 
+ 	 Moving to B	 	
+b e b r r 
+w r y y w 
+b b r r r 
+ 	 Moving to A	 	
+e b b r r 
+w r y y w 
+b b r r r 
+ 	 Moving to F	 	
+w b b r r 
+e r y y w 
+b b r r r 
+ 	 Moving to G	 	
+w b b r r 
+r e y y w 
+b b r r r 
+ 	 Moving to H	 	
+w b b r r 
+r y e y w 
+b b r r r 
+ 	 Moving to I	 	
+w b b r r 
+r y y e w 
+b b r r r 
+ 	 Moving to J	 	
+w b b r r 
+r y y w e 
+b b r r r 
+ 	 Moving to O	 	
+w b b r r 
+r y y w r 
+b b r r e 
+ 	 Moving to N	 	
+w b b r r 
+r y y w r 
+b b r e r 
+ 	 Moving to M	 	
+w b b r r 
+r y y w r 
+b b e r r 
+ 	 Moving to H	 	
+w b b r r 
+r y e w r 
+b b y r r 
+ 	 Moving to G	 	
+w b b r r 
+r e y w r 
+b b y r r 
+ 	 Moving to F	 	
+w b b r r 
+e r y w r 
+b b y r r 
+ 	 Moving to K	 	
+w b b r r 
+b r y w r 
+e b y r r 
+ 	 Moving to L	 	
+w b b r r 
+b r y w r 
+b e y r r 
+ 	 Moving to M	 	
+w b b r r 
+b r y w r 
+b y e r r 
+ 	 Moving to H	 	
+w b b r r 
+b r e w r 
+b y y r r 
+ 	 Moving to G	 	
+w b b r r 
+b e r w r 
+b y y r r 
+ 	 Moving to L	 	
+w b b r r 
+b y r w r 
+b e y r r 
+ 	 Moving to M	 	
+w b b r r 
+b y r w r 
+b y e r r 
+ 	 Moving to H	 	
+w b b r r 
+b y e w r 
+b y r r r 
+ 	 Moving to I	 	
+w b b r r 
+b y w e r 
+b y r r r 
+ 	 Moving to N	 	
+w b b r r 
+b y w r r 
+b y r e r 
+ 	 Moving to M	 	
+w b b r r 
+b y w r r 
+b y e r r 
+ 	 Moving to L	 	
+w b b r r 
+b y w r r 
+b e y r r 
+ 	 Moving to K	 	
+w b b r r 
+b y w r r 
+e b y r r 
+ 	 Moving to F	 	
+w b b r r 
+e y w r r 
+b b y r r 
+ 	 Moving to G	 	
+w b b r r 
+y e w r r 
+b b y r r 
+ 	 Moving to H	 	
+w b b r r 
+y w e r r 
+b b y r r 
+ 	 Moving to M	 	
+w b b r r 
+y w y r r 
+b b e r r 
+ 	 Moving to N	 	
+w b b r r 
+y w y r r 
+b b r e r 
+ 	 Moving to I	 	
+w b b r r 
+y w y e r 
+b b r r r 
+ 	 Moving to H	 	
+w b b r r 
+y w e y r 
+b b r r r 
+ 	 Moving to G	 	
+w b b r r 
+y e w y r 
+b b r r r 
+ 	 Moving to F	 	
+w b b r r 
+e y w y r 
+b b r r r 
+ 	 Moving to A	 	
+e b b r r 
+w y w y r 
+b b r r r 
+ 	 Moving to B	 	
+b e b r r 
+w y w y r 
+b b r r r 
+ 	 Moving to C	 	
+b b e r r 
+w y w y r 
+b b r r r 
+ 	 Moving to D	 	
+b b r e r 
+w y w y r 
+b b r r r 
+ 	 Moving to E	 	
+b b r r e 
+w y w y r 
+b b r r r 
+ 	 Moving to J	 	
+b b r r r 
+w y w y e 
+b b r r r 
+ 17- Original Config : 
+
+w y r r b 
+b y r r b 
+r w e b r 
+
+ 	 Moving to H	 	
+w y r r b 
+b y e r b 
+r w r b r 
+ 	 Moving to G	 	
+w y r r b 
+b e y r b 
+r w r b r 
+ 	 Moving to B	 	
+w e r r b 
+b y y r b 
+r w r b r 
+ 	 Moving to C	 	
+w r e r b 
+b y y r b 
+r w r b r 
+ 	 Moving to D	 	
+w r r e b 
+b y y r b 
+r w r b r 
+ 	 Moving to E	 	
+w r r b e 
+b y y r b 
+r w r b r 
+ 	 Moving to J	 	
+w r r b b 
+b y y r e 
+r w r b r 
+ 	 Moving to I	 	
+w r r b b 
+b y y e r 
+r w r b r 
+ 	 Moving to D	 	
+w r r e b 
+b y y b r 
+r w r b r 
+ 	 Moving to E	 	
+w r r b e 
+b y y b r 
+r w r b r 
+ 	 Moving to J	 	
+w r r b r 
+b y y b e 
+r w r b r 
+ 	 Moving to I	 	
+w r r b r 
+b y y e b 
+r w r b r 
+ 	 Moving to H	 	
+w r r b r 
+b y e y b 
+r w r b r 
+ 	 Moving to G	 	
+w r r b r 
+b e y y b 
+r w r b r 
+ 	 Moving to L	 	
+w r r b r 
+b w y y b 
+r e r b r 
+ 	 Moving to M	 	
+w r r b r 
+b w y y b 
+r r e b r 
+ 	 Moving to H	 	
+w r r b r 
+b w e y b 
+r r y b r 
+ 	 Moving to G	 	
+w r r b r 
+b e w y b 
+r r y b r 
+ 	 Moving to F	 	
+w r r b r 
+e b w y b 
+r r y b r 
+ 	 Moving to K	 	
+w r r b r 
+r b w y b 
+e r y b r 
+ 	 Moving to L	 	
+w r r b r 
+r b w y b 
+r e y b r 
+ 	 Moving to G	 	
+w r r b r 
+r e w y b 
+r b y b r 
+ 	 Moving to H	 	
+w r r b r 
+r w e y b 
+r b y b r 
+ 	 Moving to M	 	
+w r r b r 
+r w y y b 
+r b e b r 
+ 	 Moving to L	 	
+w r r b r 
+r w y y b 
+r e b b r 
+ 	 Moving to K	 	
+w r r b r 
+r w y y b 
+e r b b r 
+ 	 Moving to F	 	
+w r r b r 
+e w y y b 
+r r b b r 
+ 	 Moving to G	 	
+w r r b r 
+w e y y b 
+r r b b r 
+ 	 Moving to H	 	
+w r r b r 
+w y e y b 
+r r b b r 
+ 	 Moving to M	 	
+w r r b r 
+w y b y b 
+r r e b r 
+ 	 Moving to L	 	
+w r r b r 
+w y b y b 
+r e r b r 
+ 	 Moving to K	 	
+w r r b r 
+w y b y b 
+e r r b r 
+ 	 Moving to F	 	
+w r r b r 
+e y b y b 
+w r r b r 
+ 18- Original Config : 
+
+r r r y y 
+b r w r b 
+b e r w b 
+
+ 	 Moving to G	 	
+r r r y y 
+b e w r b 
+b r r w b 
+ 	 Moving to F	 	
+r r r y y 
+e b w r b 
+b r r w b 
+ 	 Moving to K	 	
+r r r y y 
+b b w r b 
+e r r w b 
+ 	 Moving to L	 	
+r r r y y 
+b b w r b 
+r e r w b 
+ 	 Moving to G	 	
+r r r y y 
+b e w r b 
+r b r w b 
+ 	 Moving to F	 	
+r r r y y 
+e b w r b 
+r b r w b 
+ 	 Moving to A	 	
+e r r y y 
+r b w r b 
+r b r w b 
+ 	 Moving to B	 	
+r e r y y 
+r b w r b 
+r b r w b 
+ 	 Moving to G	 	
+r b r y y 
+r e w r b 
+r b r w b 
+ 	 Moving to H	 	
+r b r y y 
+r w e r b 
+r b r w b 
+ 	 Moving to I	 	
+r b r y y 
+r w r e b 
+r b r w b 
+ 	 Moving to N	 	
+r b r y y 
+r w r w b 
+r b r e b 
+ 	 Moving to O	 	
+r b r y y 
+r w r w b 
+r b r b e 
+ 	 Moving to J	 	
+r b r y y 
+r w r w e 
+r b r b b 
+ 	 Moving to E	 	
+r b r y e 
+r w r w y 
+r b r b b 
+ 	 Moving to D	 	
+r b r e y 
+r w r w y 
+r b r b b 
+ 	 Moving to I	 	
+r b r w y 
+r w r e y 
+r b r b b 
+ 	 Moving to J	 	
+r b r w y 
+r w r y e 
+r b r b b 
+ 	 Moving to O	 	
+r b r w y 
+r w r y b 
+r b r b e 
+ 	 Moving to N	 	
+r b r w y 
+r w r y b 
+r b r e b 
+ 	 Moving to I	 	
+r b r w y 
+r w r e b 
+r b r y b 
+ 	 Moving to D	 	
+r b r e y 
+r w r w b 
+r b r y b 
+ 	 Moving to E	 	
+r b r y e 
+r w r w b 
+r b r y b 
+ 	 Moving to J	 	
+r b r y b 
+r w r w e 
+r b r y b 
+ 19- Original Config : 
+
+y r b b r 
+r w r y e 
+b b r w r 
+
+ 	 Moving to I	 	
+y r b b r 
+r w r e y 
+b b r w r 
+ 	 Moving to H	 	
+y r b b r 
+r w e r y 
+b b r w r 
+ 	 Moving to M	 	
+y r b b r 
+r w r r y 
+b b e w r 
+ 	 Moving to L	 	
+y r b b r 
+r w r r y 
+b e b w r 
+ 	 Moving to K	 	
+y r b b r 
+r w r r y 
+e b b w r 
+ 	 Moving to F	 	
+y r b b r 
+e w r r y 
+r b b w r 
+ 	 Moving to G	 	
+y r b b r 
+w e r r y 
+r b b w r 
+ 	 Moving to H	 	
+y r b b r 
+w r e r y 
+r b b w r 
+ 	 Moving to I	 	
+y r b b r 
+w r r e y 
+r b b w r 
+ 	 Moving to N	 	
+y r b b r 
+w r r w y 
+r b b e r 
+ 	 Moving to M	 	
+y r b b r 
+w r r w y 
+r b e b r 
+ 	 Moving to H	 	
+y r b b r 
+w r e w y 
+r b r b r 
+ 	 Moving to G	 	
+y r b b r 
+w e r w y 
+r b r b r 
+ 	 Moving to F	 	
+y r b b r 
+e w r w y 
+r b r b r 
+ 	 Moving to K	 	
+y r b b r 
+r w r w y 
+e b r b r 
+ 	 Moving to L	 	
+y r b b r 
+r w r w y 
+b e r b r 
+ 	 Moving to G	 	
+y r b b r 
+r e r w y 
+b w r b r 
+ 	 Moving to H	 	
+y r b b r 
+r r e w y 
+b w r b r 
+ 	 Moving to M	 	
+y r b b r 
+r r r w y 
+b w e b r 
+ 	 Moving to L	 	
+y r b b r 
+r r r w y 
+b e w b r 
+ 	 Moving to K	 	
+y r b b r 
+r r r w y 
+e b w b r 
+ 	 Moving to F	 	
+y r b b r 
+e r r w y 
+r b w b r 
+ 	 Moving to G	 	
+y r b b r 
+r e r w y 
+r b w b r 
+ 	 Moving to H	 	
+y r b b r 
+r r e w y 
+r b w b r 
+ 	 Moving to M	 	
+y r b b r 
+r r w w y 
+r b e b r 
+ 	 Moving to N	 	
+y r b b r 
+r r w w y 
+r b b e r 
+ 	 Moving to I	 	
+y r b b r 
+r r w e y 
+r b b w r 
+ 	 Moving to H	 	
+y r b b r 
+r r e w y 
+r b b w r 
+ 	 Moving to G	 	
+y r b b r 
+r e r w y 
+r b b w r 
+ 	 Moving to F	 	
+y r b b r 
+e r r w y 
+r b b w r 
+ 	 Moving to A	 	
+e r b b r 
+y r r w y 
+r b b w r 
+ 	 Moving to B	 	
+r e b b r 
+y r r w y 
+r b b w r 
+ 	 Moving to G	 	
+r r b b r 
+y e r w y 
+r b b w r 
+ 	 Moving to H	 	
+r r b b r 
+y r e w y 
+r b b w r 
+ 	 Moving to I	 	
+r r b b r 
+y r w e y 
+r b b w r 
+ 	 Moving to N	 	
+r r b b r 
+y r w w y 
+r b b e r 
+ 	 Moving to M	 	
+r r b b r 
+y r w w y 
+r b e b r 
+ 	 Moving to L	 	
+r r b b r 
+y r w w y 
+r e b b r 
+ 	 Moving to G	 	
+r r b b r 
+y e w w y 
+r r b b r 
+ 20- Original Config : 
+
+w r y y r 
+b b b r r 
+w b e r r 
+
+ 	 Moving to N	 	
+w r y y r 
+b b b r r 
+w b r e r 
+ 	 Moving to I	 	
+w r y y r 
+b b b e r 
+w b r r r 
+ 	 Moving to H	 	
+w r y y r 
+b b e b r 
+w b r r r 
+ 	 Moving to G	 	
+w r y y r 
+b e b b r 
+w b r r r 
+ 	 Moving to L	 	
+w r y y r 
+b b b b r 
+w e r r r 
+ 	 Moving to M	 	
+w r y y r 
+b b b b r 
+w r e r r 
+ 	 Moving to N	 	
+w r y y r 
+b b b b r 
+w r r e r 
+ 	 Moving to O	 	
+w r y y r 
+b b b b r 
+w r r r e 
+ 	 Moving to J	 	
+w r y y r 
+b b b b e 
+w r r r r 
+ 	 Moving to I	 	
+w r y y r 
+b b b e b 
+w r r r r 
+ 	 Moving to D	 	
+w r y e r 
+b b b y b 
+w r r r r 
+ 	 Moving to E	 	
+w r y r e 
+b b b y b 
+w r r r r 
+ 	 Moving to J	 	
+w r y r b 
+b b b y e 
+w r r r r 
+ 	 Moving to I	 	
+w r y r b 
+b b b e y 
+w r r r r 
+ 	 Moving to H	 	
+w r y r b 
+b b e b y 
+w r r r r 
+ 	 Moving to C	 	
+w r e r b 
+b b y b y 
+w r r r r 
+ 	 Moving to D	 	
+w r r e b 
+b b y b y 
+w r r r r 
+ 	 Moving to I	 	
+w r r b b 
+b b y e y 
+w r r r r 
+ 	 Moving to J	 	
+w r r b b 
+b b y y e 
+w r r r r 
+ 	 Moving to E	 	
+w r r b e 
+b b y y b 
+w r r r r 
+ 	 Moving to D	 	
+w r r e b 
+b b y y b 
+w r r r r 
+ 	 Moving to I	 	
+w r r y b 
+b b y e b 
+w r r r r 
+ 	 Moving to J	 	
+w r r y b 
+b b y b e 
+w r r r r 
+ 	 Moving to O	 	
+w r r y b 
+b b y b r 
+w r r r e 
+ 	 Moving to N	 	
+w r r y b 
+b b y b r 
+w r r e r 
+ 	 Moving to I	 	
+w r r y b 
+b b y e r 
+w r r b r 
+ 	 Moving to D	 	
+w r r e b 
+b b y y r 
+w r r b r 
+ 	 Moving to E	 	
+w r r b e 
+b b y y r 
+w r r b r 
+ 	 Moving to J	 	
+w r r b r 
+b b y y e 
+w r r b r 
+ 21- Original Config : 
+
+b w r y b 
+r r r y r 
+b w r b e 
+
+ 	 Moving to J	 	
+b w r y b 
+r r r y e 
+b w r b r 
+ 	 Moving to I	 	
+b w r y b 
+r r r e y 
+b w r b r 
+ 	 Moving to D	 	
+b w r e b 
+r r r y y 
+b w r b r 
+ 	 Moving to C	 	
+b w e r b 
+r r r y y 
+b w r b r 
+ 	 Moving to H	 	
+b w r r b 
+r r e y y 
+b w r b r 
+ 	 Moving to I	 	
+b w r r b 
+r r y e y 
+b w r b r 
+ 	 Moving to D	 	
+b w r e b 
+r r y r y 
+b w r b r 
+ 	 Moving to C	 	
+b w e r b 
+r r y r y 
+b w r b r 
+ 	 Moving to B	 	
+b e w r b 
+r r y r y 
+b w r b r 
+ 	 Moving to A	 	
+e b w r b 
+r r y r y 
+b w r b r 
+ 	 Moving to F	 	
+r b w r b 
+e r y r y 
+b w r b r 
+ 	 Moving to G	 	
+r b w r b 
+r e y r y 
+b w r b r 
+ 	 Moving to H	 	
+r b w r b 
+r y e r y 
+b w r b r 
+ 	 Moving to I	 	
+r b w r b 
+r y r e y 
+b w r b r 
+ 	 Moving to J	 	
+r b w r b 
+r y r y e 
+b w r b r 
+ 	 Moving to O	 	
+r b w r b 
+r y r y r 
+b w r b e 
+ 	 Moving to N	 	
+r b w r b 
+r y r y r 
+b w r e b 
+ 	 Moving to M	 	
+r b w r b 
+r y r y r 
+b w e r b 
+ 	 Moving to L	 	
+r b w r b 
+r y r y r 
+b e w r b 
+ 	 Moving to K	 	
+r b w r b 
+r y r y r 
+e b w r b 
+ 	 Moving to F	 	
+r b w r b 
+e y r y r 
+r b w r b 
+ 22- Original Config : 
+
+w b y r y 
+r b b w r 
+r r r b e 
+
+ 	 Moving to N	 	
+w b y r y 
+r b b w r 
+r r r e b 
+ 	 Moving to I	 	
+w b y r y 
+r b b e r 
+r r r w b 
+ 	 Moving to H	 	
+w b y r y 
+r b e b r 
+r r r w b 
+ 	 Moving to C	 	
+w b e r y 
+r b y b r 
+r r r w b 
+ 	 Moving to B	 	
+w e b r y 
+r b y b r 
+r r r w b 
+ 	 Moving to A	 	
+e w b r y 
+r b y b r 
+r r r w b 
+ 	 Moving to F	 	
+r w b r y 
+e b y b r 
+r r r w b 
+ 	 Moving to G	 	
+r w b r y 
+b e y b r 
+r r r w b 
+ 	 Moving to B	 	
+r e b r y 
+b w y b r 
+r r r w b 
+ 	 Moving to C	 	
+r b e r y 
+b w y b r 
+r r r w b 
+ 	 Moving to D	 	
+r b r e y 
+b w y b r 
+r r r w b 
+ 	 Moving to E	 	
+r b r y e 
+b w y b r 
+r r r w b 
+ 	 Moving to J	 	
+r b r y r 
+b w y b e 
+r r r w b 
+ 	 Moving to I	 	
+r b r y r 
+b w y e b 
+r r r w b 
+ 	 Moving to H	 	
+r b r y r 
+b w e y b 
+r r r w b 
+ 	 Moving to G	 	
+r b r y r 
+b e w y b 
+r r r w b 
+ 	 Moving to B	 	
+r e r y r 
+b b w y b 
+r r r w b 
+ 	 Moving to C	 	
+r r e y r 
+b b w y b 
+r r r w b 
+ 	 Moving to D	 	
+r r y e r 
+b b w y b 
+r r r w b 
+ 	 Moving to E	 	
+r r y r e 
+b b w y b 
+r r r w b 
+ 	 Moving to J	 	
+r r y r b 
+b b w y e 
+r r r w b 
+ 	 Moving to I	 	
+r r y r b 
+b b w e y 
+r r r w b 
+ 	 Moving to H	 	
+r r y r b 
+b b e w y 
+r r r w b 
+ 	 Moving to C	 	
+r r e r b 
+b b y w y 
+r r r w b 
+ 	 Moving to D	 	
+r r r e b 
+b b y w y 
+r r r w b 
+ 	 Moving to I	 	
+r r r w b 
+b b y e y 
+r r r w b 
+ 23- Original Config : 
+
+y r r b r 
+b e b y b 
+r w r w r 
+
+ 	 Moving to H	 	
+y r r b r 
+b b e y b 
+r w r w r 
+ 	 Moving to M	 	
+y r r b r 
+b b r y b 
+r w e w r 
+ 	 Moving to L	 	
+y r r b r 
+b b r y b 
+r e w w r 
+ 	 Moving to G	 	
+y r r b r 
+b e r y b 
+r b w w r 
+ 	 Moving to H	 	
+y r r b r 
+b r e y b 
+r b w w r 
+ 	 Moving to I	 	
+y r r b r 
+b r y e b 
+r b w w r 
+ 	 Moving to N	 	
+y r r b r 
+b r y w b 
+r b w e r 
+ 	 Moving to M	 	
+y r r b r 
+b r y w b 
+r b e w r 
+ 	 Moving to L	 	
+y r r b r 
+b r y w b 
+r e b w r 
+ 	 Moving to G	 	
+y r r b r 
+b e y w b 
+r r b w r 
+ 	 Moving to H	 	
+y r r b r 
+b y e w b 
+r r b w r 
+ 	 Moving to I	 	
+y r r b r 
+b y w e b 
+r r b w r 
+ 	 Moving to N	 	
+y r r b r 
+b y w w b 
+r r b e r 
+ 	 Moving to M	 	
+y r r b r 
+b y w w b 
+r r e b r 
+ 	 Moving to H	 	
+y r r b r 
+b y e w b 
+r r w b r 
+ 	 Moving to G	 	
+y r r b r 
+b e y w b 
+r r w b r 
+ 	 Moving to F	 	
+y r r b r 
+e b y w b 
+r r w b r 
+ 	 Moving to K	 	
+y r r b r 
+r b y w b 
+e r w b r 
+ 	 Moving to L	 	
+y r r b r 
+r b y w b 
+r e w b r 
+ 	 Moving to G	 	
+y r r b r 
+r e y w b 
+r b w b r 
+ 	 Moving to H	 	
+y r r b r 
+r y e w b 
+r b w b r 
+ 	 Moving to M	 	
+y r r b r 
+r y w w b 
+r b e b r 
+ 	 Moving to L	 	
+y r r b r 
+r y w w b 
+r e b b r 
+ 	 Moving to K	 	
+y r r b r 
+r y w w b 
+e r b b r 
+ 	 Moving to F	 	
+y r r b r 
+e y w w b 
+r r b b r 
+ 	 Moving to G	 	
+y r r b r 
+y e w w b 
+r r b b r 
+ 	 Moving to H	 	
+y r r b r 
+y w e w b 
+r r b b r 
+ 	 Moving to M	 	
+y r r b r 
+y w b w b 
+r r e b r 
+ 	 Moving to L	 	
+y r r b r 
+y w b w b 
+r e r b r 
+ 	 Moving to K	 	
+y r r b r 
+y w b w b 
+e r r b r 
+ 	 Moving to F	 	
+y r r b r 
+e w b w b 
+y r r b r 
+ 24- Original Config : 
+
+r b r r w 
+r r y b e 
+b b y w r 
+
+ 	 Moving to O	 	
+r b r r w 
+r r y b r 
+b b y w e 
+ 	 Moving to N	 	
+r b r r w 
+r r y b r 
+b b y e w 
+ 	 Moving to I	 	
+r b r r w 
+r r y e r 
+b b y b w 
+ 	 Moving to H	 	
+r b r r w 
+r r e y r 
+b b y b w 
+ 	 Moving to C	 	
+r b e r w 
+r r r y r 
+b b y b w 
+ 	 Moving to D	 	
+r b r e w 
+r r r y r 
+b b y b w 
+ 	 Moving to I	 	
+r b r y w 
+r r r e r 
+b b y b w 
+ 	 Moving to H	 	
+r b r y w 
+r r e r r 
+b b y b w 
+ 	 Moving to G	 	
+r b r y w 
+r e r r r 
+b b y b w 
+ 	 Moving to L	 	
+r b r y w 
+r b r r r 
+b e y b w 
+ 	 Moving to K	 	
+r b r y w 
+r b r r r 
+e b y b w 
+ 	 Moving to F	 	
+r b r y w 
+e b r r r 
+r b y b w 
+ 	 Moving to G	 	
+r b r y w 
+b e r r r 
+r b y b w 
+ 	 Moving to H	 	
+r b r y w 
+b r e r r 
+r b y b w 
+ 	 Moving to I	 	
+r b r y w 
+b r r e r 
+r b y b w 
+ 	 Moving to N	 	
+r b r y w 
+b r r b r 
+r b y e w 
+ 	 Moving to M	 	
+r b r y w 
+b r r b r 
+r b e y w 
+ 	 Moving to H	 	
+r b r y w 
+b r e b r 
+r b r y w 
+ 25- Original Config : 
+
+w r r r e 
+y r y r w 
+r b b b b 
+
+ 	 Moving to D	 	
+w r r e r 
+y r y r w 
+r b b b b 
+ 	 Moving to I	 	
+w r r r r 
+y r y e w 
+r b b b b 
+ 	 Moving to J	 	
+w r r r r 
+y r y w e 
+r b b b b 
+ 	 Moving to O	 	
+w r r r r 
+y r y w b 
+r b b b e 
+ 	 Moving to N	 	
+w r r r r 
+y r y w b 
+r b b e b 
+ 	 Moving to M	 	
+w r r r r 
+y r y w b 
+r b e b b 
+ 	 Moving to L	 	
+w r r r r 
+y r y w b 
+r e b b b 
+ 	 Moving to G	 	
+w r r r r 
+y e y w b 
+r r b b b 
+ 	 Moving to F	 	
+w r r r r 
+e y y w b 
+r r b b b 
+ 	 Moving to A	 	
+e r r r r 
+w y y w b 
+r r b b b 
+ 	 Moving to B	 	
+r e r r r 
+w y y w b 
+r r b b b 
+ 	 Moving to C	 	
+r r e r r 
+w y y w b 
+r r b b b 
+ 	 Moving to D	 	
+r r r e r 
+w y y w b 
+r r b b b 
+ 	 Moving to E	 	
+r r r r e 
+w y y w b 
+r r b b b 
+ 	 Moving to J	 	
+r r r r b 
+w y y w e 
+r r b b b 
+ 	 Moving to I	 	
+r r r r b 
+w y y e w 
+r r b b b 
+ 	 Moving to D	 	
+r r r e b 
+w y y r w 
+r r b b b 
+ 	 Moving to E	 	
+r r r b e 
+w y y r w 
+r r b b b 
+ 	 Moving to J	 	
+r r r b w 
+w y y r e 
+r r b b b 
+ 	 Moving to I	 	
+r r r b w 
+w y y e r 
+r r b b b 
+ 	 Moving to H	 	
+r r r b w 
+w y e y r 
+r r b b b 
+ 	 Moving to C	 	
+r r e b w 
+w y r y r 
+r r b b b 
+ 	 Moving to D	 	
+r r b e w 
+w y r y r 
+r r b b b 
+ 	 Moving to I	 	
+r r b y w 
+w y r e r 
+r r b b b 
+ 	 Moving to J	 	
+r r b y w 
+w y r r e 
+r r b b b 
+ 	 Moving to E	 	
+r r b y e 
+w y r r w 
+r r b b b 
+ 	 Moving to D	 	
+r r b e y 
+w y r r w 
+r r b b b 
+ 	 Moving to I	 	
+r r b r y 
+w y r e w 
+r r b b b 
+ 	 Moving to J	 	
+r r b r y 
+w y r w e 
+r r b b b 
+ 	 Moving to E	 	
+r r b r e 
+w y r w y 
+r r b b b 
+ 	 Moving to D	 	
+r r b e r 
+w y r w y 
+r r b b b 
+ 	 Moving to C	 	
+r r e b r 
+w y r w y 
+r r b b b 
+ 	 Moving to H	 	
+r r r b r 
+w y e w y 
+r r b b b 
+ 	 Moving to I	 	
+r r r b r 
+w y w e y 
+r r b b b 
+ 	 Moving to J	 	
+r r r b r 
+w y w y e 
+r r b b b 
+ 	 Moving to E	 	
+r r r b e 
+w y w y r 
+r r b b b 
+ 	 Moving to D	 	
+r r r e b 
+w y w y r 
+r r b b b 
+ 	 Moving to C	 	
+r r e r b 
+w y w y r 
+r r b b b 
+ 	 Moving to H	 	
+r r w r b 
+w y e y r 
+r r b b b 
+ 	 Moving to I	 	
+r r w r b 
+w y y e r 
+r r b b b 
+ 	 Moving to D	 	
+r r w e b 
+w y y r r 
+r r b b b 
+ 	 Moving to E	 	
+r r w b e 
+w y y r r 
+r r b b b 
+ 	 Moving to J	 	
+r r w b r 
+w y y r e 
+r r b b b 
+ 	 Moving to I	 	
+r r w b r 
+w y y e r 
+r r b b b 
+ 	 Moving to H	 	
+r r w b r 
+w y e y r 
+r r b b b 
+ 	 Moving to C	 	
+r r e b r 
+w y w y r 
+r r b b b 
+ 	 Moving to D	 	
+r r b e r 
+w y w y r 
+r r b b b 
+ 	 Moving to E	 	
+r r b r e 
+w y w y r 
+r r b b b 
+ 	 Moving to J	 	
+r r b r r 
+w y w y e 
+r r b b b 
+ 	 Moving to I	 	
+r r b r r 
+w y w e y 
+r r b b b 
+ 	 Moving to D	 	
+r r b e r 
+w y w r y 
+r r b b b 
+ 	 Moving to C	 	
+r r e b r 
+w y w r y 
+r r b b b 
+ 	 Moving to H	 	
+r r w b r 
+w y e r y 
+r r b b b 
+ 	 Moving to I	 	
+r r w b r 
+w y r e y 
+r r b b b 
+ 	 Moving to J	 	
+r r w b r 
+w y r y e 
+r r b b b 
+ 	 Moving to E	 	
+r r w b e 
+w y r y r 
+r r b b b 
+ 	 Moving to D	 	
+r r w e b 
+w y r y r 
+r r b b b 
+ 	 Moving to C	 	
+r r e w b 
+w y r y r 
+r r b b b 
+ 	 Moving to H	 	
+r r r w b 
+w y e y r 
+r r b b b 
+ 	 Moving to I	 	
+r r r w b 
+w y y e r 
+r r b b b 
+ 	 Moving to D	 	
+r r r e b 
+w y y w r 
+r r b b b 
+ 	 Moving to E	 	
+r r r b e 
+w y y w r 
+r r b b b 
+ 	 Moving to J	 	
+r r r b r 
+w y y w e 
+r r b b b 
+ 	 Moving to I	 	
+r r r b r 
+w y y e w 
+r r b b b 
+ 	 Moving to H	 	
+r r r b r 
+w y e y w 
+r r b b b 
+ 	 Moving to G	 	
+r r r b r 
+w e y y w 
+r r b b b 
+ 	 Moving to B	 	
+r e r b r 
+w r y y w 
+r r b b b 
+ 	 Moving to C	 	
+r r e b r 
+w r y y w 
+r r b b b 
+ 	 Moving to D	 	
+r r b e r 
+w r y y w 
+r r b b b 
+ 	 Moving to I	 	
+r r b y r 
+w r y e w 
+r r b b b 
+ 	 Moving to J	 	
+r r b y r 
+w r y w e 
+r r b b b 
+ 	 Moving to E	 	
+r r b y e 
+w r y w r 
+r r b b b 
+ 	 Moving to D	 	
+r r b e y 
+w r y w r 
+r r b b b 
+ 	 Moving to C	 	
+r r e b y 
+w r y w r 
+r r b b b 
+ 	 Moving to H	 	
+r r y b y 
+w r e w r 
+r r b b b 
+ 	 Moving to I	 	
+r r y b y 
+w r w e r 
+r r b b b 
+ 	 Moving to J	 	
+r r y b y 
+w r w r e 
+r r b b b 
+ 	 Moving to E	 	
+r r y b e 
+w r w r y 
+r r b b b 
+ 	 Moving to D	 	
+r r y e b 
+w r w r y 
+r r b b b 
+ 	 Moving to I	 	
+r r y r b 
+w r w e y 
+r r b b b 
+ 	 Moving to H	 	
+r r y r b 
+w r e w y 
+r r b b b 
+ 	 Moving to C	 	
+r r e r b 
+w r y w y 
+r r b b b 
+ 	 Moving to D	 	
+r r r e b 
+w r y w y 
+r r b b b 
+ 	 Moving to I	 	
+r r r w b 
+w r y e y 
+r r b b b 
+ 	 Moving to H	 	
+r r r w b 
+w r e y y 
+r r b b b 
+ 	 Moving to C	 	
+r r e w b 
+w r r y y 
+r r b b b 
+ 	 Moving to D	 	
+r r w e b 
+w r r y y 
+r r b b b 
+ 	 Moving to E	 	
+r r w b e 
+w r r y y 
+r r b b b 
+ 	 Moving to J	 	
+r r w b y 
+w r r y e 
+r r b b b 
+ 	 Moving to I	 	
+r r w b y 
+w r r e y 
+r r b b b 
+ 	 Moving to H	 	
+r r w b y 
+w r e r y 
+r r b b b 
+ 	 Moving to C	 	
+r r e b y 
+w r w r y 
+r r b b b 
+ 	 Moving to B	 	
+r e r b y 
+w r w r y 
+r r b b b 
+ 	 Moving to G	 	
+r r r b y 
+w e w r y 
+r r b b b 
+ 	 Moving to F	 	
+r r r b y 
+e w w r y 
+r r b b b 
+ 	 Moving to A	 	
+e r r b y 
+r w w r y 
+r r b b b 
+ 	 Moving to B	 	
+r e r b y 
+r w w r y 
+r r b b b 
+ 	 Moving to C	 	
+r r e b y 
+r w w r y 
+r r b b b 
+ 	 Moving to H	 	
+r r w b y 
+r w e r y 
+r r b b b 
+ 	 Moving to I	 	
+r r w b y 
+r w r e y 
+r r b b b 
+ 	 Moving to J	 	
+r r w b y 
+r w r y e 
+r r b b b 
+ 	 Moving to E	 	
+r r w b e 
+r w r y y 
+r r b b b 
+ 	 Moving to D	 	
+r r w e b 
+r w r y y 
+r r b b b 
+ 	 Moving to C	 	
+r r e w b 
+r w r y y 
+r r b b b 
+ 	 Moving to H	 	
+r r r w b 
+r w e y y 
+r r b b b 
+ 	 Moving to I	 	
+r r r w b 
+r w y e y 
+r r b b b 
+ 	 Moving to D	 	
+r r r e b 
+r w y w y 
+r r b b b 
+ 	 Moving to E	 	
+r r r b e 
+r w y w y 
+r r b b b 
+ 	 Moving to J	 	
+r r r b y 
+r w y w e 
+r r b b b 
+ 	 Moving to I	 	
+r r r b y 
+r w y e w 
+r r b b b 
+ 	 Moving to H	 	
+r r r b y 
+r w e y w 
+r r b b b 
+ 	 Moving to G	 	
+r r r b y 
+r e w y w 
+r r b b b 
+ 	 Moving to B	 	
+r e r b y 
+r r w y w 
+r r b b b 
+ 	 Moving to C	 	
+r r e b y 
+r r w y w 
+r r b b b 
+ 	 Moving to H	 	
+r r w b y 
+r r e y w 
+r r b b b 
+ 	 Moving to I	 	
+r r w b y 
+r r y e w 
+r r b b b 
+ 	 Moving to J	 	
+r r w b y 
+r r y w e 
+r r b b b 
+ 	 Moving to E	 	
+r r w b e 
+r r y w y 
+r r b b b 
+ 	 Moving to D	 	
+r r w e b 
+r r y w y 
+r r b b b 
+ 	 Moving to C	 	
+r r e w b 
+r r y w y 
+r r b b b 
+ 	 Moving to H	 	
+r r y w b 
+r r e w y 
+r r b b b 
+ 	 Moving to I	 	
+r r y w b 
+r r w e y 
+r r b b b 
+ 	 Moving to D	 	
+r r y e b 
+r r w w y 
+r r b b b 
+ 	 Moving to E	 	
+r r y b e 
+r r w w y 
+r r b b b 
+ 	 Moving to J	 	
+r r y b y 
+r r w w e 
+r r b b b 
+ 	 Moving to I	 	
+r r y b y 
+r r w e w 
+r r b b b 
+ 	 Moving to H	 	
+r r y b y 
+r r e w w 
+r r b b b 
+ 	 Moving to C	 	
+r r e b y 
+r r y w w 
+r r b b b 
+ 	 Moving to B	 	
+r e r b y 
+r r y w w 
+r r b b b 
+ 	 Moving to G	 	
+r r r b y 
+r e y w w 
+r r b b b 
+ 	 Moving to H	 	
+r r r b y 
+r y e w w 
+r r b b b 
+ 	 Moving to C	 	
+r r e b y 
+r y r w w 
+r r b b b 
+ 	 Moving to B	 	
+r e r b y 
+r y r w w 
+r r b b b 
+ 	 Moving to A	 	
+e r r b y 
+r y r w w 
+r r b b b 
+ 	 Moving to F	 	
+r r r b y 
+e y r w w 
+r r b b b 
+ 	 Moving to G	 	
+r r r b y 
+y e r w w 
+r r b b b 
+ 	 Moving to H	 	
+r r r b y 
+y r e w w 
+r r b b b 
+ 	 Moving to C	 	
+r r e b y 
+y r r w w 
+r r b b b 
+ 	 Moving to D	 	
+r r b e y 
+y r r w w 
+r r b b b 
+ 	 Moving to E	 	
+r r b y e 
+y r r w w 
+r r b b b 
+ 	 Moving to J	 	
+r r b y w 
+y r r w e 
+r r b b b 
+ 	 Moving to I	 	
+r r b y w 
+y r r e w 
+r r b b b 
+ 	 Moving to D	 	
+r r b e w 
+y r r y w 
+r r b b b 
+ 	 Moving to C	 	
+r r e b w 
+y r r y w 
+r r b b b 
+ 	 Moving to H	 	
+r r r b w 
+y r e y w 
+r r b b b 
+ 	 Moving to I	 	
+r r r b w 
+y r y e w 
+r r b b b 
+ 	 Moving to J	 	
+r r r b w 
+y r y w e 
+r r b b b 
+ 	 Moving to E	 	
+r r r b e 
+y r y w w 
+r r b b b 
+ 	 Moving to D	 	
+r r r e b 
+y r y w w 
+r r b b b 
+ 	 Moving to I	 	
+r r r w b 
+y r y e w 
+r r b b b 
+ 	 Moving to H	 	
+r r r w b 
+y r e y w 
+r r b b b 
+ 	 Moving to C	 	
+r r e w b 
+y r r y w 
+r r b b b 
+ 	 Moving to D	 	
+r r w e b 
+y r r y w 
+r r b b b 
+ 	 Moving to E	 	
+r r w b e 
+y r r y w 
+r r b b b 
+ 	 Moving to J	 	
+r r w b w 
+y r r y e 
+r r b b b 
+ 	 Moving to I	 	
+r r w b w 
+y r r e y 
+r r b b b 
+ 	 Moving to H	 	
+r r w b w 
+y r e r y 
+r r b b b 
+ 	 Moving to C	 	
+r r e b w 
+y r w r y 
+r r b b b 
+ 	 Moving to B	 	
+r e r b w 
+y r w r y 
+r r b b b 
+ 	 Moving to G	 	
+r r r b w 
+y e w r y 
+r r b b b 
+ 	 Moving to H	 	
+r r r b w 
+y w e r y 
+r r b b b 
+ 	 Moving to I	 	
+r r r b w 
+y w r e y 
+r r b b b 
+ 	 Moving to J	 	
+r r r b w 
+y w r y e 
+r r b b b 
+ 	 Moving to E	 	
+r r r b e 
+y w r y w 
+r r b b b 
+ 	 Moving to D	 	
+r r r e b 
+y w r y w 
+r r b b b 
+ 	 Moving to C	 	
+r r e r b 
+y w r y w 
+r r b b b 
+ 	 Moving to H	 	
+r r r r b 
+y w e y w 
+r r b b b 
+ 	 Moving to M	 	
+r r r r b 
+y w b y w 
+r r e b b 
+ 	 Moving to L	 	
+r r r r b 
+y w b y w 
+r e r b b 
+ 	 Moving to K	 	
+r r r r b 
+y w b y w 
+e r r b b 
+ 	 Moving to F	 	
+r r r r b 
+e w b y w 
+y r r b b 
+ 	 Moving to G	 	
+r r r r b 
+w e b y w 
+y r r b b 
+ 	 Moving to H	 	
+r r r r b 
+w b e y w 
+y r r b b 
+ 	 Moving to I	 	
+r r r r b 
+w b y e w 
+y r r b b 
+ 	 Moving to N	 	
+r r r r b 
+w b y b w 
+y r r e b 
+ 	 Moving to M	 	
+r r r r b 
+w b y b w 
+y r e r b 
+ 	 Moving to H	 	
+r r r r b 
+w b e b w 
+y r y r b 
+ 	 Moving to G	 	
+r r r r b 
+w e b b w 
+y r y r b 
+ 	 Moving to F	 	
+r r r r b 
+e w b b w 
+y r y r b 
+ 	 Moving to K	 	
+r r r r b 
+y w b b w 
+e r y r b 
+ 	 Moving to L	 	
+r r r r b 
+y w b b w 
+r e y r b 
+ 	 Moving to G	 	
+r r r r b 
+y e b b w 
+r w y r b 
+ 	 Moving to H	 	
+r r r r b 
+y b e b w 
+r w y r b 
+ 	 Moving to M	 	
+r r r r b 
+y b y b w 
+r w e r b 
+ 	 Moving to L	 	
+r r r r b 
+y b y b w 
+r e w r b 
+ 	 Moving to K	 	
+r r r r b 
+y b y b w 
+e r w r b 
+ 	 Moving to F	 	
+r r r r b 
+e b y b w 
+y r w r b 
+ 	 Moving to G	 	
+r r r r b 
+b e y b w 
+y r w r b 
+ 	 Moving to H	 	
+r r r r b 
+b y e b w 
+y r w r b 
+ 	 Moving to M	 	
+r r r r b 
+b y w b w 
+y r e r b 
+ 	 Moving to L	 	
+r r r r b 
+b y w b w 
+y e r r b 
+ 	 Moving to G	 	
+r r r r b 
+b e w b w 
+y y r r b 
+ 	 Moving to F	 	
+r r r r b 
+e b w b w 
+y y r r b 
+ 	 Moving to K	 	
+r r r r b 
+y b w b w 
+e y r r b 
+ 	 Moving to L	 	
+r r r r b 
+y b w b w 
+y e r r b 
+ 	 Moving to M	 	
+r r r r b 
+y b w b w 
+y r e r b 
+ 	 Moving to N	 	
+r r r r b 
+y b w b w 
+y r r e b 
+ 	 Moving to O	 	
+r r r r b 
+y b w b w 
+y r r b e 
+ 	 Moving to J	 	
+r r r r b 
+y b w b e 
+y r r b w 
+ 	 Moving to I	 	
+r r r r b 
+y b w e b 
+y r r b w 
+ 	 Moving to H	 	
+r r r r b 
+y b e w b 
+y r r b w 
+ 	 Moving to G	 	
+r r r r b 
+y e b w b 
+y r r b w 
+ 	 Moving to F	 	
+r r r r b 
+e y b w b 
+y r r b w 
+ 	 Moving to K	 	
+r r r r b 
+y y b w b 
+e r r b w 
+ 	 Moving to L	 	
+r r r r b 
+y y b w b 
+r e r b w 
+ 	 Moving to M	 	
+r r r r b 
+y y b w b 
+r r e b w 
+ 	 Moving to H	 	
+r r r r b 
+y y e w b 
+r r b b w 
+ 	 Moving to C	 	
+r r e r b 
+y y r w b 
+r r b b w 
+ 	 Moving to D	 	
+r r r e b 
+y y r w b 
+r r b b w 
+ 	 Moving to E	 	
+r r r b e 
+y y r w b 
+r r b b w 
+ 	 Moving to J	 	
+r r r b b 
+y y r w e 
+r r b b w 
+ 	 Moving to I	 	
+r r r b b 
+y y r e w 
+r r b b w 
+ 	 Moving to H	 	
+r r r b b 
+y y e r w 
+r r b b w 
+ 	 Moving to C	 	
+r r e b b 
+y y r r w 
+r r b b w 
+ 	 Moving to D	 	
+r r b e b 
+y y r r w 
+r r b b w 
+ 	 Moving to E	 	
+r r b b e 
+y y r r w 
+r r b b w 
+ 	 Moving to J	 	
+r r b b w 
+y y r r e 
+r r b b w 
+ 26- Original Config : 
+
+e w r w b 
+r r b r r 
+y r y b b 
+
+ 	 Moving to F	 	
+r w r w b 
+e r b r r 
+y r y b b 
+ 	 Moving to G	 	
+r w r w b 
+r e b r r 
+y r y b b 
+ 	 Moving to H	 	
+r w r w b 
+r b e r r 
+y r y b b 
+ 	 Moving to I	 	
+r w r w b 
+r b r e r 
+y r y b b 
+ 	 Moving to D	 	
+r w r e b 
+r b r w r 
+y r y b b 
+ 	 Moving to C	 	
+r w e r b 
+r b r w r 
+y r y b b 
+ 	 Moving to H	 	
+r w r r b 
+r b e w r 
+y r y b b 
+ 	 Moving to I	 	
+r w r r b 
+r b w e r 
+y r y b b 
+ 	 Moving to J	 	
+r w r r b 
+r b w r e 
+y r y b b 
+ 	 Moving to O	 	
+r w r r b 
+r b w r b 
+y r y b e 
+ 	 Moving to N	 	
+r w r r b 
+r b w r b 
+y r y e b 
+ 	 Moving to M	 	
+r w r r b 
+r b w r b 
+y r e y b 
+ 	 Moving to L	 	
+r w r r b 
+r b w r b 
+y e r y b 
+ 	 Moving to K	 	
+r w r r b 
+r b w r b 
+e y r y b 
+ 	 Moving to F	 	
+r w r r b 
+e b w r b 
+r y r y b 
+ 	 Moving to G	 	
+r w r r b 
+b e w r b 
+r y r y b 
+ 	 Moving to H	 	
+r w r r b 
+b w e r b 
+r y r y b 
+ 	 Moving to I	 	
+r w r r b 
+b w r e b 
+r y r y b 
+ 	 Moving to N	 	
+r w r r b 
+b w r y b 
+r y r e b 
+ 	 Moving to M	 	
+r w r r b 
+b w r y b 
+r y e r b 
+ 	 Moving to L	 	
+r w r r b 
+b w r y b 
+r e y r b 
+ 	 Moving to K	 	
+r w r r b 
+b w r y b 
+e r y r b 
+ 	 Moving to F	 	
+r w r r b 
+e w r y b 
+b r y r b 
+ 	 Moving to G	 	
+r w r r b 
+w e r y b 
+b r y r b 
+ 	 Moving to H	 	
+r w r r b 
+w r e y b 
+b r y r b 
+ 	 Moving to M	 	
+r w r r b 
+w r y y b 
+b r e r b 
+ 	 Moving to L	 	
+r w r r b 
+w r y y b 
+b e r r b 
+ 	 Moving to K	 	
+r w r r b 
+w r y y b 
+e b r r b 
+ 	 Moving to F	 	
+r w r r b 
+e r y y b 
+w b r r b 
+ 	 Moving to G	 	
+r w r r b 
+r e y y b 
+w b r r b 
+ 	 Moving to L	 	
+r w r r b 
+r b y y b 
+w e r r b 
+ 	 Moving to K	 	
+r w r r b 
+r b y y b 
+e w r r b 
+ 	 Moving to F	 	
+r w r r b 
+e b y y b 
+r w r r b 
+ 27- Original Config : 
+
+w b r r r 
+b r w b r 
+b y r y e 
+
+ 	 Moving to J	 	
+w b r r r 
+b r w b e 
+b y r y r 
+ 	 Moving to E	 	
+w b r r e 
+b r w b r 
+b y r y r 
+ 	 Moving to D	 	
+w b r e r 
+b r w b r 
+b y r y r 
+ 	 Moving to C	 	
+w b e r r 
+b r w b r 
+b y r y r 
+ 	 Moving to B	 	
+w e b r r 
+b r w b r 
+b y r y r 
+ 	 Moving to A	 	
+e w b r r 
+b r w b r 
+b y r y r 
+ 	 Moving to F	 	
+b w b r r 
+e r w b r 
+b y r y r 
+ 	 Moving to G	 	
+b w b r r 
+r e w b r 
+b y r y r 
+ 	 Moving to H	 	
+b w b r r 
+r w e b r 
+b y r y r 
+ 	 Moving to I	 	
+b w b r r 
+r w b e r 
+b y r y r 
+ 	 Moving to N	 	
+b w b r r 
+r w b y r 
+b y r e r 
+ 	 Moving to M	 	
+b w b r r 
+r w b y r 
+b y e r r 
+ 	 Moving to L	 	
+b w b r r 
+r w b y r 
+b e y r r 
+ 	 Moving to K	 	
+b w b r r 
+r w b y r 
+e b y r r 
+ 	 Moving to F	 	
+b w b r r 
+e w b y r 
+r b y r r 
+ 	 Moving to G	 	
+b w b r r 
+w e b y r 
+r b y r r 
+ 	 Moving to H	 	
+b w b r r 
+w b e y r 
+r b y r r 
+ 	 Moving to M	 	
+b w b r r 
+w b y y r 
+r b e r r 
+ 	 Moving to L	 	
+b w b r r 
+w b y y r 
+r e b r r 
+ 	 Moving to K	 	
+b w b r r 
+w b y y r 
+e r b r r 
+ 	 Moving to F	 	
+b w b r r 
+e b y y r 
+w r b r r 
+ 	 Moving to G	 	
+b w b r r 
+b e y y r 
+w r b r r 
+ 	 Moving to L	 	
+b w b r r 
+b r y y r 
+w e b r r 
+ 	 Moving to K	 	
+b w b r r 
+b r y y r 
+e w b r r 
+ 	 Moving to F	 	
+b w b r r 
+e r y y r 
+b w b r r 
+ 28- Original Config : 
+
+r e r b r 
+b b y w b 
+y w r r r 
+
+ 	 Moving to C	 	
+r r e b r 
+b b y w b 
+y w r r r 
+ 	 Moving to H	 	
+r r y b r 
+b b e w b 
+y w r r r 
+ 	 Moving to M	 	
+r r y b r 
+b b r w b 
+y w e r r 
+ 	 Moving to L	 	
+r r y b r 
+b b r w b 
+y e w r r 
+ 	 Moving to G	 	
+r r y b r 
+b e r w b 
+y b w r r 
+ 	 Moving to H	 	
+r r y b r 
+b r e w b 
+y b w r r 
+ 	 Moving to M	 	
+r r y b r 
+b r w w b 
+y b e r r 
+ 	 Moving to L	 	
+r r y b r 
+b r w w b 
+y e b r r 
+ 	 Moving to K	 	
+r r y b r 
+b r w w b 
+e y b r r 
+ 	 Moving to F	 	
+r r y b r 
+e r w w b 
+b y b r r 
+ 	 Moving to G	 	
+r r y b r 
+r e w w b 
+b y b r r 
+ 	 Moving to H	 	
+r r y b r 
+r w e w b 
+b y b r r 
+ 	 Moving to I	 	
+r r y b r 
+r w w e b 
+b y b r r 
+ 	 Moving to N	 	
+r r y b r 
+r w w r b 
+b y b e r 
+ 	 Moving to M	 	
+r r y b r 
+r w w r b 
+b y e b r 
+ 	 Moving to L	 	
+r r y b r 
+r w w r b 
+b e y b r 
+ 	 Moving to K	 	
+r r y b r 
+r w w r b 
+e b y b r 
+ 	 Moving to F	 	
+r r y b r 
+e w w r b 
+r b y b r 
+ 	 Moving to G	 	
+r r y b r 
+w e w r b 
+r b y b r 
+ 	 Moving to L	 	
+r r y b r 
+w b w r b 
+r e y b r 
+ 	 Moving to M	 	
+r r y b r 
+w b w r b 
+r y e b r 
+ 	 Moving to N	 	
+r r y b r 
+w b w r b 
+r y b e r 
+ 	 Moving to I	 	
+r r y b r 
+w b w e b 
+r y b r r 
+ 	 Moving to H	 	
+r r y b r 
+w b e w b 
+r y b r r 
+ 	 Moving to G	 	
+r r y b r 
+w e b w b 
+r y b r r 
+ 	 Moving to B	 	
+r e y b r 
+w r b w b 
+r y b r r 
+ 	 Moving to C	 	
+r y e b r 
+w r b w b 
+r y b r r 
+ 	 Moving to H	 	
+r y b b r 
+w r e w b 
+r y b r r 
+ 	 Moving to I	 	
+r y b b r 
+w r w e b 
+r y b r r 
+ 	 Moving to J	 	
+r y b b r 
+w r w b e 
+r y b r r 
+ 	 Moving to E	 	
+r y b b e 
+w r w b r 
+r y b r r 
+ 	 Moving to D	 	
+r y b e b 
+w r w b r 
+r y b r r 
+ 	 Moving to I	 	
+r y b b b 
+w r w e r 
+r y b r r 
+ 	 Moving to N	 	
+r y b b b 
+w r w r r 
+r y b e r 
+ 	 Moving to M	 	
+r y b b b 
+w r w r r 
+r y e b r 
+ 	 Moving to H	 	
+r y b b b 
+w r e r r 
+r y w b r 
+ 	 Moving to I	 	
+r y b b b 
+w r r e r 
+r y w b r 
+ 	 Moving to J	 	
+r y b b b 
+w r r r e 
+r y w b r 
+ 	 Moving to O	 	
+r y b b b 
+w r r r r 
+r y w b e 
+ 	 Moving to N	 	
+r y b b b 
+w r r r r 
+r y w e b 
+ 	 Moving to I	 	
+r y b b b 
+w r r e r 
+r y w r b 
+ 	 Moving to H	 	
+r y b b b 
+w r e r r 
+r y w r b 
+ 	 Moving to M	 	
+r y b b b 
+w r w r r 
+r y e r b 
+ 	 Moving to N	 	
+r y b b b 
+w r w r r 
+r y r e b 
+ 	 Moving to O	 	
+r y b b b 
+w r w r r 
+r y r b e 
+ 	 Moving to J	 	
+r y b b b 
+w r w r e 
+r y r b r 
+ 	 Moving to I	 	
+r y b b b 
+w r w e r 
+r y r b r 
+ 	 Moving to H	 	
+r y b b b 
+w r e w r 
+r y r b r 
+ 	 Moving to M	 	
+r y b b b 
+w r r w r 
+r y e b r 
+ 	 Moving to L	 	
+r y b b b 
+w r r w r 
+r e y b r 
+ 	 Moving to K	 	
+r y b b b 
+w r r w r 
+e r y b r 
+ 	 Moving to F	 	
+r y b b b 
+e r r w r 
+w r y b r 
+ 	 Moving to G	 	
+r y b b b 
+r e r w r 
+w r y b r 
+ 	 Moving to L	 	
+r y b b b 
+r r r w r 
+w e y b r 
+ 	 Moving to K	 	
+r y b b b 
+r r r w r 
+e w y b r 
+ 	 Moving to F	 	
+r y b b b 
+e r r w r 
+r w y b r 
+ 	 Moving to G	 	
+r y b b b 
+r e r w r 
+r w y b r 
+ 	 Moving to L	 	
+r y b b b 
+r w r w r 
+r e y b r 
+ 	 Moving to M	 	
+r y b b b 
+r w r w r 
+r y e b r 
+ 	 Moving to H	 	
+r y b b b 
+r w e w r 
+r y r b r 
+ 	 Moving to I	 	
+r y b b b 
+r w w e r 
+r y r b r 
+ 	 Moving to J	 	
+r y b b b 
+r w w r e 
+r y r b r 
+ 	 Moving to O	 	
+r y b b b 
+r w w r r 
+r y r b e 
+ 	 Moving to N	 	
+r y b b b 
+r w w r r 
+r y r e b 
+ 	 Moving to M	 	
+r y b b b 
+r w w r r 
+r y e r b 
+ 	 Moving to H	 	
+r y b b b 
+r w e r r 
+r y w r b 
+ 	 Moving to I	 	
+r y b b b 
+r w r e r 
+r y w r b 
+ 	 Moving to N	 	
+r y b b b 
+r w r r r 
+r y w e b 
+ 	 Moving to O	 	
+r y b b b 
+r w r r r 
+r y w b e 
+ 	 Moving to J	 	
+r y b b b 
+r w r r e 
+r y w b r 
+ 	 Moving to I	 	
+r y b b b 
+r w r e r 
+r y w b r 
+ 	 Moving to H	 	
+r y b b b 
+r w e r r 
+r y w b r 
+ 	 Moving to G	 	
+r y b b b 
+r e w r r 
+r y w b r 
+ 	 Moving to F	 	
+r y b b b 
+e r w r r 
+r y w b r 
+ 	 Moving to K	 	
+r y b b b 
+r r w r r 
+e y w b r 
+ 	 Moving to L	 	
+r y b b b 
+r r w r r 
+y e w b r 
+ 	 Moving to G	 	
+r y b b b 
+r e w r r 
+y r w b r 
+ 	 Moving to H	 	
+r y b b b 
+r w e r r 
+y r w b r 
+ 	 Moving to M	 	
+r y b b b 
+r w w r r 
+y r e b r 
+ 	 Moving to L	 	
+r y b b b 
+r w w r r 
+y e r b r 
+ 	 Moving to K	 	
+r y b b b 
+r w w r r 
+e y r b r 
+ 	 Moving to F	 	
+r y b b b 
+e w w r r 
+r y r b r 
+ 	 Moving to G	 	
+r y b b b 
+w e w r r 
+r y r b r 
+ 	 Moving to H	 	
+r y b b b 
+w w e r r 
+r y r b r 
+ 	 Moving to M	 	
+r y b b b 
+w w r r r 
+r y e b r 
+ 	 Moving to N	 	
+r y b b b 
+w w r r r 
+r y b e r 
+ 	 Moving to I	 	
+r y b b b 
+w w r e r 
+r y b r r 
+ 	 Moving to D	 	
+r y b e b 
+w w r b r 
+r y b r r 
+ 	 Moving to E	 	
+r y b b e 
+w w r b r 
+r y b r r 
+ 	 Moving to J	 	
+r y b b r 
+w w r b e 
+r y b r r 
+ 	 Moving to I	 	
+r y b b r 
+w w r e b 
+r y b r r 
+ 	 Moving to H	 	
+r y b b r 
+w w e r b 
+r y b r r 
+ 	 Moving to C	 	
+r y e b r 
+w w b r b 
+r y b r r 
+ 	 Moving to D	 	
+r y b e r 
+w w b r b 
+r y b r r 
+ 	 Moving to I	 	
+r y b r r 
+w w b e b 
+r y b r r 
+ 29- Original Config : 
+
+b b r y r 
+e r r w y 
+r b r b w 
+
+ 	 Moving to K	 	
+b b r y r 
+r r r w y 
+e b r b w 
+ 	 Moving to L	 	
+b b r y r 
+r r r w y 
+b e r b w 
+ 	 Moving to G	 	
+b b r y r 
+r e r w y 
+b r r b w 
+ 	 Moving to H	 	
+b b r y r 
+r r e w y 
+b r r b w 
+ 	 Moving to I	 	
+b b r y r 
+r r w e y 
+b r r b w 
+ 	 Moving to D	 	
+b b r e r 
+r r w y y 
+b r r b w 
+ 	 Moving to E	 	
+b b r r e 
+r r w y y 
+b r r b w 
+ 	 Moving to J	 	
+b b r r y 
+r r w y e 
+b r r b w 
+ 	 Moving to I	 	
+b b r r y 
+r r w e y 
+b r r b w 
+ 	 Moving to H	 	
+b b r r y 
+r r e w y 
+b r r b w 
+ 	 Moving to G	 	
+b b r r y 
+r e r w y 
+b r r b w 
+ 	 Moving to B	 	
+b e r r y 
+r b r w y 
+b r r b w 
+ 	 Moving to C	 	
+b r e r y 
+r b r w y 
+b r r b w 
+ 	 Moving to D	 	
+b r r e y 
+r b r w y 
+b r r b w 
+ 	 Moving to I	 	
+b r r w y 
+r b r e y 
+b r r b w 
+ 	 Moving to N	 	
+b r r w y 
+r b r b y 
+b r r e w 
+ 	 Moving to O	 	
+b r r w y 
+r b r b y 
+b r r w e 
+ 	 Moving to J	 	
+b r r w y 
+r b r b e 
+b r r w y 
+ 30- Original Config : 
+
+r r w r r 
+y y b r r 
+b w b e b 
+
+ 	 Moving to I	 	
+r r w r r 
+y y b e r 
+b w b r b 
+ 	 Moving to D	 	
+r r w e r 
+y y b r r 
+b w b r b 
+ 	 Moving to C	 	
+r r e w r 
+y y b r r 
+b w b r b 
+ 	 Moving to H	 	
+r r b w r 
+y y e r r 
+b w b r b 
+ 	 Moving to I	 	
+r r b w r 
+y y r e r 
+b w b r b 
+ 	 Moving to J	 	
+r r b w r 
+y y r r e 
+b w b r b 
+ 	 Moving to O	 	
+r r b w r 
+y y r r b 
+b w b r e 
+ 	 Moving to N	 	
+r r b w r 
+y y r r b 
+b w b e r 
+ 	 Moving to M	 	
+r r b w r 
+y y r r b 
+b w e b r 
+ 	 Moving to H	 	
+r r b w r 
+y y e r b 
+b w r b r 
+ 	 Moving to G	 	
+r r b w r 
+y e y r b 
+b w r b r 
+ 	 Moving to B	 	
+r e b w r 
+y r y r b 
+b w r b r 
+ 	 Moving to C	 	
+r b e w r 
+y r y r b 
+b w r b r 
+ 	 Moving to D	 	
+r b w e r 
+y r y r b 
+b w r b r 
+ 	 Moving to I	 	
+r b w r r 
+y r y e b 
+b w r b r 
+ 	 Moving to N	 	
+r b w r r 
+y r y b b 
+b w r e r 
+ 	 Moving to O	 	
+r b w r r 
+y r y b b 
+b w r r e 
+ 	 Moving to J	 	
+r b w r r 
+y r y b e 
+b w r r b 
+ 	 Moving to I	 	
+r b w r r 
+y r y e b 
+b w r r b 
+ 	 Moving to H	 	
+r b w r r 
+y r e y b 
+b w r r b 
+ 	 Moving to G	 	
+r b w r r 
+y e r y b 
+b w r r b 
+ 	 Moving to F	 	
+r b w r r 
+e y r y b 
+b w r r b 
+ 	 Moving to A	 	
+e b w r r 
+r y r y b 
+b w r r b 
+ 	 Moving to B	 	
+b e w r r 
+r y r y b 
+b w r r b 
+ 	 Moving to C	 	
+b w e r r 
+r y r y b 
+b w r r b 
+ 	 Moving to H	 	
+b w r r r 
+r y e y b 
+b w r r b 
+ 	 Moving to I	 	
+b w r r r 
+r y y e b 
+b w r r b 
+ 	 Moving to D	 	
+b w r e r 
+r y y r b 
+b w r r b 
+ 	 Moving to E	 	
+b w r r e 
+r y y r b 
+b w r r b 
+ 	 Moving to J	 	
+b w r r b 
+r y y r e 
+b w r r b 
+ 31- Original Config : 
+
+b r w r r 
+y r b r e 
+y b r w b 
+
+ 	 Moving to O	 	
+b r w r r 
+y r b r b 
+y b r w e 
+ 	 Moving to N	 	
+b r w r r 
+y r b r b 
+y b r e w 
+ 	 Moving to I	 	
+b r w r r 
+y r b e b 
+y b r r w 
+ 	 Moving to H	 	
+b r w r r 
+y r e b b 
+y b r r w 
+ 	 Moving to G	 	
+b r w r r 
+y e r b b 
+y b r r w 
+ 	 Moving to F	 	
+b r w r r 
+e y r b b 
+y b r r w 
+ 	 Moving to K	 	
+b r w r r 
+y y r b b 
+e b r r w 
+ 	 Moving to L	 	
+b r w r r 
+y y r b b 
+b e r r w 
+ 	 Moving to G	 	
+b r w r r 
+y e r b b 
+b y r r w 
+ 	 Moving to H	 	
+b r w r r 
+y r e b b 
+b y r r w 
+ 	 Moving to I	 	
+b r w r r 
+y r b e b 
+b y r r w 
+ 	 Moving to D	 	
+b r w e r 
+y r b r b 
+b y r r w 
+ 	 Moving to C	 	
+b r e w r 
+y r b r b 
+b y r r w 
+ 	 Moving to B	 	
+b e r w r 
+y r b r b 
+b y r r w 
+ 	 Moving to G	 	
+b r r w r 
+y e b r b 
+b y r r w 
+ 	 Moving to L	 	
+b r r w r 
+y y b r b 
+b e r r w 
+ 	 Moving to M	 	
+b r r w r 
+y y b r b 
+b r e r w 
+ 	 Moving to N	 	
+b r r w r 
+y y b r b 
+b r r e w 
+ 	 Moving to I	 	
+b r r w r 
+y y b e b 
+b r r r w 
+ 	 Moving to D	 	
+b r r e r 
+y y b w b 
+b r r r w 
+ 	 Moving to C	 	
+b r e r r 
+y y b w b 
+b r r r w 
+ 	 Moving to B	 	
+b e r r r 
+y y b w b 
+b r r r w 
+ 	 Moving to A	 	
+e b r r r 
+y y b w b 
+b r r r w 
+ 	 Moving to F	 	
+y b r r r 
+e y b w b 
+b r r r w 
+ 	 Moving to G	 	
+y b r r r 
+y e b w b 
+b r r r w 
+ 	 Moving to H	 	
+y b r r r 
+y b e w b 
+b r r r w 
+ 	 Moving to I	 	
+y b r r r 
+y b w e b 
+b r r r w 
+ 	 Moving to J	 	
+y b r r r 
+y b w b e 
+b r r r w 
+ 	 Moving to O	 	
+y b r r r 
+y b w b w 
+b r r r e 
+ 	 Moving to N	 	
+y b r r r 
+y b w b w 
+b r r e r 
+ 	 Moving to M	 	
+y b r r r 
+y b w b w 
+b r e r r 
+ 	 Moving to L	 	
+y b r r r 
+y b w b w 
+b e r r r 
+ 	 Moving to K	 	
+y b r r r 
+y b w b w 
+e b r r r 
+ 	 Moving to F	 	
+y b r r r 
+e b w b w 
+y b r r r 
+ 32- Original Config : 
+
+e r r r b 
+b w r b r 
+y r b w y 
+
+ 	 Moving to B	 	
+r e r r b 
+b w r b r 
+y r b w y 
+ 	 Moving to G	 	
+r w r r b 
+b e r b r 
+y r b w y 
+ 	 Moving to H	 	
+r w r r b 
+b r e b r 
+y r b w y 
+ 	 Moving to I	 	
+r w r r b 
+b r b e r 
+y r b w y 
+ 	 Moving to N	 	
+r w r r b 
+b r b w r 
+y r b e y 
+ 	 Moving to M	 	
+r w r r b 
+b r b w r 
+y r e b y 
+ 	 Moving to L	 	
+r w r r b 
+b r b w r 
+y e r b y 
+ 	 Moving to G	 	
+r w r r b 
+b e b w r 
+y r r b y 
+ 	 Moving to H	 	
+r w r r b 
+b b e w r 
+y r r b y 
+ 	 Moving to I	 	
+r w r r b 
+b b w e r 
+y r r b y 
+ 	 Moving to J	 	
+r w r r b 
+b b w r e 
+y r r b y 
+ 	 Moving to O	 	
+r w r r b 
+b b w r y 
+y r r b e 
+ 	 Moving to N	 	
+r w r r b 
+b b w r y 
+y r r e b 
+ 	 Moving to M	 	
+r w r r b 
+b b w r y 
+y r e r b 
+ 	 Moving to H	 	
+r w r r b 
+b b e r y 
+y r w r b 
+ 	 Moving to C	 	
+r w e r b 
+b b r r y 
+y r w r b 
+ 	 Moving to B	 	
+r e w r b 
+b b r r y 
+y r w r b 
+ 	 Moving to G	 	
+r b w r b 
+b e r r y 
+y r w r b 
+ 	 Moving to L	 	
+r b w r b 
+b r r r y 
+y e w r b 
+ 	 Moving to K	 	
+r b w r b 
+b r r r y 
+e y w r b 
+ 	 Moving to F	 	
+r b w r b 
+e r r r y 
+b y w r b 
+ 	 Moving to G	 	
+r b w r b 
+r e r r y 
+b y w r b 
+ 	 Moving to L	 	
+r b w r b 
+r y r r y 
+b e w r b 
+ 	 Moving to K	 	
+r b w r b 
+r y r r y 
+e b w r b 
+ 	 Moving to F	 	
+r b w r b 
+e y r r y 
+r b w r b 
+ 33- Original Config : 
+
+r b b r w 
+r r y b r 
+e y r w b 
+
+ 	 Moving to F	 	
+r b b r w 
+e r y b r 
+r y r w b 
+ 	 Moving to G	 	
+r b b r w 
+r e y b r 
+r y r w b 
+ 	 Moving to L	 	
+r b b r w 
+r y y b r 
+r e r w b 
+ 	 Moving to K	 	
+r b b r w 
+r y y b r 
+e r r w b 
+ 	 Moving to F	 	
+r b b r w 
+e y y b r 
+r r r w b 
+ 	 Moving to G	 	
+r b b r w 
+y e y b r 
+r r r w b 
+ 	 Moving to B	 	
+r e b r w 
+y b y b r 
+r r r w b 
+ 	 Moving to C	 	
+r b e r w 
+y b y b r 
+r r r w b 
+ 	 Moving to H	 	
+r b y r w 
+y b e b r 
+r r r w b 
+ 	 Moving to M	 	
+r b y r w 
+y b r b r 
+r r e w b 
+ 	 Moving to L	 	
+r b y r w 
+y b r b r 
+r e r w b 
+ 	 Moving to G	 	
+r b y r w 
+y e r b r 
+r b r w b 
+ 	 Moving to H	 	
+r b y r w 
+y r e b r 
+r b r w b 
+ 	 Moving to C	 	
+r b e r w 
+y r y b r 
+r b r w b 
+ 	 Moving to B	 	
+r e b r w 
+y r y b r 
+r b r w b 
+ 	 Moving to A	 	
+e r b r w 
+y r y b r 
+r b r w b 
+ 	 Moving to F	 	
+y r b r w 
+e r y b r 
+r b r w b 
+ 	 Moving to G	 	
+y r b r w 
+r e y b r 
+r b r w b 
+ 	 Moving to H	 	
+y r b r w 
+r y e b r 
+r b r w b 
+ 	 Moving to I	 	
+y r b r w 
+r y b e r 
+r b r w b 
+ 	 Moving to J	 	
+y r b r w 
+r y b r e 
+r b r w b 
+ 	 Moving to O	 	
+y r b r w 
+r y b r b 
+r b r w e 
+ 	 Moving to N	 	
+y r b r w 
+r y b r b 
+r b r e w 
+ 	 Moving to M	 	
+y r b r w 
+r y b r b 
+r b e r w 
+ 	 Moving to L	 	
+y r b r w 
+r y b r b 
+r e b r w 
+ 	 Moving to K	 	
+y r b r w 
+r y b r b 
+e r b r w 
+ 	 Moving to F	 	
+y r b r w 
+e y b r b 
+r r b r w 
+ 	 Moving to G	 	
+y r b r w 
+y e b r b 
+r r b r w 
+ 	 Moving to L	 	
+y r b r w 
+y r b r b 
+r e b r w 
+ 	 Moving to K	 	
+y r b r w 
+y r b r b 
+e r b r w 
+ 	 Moving to F	 	
+y r b r w 
+e r b r b 
+y r b r w 
+ 34- Original Config : 
+
+w r r b r 
+y b r r e 
+b y b r w 
+
+ 	 Moving to O	 	
+w r r b r 
+y b r r w 
+b y b r e 
+ 	 Moving to N	 	
+w r r b r 
+y b r r w 
+b y b e r 
+ 	 Moving to M	 	
+w r r b r 
+y b r r w 
+b y e b r 
+ 	 Moving to H	 	
+w r r b r 
+y b e r w 
+b y r b r 
+ 	 Moving to G	 	
+w r r b r 
+y e b r w 
+b y r b r 
+ 	 Moving to L	 	
+w r r b r 
+y y b r w 
+b e r b r 
+ 	 Moving to M	 	
+w r r b r 
+y y b r w 
+b r e b r 
+ 	 Moving to H	 	
+w r r b r 
+y y e r w 
+b r b b r 
+ 	 Moving to I	 	
+w r r b r 
+y y r e w 
+b r b b r 
+ 	 Moving to N	 	
+w r r b r 
+y y r b w 
+b r b e r 
+ 	 Moving to M	 	
+w r r b r 
+y y r b w 
+b r e b r 
+ 	 Moving to H	 	
+w r r b r 
+y y e b w 
+b r r b r 
+ 	 Moving to G	 	
+w r r b r 
+y e y b w 
+b r r b r 
+ 	 Moving to F	 	
+w r r b r 
+e y y b w 
+b r r b r 
+ 	 Moving to K	 	
+w r r b r 
+b y y b w 
+e r r b r 
+ 	 Moving to L	 	
+w r r b r 
+b y y b w 
+r e r b r 
+ 	 Moving to M	 	
+w r r b r 
+b y y b w 
+r r e b r 
+ 	 Moving to H	 	
+w r r b r 
+b y e b w 
+r r y b r 
+ 	 Moving to G	 	
+w r r b r 
+b e y b w 
+r r y b r 
+ 	 Moving to F	 	
+w r r b r 
+e b y b w 
+r r y b r 
+ 	 Moving to K	 	
+w r r b r 
+r b y b w 
+e r y b r 
+ 	 Moving to L	 	
+w r r b r 
+r b y b w 
+r e y b r 
+ 	 Moving to M	 	
+w r r b r 
+r b y b w 
+r y e b r 
+ 	 Moving to H	 	
+w r r b r 
+r b e b w 
+r y y b r 
+ 	 Moving to G	 	
+w r r b r 
+r e b b w 
+r y y b r 
+ 	 Moving to L	 	
+w r r b r 
 r y b b w 
-e b y b w 
-r r r r r 
-
- 3- Original Config : 
-
+r e y b r 
+ 	 Moving to K	 	
+w r r b r 
 r y b b w 
-e b y b w 
-r r r r r 
+e r y b r 
+ 	 Moving to F	 	
+w r r b r 
+e y b b w 
+r r y b r 
+ 	 Moving to G	 	
+w r r b r 
+y e b b w 
+r r y b r 
+ 	 Moving to H	 	
+w r r b r 
+y b e b w 
+r r y b r 
+ 	 Moving to M	 	
+w r r b r 
+y b y b w 
+r r e b r 
+ 	 Moving to N	 	
+w r r b r 
+y b y b w 
+r r b e r 
+ 	 Moving to I	 	
+w r r b r 
+y b y e w 
+r r b b r 
+ 	 Moving to H	 	
+w r r b r 
+y b e y w 
+r r b b r 
+ 	 Moving to G	 	
+w r r b r 
+y e b y w 
+r r b b r 
+ 	 Moving to F	 	
+w r r b r 
+e y b y w 
+r r b b r 
+ 	 Moving to K	 	
+w r r b r 
+r y b y w 
+e r b b r 
+ 	 Moving to L	 	
+w r r b r 
+r y b y w 
+r e b b r 
+ 	 Moving to M	 	
+w r r b r 
+r y b y w 
+r b e b r 
+ 	 Moving to H	 	
+w r r b r 
+r y e y w 
+r b b b r 
+ 	 Moving to C	 	
+w r e b r 
+r y r y w 
+r b b b r 
+ 	 Moving to D	 	
+w r b e r 
+r y r y w 
+r b b b r 
+ 	 Moving to I	 	
+w r b y r 
+r y r e w 
+r b b b r 
+ 	 Moving to H	 	
+w r b y r 
+r y e r w 
+r b b b r 
+ 	 Moving to G	 	
+w r b y r 
+r e y r w 
+r b b b r 
+ 	 Moving to F	 	
+w r b y r 
+e r y r w 
+r b b b r 
+ 	 Moving to A	 	
+e r b y r 
+w r y r w 
+r b b b r 
+ 	 Moving to B	 	
+r e b y r 
+w r y r w 
+r b b b r 
+ 	 Moving to G	 	
+r r b y r 
+w e y r w 
+r b b b r 
+ 	 Moving to F	 	
+r r b y r 
+e w y r w 
+r b b b r 
+ 	 Moving to A	 	
+e r b y r 
+r w y r w 
+r b b b r 
+ 	 Moving to B	 	
+r e b y r 
+r w y r w 
+r b b b r 
+ 	 Moving to C	 	
+r b e y r 
+r w y r w 
+r b b b r 
+ 	 Moving to H	 	
+r b y y r 
+r w e r w 
+r b b b r 
+ 	 Moving to I	 	
+r b y y r 
+r w r e w 
+r b b b r 
+ 	 Moving to D	 	
+r b y e r 
+r w r y w 
+r b b b r 
+ 	 Moving to C	 	
+r b e y r 
+r w r y w 
+r b b b r 
+ 	 Moving to B	 	
+r e b y r 
+r w r y w 
+r b b b r 
+ 	 Moving to G	 	
+r w b y r 
+r e r y w 
+r b b b r 
+ 	 Moving to H	 	
+r w b y r 
+r r e y w 
+r b b b r 
+ 	 Moving to I	 	
+r w b y r 
+r r y e w 
+r b b b r 
+ 	 Moving to D	 	
+r w b e r 
+r r y y w 
+r b b b r 
+ 	 Moving to C	 	
+r w e b r 
+r r y y w 
+r b b b r 
+ 	 Moving to H	 	
+r w y b r 
+r r e y w 
+r b b b r 
+ 	 Moving to G	 	
+r w y b r 
+r e r y w 
+r b b b r 
+ 	 Moving to B	 	
+r e y b r 
+r w r y w 
+r b b b r 
+ 	 Moving to C	 	
+r y e b r 
+r w r y w 
+r b b b r 
+ 	 Moving to D	 	
+r y b e r 
+r w r y w 
+r b b b r 
+ 	 Moving to I	 	
+r y b y r 
+r w r e w 
+r b b b r 
+ 	 Moving to H	 	
+r y b y r 
+r w e r w 
+r b b b r 
+ 	 Moving to G	 	
+r y b y r 
+r e w r w 
+r b b b r 
+ 	 Moving to B	 	
+r e b y r 
+r y w r w 
+r b b b r 
+ 	 Moving to C	 	
+r b e y r 
+r y w r w 
+r b b b r 
+ 	 Moving to D	 	
+r b y e r 
+r y w r w 
+r b b b r 
+ 	 Moving to I	 	
+r b y r r 
+r y w e w 
+r b b b r 
+ 	 Moving to H	 	
+r b y r r 
+r y e w w 
+r b b b r 
+ 	 Moving to C	 	
+r b e r r 
+r y y w w 
+r b b b r 
+ 	 Moving to B	 	
+r e b r r 
+r y y w w 
+r b b b r 
+ 	 Moving to G	 	
+r y b r r 
+r e y w w 
+r b b b r 
+ 	 Moving to H	 	
+r y b r r 
+r y e w w 
+r b b b r 
+ 	 Moving to I	 	
+r y b r r 
+r y w e w 
+r b b b r 
+ 	 Moving to J	 	
+r y b r r 
+r y w w e 
+r b b b r 
+ 	 Moving to E	 	
+r y b r e 
+r y w w r 
+r b b b r 
+ 	 Moving to D	 	
+r y b e r 
+r y w w r 
+r b b b r 
+ 	 Moving to C	 	
+r y e b r 
+r y w w r 
+r b b b r 
+ 	 Moving to H	 	
+r y w b r 
+r y e w r 
+r b b b r 
+ 	 Moving to G	 	
+r y w b r 
+r e y w r 
+r b b b r 
+ 	 Moving to B	 	
+r e w b r 
+r y y w r 
+r b b b r 
+ 	 Moving to C	 	
+r w e b r 
+r y y w r 
+r b b b r 
+ 	 Moving to D	 	
+r w b e r 
+r y y w r 
+r b b b r 
+ 	 Moving to I	 	
+r w b w r 
+r y y e r 
+r b b b r 
+ 	 Moving to H	 	
+r w b w r 
+r y e y r 
+r b b b r 
+ 	 Moving to G	 	
+r w b w r 
+r e y y r 
+r b b b r 
+ 	 Moving to B	 	
+r e b w r 
+r w y y r 
+r b b b r 
+ 	 Moving to A	 	
+e r b w r 
+r w y y r 
+r b b b r 
+ 	 Moving to F	 	
+r r b w r 
+e w y y r 
+r b b b r 
+ 	 Moving to G	 	
+r r b w r 
+w e y y r 
+r b b b r 
+ 	 Moving to H	 	
+r r b w r 
+w y e y r 
+r b b b r 
+ 	 Moving to I	 	
+r r b w r 
+w y y e r 
+r b b b r 
+ 	 Moving to D	 	
+r r b e r 
+w y y w r 
+r b b b r 
+ 	 Moving to C	 	
+r r e b r 
+w y y w r 
+r b b b r 
+ 	 Moving to B	 	
+r e r b r 
+w y y w r 
+r b b b r 
+ 	 Moving to G	 	
+r y r b r 
+w e y w r 
+r b b b r 
+ 	 Moving to H	 	
+r y r b r 
+w y e w r 
+r b b b r 
+ 	 Moving to C	 	
+r y e b r 
+w y r w r 
+r b b b r 
+ 	 Moving to D	 	
+r y b e r 
+w y r w r 
+r b b b r 
+ 	 Moving to I	 	
+r y b w r 
+w y r e r 
+r b b b r 
+ 	 Moving to H	 	
+r y b w r 
+w y e r r 
+r b b b r 
+ 	 Moving to G	 	
+r y b w r 
+w e y r r 
+r b b b r 
+ 	 Moving to B	 	
+r e b w r 
+w y y r r 
+r b b b r 
+ 	 Moving to C	 	
+r b e w r 
+w y y r r 
+r b b b r 
+ 	 Moving to D	 	
+r b w e r 
+w y y r r 
+r b b b r 
+ 	 Moving to I	 	
+r b w r r 
+w y y e r 
+r b b b r 
+ 	 Moving to H	 	
+r b w r r 
+w y e y r 
+r b b b r 
+ 	 Moving to C	 	
+r b e r r 
+w y w y r 
+r b b b r 
+ 	 Moving to B	 	
+r e b r r 
+w y w y r 
+r b b b r 
+ 	 Moving to G	 	
+r y b r r 
+w e w y r 
+r b b b r 
+ 	 Moving to H	 	
+r y b r r 
+w w e y r 
+r b b b r 
+ 	 Moving to I	 	
+r y b r r 
+w w y e r 
+r b b b r 
+ 	 Moving to D	 	
+r y b e r 
+w w y r r 
+r b b b r 
+ 	 Moving to C	 	
+r y e b r 
+w w y r r 
+r b b b r 
+ 	 Moving to H	 	
+r y y b r 
+w w e r r 
+r b b b r 
+ 	 Moving to G	 	
+r y y b r 
+w e w r r 
+r b b b r 
+ 	 Moving to B	 	
+r e y b r 
+w y w r r 
+r b b b r 
+ 	 Moving to C	 	
+r y e b r 
+w y w r r 
+r b b b r 
+ 	 Moving to D	 	
+r y b e r 
+w y w r r 
+r b b b r 
+ 	 Moving to I	 	
+r y b r r 
+w y w e r 
+r b b b r 
+ 	 Moving to H	 	
+r y b r r 
+w y e w r 
+r b b b r 
+ 	 Moving to G	 	
+r y b r r 
+w e y w r 
+r b b b r 
+ 	 Moving to B	 	
+r e b r r 
+w y y w r 
+r b b b r 
+ 	 Moving to A	 	
+e r b r r 
+w y y w r 
+r b b b r 
+ 	 Moving to F	 	
+w r b r r 
+e y y w r 
+r b b b r 
+ 	 Moving to G	 	
+w r b r r 
+y e y w r 
+r b b b r 
+ 	 Moving to H	 	
+w r b r r 
+y y e w r 
+r b b b r 
+ 	 Moving to I	 	
+w r b r r 
+y y w e r 
+r b b b r 
+ 	 Moving to D	 	
+w r b e r 
+y y w r r 
+r b b b r 
+ 	 Moving to C	 	
+w r e b r 
+y y w r r 
+r b b b r 
+ 	 Moving to B	 	
+w e r b r 
+y y w r r 
+r b b b r 
+ 	 Moving to G	 	
+w y r b r 
+y e w r r 
+r b b b r 
+ 	 Moving to H	 	
+w y r b r 
+y w e r r 
+r b b b r 
+ 	 Moving to M	 	
+w y r b r 
+y w b r r 
+r b e b r 
+ 	 Moving to L	 	
+w y r b r 
+y w b r r 
+r e b b r 
+ 	 Moving to K	 	
+w y r b r 
+y w b r r 
+e r b b r 
+ 	 Moving to F	 	
+w y r b r 
+e w b r r 
+y r b b r 
+ 	 Moving to G	 	
+w y r b r 
+w e b r r 
+y r b b r 
+ 	 Moving to H	 	
+w y r b r 
+w b e r r 
+y r b b r 
+ 	 Moving to M	 	
+w y r b r 
+w b b r r 
+y r e b r 
+ 	 Moving to L	 	
+w y r b r 
+w b b r r 
+y e r b r 
+ 	 Moving to K	 	
+w y r b r 
+w b b r r 
+e y r b r 
+ 	 Moving to F	 	
+w y r b r 
+e b b r r 
+w y r b r 
+ 35- Original Config : 
 
- 3- Original Config : 
+r w b r b 
+r y b e w 
+y r r b r 
 
-r y b b w 
-e b y b w 
-r r r r r 
+ 	 Moving to J	 	
+r w b r b 
+r y b w e 
+y r r b r 
+ 	 Moving to O	 	
+r w b r b 
+r y b w r 
+y r r b e 
+ 	 Moving to N	 	
+r w b r b 
+r y b w r 
+y r r e b 
+ 	 Moving to M	 	
+r w b r b 
+r y b w r 
+y r e r b 
+ 	 Moving to H	 	
+r w b r b 
+r y e w r 
+y r b r b 
+ 	 Moving to G	 	
+r w b r b 
+r e y w r 
+y r b r b 
+ 	 Moving to F	 	
+r w b r b 
+e r y w r 
+y r b r b 
+ 	 Moving to K	 	
+r w b r b 
+y r y w r 
+e r b r b 
+ 	 Moving to L	 	
+r w b r b 
+y r y w r 
+r e b r b 
+ 	 Moving to G	 	
+r w b r b 
+y e y w r 
+r r b r b 
+ 	 Moving to H	 	
+r w b r b 
+y y e w r 
+r r b r b 
+ 	 Moving to C	 	
+r w e r b 
+y y b w r 
+r r b r b 
+ 	 Moving to D	 	
+r w r e b 
+y y b w r 
+r r b r b 
+ 	 Moving to E	 	
+r w r b e 
+y y b w r 
+r r b r b 
+ 	 Moving to J	 	
+r w r b r 
+y y b w e 
+r r b r b 
+ 	 Moving to I	 	
+r w r b r 
+y y b e w 
+r r b r b 
+ 	 Moving to H	 	
+r w r b r 
+y y e b w 
+r r b r b 
+ 	 Moving to G	 	
+r w r b r 
+y e y b w 
+r r b r b 
+ 	 Moving to B	 	
+r e r b r 
+y w y b w 
+r r b r b 
+ 	 Moving to A	 	
+e r r b r 
+y w y b w 
+r r b r b 
+ 	 Moving to F	 	
+y r r b r 
+e w y b w 
+r r b r b 
+ 	 Moving to G	 	
+y r r b r 
+w e y b w 
+r r b r b 
+ 	 Moving to H	 	
+y r r b r 
+w y e b w 
+r r b r b 
+ 	 Moving to I	 	
+y r r b r 
+w y b e w 
+r r b r b 
+ 	 Moving to J	 	
+y r r b r 
+w y b w e 
+r r b r b 
+ 	 Moving to O	 	
+y r r b r 
+w y b w b 
+r r b r e 
+ 	 Moving to N	 	
+y r r b r 
+w y b w b 
+r r b e r 
+ 	 Moving to M	 	
+y r r b r 
+w y b w b 
+r r e b r 
+ 	 Moving to H	 	
+y r r b r 
+w y e w b 
+r r b b r 
+ 	 Moving to I	 	
+y r r b r 
+w y w e b 
+r r b b r 
+ 	 Moving to N	 	
+y r r b r 
+w y w b b 
+r r b e r 
+ 	 Moving to O	 	
+y r r b r 
+w y w b b 
+r r b r e 
+ 	 Moving to J	 	
+y r r b r 
+w y w b e 
+r r b r b 
+ 	 Moving to I	 	
+y r r b r 
+w y w e b 
+r r b r b 
+ 	 Moving to H	 	
+y r r b r 
+w y e w b 
+r r b r b 
+ 	 Moving to G	 	
+y r r b r 
+w e y w b 
+r r b r b 
+ 	 Moving to F	 	
+y r r b r 
+e w y w b 
+r r b r b 
+ 	 Moving to A	 	
+e r r b r 
+y w y w b 
+r r b r b 
+ 	 Moving to B	 	
+r e r b r 
+y w y w b 
+r r b r b 
+ 	 Moving to C	 	
+r r e b r 
+y w y w b 
+r r b r b 
+ 	 Moving to D	 	
+r r b e r 
+y w y w b 
+r r b r b 
+ 	 Moving to E	 	
+r r b r e 
+y w y w b 
+r r b r b 
+ 	 Moving to J	 	
+r r b r b 
+y w y w e 
+r r b r b 
+ 36- Original Config : 
 
- 3- Original Config : 
+y b r r e 
+r y b w r 
+b r w r b 
 
-r y b b w 
-e b y b w 
-r r r r r 
+ 	 Moving to D	 	
+y b r e r 
+r y b w r 
+b r w r b 
+ 	 Moving to I	 	
+y b r w r 
+r y b e r 
+b r w r b 
+ 	 Moving to H	 	
+y b r w r 
+r y e b r 
+b r w r b 
+ 	 Moving to G	 	
+y b r w r 
+r e y b r 
+b r w r b 
+ 	 Moving to F	 	
+y b r w r 
+e r y b r 
+b r w r b 
+ 	 Moving to A	 	
+e b r w r 
+y r y b r 
+b r w r b 
+ 	 Moving to B	 	
+b e r w r 
+y r y b r 
+b r w r b 
+ 	 Moving to C	 	
+b r e w r 
+y r y b r 
+b r w r b 
+ 	 Moving to D	 	
+b r w e r 
+y r y b r 
+b r w r b 
+ 	 Moving to E	 	
+b r w r e 
+y r y b r 
+b r w r b 
+ 	 Moving to J	 	
+b r w r r 
+y r y b e 
+b r w r b 
+ 	 Moving to I	 	
+b r w r r 
+y r y e b 
+b r w r b 
+ 	 Moving to D	 	
+b r w e r 
+y r y r b 
+b r w r b 
+ 	 Moving to E	 	
+b r w r e 
+y r y r b 
+b r w r b 
+ 	 Moving to J	 	
+b r w r b 
+y r y r e 
+b r w r b 
+ 37- Original Config : 
 
- 3- Original Config : 
+b b y b r 
+b w r w r 
+r r r e y 
 
-r y b b w 
-e b y b w 
-r r r r r 
+ 	 Moving to O	 	
+b b y b r 
+b w r w r 
+r r r y e 
+ 	 Moving to J	 	
+b b y b r 
+b w r w e 
+r r r y r 
+ 	 Moving to I	 	
+b b y b r 
+b w r e w 
+r r r y r 
+ 	 Moving to H	 	
+b b y b r 
+b w e r w 
+r r r y r 
+ 	 Moving to M	 	
+b b y b r 
+b w r r w 
+r r e y r 
+ 	 Moving to N	 	
+b b y b r 
+b w r r w 
+r r y e r 
+ 	 Moving to I	 	
+b b y b r 
+b w r e w 
+r r y r r 
+ 	 Moving to H	 	
+b b y b r 
+b w e r w 
+r r y r r 
+ 	 Moving to G	 	
+b b y b r 
+b e w r w 
+r r y r r 
+ 	 Moving to L	 	
+b b y b r 
+b r w r w 
+r e y r r 
+ 	 Moving to K	 	
+b b y b r 
+b r w r w 
+e r y r r 
+ 	 Moving to F	 	
+b b y b r 
+e r w r w 
+b r y r r 
+ 	 Moving to G	 	
+b b y b r 
+r e w r w 
+b r y r r 
+ 	 Moving to L	 	
+b b y b r 
+r r w r w 
+b e y r r 
+ 	 Moving to K	 	
+b b y b r 
+r r w r w 
+e b y r r 
+ 	 Moving to F	 	
+b b y b r 
+e r w r w 
+r b y r r 
+ 	 Moving to G	 	
+b b y b r 
+r e w r w 
+r b y r r 
+ 	 Moving to H	 	
+b b y b r 
+r w e r w 
+r b y r r 
+ 	 Moving to I	 	
+b b y b r 
+r w r e w 
+r b y r r 
+ 	 Moving to J	 	
+b b y b r 
+r w r w e 
+r b y r r 
+ 	 Moving to O	 	
+b b y b r 
+r w r w r 
+r b y r e 
+ 	 Moving to N	 	
+b b y b r 
+r w r w r 
+r b y e r 
+ 	 Moving to M	 	
+b b y b r 
+r w r w r 
+r b e y r 
+ 	 Moving to H	 	
+b b y b r 
+r w e w r 
+r b r y r 
+ 	 Moving to G	 	
+b b y b r 
+r e w w r 
+r b r y r 
+ 	 Moving to F	 	
+b b y b r 
+e r w w r 
+r b r y r 
+ 	 Moving to K	 	
+b b y b r 
+r r w w r 
+e b r y r 
+ 	 Moving to L	 	
+b b y b r 
+r r w w r 
+b e r y r 
+ 	 Moving to M	 	
+b b y b r 
+r r w w r 
+b r e y r 
+ 	 Moving to N	 	
+b b y b r 
+r r w w r 
+b r y e r 
+ 	 Moving to I	 	
+b b y b r 
+r r w e r 
+b r y w r 
+ 	 Moving to H	 	
+b b y b r 
+r r e w r 
+b r y w r 
+ 	 Moving to G	 	
+b b y b r 
+r e r w r 
+b r y w r 
+ 	 Moving to L	 	
+b b y b r 
+r r r w r 
+b e y w r 
+ 	 Moving to K	 	
+b b y b r 
+r r r w r 
+e b y w r 
+ 	 Moving to F	 	
+b b y b r 
+e r r w r 
+r b y w r 
+ 	 Moving to G	 	
+b b y b r 
+r e r w r 
+r b y w r 
+ 	 Moving to H	 	
+b b y b r 
+r r e w r 
+r b y w r 
+ 	 Moving to I	 	
+b b y b r 
+r r w e r 
+r b y w r 
+ 	 Moving to N	 	
+b b y b r 
+r r w w r 
+r b y e r 
+ 	 Moving to O	 	
+b b y b r 
+r r w w r 
+r b y r e 
+ 	 Moving to J	 	
+b b y b r 
+r r w w e 
+r b y r r 
+ 	 Moving to I	 	
+b b y b r 
+r r w e w 
+r b y r r 
+ 	 Moving to H	 	
+b b y b r 
+r r e w w 
+r b y r r 
+ 	 Moving to G	 	
+b b y b r 
+r e r w w 
+r b y r r 
+ 	 Moving to F	 	
+b b y b r 
+e r r w w 
+r b y r r 
+ 	 Moving to K	 	
+b b y b r 
+r r r w w 
+e b y r r 
+ 	 Moving to L	 	
+b b y b r 
+r r r w w 
+b e y r r 
+ 	 Moving to M	 	
+b b y b r 
+r r r w w 
+b y e r r 
+ 	 Moving to N	 	
+b b y b r 
+r r r w w 
+b y r e r 
+ 	 Moving to I	 	
+b b y b r 
+r r r e w 
+b y r w r 
+ 	 Moving to H	 	
+b b y b r 
+r r e r w 
+b y r w r 
+ 	 Moving to G	 	
+b b y b r 
+r e r r w 
+b y r w r 
+ 	 Moving to B	 	
+b e y b r 
+r b r r w 
+b y r w r 
+ 	 Moving to C	 	
+b y e b r 
+r b r r w 
+b y r w r 
+ 	 Moving to D	 	
+b y b e r 
+r b r r w 
+b y r w r 
+ 	 Moving to E	 	
+b y b r e 
+r b r r w 
+b y r w r 
+ 	 Moving to J	 	
+b y b r w 
+r b r r e 
+b y r w r 
+ 	 Moving to I	 	
+b y b r w 
+r b r e r 
+b y r w r 
+ 	 Moving to H	 	
+b y b r w 
+r b e r r 
+b y r w r 
+ 	 Moving to C	 	
+b y e r w 
+r b b r r 
+b y r w r 
+ 	 Moving to D	 	
+b y r e w 
+r b b r r 
+b y r w r 
+ 	 Moving to E	 	
+b y r w e 
+r b b r r 
+b y r w r 
+ 	 Moving to J	 	
+b y r w r 
+r b b r e 
+b y r w r 
+ 38- Original Config : 
 
- 3- Original Config : 
+w r r r y 
+b b e b b 
+r r y w r 
 
-r y b b w 
-e b y b w 
-r r r r r 
+ 	 Moving to I	 	
+w r r r y 
+b b b e b 
+r r y w r 
+ 	 Moving to N	 	
+w r r r y 
+b b b w b 
+r r y e r 
+ 	 Moving to O	 	
+w r r r y 
+b b b w b 
+r r y r e 
+ 	 Moving to J	 	
+w r r r y 
+b b b w e 
+r r y r b 
+ 	 Moving to I	 	
+w r r r y 
+b b b e w 
+r r y r b 
+ 	 Moving to D	 	
+w r r e y 
+b b b r w 
+r r y r b 
+ 	 Moving to E	 	
+w r r y e 
+b b b r w 
+r r y r b 
+ 	 Moving to J	 	
+w r r y w 
+b b b r e 
+r r y r b 
+ 	 Moving to I	 	
+w r r y w 
+b b b e r 
+r r y r b 
+ 	 Moving to H	 	
+w r r y w 
+b b e b r 
+r r y r b 
+ 	 Moving to G	 	
+w r r y w 
+b e b b r 
+r r y r b 
+ 	 Moving to F	 	
+w r r y w 
+e b b b r 
+r r y r b 
+ 	 Moving to A	 	
+e r r y w 
+w b b b r 
+r r y r b 
+ 	 Moving to B	 	
+r e r y w 
+w b b b r 
+r r y r b 
+ 	 Moving to C	 	
+r r e y w 
+w b b b r 
+r r y r b 
+ 	 Moving to D	 	
+r r y e w 
+w b b b r 
+r r y r b 
+ 	 Moving to E	 	
+r r y w e 
+w b b b r 
+r r y r b 
+ 	 Moving to J	 	
+r r y w r 
+w b b b e 
+r r y r b 
+ 	 Moving to I	 	
+r r y w r 
+w b b e b 
+r r y r b 
+ 	 Moving to D	 	
+r r y e r 
+w b b w b 
+r r y r b 
+ 	 Moving to E	 	
+r r y r e 
+w b b w b 
+r r y r b 
+ 	 Moving to J	 	
+r r y r b 
+w b b w e 
+r r y r b 
+ 39- Original Config : 
 
- 3- Original Config : 
+e w b y r 
+b b r r r 
+w r r b y 
 
-r y b b w 
-e b y b w 
-r r r r r 
+ 	 Moving to B	 	
+w e b y r 
+b b r r r 
+w r r b y 
+ 	 Moving to C	 	
+w b e y r 
+b b r r r 
+w r r b y 
+ 	 Moving to H	 	
+w b r y r 
+b b e r r 
+w r r b y 
+ 	 Moving to G	 	
+w b r y r 
+b e b r r 
+w r r b y 
+ 	 Moving to B	 	
+w e r y r 
+b b b r r 
+w r r b y 
+ 	 Moving to C	 	
+w r e y r 
+b b b r r 
+w r r b y 
+ 	 Moving to D	 	
+w r y e r 
+b b b r r 
+w r r b y 
+ 	 Moving to I	 	
+w r y r r 
+b b b e r 
+w r r b y 
+ 	 Moving to H	 	
+w r y r r 
+b b e b r 
+w r r b y 
+ 	 Moving to C	 	
+w r e r r 
+b b y b r 
+w r r b y 
+ 	 Moving to D	 	
+w r r e r 
+b b y b r 
+w r r b y 
+ 	 Moving to I	 	
+w r r b r 
+b b y e r 
+w r r b y 
+ 	 Moving to J	 	
+w r r b r 
+b b y r e 
+w r r b y 
+ 	 Moving to E	 	
+w r r b e 
+b b y r r 
+w r r b y 
+ 	 Moving to D	 	
+w r r e b 
+b b y r r 
+w r r b y 
+ 	 Moving to I	 	
+w r r r b 
+b b y e r 
+w r r b y 
+ 	 Moving to J	 	
+w r r r b 
+b b y r e 
+w r r b y 
+ 	 Moving to E	 	
+w r r r e 
+b b y r b 
+w r r b y 
+ 	 Moving to D	 	
+w r r e r 
+b b y r b 
+w r r b y 
+ 	 Moving to I	 	
+w r r r r 
+b b y e b 
+w r r b y 
+ 	 Moving to H	 	
+w r r r r 
+b b e y b 
+w r r b y 
+ 	 Moving to C	 	
+w r e r r 
+b b r y b 
+w r r b y 
+ 	 Moving to D	 	
+w r r e r 
+b b r y b 
+w r r b y 
+ 	 Moving to E	 	
+w r r r e 
+b b r y b 
+w r r b y 
+ 	 Moving to J	 	
+w r r r b 
+b b r y e 
+w r r b y 
+ 	 Moving to I	 	
+w r r r b 
+b b r e y 
+w r r b y 
+ 	 Moving to D	 	
+w r r e b 
+b b r r y 
+w r r b y 
+ 	 Moving to E	 	
+w r r b e 
+b b r r y 
+w r r b y 
+ 	 Moving to J	 	
+w r r b y 
+b b r r e 
+w r r b y 
+ 40- Original Config : 
 
- 3- Original Config : 
+r y w e w 
+y r b b b 
+b r r r r 
 
-r y b b w 
-e b y b w 
-r r r r r 
+ 	 Moving to I	 	
+r y w b w 
+y r b e b 
+b r r r r 
+ 	 Moving to H	 	
+r y w b w 
+y r e b b 
+b r r r r 
+ 	 Moving to G	 	
+r y w b w 
+y e r b b 
+b r r r r 
+ 	 Moving to B	 	
+r e w b w 
+y y r b b 
+b r r r r 
+ 	 Moving to A	 	
+e r w b w 
+y y r b b 
+b r r r r 
+ 	 Moving to F	 	
+y r w b w 
+e y r b b 
+b r r r r 
+ 	 Moving to G	 	
+y r w b w 
+y e r b b 
+b r r r r 
+ 	 Moving to H	 	
+y r w b w 
+y r e b b 
+b r r r r 
+ 	 Moving to C	 	
+y r e b w 
+y r w b b 
+b r r r r 
+ 	 Moving to B	 	
+y e r b w 
+y r w b b 
+b r r r r 
+ 	 Moving to G	 	
+y r r b w 
+y e w b b 
+b r r r r 
+ 	 Moving to H	 	
+y r r b w 
+y w e b b 
+b r r r r 
+ 	 Moving to I	 	
+y r r b w 
+y w b e b 
+b r r r r 
+ 	 Moving to J	 	
+y r r b w 
+y w b b e 
+b r r r r 
+ 	 Moving to E	 	
+y r r b e 
+y w b b w 
+b r r r r 
+ 	 Moving to D	 	
+y r r e b 
+y w b b w 
+b r r r r 
+ 	 Moving to C	 	
+y r e r b 
+y w b b w 
+b r r r r 
+ 	 Moving to B	 	
+y e r r b 
+y w b b w 
+b r r r r 
+ 	 Moving to G	 	
+y w r r b 
+y e b b w 
+b r r r r 
+ 	 Moving to H	 	
+y w r r b 
+y b e b w 
+b r r r r 
+ 	 Moving to I	 	
+y w r r b 
+y b b e w 
+b r r r r 
+ 	 Moving to J	 	
+y w r r b 
+y b b w e 
+b r r r r 
+ 	 Moving to E	 	
+y w r r e 
+y b b w b 
+b r r r r 
+ 	 Moving to D	 	
+y w r e r 
+y b b w b 
+b r r r r 
+ 	 Moving to C	 	
+y w e r r 
+y b b w b 
+b r r r r 
+ 	 Moving to H	 	
+y w b r r 
+y b e w b 
+b r r r r 
+ 	 Moving to G	 	
+y w b r r 
+y e b w b 
+b r r r r 
+ 	 Moving to B	 	
+y e b r r 
+y w b w b 
+b r r r r 
+ 	 Moving to C	 	
+y b e r r 
+y w b w b 
+b r r r r 
+ 	 Moving to H	 	
+y b b r r 
+y w e w b 
+b r r r r 
+ 	 Moving to G	 	
+y b b r r 
+y e w w b 
+b r r r r 
+ 	 Moving to F	 	
+y b b r r 
+e y w w b 
+b r r r r 
+ 	 Moving to A	 	
+e b b r r 
+y y w w b 
+b r r r r 
+ 	 Moving to B	 	
+b e b r r 
+y y w w b 
+b r r r r 
+ 	 Moving to G	 	
+b y b r r 
+y e w w b 
+b r r r r 
+ 	 Moving to L	 	
+b y b r r 
+y r w w b 
+b e r r r 
+ 	 Moving to K	 	
+b y b r r 
+y r w w b 
+e b r r r 
+ 	 Moving to F	 	
+b y b r r 
+e r w w b 
+y b r r r 
+ 	 Moving to G	 	
+b y b r r 
+r e w w b 
+y b r r r 
+ 	 Moving to H	 	
+b y b r r 
+r w e w b 
+y b r r r 
+ 	 Moving to I	 	
+b y b r r 
+r w w e b 
+y b r r r 
+ 	 Moving to J	 	
+b y b r r 
+r w w b e 
+y b r r r 
+ 	 Moving to O	 	
+b y b r r 
+r w w b r 
+y b r r e 
+ 	 Moving to N	 	
+b y b r r 
+r w w b r 
+y b r e r 
+ 	 Moving to M	 	
+b y b r r 
+r w w b r 
+y b e r r 
+ 	 Moving to H	 	
+b y b r r 
+r w e b r 
+y b w r r 
+ 	 Moving to G	 	
+b y b r r 
+r e w b r 
+y b w r r 
+ 	 Moving to F	 	
+b y b r r 
+e r w b r 
+y b w r r 
+ 	 Moving to K	 	
+b y b r r 
+y r w b r 
+e b w r r 
+ 	 Moving to L	 	
+b y b r r 
+y r w b r 
+b e w r r 
+ 	 Moving to G	 	
+b y b r r 
+y e w b r 
+b r w r r 
+ 	 Moving to H	 	
+b y b r r 
+y w e b r 
+b r w r r 
+ 	 Moving to M	 	
+b y b r r 
+y w w b r 
+b r e r r 
+ 	 Moving to L	 	
+b y b r r 
+y w w b r 
+b e r r r 
+ 	 Moving to K	 	
+b y b r r 
+y w w b r 
+e b r r r 
+ 	 Moving to F	 	
+b y b r r 
+e w w b r 
+y b r r r 
+ 	 Moving to A	 	
+e y b r r 
+b w w b r 
+y b r r r 
+ 	 Moving to B	 	
+y e b r r 
+b w w b r 
+y b r r r 
+ 	 Moving to C	 	
+y b e r r 
+b w w b r 
+y b r r r 
+ 	 Moving to D	 	
+y b r e r 
+b w w b r 
+y b r r r 
+ 	 Moving to E	 	
+y b r r e 
+b w w b r 
+y b r r r 
+ 	 Moving to J	 	
+y b r r r 
+b w w b e 
+y b r r r 
+ 41- Original Config : 
+
+y w b b r 
+r b r e r 
+r b r w y 
+
+ 	 Moving to N	 	
+y w b b r 
+r b r w r 
+r b r e y 
+ 	 Moving to M	 	
+y w b b r 
+r b r w r 
+r b e r y 
+ 	 Moving to L	 	
+y w b b r 
+r b r w r 
+r e b r y 
+ 	 Moving to G	 	
+y w b b r 
+r e r w r 
+r b b r y 
+ 	 Moving to H	 	
+y w b b r 
+r r e w r 
+r b b r y 
+ 	 Moving to I	 	
+y w b b r 
+r r w e r 
+r b b r y 
+ 	 Moving to J	 	
+y w b b r 
+r r w r e 
+r b b r y 
+ 	 Moving to O	 	
+y w b b r 
+r r w r y 
+r b b r e 
+ 	 Moving to N	 	
+y w b b r 
+r r w r y 
+r b b e r 
+ 	 Moving to I	 	
+y w b b r 
+r r w e y 
+r b b r r 
+ 	 Moving to H	 	
+y w b b r 
+r r e w y 
+r b b r r 
+ 	 Moving to G	 	
+y w b b r 
+r e r w y 
+r b b r r 
+ 	 Moving to F	 	
+y w b b r 
+e r r w y 
+r b b r r 
+ 	 Moving to K	 	
+y w b b r 
+r r r w y 
+e b b r r 
+ 	 Moving to L	 	
+y w b b r 
+r r r w y 
+b e b r r 
+ 	 Moving to G	 	
+y w b b r 
+r e r w y 
+b r b r r 
+ 	 Moving to H	 	
+y w b b r 
+r r e w y 
+b r b r r 
+ 	 Moving to I	 	
+y w b b r 
+r r w e y 
+b r b r r 
+ 	 Moving to N	 	
+y w b b r 
+r r w r y 
+b r b e r 
+ 	 Moving to M	 	
+y w b b r 
+r r w r y 
+b r e b r 
+ 	 Moving to L	 	
+y w b b r 
+r r w r y 
+b e r b r 
+ 	 Moving to K	 	
+y w b b r 
+r r w r y 
+e b r b r 
+ 	 Moving to F	 	
+y w b b r 
+e r w r y 
+r b r b r 
+ 	 Moving to G	 	
+y w b b r 
+r e w r y 
+r b r b r 
+ 	 Moving to H	 	
+y w b b r 
+r w e r y 
+r b r b r 
+ 	 Moving to M	 	
+y w b b r 
+r w r r y 
+r b e b r 
+ 	 Moving to L	 	
+y w b b r 
+r w r r y 
+r e b b r 
+ 	 Moving to G	 	
+y w b b r 
+r e r r y 
+r w b b r 
+ 	 Moving to F	 	
+y w b b r 
+e r r r y 
+r w b b r 
+ 	 Moving to K	 	
+y w b b r 
+r r r r y 
+e w b b r 
+ 	 Moving to L	 	
+y w b b r 
+r r r r y 
+w e b b r 
+ 	 Moving to M	 	
+y w b b r 
+r r r r y 
+w b e b r 
+ 	 Moving to N	 	
+y w b b r 
+r r r r y 
+w b b e r 
+ 	 Moving to I	 	
+y w b b r 
+r r r e y 
+w b b r r 
+ 	 Moving to H	 	
+y w b b r 
+r r e r y 
+w b b r r 
+ 	 Moving to G	 	
+y w b b r 
+r e r r y 
+w b b r r 
+ 	 Moving to F	 	
+y w b b r 
+e r r r y 
+w b b r r 
+ 	 Moving to A	 	
+e w b b r 
+y r r r y 
+w b b r r 
+ 	 Moving to B	 	
+w e b b r 
+y r r r y 
+w b b r r 
+ 	 Moving to C	 	
+w b e b r 
+y r r r y 
+w b b r r 
+ 	 Moving to D	 	
+w b b e r 
+y r r r y 
+w b b r r 
+ 	 Moving to I	 	
+w b b r r 
+y r r e y 
+w b b r r 
+ 42- Original Config : 
+
+r y r w r 
+y b e r r 
+b w b r b 
+
+ 	 Moving to C	 	
+r y e w r 
+y b r r r 
+b w b r b 
+ 	 Moving to B	 	
+r e y w r 
+y b r r r 
+b w b r b 
+ 	 Moving to G	 	
+r b y w r 
+y e r r r 
+b w b r b 
+ 	 Moving to H	 	
+r b y w r 
+y r e r r 
+b w b r b 
+ 	 Moving to M	 	
+r b y w r 
+y r b r r 
+b w e r b 
+ 	 Moving to L	 	
+r b y w r 
+y r b r r 
+b e w r b 
+ 	 Moving to K	 	
+r b y w r 
+y r b r r 
+e b w r b 
+ 	 Moving to F	 	
+r b y w r 
+e r b r r 
+y b w r b 
+ 	 Moving to G	 	
+r b y w r 
+r e b r r 
+y b w r b 
+ 	 Moving to H	 	
+r b y w r 
+r b e r r 
+y b w r b 
+ 	 Moving to I	 	
+r b y w r 
+r b r e r 
+y b w r b 
+ 	 Moving to J	 	
+r b y w r 
+r b r r e 
+y b w r b 
+ 	 Moving to O	 	
+r b y w r 
+r b r r b 
+y b w r e 
+ 	 Moving to N	 	
+r b y w r 
+r b r r b 
+y b w e r 
+ 	 Moving to M	 	
+r b y w r 
+r b r r b 
+y b e w r 
+ 	 Moving to L	 	
+r b y w r 
+r b r r b 
+y e b w r 
+ 	 Moving to K	 	
+r b y w r 
+r b r r b 
+e y b w r 
+ 	 Moving to F	 	
+r b y w r 
+e b r r b 
+r y b w r 
+ 	 Moving to G	 	
+r b y w r 
+b e r r b 
+r y b w r 
+ 	 Moving to H	 	
+r b y w r 
+b r e r b 
+r y b w r 
+ 	 Moving to M	 	
+r b y w r 
+b r b r b 
+r y e w r 
+ 	 Moving to L	 	
+r b y w r 
+b r b r b 
+r e y w r 
+ 	 Moving to K	 	
+r b y w r 
+b r b r b 
+e r y w r 
+ 	 Moving to F	 	
+r b y w r 
+e r b r b 
+b r y w r 
+ 	 Moving to G	 	
+r b y w r 
+r e b r b 
+b r y w r 
+ 	 Moving to L	 	
+r b y w r 
+r r b r b 
+b e y w r 
+ 	 Moving to K	 	
+r b y w r 
+r r b r b 
+e b y w r 
+ 	 Moving to F	 	
+r b y w r 
+e r b r b 
+r b y w r 
+ 43- Original Config : 
+
+r e r w b 
+b y w b y 
+r r b r r 
+
+ 	 Moving to C	 	
+r r e w b 
+b y w b y 
+r r b r r 
+ 	 Moving to D	 	
+r r w e b 
+b y w b y 
+r r b r r 
+ 	 Moving to I	 	
+r r w b b 
+b y w e y 
+r r b r r 
+ 	 Moving to N	 	
+r r w b b 
+b y w r y 
+r r b e r 
+ 	 Moving to M	 	
+r r w b b 
+b y w r y 
+r r e b r 
+ 	 Moving to H	 	
+r r w b b 
+b y e r y 
+r r w b r 
+ 	 Moving to I	 	
+r r w b b 
+b y r e y 
+r r w b r 
+ 	 Moving to D	 	
+r r w e b 
+b y r b y 
+r r w b r 
+ 	 Moving to C	 	
+r r e w b 
+b y r b y 
+r r w b r 
+ 	 Moving to B	 	
+r e r w b 
+b y r b y 
+r r w b r 
+ 	 Moving to A	 	
+e r r w b 
+b y r b y 
+r r w b r 
+ 	 Moving to F	 	
+b r r w b 
+e y r b y 
+r r w b r 
+ 	 Moving to G	 	
+b r r w b 
+y e r b y 
+r r w b r 
+ 	 Moving to H	 	
+b r r w b 
+y r e b y 
+r r w b r 
+ 	 Moving to I	 	
+b r r w b 
+y r b e y 
+r r w b r 
+ 	 Moving to J	 	
+b r r w b 
+y r b y e 
+r r w b r 
+ 	 Moving to O	 	
+b r r w b 
+y r b y r 
+r r w b e 
+ 	 Moving to N	 	
+b r r w b 
+y r b y r 
+r r w e b 
+ 	 Moving to M	 	
+b r r w b 
+y r b y r 
+r r e w b 
+ 	 Moving to L	 	
+b r r w b 
+y r b y r 
+r e r w b 
+ 	 Moving to K	 	
+b r r w b 
+y r b y r 
+e r r w b 
+ 	 Moving to F	 	
+b r r w b 
+e r b y r 
+y r r w b 
+ 	 Moving to G	 	
+b r r w b 
+r e b y r 
+y r r w b 
+ 	 Moving to H	 	
+b r r w b 
+r b e y r 
+y r r w b 
+ 	 Moving to M	 	
+b r r w b 
+r b r y r 
+y r e w b 
+ 	 Moving to L	 	
+b r r w b 
+r b r y r 
+y e r w b 
+ 	 Moving to K	 	
+b r r w b 
+r b r y r 
+e y r w b 
+ 	 Moving to F	 	
+b r r w b 
+e b r y r 
+r y r w b 
+ 	 Moving to G	 	
+b r r w b 
+b e r y r 
+r y r w b 
+ 	 Moving to L	 	
+b r r w b 
+b y r y r 
+r e r w b 
+ 	 Moving to K	 	
+b r r w b 
+b y r y r 
+e r r w b 
+ 	 Moving to F	 	
+b r r w b 
+e y r y r 
+b r r w b 
+ 44- Original Config : 
+
+b b r e r 
+w y r b r 
+y r w b r 
+
+ 	 Moving to I	 	
+b b r b r 
+w y r e r 
+y r w b r 
+ 	 Moving to H	 	
+b b r b r 
+w y e r r 
+y r w b r 
+ 	 Moving to M	 	
+b b r b r 
+w y w r r 
+y r e b r 
+ 	 Moving to L	 	
+b b r b r 
+w y w r r 
+y e r b r 
+ 	 Moving to K	 	
+b b r b r 
+w y w r r 
+e y r b r 
+ 	 Moving to F	 	
+b b r b r 
+e y w r r 
+w y r b r 
+ 	 Moving to A	 	
+e b r b r 
+b y w r r 
+w y r b r 
+ 	 Moving to B	 	
+b e r b r 
+b y w r r 
+w y r b r 
+ 	 Moving to G	 	
+b y r b r 
+b e w r r 
+w y r b r 
+ 	 Moving to F	 	
+b y r b r 
+e b w r r 
+w y r b r 
+ 	 Moving to K	 	
+b y r b r 
+w b w r r 
+e y r b r 
+ 	 Moving to L	 	
+b y r b r 
+w b w r r 
+y e r b r 
+ 	 Moving to M	 	
+b y r b r 
+w b w r r 
+y r e b r 
+ 	 Moving to N	 	
+b y r b r 
+w b w r r 
+y r b e r 
+ 	 Moving to I	 	
+b y r b r 
+w b w e r 
+y r b r r 
+ 	 Moving to H	 	
+b y r b r 
+w b e w r 
+y r b r r 
+ 	 Moving to G	 	
+b y r b r 
+w e b w r 
+y r b r r 
+ 	 Moving to F	 	
+b y r b r 
+e w b w r 
+y r b r r 
+ 	 Moving to A	 	
+e y r b r 
+b w b w r 
+y r b r r 
+ 	 Moving to B	 	
+y e r b r 
+b w b w r 
+y r b r r 
+ 	 Moving to C	 	
+y r e b r 
+b w b w r 
+y r b r r 
+ 	 Moving to D	 	
+y r b e r 
+b w b w r 
+y r b r r 
+ 	 Moving to E	 	
+y r b r e 
+b w b w r 
+y r b r r 
+ 	 Moving to J	 	
+y r b r r 
+b w b w e 
+y r b r r 
+ 45- Original Config : 
+
+b r y r r 
+b b b y w 
+e r r r w 
+
+ 	 Moving to F	 	
+b r y r r 
+e b b y w 
+b r r r w 
+ 	 Moving to G	 	
+b r y r r 
+b e b y w 
+b r r r w 
+ 	 Moving to H	 	
+b r y r r 
+b b e y w 
+b r r r w 
+ 	 Moving to C	 	
+b r e r r 
+b b y y w 
+b r r r w 
+ 	 Moving to D	 	
+b r r e r 
+b b y y w 
+b r r r w 
+ 	 Moving to E	 	
+b r r r e 
+b b y y w 
+b r r r w 
+ 	 Moving to J	 	
+b r r r w 
+b b y y e 
+b r r r w 
+ 46- Original Config : 
+
+b b w r r 
+b w r b r 
+r y e r y 
+
+ 	 Moving to H	 	
+b b w r r 
+b w e b r 
+r y r r y 
+ 	 Moving to I	 	
+b b w r r 
+b w b e r 
+r y r r y 
+ 	 Moving to J	 	
+b b w r r 
+b w b r e 
+r y r r y 
+ 	 Moving to O	 	
+b b w r r 
+b w b r y 
+r y r r e 
+ 	 Moving to N	 	
+b b w r r 
+b w b r y 
+r y r e r 
+ 	 Moving to M	 	
+b b w r r 
+b w b r y 
+r y e r r 
+ 	 Moving to L	 	
+b b w r r 
+b w b r y 
+r e y r r 
+ 	 Moving to G	 	
+b b w r r 
+b e b r y 
+r w y r r 
+ 	 Moving to H	 	
+b b w r r 
+b b e r y 
+r w y r r 
+ 	 Moving to M	 	
+b b w r r 
+b b y r y 
+r w e r r 
+ 	 Moving to L	 	
+b b w r r 
+b b y r y 
+r e w r r 
+ 	 Moving to G	 	
+b b w r r 
+b e y r y 
+r b w r r 
+ 	 Moving to F	 	
+b b w r r 
+e b y r y 
+r b w r r 
+ 	 Moving to K	 	
+b b w r r 
+r b y r y 
+e b w r r 
+ 	 Moving to L	 	
+b b w r r 
+r b y r y 
+b e w r r 
+ 	 Moving to G	 	
+b b w r r 
+r e y r y 
+b b w r r 
+ 47- Original Config : 
+
+b r r y y 
+e r r r b 
+r w b w b 
+
+ 	 Moving to G	 	
+b r r y y 
+r e r r b 
+r w b w b 
+ 	 Moving to H	 	
+b r r y y 
+r r e r b 
+r w b w b 
+ 	 Moving to M	 	
+b r r y y 
+r r b r b 
+r w e w b 
+ 	 Moving to L	 	
+b r r y y 
+r r b r b 
+r e w w b 
+ 	 Moving to G	 	
+b r r y y 
+r e b r b 
+r r w w b 
+ 	 Moving to H	 	
+b r r y y 
+r b e r b 
+r r w w b 
+ 	 Moving to M	 	
+b r r y y 
+r b w r b 
+r r e w b 
+ 	 Moving to L	 	
+b r r y y 
+r b w r b 
+r e r w b 
+ 	 Moving to K	 	
+b r r y y 
+r b w r b 
+e r r w b 
+ 	 Moving to F	 	
+b r r y y 
+e b w r b 
+r r r w b 
+ 	 Moving to A	 	
+e r r y y 
+b b w r b 
+r r r w b 
+ 	 Moving to B	 	
+r e r y y 
+b b w r b 
+r r r w b 
+ 	 Moving to C	 	
+r r e y y 
+b b w r b 
+r r r w b 
+ 	 Moving to D	 	
+r r y e y 
+b b w r b 
+r r r w b 
+ 	 Moving to I	 	
+r r y r y 
+b b w e b 
+r r r w b 
+ 	 Moving to H	 	
+r r y r y 
+b b e w b 
+r r r w b 
+ 	 Moving to C	 	
+r r e r y 
+b b y w b 
+r r r w b 
+ 	 Moving to D	 	
+r r r e y 
+b b y w b 
+r r r w b 
+ 	 Moving to I	 	
+r r r w y 
+b b y e b 
+r r r w b 
+ 	 Moving to J	 	
+r r r w y 
+b b y b e 
+r r r w b 
+ 	 Moving to E	 	
+r r r w e 
+b b y b y 
+r r r w b 
+ 	 Moving to D	 	
+r r r e w 
+b b y b y 
+r r r w b 
+ 	 Moving to C	 	
+r r e r w 
+b b y b y 
+r r r w b 
+ 	 Moving to B	 	
+r e r r w 
+b b y b y 
+r r r w b 
+ 	 Moving to A	 	
+e r r r w 
+b b y b y 
+r r r w b 
+ 	 Moving to F	 	
+b r r r w 
+e b y b y 
+r r r w b 
+ 	 Moving to G	 	
+b r r r w 
+b e y b y 
+r r r w b 
+ 	 Moving to H	 	
+b r r r w 
+b y e b y 
+r r r w b 
+ 	 Moving to I	 	
+b r r r w 
+b y b e y 
+r r r w b 
+ 	 Moving to J	 	
+b r r r w 
+b y b y e 
+r r r w b 
+ 	 Moving to O	 	
+b r r r w 
+b y b y b 
+r r r w e 
+ 	 Moving to N	 	
+b r r r w 
+b y b y b 
+r r r e w 
+ 	 Moving to M	 	
+b r r r w 
+b y b y b 
+r r e r w 
+ 	 Moving to L	 	
+b r r r w 
+b y b y b 
+r e r r w 
+ 	 Moving to K	 	
+b r r r w 
+b y b y b 
+e r r r w 
+ 	 Moving to F	 	
+b r r r w 
+e y b y b 
+b r r r w 
+ 48- Original Config : 
+
+y b b r r 
+w b e b r 
+r r r y w 
+
+ 	 Moving to I	 	
+y b b r r 
+w b b e r 
+r r r y w 
+ 	 Moving to N	 	
+y b b r r 
+w b b y r 
+r r r e w 
+ 	 Moving to M	 	
+y b b r r 
+w b b y r 
+r r e r w 
+ 	 Moving to L	 	
+y b b r r 
+w b b y r 
+r e r r w 
+ 	 Moving to G	 	
+y b b r r 
+w e b y r 
+r b r r w 
+ 	 Moving to H	 	
+y b b r r 
+w b e y r 
+r b r r w 
+ 	 Moving to I	 	
+y b b r r 
+w b y e r 
+r b r r w 
+ 	 Moving to J	 	
+y b b r r 
+w b y r e 
+r b r r w 
+ 	 Moving to O	 	
+y b b r r 
+w b y r w 
+r b r r e 
+ 	 Moving to N	 	
+y b b r r 
+w b y r w 
+r b r e r 
+ 	 Moving to M	 	
+y b b r r 
+w b y r w 
+r b e r r 
+ 	 Moving to L	 	
+y b b r r 
+w b y r w 
+r e b r r 
+ 	 Moving to G	 	
+y b b r r 
+w e y r w 
+r b b r r 
+ 	 Moving to F	 	
+y b b r r 
+e w y r w 
+r b b r r 
+ 	 Moving to K	 	
+y b b r r 
+r w y r w 
+e b b r r 
+ 	 Moving to L	 	
+y b b r r 
+r w y r w 
+b e b r r 
+ 	 Moving to M	 	
+y b b r r 
+r w y r w 
+b b e r r 
+ 	 Moving to N	 	
+y b b r r 
+r w y r w 
+b b r e r 
+ 	 Moving to O	 	
+y b b r r 
+r w y r w 
+b b r r e 
+ 	 Moving to J	 	
+y b b r r 
+r w y r e 
+b b r r w 
+ 	 Moving to I	 	
+y b b r r 
+r w y e r 
+b b r r w 
+ 	 Moving to H	 	
+y b b r r 
+r w e y r 
+b b r r w 
+ 	 Moving to G	 	
+y b b r r 
+r e w y r 
+b b r r w 
+ 	 Moving to F	 	
+y b b r r 
+e r w y r 
+b b r r w 
+ 	 Moving to A	 	
+e b b r r 
+y r w y r 
+b b r r w 
+ 	 Moving to B	 	
+b e b r r 
+y r w y r 
+b b r r w 
+ 	 Moving to C	 	
+b b e r r 
+y r w y r 
+b b r r w 
+ 	 Moving to D	 	
+b b r e r 
+y r w y r 
+b b r r w 
+ 	 Moving to E	 	
+b b r r e 
+y r w y r 
+b b r r w 
+ 	 Moving to J	 	
+b b r r r 
+y r w y e 
+b b r r w 
+ 	 Moving to I	 	
+b b r r r 
+y r w e y 
+b b r r w 
+ 	 Moving to D	 	
+b b r e r 
+y r w r y 
+b b r r w 
+ 	 Moving to E	 	
+b b r r e 
+y r w r y 
+b b r r w 
+ 	 Moving to J	 	
+b b r r y 
+y r w r e 
+b b r r w 
+ 	 Moving to I	 	
+b b r r y 
+y r w e r 
+b b r r w 
+ 	 Moving to H	 	
+b b r r y 
+y r e w r 
+b b r r w 
+ 	 Moving to C	 	
+b b e r y 
+y r r w r 
+b b r r w 
+ 	 Moving to D	 	
+b b r e y 
+y r r w r 
+b b r r w 
+ 	 Moving to E	 	
+b b r y e 
+y r r w r 
+b b r r w 
+ 	 Moving to J	 	
+b b r y r 
+y r r w e 
+b b r r w 
+ 	 Moving to I	 	
+b b r y r 
+y r r e w 
+b b r r w 
+ 	 Moving to D	 	
+b b r e r 
+y r r y w 
+b b r r w 
+ 	 Moving to E	 	
+b b r r e 
+y r r y w 
+b b r r w 
+ 	 Moving to J	 	
+b b r r w 
+y r r y e 
+b b r r w 
+ 49- Original Config : 
+
+w r r r r 
+b e r y b 
+y r b w b 
+
+ 	 Moving to H	 	
+w r r r r 
+b r e y b 
+y r b w b 
+ 	 Moving to I	 	
+w r r r r 
+b r y e b 
+y r b w b 
+ 	 Moving to N	 	
+w r r r r 
+b r y w b 
+y r b e b 
+ 	 Moving to M	 	
+w r r r r 
+b r y w b 
+y r e b b 
+ 	 Moving to L	 	
+w r r r r 
+b r y w b 
+y e r b b 
+ 	 Moving to G	 	
+w r r r r 
+b e y w b 
+y r r b b 
+ 	 Moving to H	 	
+w r r r r 
+b y e w b 
+y r r b b 
+ 	 Moving to I	 	
+w r r r r 
+b y w e b 
+y r r b b 
+ 	 Moving to N	 	
+w r r r r 
+b y w b b 
+y r r e b 
+ 	 Moving to M	 	
+w r r r r 
+b y w b b 
+y r e r b 
+ 	 Moving to L	 	
+w r r r r 
+b y w b b 
+y e r r b 
+ 	 Moving to G	 	
+w r r r r 
+b e w b b 
+y y r r b 
+ 	 Moving to H	 	
+w r r r r 
+b w e b b 
+y y r r b 
+ 	 Moving to I	 	
+w r r r r 
+b w b e b 
+y y r r b 
+ 	 Moving to J	 	
+w r r r r 
+b w b b e 
+y y r r b 
+ 	 Moving to O	 	
+w r r r r 
+b w b b b 
+y y r r e 
+ 	 Moving to N	 	
+w r r r r 
+b w b b b 
+y y r e r 
+ 	 Moving to M	 	
+w r r r r 
+b w b b b 
+y y e r r 
+ 	 Moving to L	 	
+w r r r r 
+b w b b b 
+y e y r r 
+ 	 Moving to G	 	
+w r r r r 
+b e b b b 
+y w y r r 
+ 	 Moving to F	 	
+w r r r r 
+e b b b b 
+y w y r r 
+ 	 Moving to K	 	
+w r r r r 
+y b b b b 
+e w y r r 
+ 	 Moving to L	 	
+w r r r r 
+y b b b b 
+w e y r r 
+ 	 Moving to M	 	
+w r r r r 
+y b b b b 
+w y e r r 
+ 	 Moving to N	 	
+w r r r r 
+y b b b b 
+w y r e r 
+ 	 Moving to O	 	
+w r r r r 
+y b b b b 
+w y r r e 
+ 	 Moving to J	 	
+w r r r r 
+y b b b e 
+w y r r b 
+ 	 Moving to I	 	
+w r r r r 
+y b b e b 
+w y r r b 
+ 	 Moving to H	 	
+w r r r r 
+y b e b b 
+w y r r b 
+ 	 Moving to G	 	
+w r r r r 
+y e b b b 
+w y r r b 
+ 	 Moving to L	 	
+w r r r r 
+y y b b b 
+w e r r b 
+ 	 Moving to M	 	
+w r r r r 
+y y b b b 
+w r e r b 
+ 	 Moving to N	 	
+w r r r r 
+y y b b b 
+w r r e b 
+ 	 Moving to I	 	
+w r r r r 
+y y b e b 
+w r r b b 
+ 	 Moving to H	 	
+w r r r r 
+y y e b b 
+w r r b b 
+ 	 Moving to C	 	
+w r e r r 
+y y r b b 
+w r r b b 
+ 	 Moving to D	 	
+w r r e r 
+y y r b b 
+w r r b b 
+ 	 Moving to I	 	
+w r r b r 
+y y r e b 
+w r r b b 
+ 	 Moving to J	 	
+w r r b r 
+y y r b e 
+w r r b b 
+ 	 Moving to E	 	
+w r r b e 
+y y r b r 
+w r r b b 
+ 	 Moving to D	 	
+w r r e b 
+y y r b r 
+w r r b b 
+ 	 Moving to I	 	
+w r r b b 
+y y r e r 
+w r r b b 
+ 50- Original Config : 
+
+r w r r y 
+b r b b e 
+r b w y r 
+
+ 	 Moving to I	 	
+r w r r y 
+b r b e b 
+r b w y r 
+ 	 Moving to D	 	
+r w r e y 
+b r b r b 
+r b w y r 
+ 	 Moving to E	 	
+r w r y e 
+b r b r b 
+r b w y r 
+ 	 Moving to J	 	
+r w r y b 
+b r b r e 
+r b w y r 
+ 	 Moving to I	 	
+r w r y b 
+b r b e r 
+r b w y r 
+ 	 Moving to H	 	
+r w r y b 
+b r e b r 
+r b w y r 
+ 	 Moving to C	 	
+r w e y b 
+b r r b r 
+r b w y r 
+ 	 Moving to B	 	
+r e w y b 
+b r r b r 
+r b w y r 
+ 	 Moving to G	 	
+r r w y b 
+b e r b r 
+r b w y r 
+ 	 Moving to F	 	
+r r w y b 
+e b r b r 
+r b w y r 
+ 	 Moving to A	 	
+e r w y b 
+r b r b r 
+r b w y r 
+ 	 Moving to B	 	
+r e w y b 
+r b r b r 
+r b w y r 
+ 	 Moving to G	 	
+r b w y b 
+r e r b r 
+r b w y r 
+ 	 Moving to H	 	
+r b w y b 
+r r e b r 
+r b w y r 
+ 	 Moving to I	 	
+r b w y b 
+r r b e r 
+r b w y r 
+ 	 Moving to J	 	
+r b w y b 
+r r b r e 
+r b w y r 
+ 	 Moving to E	 	
+r b w y e 
+r r b r b 
+r b w y r 
+ 	 Moving to D	 	
+r b w e y 
+r r b r b 
+r b w y r 
+ 	 Moving to C	 	
+r b e w y 
+r r b r b 
+r b w y r 
+ 	 Moving to B	 	
+r e b w y 
+r r b r b 
+r b w y r 
+ 	 Moving to G	 	
+r r b w y 
+r e b r b 
+r b w y r 
+ 	 Moving to H	 	
+r r b w y 
+r b e r b 
+r b w y r 
+ 	 Moving to I	 	
+r r b w y 
+r b r e b 
+r b w y r 
+ 	 Moving to J	 	
+r r b w y 
+r b r b e 
+r b w y r 
+ 	 Moving to O	 	
+r r b w y 
+r b r b r 
+r b w y e 
+ 	 Moving to N	 	
+r r b w y 
+r b r b r 
+r b w e y 
+ 	 Moving to M	 	
+r r b w y 
+r b r b r 
+r b e w y 
+ 	 Moving to L	 	
+r r b w y 
+r b r b r 
+r e b w y 
+ 	 Moving to K	 	
+r r b w y 
+r b r b r 
+e r b w y 
+ 	 Moving to F	 	
+r r b w y 
+e b r b r 
+r r b w y 
+ 51- Original Config : 
+
+y e w w r 
+g b r b g 
+r b r y b 
+
+ 	 Moving to G	 	
+y b w w r 
+g e r b g 
+r b r y b 
+ 	 Moving to F	 	
+y b w w r 
+e g r b g 
+r b r y b 
+ 	 Moving to K	 	
+y b w w r 
+r g r b g 
+e b r y b 
+ 	 Moving to L	 	
+y b w w r 
+r g r b g 
+b e r y b 
+ 	 Moving to G	 	
+y b w w r 
+r e r b g 
+b g r y b 
+ 	 Moving to H	 	
+y b w w r 
+r r e b g 
+b g r y b 
+ 	 Moving to C	 	
+y b e w r 
+r r w b g 
+b g r y b 
+ 	 Moving to B	 	
+y e b w r 
+r r w b g 
+b g r y b 
+ 	 Moving to A	 	
+e y b w r 
+r r w b g 
+b g r y b 
+ 	 Moving to F	 	
+r y b w r 
+e r w b g 
+b g r y b 
+ 	 Moving to G	 	
+r y b w r 
+r e w b g 
+b g r y b 
+ 	 Moving to H	 	
+r y b w r 
+r w e b g 
+b g r y b 
+ 	 Moving to I	 	
+r y b w r 
+r w b e g 
+b g r y b 
+ 	 Moving to J	 	
+r y b w r 
+r w b g e 
+b g r y b 
+ 	 Moving to O	 	
+r y b w r 
+r w b g b 
+b g r y e 
+ 	 Moving to N	 	
+r y b w r 
+r w b g b 
+b g r e y 
+ 	 Moving to M	 	
+r y b w r 
+r w b g b 
+b g e r y 
+ 	 Moving to L	 	
+r y b w r 
+r w b g b 
+b e g r y 
+ 	 Moving to G	 	
+r y b w r 
+r e b g b 
+b w g r y 
+ 	 Moving to H	 	
+r y b w r 
+r b e g b 
+b w g r y 
+ 	 Moving to M	 	
+r y b w r 
+r b g g b 
+b w e r y 
+ 	 Moving to L	 	
+r y b w r 
+r b g g b 
+b e w r y 
+ 	 Moving to K	 	
+r y b w r 
+r b g g b 
+e b w r y 
+ 	 Moving to F	 	
+r y b w r 
+e b g g b 
+r b w r y 
+ 	 Moving to G	 	
+r y b w r 
+b e g g b 
+r b w r y 
+ 	 Moving to B	 	
+r e b w r 
+b y g g b 
+r b w r y 
+ 	 Moving to C	 	
+r b e w r 
+b y g g b 
+r b w r y 
+ 	 Moving to H	 	
+r b g w r 
+b y e g b 
+r b w r y 
+ 	 Moving to I	 	
+r b g w r 
+b y g e b 
+r b w r y 
+ 	 Moving to J	 	
+r b g w r 
+b y g b e 
+r b w r y 
+ 	 Moving to E	 	
+r b g w e 
+b y g b r 
+r b w r y 
+ 	 Moving to D	 	
+r b g e w 
+b y g b r 
+r b w r y 
+ 	 Moving to I	 	
+r b g b w 
+b y g e r 
+r b w r y 
+ 	 Moving to H	 	
+r b g b w 
+b y e g r 
+r b w r y 
+ 	 Moving to C	 	
+r b e b w 
+b y g g r 
+r b w r y 
+ 	 Moving to D	 	
+r b b e w 
+b y g g r 
+r b w r y 
+ 	 Moving to E	 	
+r b b w e 
+b y g g r 
+r b w r y 
+ 	 Moving to J	 	
+r b b w r 
+b y g g e 
+r b w r y 
+ 	 Moving to I	 	
+r b b w r 
+b y g e g 
+r b w r y 
+ 	 Moving to H	 	
+r b b w r 
+b y e g g 
+r b w r y 
+ 	 Moving to G	 	
+r b b w r 
+b e y g g 
+r b w r y 
+ 	 Moving to B	 	
+r e b w r 
+b b y g g 
+r b w r y 
+ 	 Moving to A	 	
+e r b w r 
+b b y g g 
+r b w r y 
+ 	 Moving to F	 	
+b r b w r 
+e b y g g 
+r b w r y 
+ 	 Moving to G	 	
+b r b w r 
+b e y g g 
+r b w r y 
+ 	 Moving to H	 	
+b r b w r 
+b y e g g 
+r b w r y 
+ 	 Moving to I	 	
+b r b w r 
+b y g e g 
+r b w r y 
+ 	 Moving to J	 	
+b r b w r 
+b y g g e 
+r b w r y 
+ 	 Moving to O	 	
+b r b w r 
+b y g g y 
+r b w r e 
+ 	 Moving to N	 	
+b r b w r 
+b y g g y 
+r b w e r 
+ 	 Moving to M	 	
+b r b w r 
+b y g g y 
+r b e w r 
+ 	 Moving to L	 	
+b r b w r 
+b y g g y 
+r e b w r 
+ 	 Moving to K	 	
+b r b w r 
+b y g g y 
+e r b w r 
+ 	 Moving to F	 	
+b r b w r 
+e y g g y 
+b r b w r 
+ 52- Original Config : 
+
+g r r b b 
+e r g w y 
+b b r w y 
+
+ 	 Moving to G	 	
+g r r b b 
+r e g w y 
+b b r w y 
+ 	 Moving to H	 	
+g r r b b 
+r g e w y 
+b b r w y 
+ 	 Moving to I	 	
+g r r b b 
+r g w e y 
+b b r w y 
+ 	 Moving to N	 	
+g r r b b 
+r g w w y 
+b b r e y 
+ 	 Moving to M	 	
+g r r b b 
+r g w w y 
+b b e r y 
+ 	 Moving to L	 	
+g r r b b 
+r g w w y 
+b e b r y 
+ 	 Moving to K	 	
+g r r b b 
+r g w w y 
+e b b r y 
+ 	 Moving to F	 	
+g r r b b 
+e g w w y 
+r b b r y 
+ 	 Moving to G	 	
+g r r b b 
+g e w w y 
+r b b r y 
+ 	 Moving to H	 	
+g r r b b 
+g w e w y 
+r b b r y 
+ 	 Moving to I	 	
+g r r b b 
+g w w e y 
+r b b r y 
+ 	 Moving to J	 	
+g r r b b 
+g w w y e 
+r b b r y 
+ 	 Moving to O	 	
+g r r b b 
+g w w y y 
+r b b r e 
+ 	 Moving to N	 	
+g r r b b 
+g w w y y 
+r b b e r 
+ 	 Moving to M	 	
+g r r b b 
+g w w y y 
+r b e b r 
+ 	 Moving to L	 	
+g r r b b 
+g w w y y 
+r e b b r 
+ 	 Moving to K	 	
+g r r b b 
+g w w y y 
+e r b b r 
+ 	 Moving to F	 	
+g r r b b 
+e w w y y 
+g r b b r 
+ 	 Moving to G	 	
+g r r b b 
+w e w y y 
+g r b b r 
+ 	 Moving to H	 	
+g r r b b 
+w w e y y 
+g r b b r 
+ 	 Moving to C	 	
+g r e b b 
+w w r y y 
+g r b b r 
+ 	 Moving to B	 	
+g e r b b 
+w w r y y 
+g r b b r 
+ 	 Moving to A	 	
+e g r b b 
+w w r y y 
+g r b b r 
+ 	 Moving to F	 	
+w g r b b 
+e w r y y 
+g r b b r 
+ 	 Moving to G	 	
+w g r b b 
+w e r y y 
+g r b b r 
+ 	 Moving to H	 	
+w g r b b 
+w r e y y 
+g r b b r 
+ 	 Moving to I	 	
+w g r b b 
+w r y e y 
+g r b b r 
+ 	 Moving to J	 	
+w g r b b 
+w r y y e 
+g r b b r 
+ 	 Moving to O	 	
+w g r b b 
+w r y y r 
+g r b b e 
+ 	 Moving to N	 	
+w g r b b 
+w r y y r 
+g r b e b 
+ 	 Moving to M	 	
+w g r b b 
+w r y y r 
+g r e b b 
+ 	 Moving to L	 	
+w g r b b 
+w r y y r 
+g e r b b 
+ 	 Moving to K	 	
+w g r b b 
+w r y y r 
+e g r b b 
+ 	 Moving to F	 	
+w g r b b 
+e r y y r 
+w g r b b 
+ 53- Original Config : 
+
+b b g r e 
+b y b y r 
+r g w w r 
+
+ 	 Moving to J	 	
+b b g r r 
+b y b y e 
+r g w w r 
+ 	 Moving to I	 	
+b b g r r 
+b y b e y 
+r g w w r 
+ 	 Moving to N	 	
+b b g r r 
+b y b w y 
+r g w e r 
+ 	 Moving to M	 	
+b b g r r 
+b y b w y 
+r g e w r 
+ 	 Moving to H	 	
+b b g r r 
+b y e w y 
+r g b w r 
+ 	 Moving to I	 	
+b b g r r 
+b y w e y 
+r g b w r 
+ 	 Moving to N	 	
+b b g r r 
+b y w w y 
+r g b e r 
+ 	 Moving to M	 	
+b b g r r 
+b y w w y 
+r g e b r 
+ 	 Moving to L	 	
+b b g r r 
+b y w w y 
+r e g b r 
+ 	 Moving to K	 	
+b b g r r 
+b y w w y 
+e r g b r 
+ 	 Moving to F	 	
+b b g r r 
+e y w w y 
+b r g b r 
+ 	 Moving to G	 	
+b b g r r 
+y e w w y 
+b r g b r 
+ 	 Moving to H	 	
+b b g r r 
+y w e w y 
+b r g b r 
+ 	 Moving to I	 	
+b b g r r 
+y w w e y 
+b r g b r 
+ 	 Moving to J	 	
+b b g r r 
+y w w y e 
+b r g b r 
+ 	 Moving to E	 	
+b b g r e 
+y w w y r 
+b r g b r 
+ 	 Moving to D	 	
+b b g e r 
+y w w y r 
+b r g b r 
+ 	 Moving to I	 	
+b b g y r 
+y w w e r 
+b r g b r 
+ 	 Moving to H	 	
+b b g y r 
+y w e w r 
+b r g b r 
+ 	 Moving to G	 	
+b b g y r 
+y e w w r 
+b r g b r 
+ 	 Moving to L	 	
+b b g y r 
+y r w w r 
+b e g b r 
+ 	 Moving to K	 	
+b b g y r 
+y r w w r 
+e b g b r 
+ 	 Moving to F	 	
+b b g y r 
+e r w w r 
+y b g b r 
+ 	 Moving to G	 	
+b b g y r 
+r e w w r 
+y b g b r 
+ 	 Moving to H	 	
+b b g y r 
+r w e w r 
+y b g b r 
+ 	 Moving to I	 	
+b b g y r 
+r w w e r 
+y b g b r 
+ 	 Moving to D	 	
+b b g e r 
+r w w y r 
+y b g b r 
+ 	 Moving to C	 	
+b b e g r 
+r w w y r 
+y b g b r 
+ 	 Moving to H	 	
+b b w g r 
+r w e y r 
+y b g b r 
+ 	 Moving to I	 	
+b b w g r 
+r w y e r 
+y b g b r 
+ 	 Moving to N	 	
+b b w g r 
+r w y b r 
+y b g e r 
+ 	 Moving to M	 	
+b b w g r 
+r w y b r 
+y b e g r 
+ 	 Moving to L	 	
+b b w g r 
+r w y b r 
+y e b g r 
+ 	 Moving to G	 	
+b b w g r 
+r e y b r 
+y w b g r 
+ 	 Moving to H	 	
+b b w g r 
+r y e b r 
+y w b g r 
+ 	 Moving to M	 	
+b b w g r 
+r y b b r 
+y w e g r 
+ 	 Moving to L	 	
+b b w g r 
+r y b b r 
+y e w g r 
+ 	 Moving to K	 	
+b b w g r 
+r y b b r 
+e y w g r 
+ 	 Moving to F	 	
+b b w g r 
+e y b b r 
+r y w g r 
+ 	 Moving to G	 	
+b b w g r 
+y e b b r 
+r y w g r 
+ 	 Moving to L	 	
+b b w g r 
+y y b b r 
+r e w g r 
+ 	 Moving to M	 	
+b b w g r 
+y y b b r 
+r w e g r 
+ 	 Moving to H	 	
+b b w g r 
+y y e b r 
+r w b g r 
+ 	 Moving to G	 	
+b b w g r 
+y e y b r 
+r w b g r 
+ 	 Moving to F	 	
+b b w g r 
+e y y b r 
+r w b g r 
+ 	 Moving to K	 	
+b b w g r 
+r y y b r 
+e w b g r 
+ 	 Moving to L	 	
+b b w g r 
+r y y b r 
+w e b g r 
+ 	 Moving to G	 	
+b b w g r 
+r e y b r 
+w y b g r 
+ 	 Moving to H	 	
+b b w g r 
+r y e b r 
+w y b g r 
+ 	 Moving to M	 	
+b b w g r 
+r y b b r 
+w y e g r 
+ 	 Moving to L	 	
+b b w g r 
+r y b b r 
+w e y g r 
+ 	 Moving to K	 	
+b b w g r 
+r y b b r 
+e w y g r 
+ 	 Moving to F	 	
+b b w g r 
+e y b b r 
+r w y g r 
+ 	 Moving to G	 	
+b b w g r 
+y e b b r 
+r w y g r 
+ 	 Moving to H	 	
+b b w g r 
+y b e b r 
+r w y g r 
+ 	 Moving to M	 	
+b b w g r 
+y b y b r 
+r w e g r 
+ 	 Moving to L	 	
+b b w g r 
+y b y b r 
+r e w g r 
+ 	 Moving to G	 	
+b b w g r 
+y e y b r 
+r b w g r 
+ 	 Moving to F	 	
+b b w g r 
+e y y b r 
+r b w g r 
+ 	 Moving to K	 	
+b b w g r 
+r y y b r 
+e b w g r 
+ 	 Moving to L	 	
+b b w g r 
+r y y b r 
+b e w g r 
+ 	 Moving to M	 	
+b b w g r 
+r y y b r 
+b w e g r 
+ 	 Moving to N	 	
+b b w g r 
+r y y b r 
+b w g e r 
+ 	 Moving to I	 	
+b b w g r 
+r y y e r 
+b w g b r 
+ 	 Moving to H	 	
+b b w g r 
+r y e y r 
+b w g b r 
+ 	 Moving to G	 	
+b b w g r 
+r e y y r 
+b w g b r 
+ 	 Moving to F	 	
+b b w g r 
+e r y y r 
+b w g b r 
+ 	 Moving to K	 	
+b b w g r 
+b r y y r 
+e w g b r 
+ 	 Moving to L	 	
+b b w g r 
+b r y y r 
+w e g b r 
+ 	 Moving to M	 	
+b b w g r 
+b r y y r 
+w g e b r 
+ 	 Moving to N	 	
+b b w g r 
+b r y y r 
+w g b e r 
+ 	 Moving to O	 	
+b b w g r 
+b r y y r 
+w g b r e 
+ 	 Moving to J	 	
+b b w g r 
+b r y y e 
+w g b r r 
+ 	 Moving to I	 	
+b b w g r 
+b r y e y 
+w g b r r 
+ 	 Moving to N	 	
+b b w g r 
+b r y r y 
+w g b e r 
+ 	 Moving to M	 	
+b b w g r 
+b r y r y 
+w g e b r 
+ 	 Moving to L	 	
+b b w g r 
+b r y r y 
+w e g b r 
+ 	 Moving to K	 	
+b b w g r 
+b r y r y 
+e w g b r 
+ 	 Moving to F	 	
+b b w g r 
+e r y r y 
+b w g b r 
+ 	 Moving to G	 	
+b b w g r 
+r e y r y 
+b w g b r 
+ 	 Moving to H	 	
+b b w g r 
+r y e r y 
+b w g b r 
+ 	 Moving to I	 	
+b b w g r 
+r y r e y 
+b w g b r 
+ 	 Moving to N	 	
+b b w g r 
+r y r b y 
+b w g e r 
+ 	 Moving to O	 	
+b b w g r 
+r y r b y 
+b w g r e 
+ 	 Moving to J	 	
+b b w g r 
+r y r b e 
+b w g r y 
+ 	 Moving to I	 	
+b b w g r 
+r y r e b 
+b w g r y 
+ 	 Moving to H	 	
+b b w g r 
+r y e r b 
+b w g r y 
+ 	 Moving to G	 	
+b b w g r 
+r e y r b 
+b w g r y 
+ 	 Moving to B	 	
+b e w g r 
+r b y r b 
+b w g r y 
+ 	 Moving to C	 	
+b w e g r 
+r b y r b 
+b w g r y 
+ 	 Moving to D	 	
+b w g e r 
+r b y r b 
+b w g r y 
+ 	 Moving to I	 	
+b w g r r 
+r b y e b 
+b w g r y 
+ 	 Moving to J	 	
+b w g r r 
+r b y b e 
+b w g r y 
+ 	 Moving to E	 	
+b w g r e 
+r b y b r 
+b w g r y 
+ 	 Moving to D	 	
+b w g e r 
+r b y b r 
+b w g r y 
+ 	 Moving to C	 	
+b w e g r 
+r b y b r 
+b w g r y 
+ 	 Moving to B	 	
+b e w g r 
+r b y b r 
+b w g r y 
+ 	 Moving to G	 	
+b b w g r 
+r e y b r 
+b w g r y 
+ 	 Moving to H	 	
+b b w g r 
+r y e b r 
+b w g r y 
+ 	 Moving to I	 	
+b b w g r 
+r y b e r 
+b w g r y 
+ 	 Moving to J	 	
+b b w g r 
+r y b r e 
+b w g r y 
+ 	 Moving to O	 	
+b b w g r 
+r y b r y 
+b w g r e 
+ 	 Moving to N	 	
+b b w g r 
+r y b r y 
+b w g e r 
+ 	 Moving to M	 	
+b b w g r 
+r y b r y 
+b w e g r 
+ 	 Moving to H	 	
+b b w g r 
+r y e r y 
+b w b g r 
+ 	 Moving to G	 	
+b b w g r 
+r e y r y 
+b w b g r 
+ 	 Moving to F	 	
+b b w g r 
+e r y r y 
+b w b g r 
+ 	 Moving to K	 	
+b b w g r 
+b r y r y 
+e w b g r 
+ 	 Moving to L	 	
+b b w g r 
+b r y r y 
+w e b g r 
+ 	 Moving to M	 	
+b b w g r 
+b r y r y 
+w b e g r 
+ 	 Moving to H	 	
+b b w g r 
+b r e r y 
+w b y g r 
+ 	 Moving to G	 	
+b b w g r 
+b e r r y 
+w b y g r 
+ 	 Moving to L	 	
+b b w g r 
+b b r r y 
+w e y g r 
+ 	 Moving to K	 	
+b b w g r 
+b b r r y 
+e w y g r 
+ 	 Moving to F	 	
+b b w g r 
+e b r r y 
+b w y g r 
+ 	 Moving to G	 	
+b b w g r 
+b e r r y 
+b w y g r 
+ 	 Moving to H	 	
+b b w g r 
+b r e r y 
+b w y g r 
+ 	 Moving to M	 	
+b b w g r 
+b r y r y 
+b w e g r 
+ 	 Moving to L	 	
+b b w g r 
+b r y r y 
+b e w g r 
+ 	 Moving to K	 	
+b b w g r 
+b r y r y 
+e b w g r 
+ 	 Moving to F	 	
+b b w g r 
+e r y r y 
+b b w g r 
+ 54- Original Config : 
+
+y r w e b 
+b r b r y 
+w g g b r 
+
+ 	 Moving to I	 	
+y r w r b 
+b r b e y 
+w g g b r 
+ 	 Moving to J	 	
+y r w r b 
+b r b y e 
+w g g b r 
+ 	 Moving to E	 	
+y r w r e 
+b r b y b 
+w g g b r 
+ 	 Moving to D	 	
+y r w e r 
+b r b y b 
+w g g b r 
+ 	 Moving to C	 	
+y r e w r 
+b r b y b 
+w g g b r 
+ 	 Moving to H	 	
+y r b w r 
+b r e y b 
+w g g b r 
+ 	 Moving to I	 	
+y r b w r 
+b r y e b 
+w g g b r 
+ 	 Moving to N	 	
+y r b w r 
+b r y b b 
+w g g e r 
+ 	 Moving to M	 	
+y r b w r 
+b r y b b 
+w g e g r 
+ 	 Moving to L	 	
+y r b w r 
+b r y b b 
+w e g g r 
+ 	 Moving to K	 	
+y r b w r 
+b r y b b 
+e w g g r 
+ 	 Moving to F	 	
+y r b w r 
+e r y b b 
+b w g g r 
+ 	 Moving to G	 	
+y r b w r 
+r e y b b 
+b w g g r 
+ 	 Moving to H	 	
+y r b w r 
+r y e b b 
+b w g g r 
+ 	 Moving to M	 	
+y r b w r 
+r y g b b 
+b w e g r 
+ 	 Moving to L	 	
+y r b w r 
+r y g b b 
+b e w g r 
+ 	 Moving to K	 	
+y r b w r 
+r y g b b 
+e b w g r 
+ 	 Moving to F	 	
+y r b w r 
+e y g b b 
+r b w g r 
+ 	 Moving to G	 	
+y r b w r 
+y e g b b 
+r b w g r 
+ 	 Moving to H	 	
+y r b w r 
+y g e b b 
+r b w g r 
+ 	 Moving to I	 	
+y r b w r 
+y g b e b 
+r b w g r 
+ 	 Moving to N	 	
+y r b w r 
+y g b g b 
+r b w e r 
+ 	 Moving to M	 	
+y r b w r 
+y g b g b 
+r b e w r 
+ 	 Moving to L	 	
+y r b w r 
+y g b g b 
+r e b w r 
+ 	 Moving to K	 	
+y r b w r 
+y g b g b 
+e r b w r 
+ 	 Moving to F	 	
+y r b w r 
+e g b g b 
+y r b w r 
+ 55- Original Config : 
+
+r e b w y 
+w g r r y 
+g r b b b 
+
+ 	 Moving to G	 	
+r g b w y 
+w e r r y 
+g r b b b 
+ 	 Moving to L	 	
+r g b w y 
+w r r r y 
+g e b b b 
+ 	 Moving to K	 	
+r g b w y 
+w r r r y 
+e g b b b 
+ 	 Moving to F	 	
+r g b w y 
+e r r r y 
+w g b b b 
+ 	 Moving to G	 	
+r g b w y 
+r e r r y 
+w g b b b 
+ 	 Moving to H	 	
+r g b w y 
+r r e r y 
+w g b b b 
+ 	 Moving to I	 	
+r g b w y 
+r r r e y 
+w g b b b 
+ 	 Moving to J	 	
+r g b w y 
+r r r y e 
+w g b b b 
+ 	 Moving to E	 	
+r g b w e 
+r r r y y 
+w g b b b 
+ 	 Moving to D	 	
+r g b e w 
+r r r y y 
+w g b b b 
+ 	 Moving to C	 	
+r g e b w 
+r r r y y 
+w g b b b 
+ 	 Moving to H	 	
+r g r b w 
+r r e y y 
+w g b b b 
+ 	 Moving to G	 	
+r g r b w 
+r e r y y 
+w g b b b 
+ 	 Moving to F	 	
+r g r b w 
+e r r y y 
+w g b b b 
+ 	 Moving to K	 	
+r g r b w 
+w r r y y 
+e g b b b 
+ 	 Moving to L	 	
+r g r b w 
+w r r y y 
+g e b b b 
+ 	 Moving to G	 	
+r g r b w 
+w e r y y 
+g r b b b 
+ 	 Moving to F	 	
+r g r b w 
+e w r y y 
+g r b b b 
+ 	 Moving to A	 	
+e g r b w 
+r w r y y 
+g r b b b 
+ 	 Moving to B	 	
+g e r b w 
+r w r y y 
+g r b b b 
+ 	 Moving to C	 	
+g r e b w 
+r w r y y 
+g r b b b 
+ 	 Moving to H	 	
+g r r b w 
+r w e y y 
+g r b b b 
+ 	 Moving to G	 	
+g r r b w 
+r e w y y 
+g r b b b 
+ 	 Moving to B	 	
+g e r b w 
+r r w y y 
+g r b b b 
+ 	 Moving to C	 	
+g r e b w 
+r r w y y 
+g r b b b 
+ 	 Moving to D	 	
+g r b e w 
+r r w y y 
+g r b b b 
+ 	 Moving to I	 	
+g r b y w 
+r r w e y 
+g r b b b 
+ 	 Moving to J	 	
+g r b y w 
+r r w y e 
+g r b b b 
+ 	 Moving to E	 	
+g r b y e 
+r r w y w 
+g r b b b 
+ 	 Moving to D	 	
+g r b e y 
+r r w y w 
+g r b b b 
+ 	 Moving to C	 	
+g r e b y 
+r r w y w 
+g r b b b 
+ 	 Moving to H	 	
+g r w b y 
+r r e y w 
+g r b b b 
+ 	 Moving to I	 	
+g r w b y 
+r r y e w 
+g r b b b 
+ 	 Moving to J	 	
+g r w b y 
+r r y w e 
+g r b b b 
+ 	 Moving to E	 	
+g r w b e 
+r r y w y 
+g r b b b 
+ 	 Moving to D	 	
+g r w e b 
+r r y w y 
+g r b b b 
+ 	 Moving to I	 	
+g r w w b 
+r r y e y 
+g r b b b 
+ 	 Moving to H	 	
+g r w w b 
+r r e y y 
+g r b b b 
+ 	 Moving to C	 	
+g r e w b 
+r r w y y 
+g r b b b 
+ 	 Moving to D	 	
+g r w e b 
+r r w y y 
+g r b b b 
+ 	 Moving to E	 	
+g r w b e 
+r r w y y 
+g r b b b 
+ 	 Moving to J	 	
+g r w b y 
+r r w y e 
+g r b b b 
+ 	 Moving to I	 	
+g r w b y 
+r r w e y 
+g r b b b 
+ 	 Moving to H	 	
+g r w b y 
+r r e w y 
+g r b b b 
+ 	 Moving to C	 	
+g r e b y 
+r r w w y 
+g r b b b 
+ 	 Moving to B	 	
+g e r b y 
+r r w w y 
+g r b b b 
+ 	 Moving to G	 	
+g r r b y 
+r e w w y 
+g r b b b 
+ 	 Moving to H	 	
+g r r b y 
+r w e w y 
+g r b b b 
+ 	 Moving to I	 	
+g r r b y 
+r w w e y 
+g r b b b 
+ 	 Moving to J	 	
+g r r b y 
+r w w y e 
+g r b b b 
+ 	 Moving to E	 	
+g r r b e 
+r w w y y 
+g r b b b 
+ 	 Moving to D	 	
+g r r e b 
+r w w y y 
+g r b b b 
+ 	 Moving to C	 	
+g r e r b 
+r w w y y 
+g r b b b 
+ 	 Moving to H	 	
+g r w r b 
+r w e y y 
+g r b b b 
+ 	 Moving to I	 	
+g r w r b 
+r w y e y 
+g r b b b 
+ 	 Moving to D	 	
+g r w e b 
+r w y r y 
+g r b b b 
+ 	 Moving to E	 	
+g r w b e 
+r w y r y 
+g r b b b 
+ 	 Moving to J	 	
+g r w b y 
+r w y r e 
+g r b b b 
+ 	 Moving to I	 	
+g r w b y 
+r w y e r 
+g r b b b 
+ 	 Moving to H	 	
+g r w b y 
+r w e y r 
+g r b b b 
+ 	 Moving to C	 	
+g r e b y 
+r w w y r 
+g r b b b 
+ 	 Moving to D	 	
+g r b e y 
+r w w y r 
+g r b b b 
+ 	 Moving to I	 	
+g r b y y 
+r w w e r 
+g r b b b 
+ 	 Moving to J	 	
+g r b y y 
+r w w r e 
+g r b b b 
+ 	 Moving to E	 	
+g r b y e 
+r w w r y 
+g r b b b 
+ 	 Moving to D	 	
+g r b e y 
+r w w r y 
+g r b b b 
+ 	 Moving to C	 	
+g r e b y 
+r w w r y 
+g r b b b 
+ 	 Moving to B	 	
+g e r b y 
+r w w r y 
+g r b b b 
+ 	 Moving to A	 	
+e g r b y 
+r w w r y 
+g r b b b 
+ 	 Moving to F	 	
+r g r b y 
+e w w r y 
+g r b b b 
+ 	 Moving to G	 	
+r g r b y 
+w e w r y 
+g r b b b 
+ 	 Moving to H	 	
+r g r b y 
+w w e r y 
+g r b b b 
+ 	 Moving to I	 	
+r g r b y 
+w w r e y 
+g r b b b 
+ 	 Moving to J	 	
+r g r b y 
+w w r y e 
+g r b b b 
+ 	 Moving to E	 	
+r g r b e 
+w w r y y 
+g r b b b 
+ 	 Moving to D	 	
+r g r e b 
+w w r y y 
+g r b b b 
+ 	 Moving to C	 	
+r g e r b 
+w w r y y 
+g r b b b 
+ 	 Moving to B	 	
+r e g r b 
+w w r y y 
+g r b b b 
+ 	 Moving to A	 	
+e r g r b 
+w w r y y 
+g r b b b 
+ 	 Moving to F	 	
+w r g r b 
+e w r y y 
+g r b b b 
+ 	 Moving to G	 	
+w r g r b 
+w e r y y 
+g r b b b 
+ 	 Moving to B	 	
+w e g r b 
+w r r y y 
+g r b b b 
+ 	 Moving to C	 	
+w g e r b 
+w r r y y 
+g r b b b 
+ 	 Moving to D	 	
+w g r e b 
+w r r y y 
+g r b b b 
+ 	 Moving to E	 	
+w g r b e 
+w r r y y 
+g r b b b 
+ 	 Moving to J	 	
+w g r b y 
+w r r y e 
+g r b b b 
+ 	 Moving to I	 	
+w g r b y 
+w r r e y 
+g r b b b 
+ 	 Moving to H	 	
+w g r b y 
+w r e r y 
+g r b b b 
+ 	 Moving to G	 	
+w g r b y 
+w e r r y 
+g r b b b 
+ 	 Moving to F	 	
+w g r b y 
+e w r r y 
+g r b b b 
+ 	 Moving to A	 	
+e g r b y 
+w w r r y 
+g r b b b 
+ 	 Moving to B	 	
+g e r b y 
+w w r r y 
+g r b b b 
+ 	 Moving to C	 	
+g r e b y 
+w w r r y 
+g r b b b 
+ 	 Moving to H	 	
+g r r b y 
+w w e r y 
+g r b b b 
+ 	 Moving to I	 	
+g r r b y 
+w w r e y 
+g r b b b 
+ 	 Moving to J	 	
+g r r b y 
+w w r y e 
+g r b b b 
+ 	 Moving to E	 	
+g r r b e 
+w w r y y 
+g r b b b 
+ 	 Moving to D	 	
+g r r e b 
+w w r y y 
+g r b b b 
+ 	 Moving to C	 	
+g r e r b 
+w w r y y 
+g r b b b 
+ 	 Moving to H	 	
+g r r r b 
+w w e y y 
+g r b b b 
+ 	 Moving to M	 	
+g r r r b 
+w w b y y 
+g r e b b 
+ 	 Moving to N	 	
+g r r r b 
+w w b y y 
+g r b e b 
+ 	 Moving to I	 	
+g r r r b 
+w w b e y 
+g r b y b 
+ 	 Moving to H	 	
+g r r r b 
+w w e b y 
+g r b y b 
+ 	 Moving to C	 	
+g r e r b 
+w w r b y 
+g r b y b 
+ 	 Moving to D	 	
+g r r e b 
+w w r b y 
+g r b y b 
+ 	 Moving to E	 	
+g r r b e 
+w w r b y 
+g r b y b 
+ 	 Moving to J	 	
+g r r b y 
+w w r b e 
+g r b y b 
+ 	 Moving to I	 	
+g r r b y 
+w w r e b 
+g r b y b 
+ 	 Moving to H	 	
+g r r b y 
+w w e r b 
+g r b y b 
+ 	 Moving to C	 	
+g r e b y 
+w w r r b 
+g r b y b 
+ 	 Moving to D	 	
+g r b e y 
+w w r r b 
+g r b y b 
+ 	 Moving to E	 	
+g r b y e 
+w w r r b 
+g r b y b 
+ 	 Moving to J	 	
+g r b y b 
+w w r r e 
+g r b y b 
+ 56- Original Config : 
+
+g g y b b 
+r y e b b 
+r r w w r 
+
+ 	 Moving to M	 	
+g g y b b 
+r y w b b 
+r r e w r 
+ 	 Moving to L	 	
+g g y b b 
+r y w b b 
+r e r w r 
+ 	 Moving to G	 	
+g g y b b 
+r e w b b 
+r y r w r 
+ 	 Moving to F	 	
+g g y b b 
+e r w b b 
+r y r w r 
+ 	 Moving to K	 	
+g g y b b 
+r r w b b 
+e y r w r 
+ 	 Moving to L	 	
+g g y b b 
+r r w b b 
+y e r w r 
+ 	 Moving to G	 	
+g g y b b 
+r e w b b 
+y r r w r 
+ 	 Moving to F	 	
+g g y b b 
+e r w b b 
+y r r w r 
+ 	 Moving to A	 	
+e g y b b 
+g r w b b 
+y r r w r 
+ 	 Moving to B	 	
+g e y b b 
+g r w b b 
+y r r w r 
+ 	 Moving to G	 	
+g r y b b 
+g e w b b 
+y r r w r 
+ 	 Moving to H	 	
+g r y b b 
+g w e b b 
+y r r w r 
+ 	 Moving to I	 	
+g r y b b 
+g w b e b 
+y r r w r 
+ 	 Moving to N	 	
+g r y b b 
+g w b w b 
+y r r e r 
+ 	 Moving to O	 	
+g r y b b 
+g w b w b 
+y r r r e 
+ 	 Moving to J	 	
+g r y b b 
+g w b w e 
+y r r r b 
+ 	 Moving to E	 	
+g r y b e 
+g w b w b 
+y r r r b 
+ 	 Moving to D	 	
+g r y e b 
+g w b w b 
+y r r r b 
+ 	 Moving to C	 	
+g r e y b 
+g w b w b 
+y r r r b 
+ 	 Moving to B	 	
+g e r y b 
+g w b w b 
+y r r r b 
+ 	 Moving to A	 	
+e g r y b 
+g w b w b 
+y r r r b 
+ 	 Moving to F	 	
+g g r y b 
+e w b w b 
+y r r r b 
+ 	 Moving to G	 	
+g g r y b 
+w e b w b 
+y r r r b 
+ 	 Moving to B	 	
+g e r y b 
+w g b w b 
+y r r r b 
+ 	 Moving to A	 	
+e g r y b 
+w g b w b 
+y r r r b 
+ 	 Moving to F	 	
+w g r y b 
+e g b w b 
+y r r r b 
+ 	 Moving to K	 	
+w g r y b 
+y g b w b 
+e r r r b 
+ 	 Moving to L	 	
+w g r y b 
+y g b w b 
+r e r r b 
+ 	 Moving to G	 	
+w g r y b 
+y e b w b 
+r g r r b 
+ 	 Moving to H	 	
+w g r y b 
+y b e w b 
+r g r r b 
+ 	 Moving to I	 	
+w g r y b 
+y b w e b 
+r g r r b 
+ 	 Moving to D	 	
+w g r e b 
+y b w y b 
+r g r r b 
+ 	 Moving to E	 	
+w g r b e 
+y b w y b 
+r g r r b 
+ 	 Moving to J	 	
+w g r b b 
+y b w y e 
+r g r r b 
+ 	 Moving to I	 	
+w g r b b 
+y b w e y 
+r g r r b 
+ 	 Moving to D	 	
+w g r e b 
+y b w b y 
+r g r r b 
+ 	 Moving to C	 	
+w g e r b 
+y b w b y 
+r g r r b 
+ 	 Moving to B	 	
+w e g r b 
+y b w b y 
+r g r r b 
+ 	 Moving to A	 	
+e w g r b 
+y b w b y 
+r g r r b 
+ 	 Moving to F	 	
+y w g r b 
+e b w b y 
+r g r r b 
+ 	 Moving to G	 	
+y w g r b 
+b e w b y 
+r g r r b 
+ 	 Moving to H	 	
+y w g r b 
+b w e b y 
+r g r r b 
+ 	 Moving to M	 	
+y w g r b 
+b w r b y 
+r g e r b 
+ 	 Moving to L	 	
+y w g r b 
+b w r b y 
+r e g r b 
+ 	 Moving to G	 	
+y w g r b 
+b e r b y 
+r w g r b 
+ 	 Moving to F	 	
+y w g r b 
+e b r b y 
+r w g r b 
+ 	 Moving to K	 	
+y w g r b 
+r b r b y 
+e w g r b 
+ 	 Moving to L	 	
+y w g r b 
+r b r b y 
+w e g r b 
+ 	 Moving to M	 	
+y w g r b 
+r b r b y 
+w g e r b 
+ 	 Moving to N	 	
+y w g r b 
+r b r b y 
+w g r e b 
+ 	 Moving to I	 	
+y w g r b 
+r b r e y 
+w g r b b 
+ 	 Moving to H	 	
+y w g r b 
+r b e r y 
+w g r b b 
+ 	 Moving to G	 	
+y w g r b 
+r e b r y 
+w g r b b 
+ 	 Moving to F	 	
+y w g r b 
+e r b r y 
+w g r b b 
+ 	 Moving to A	 	
+e w g r b 
+y r b r y 
+w g r b b 
+ 	 Moving to B	 	
+w e g r b 
+y r b r y 
+w g r b b 
+ 	 Moving to C	 	
+w g e r b 
+y r b r y 
+w g r b b 
+ 	 Moving to D	 	
+w g r e b 
+y r b r y 
+w g r b b 
+ 	 Moving to I	 	
+w g r r b 
+y r b e y 
+w g r b b 
+ 	 Moving to H	 	
+w g r r b 
+y r e b y 
+w g r b b 
+ 	 Moving to C	 	
+w g e r b 
+y r r b y 
+w g r b b 
+ 	 Moving to D	 	
+w g r e b 
+y r r b y 
+w g r b b 
+ 	 Moving to I	 	
+w g r b b 
+y r r e y 
+w g r b b 
+ 57- Original Config : 
+
+b b r r g 
+b b y y w 
+w r e r g 
+
+ 	 Moving to L	 	
+b b r r g 
+b b y y w 
+w e r r g 
+ 	 Moving to G	 	
+b b r r g 
+b e y y w 
+w b r r g 
+ 	 Moving to F	 	
+b b r r g 
+e b y y w 
+w b r r g 
+ 	 Moving to K	 	
+b b r r g 
+w b y y w 
+e b r r g 
+ 	 Moving to L	 	
+b b r r g 
+w b y y w 
+b e r r g 
+ 	 Moving to G	 	
+b b r r g 
+w e y y w 
+b b r r g 
+ 58- Original Config : 
+
+b r r y w 
+g g w b e 
+b r b r y 
+
+ 	 Moving to E	 	
+b r r y e 
+g g w b w 
+b r b r y 
+ 	 Moving to D	 	
+b r r e y 
+g g w b w 
+b r b r y 
+ 	 Moving to I	 	
+b r r b y 
+g g w e w 
+b r b r y 
+ 	 Moving to H	 	
+b r r b y 
+g g e w w 
+b r b r y 
+ 	 Moving to G	 	
+b r r b y 
+g e g w w 
+b r b r y 
+ 	 Moving to F	 	
+b r r b y 
+e g g w w 
+b r b r y 
+ 	 Moving to K	 	
+b r r b y 
+b g g w w 
+e r b r y 
+ 	 Moving to L	 	
+b r r b y 
+b g g w w 
+r e b r y 
+ 	 Moving to M	 	
+b r r b y 
+b g g w w 
+r b e r y 
+ 	 Moving to H	 	
+b r r b y 
+b g e w w 
+r b g r y 
+ 	 Moving to G	 	
+b r r b y 
+b e g w w 
+r b g r y 
+ 	 Moving to F	 	
+b r r b y 
+e b g w w 
+r b g r y 
+ 	 Moving to K	 	
+b r r b y 
+r b g w w 
+e b g r y 
+ 	 Moving to L	 	
+b r r b y 
+r b g w w 
+b e g r y 
+ 	 Moving to M	 	
+b r r b y 
+r b g w w 
+b g e r y 
+ 	 Moving to H	 	
+b r r b y 
+r b e w w 
+b g g r y 
+ 	 Moving to G	 	
+b r r b y 
+r e b w w 
+b g g r y 
+ 	 Moving to L	 	
+b r r b y 
+r g b w w 
+b e g r y 
+ 	 Moving to K	 	
+b r r b y 
+r g b w w 
+e b g r y 
+ 	 Moving to F	 	
+b r r b y 
+e g b w w 
+r b g r y 
+ 	 Moving to G	 	
+b r r b y 
+g e b w w 
+r b g r y 
+ 	 Moving to H	 	
+b r r b y 
+g b e w w 
+r b g r y 
+ 	 Moving to M	 	
+b r r b y 
+g b g w w 
+r b e r y 
+ 	 Moving to N	 	
+b r r b y 
+g b g w w 
+r b r e y 
+ 	 Moving to I	 	
+b r r b y 
+g b g e w 
+r b r w y 
+ 	 Moving to H	 	
+b r r b y 
+g b e g w 
+r b r w y 
+ 	 Moving to G	 	
+b r r b y 
+g e b g w 
+r b r w y 
+ 	 Moving to F	 	
+b r r b y 
+e g b g w 
+r b r w y 
+ 	 Moving to K	 	
+b r r b y 
+r g b g w 
+e b r w y 
+ 	 Moving to L	 	
+b r r b y 
+r g b g w 
+b e r w y 
+ 	 Moving to M	 	
+b r r b y 
+r g b g w 
+b r e w y 
+ 	 Moving to H	 	
+b r r b y 
+r g e g w 
+b r b w y 
+ 	 Moving to C	 	
+b r e b y 
+r g r g w 
+b r b w y 
+ 	 Moving to D	 	
+b r b e y 
+r g r g w 
+b r b w y 
+ 	 Moving to E	 	
+b r b y e 
+r g r g w 
+b r b w y 
+ 	 Moving to J	 	
+b r b y w 
+r g r g e 
+b r b w y 
+ 	 Moving to I	 	
+b r b y w 
+r g r e g 
+b r b w y 
+ 	 Moving to D	 	
+b r b e w 
+r g r y g 
+b r b w y 
+ 	 Moving to C	 	
+b r e b w 
+r g r y g 
+b r b w y 
+ 	 Moving to H	 	
+b r r b w 
+r g e y g 
+b r b w y 
+ 	 Moving to G	 	
+b r r b w 
+r e g y g 
+b r b w y 
+ 	 Moving to B	 	
+b e r b w 
+r r g y g 
+b r b w y 
+ 	 Moving to A	 	
+e b r b w 
+r r g y g 
+b r b w y 
+ 	 Moving to F	 	
+r b r b w 
+e r g y g 
+b r b w y 
+ 	 Moving to G	 	
+r b r b w 
+r e g y g 
+b r b w y 
+ 	 Moving to H	 	
+r b r b w 
+r g e y g 
+b r b w y 
+ 	 Moving to I	 	
+r b r b w 
+r g y e g 
+b r b w y 
+ 	 Moving to J	 	
+r b r b w 
+r g y g e 
+b r b w y 
+ 	 Moving to O	 	
+r b r b w 
+r g y g y 
+b r b w e 
+ 	 Moving to N	 	
+r b r b w 
+r g y g y 
+b r b e w 
+ 	 Moving to M	 	
+r b r b w 
+r g y g y 
+b r e b w 
+ 	 Moving to L	 	
+r b r b w 
+r g y g y 
+b e r b w 
+ 	 Moving to K	 	
+r b r b w 
+r g y g y 
+e b r b w 
+ 	 Moving to F	 	
+r b r b w 
+e g y g y 
+r b r b w 
+ 59- Original Config : 
+
+w r r b y 
+b g r r g 
+b b y e w 
+
+ 	 Moving to M	 	
+w r r b y 
+b g r r g 
+b b e y w 
+ 	 Moving to L	 	
+w r r b y 
+b g r r g 
+b e b y w 
+ 	 Moving to K	 	
+w r r b y 
+b g r r g 
+e b b y w 
+ 	 Moving to F	 	
+w r r b y 
+e g r r g 
+b b b y w 
+ 	 Moving to A	 	
+e r r b y 
+w g r r g 
+b b b y w 
+ 	 Moving to B	 	
+r e r b y 
+w g r r g 
+b b b y w 
+ 	 Moving to C	 	
+r r e b y 
+w g r r g 
+b b b y w 
+ 	 Moving to D	 	
+r r b e y 
+w g r r g 
+b b b y w 
+ 	 Moving to E	 	
+r r b y e 
+w g r r g 
+b b b y w 
+ 	 Moving to J	 	
+r r b y g 
+w g r r e 
+b b b y w 
+ 	 Moving to I	 	
+r r b y g 
+w g r e r 
+b b b y w 
+ 	 Moving to H	 	
+r r b y g 
+w g e r r 
+b b b y w 
+ 	 Moving to G	 	
+r r b y g 
+w e g r r 
+b b b y w 
+ 	 Moving to F	 	
+r r b y g 
+e w g r r 
+b b b y w 
+ 	 Moving to A	 	
+e r b y g 
+r w g r r 
+b b b y w 
+ 	 Moving to B	 	
+r e b y g 
+r w g r r 
+b b b y w 
+ 	 Moving to C	 	
+r b e y g 
+r w g r r 
+b b b y w 
+ 	 Moving to H	 	
+r b g y g 
+r w e r r 
+b b b y w 
+ 	 Moving to G	 	
+r b g y g 
+r e w r r 
+b b b y w 
+ 	 Moving to F	 	
+r b g y g 
+e r w r r 
+b b b y w 
+ 	 Moving to A	 	
+e b g y g 
+r r w r r 
+b b b y w 
+ 	 Moving to B	 	
+b e g y g 
+r r w r r 
+b b b y w 
+ 	 Moving to C	 	
+b g e y g 
+r r w r r 
+b b b y w 
+ 	 Moving to D	 	
+b g y e g 
+r r w r r 
+b b b y w 
+ 	 Moving to I	 	
+b g y r g 
+r r w e r 
+b b b y w 
+ 	 Moving to H	 	
+b g y r g 
+r r e w r 
+b b b y w 
+ 	 Moving to G	 	
+b g y r g 
+r e r w r 
+b b b y w 
+ 	 Moving to B	 	
+b e y r g 
+r g r w r 
+b b b y w 
+ 	 Moving to A	 	
+e b y r g 
+r g r w r 
+b b b y w 
+ 	 Moving to F	 	
+r b y r g 
+e g r w r 
+b b b y w 
+ 	 Moving to G	 	
+r b y r g 
+g e r w r 
+b b b y w 
+ 	 Moving to H	 	
+r b y r g 
+g r e w r 
+b b b y w 
+ 	 Moving to I	 	
+r b y r g 
+g r w e r 
+b b b y w 
+ 	 Moving to J	 	
+r b y r g 
+g r w r e 
+b b b y w 
+ 	 Moving to E	 	
+r b y r e 
+g r w r g 
+b b b y w 
+ 	 Moving to D	 	
+r b y e r 
+g r w r g 
+b b b y w 
+ 	 Moving to C	 	
+r b e y r 
+g r w r g 
+b b b y w 
+ 	 Moving to B	 	
+r e b y r 
+g r w r g 
+b b b y w 
+ 	 Moving to G	 	
+r r b y r 
+g e w r g 
+b b b y w 
+ 	 Moving to F	 	
+r r b y r 
+e g w r g 
+b b b y w 
+ 	 Moving to A	 	
+e r b y r 
+r g w r g 
+b b b y w 
+ 	 Moving to B	 	
+r e b y r 
+r g w r g 
+b b b y w 
+ 	 Moving to C	 	
+r b e y r 
+r g w r g 
+b b b y w 
+ 	 Moving to D	 	
+r b y e r 
+r g w r g 
+b b b y w 
+ 	 Moving to E	 	
+r b y r e 
+r g w r g 
+b b b y w 
+ 	 Moving to J	 	
+r b y r g 
+r g w r e 
+b b b y w 
+ 	 Moving to I	 	
+r b y r g 
+r g w e r 
+b b b y w 
+ 	 Moving to H	 	
+r b y r g 
+r g e w r 
+b b b y w 
+ 	 Moving to G	 	
+r b y r g 
+r e g w r 
+b b b y w 
+ 	 Moving to F	 	
+r b y r g 
+e r g w r 
+b b b y w 
+ 	 Moving to A	 	
+e b y r g 
+r r g w r 
+b b b y w 
+ 	 Moving to B	 	
+b e y r g 
+r r g w r 
+b b b y w 
+ 	 Moving to C	 	
+b y e r g 
+r r g w r 
+b b b y w 
+ 	 Moving to D	 	
+b y r e g 
+r r g w r 
+b b b y w 
+ 	 Moving to I	 	
+b y r w g 
+r r g e r 
+b b b y w 
+ 	 Moving to H	 	
+b y r w g 
+r r e g r 
+b b b y w 
+ 	 Moving to C	 	
+b y e w g 
+r r r g r 
+b b b y w 
+ 	 Moving to B	 	
+b e y w g 
+r r r g r 
+b b b y w 
+ 	 Moving to A	 	
+e b y w g 
+r r r g r 
+b b b y w 
+ 	 Moving to F	 	
+r b y w g 
+e r r g r 
+b b b y w 
+ 	 Moving to G	 	
+r b y w g 
+r e r g r 
+b b b y w 
+ 	 Moving to H	 	
+r b y w g 
+r r e g r 
+b b b y w 
+ 	 Moving to I	 	
+r b y w g 
+r r g e r 
+b b b y w 
+ 	 Moving to J	 	
+r b y w g 
+r r g r e 
+b b b y w 
+ 	 Moving to E	 	
+r b y w e 
+r r g r g 
+b b b y w 
+ 	 Moving to D	 	
+r b y e w 
+r r g r g 
+b b b y w 
+ 	 Moving to C	 	
+r b e y w 
+r r g r g 
+b b b y w 
+ 	 Moving to H	 	
+r b g y w 
+r r e r g 
+b b b y w 
+ 	 Moving to I	 	
+r b g y w 
+r r r e g 
+b b b y w 
+ 	 Moving to J	 	
+r b g y w 
+r r r g e 
+b b b y w 
+ 	 Moving to E	 	
+r b g y e 
+r r r g w 
+b b b y w 
+ 	 Moving to D	 	
+r b g e y 
+r r r g w 
+b b b y w 
+ 	 Moving to C	 	
+r b e g y 
+r r r g w 
+b b b y w 
+ 	 Moving to H	 	
+r b r g y 
+r r e g w 
+b b b y w 
+ 	 Moving to I	 	
+r b r g y 
+r r g e w 
+b b b y w 
+ 	 Moving to D	 	
+r b r e y 
+r r g g w 
+b b b y w 
+ 	 Moving to E	 	
+r b r y e 
+r r g g w 
+b b b y w 
+ 	 Moving to J	 	
+r b r y w 
+r r g g e 
+b b b y w 
+ 	 Moving to I	 	
+r b r y w 
+r r g e g 
+b b b y w 
+ 	 Moving to H	 	
+r b r y w 
+r r e g g 
+b b b y w 
+ 	 Moving to C	 	
+r b e y w 
+r r r g g 
+b b b y w 
+ 	 Moving to B	 	
+r e b y w 
+r r r g g 
+b b b y w 
+ 	 Moving to G	 	
+r r b y w 
+r e r g g 
+b b b y w 
+ 	 Moving to H	 	
+r r b y w 
+r r e g g 
+b b b y w 
+ 	 Moving to M	 	
+r r b y w 
+r r b g g 
+b b e y w 
+ 	 Moving to L	 	
+r r b y w 
+r r b g g 
+b e b y w 
+ 	 Moving to G	 	
+r r b y w 
+r e b g g 
+b r b y w 
+ 	 Moving to F	 	
+r r b y w 
+e r b g g 
+b r b y w 
+ 	 Moving to K	 	
+r r b y w 
+b r b g g 
+e r b y w 
+ 	 Moving to L	 	
+r r b y w 
+b r b g g 
+r e b y w 
+ 	 Moving to G	 	
+r r b y w 
+b e b g g 
+r r b y w 
+ 60- Original Config : 
+
+w r w e r 
+y y g r g 
+b b r b b 
+
+ 	 Moving to I	 	
+w r w r r 
+y y g e g 
+b b r b b 
+ 	 Moving to H	 	
+w r w r r 
+y y e g g 
+b b r b b 
+ 	 Moving to C	 	
+w r e r r 
+y y w g g 
+b b r b b 
+ 	 Moving to B	 	
+w e r r r 
+y y w g g 
+b b r b b 
+ 	 Moving to G	 	
+w y r r r 
+y e w g g 
+b b r b b 
+ 	 Moving to H	 	
+w y r r r 
+y w e g g 
+b b r b b 
+ 	 Moving to I	 	
+w y r r r 
+y w g e g 
+b b r b b 
+ 	 Moving to N	 	
+w y r r r 
+y w g b g 
+b b r e b 
+ 	 Moving to M	 	
+w y r r r 
+y w g b g 
+b b e r b 
+ 	 Moving to L	 	
+w y r r r 
+y w g b g 
+b e b r b 
+ 	 Moving to K	 	
+w y r r r 
+y w g b g 
+e b b r b 
+ 	 Moving to F	 	
+w y r r r 
+e w g b g 
+y b b r b 
+ 	 Moving to G	 	
+w y r r r 
+w e g b g 
+y b b r b 
+ 	 Moving to L	 	
+w y r r r 
+w b g b g 
+y e b r b 
+ 	 Moving to K	 	
+w y r r r 
+w b g b g 
+e y b r b 
+ 	 Moving to F	 	
+w y r r r 
+e b g b g 
+w y b r b 
+ 	 Moving to G	 	
+w y r r r 
+b e g b g 
+w y b r b 
+ 	 Moving to H	 	
+w y r r r 
+b g e b g 
+w y b r b 
+ 	 Moving to M	 	
+w y r r r 
+b g b b g 
+w y e r b 
+ 	 Moving to N	 	
+w y r r r 
+b g b b g 
+w y r e b 
+ 	 Moving to O	 	
+w y r r r 
+b g b b g 
+w y r b e 
+ 	 Moving to J	 	
+w y r r r 
+b g b b e 
+w y r b g 
+ 	 Moving to I	 	
+w y r r r 
+b g b e b 
+w y r b g 
+ 	 Moving to N	 	
+w y r r r 
+b g b b b 
+w y r e g 
+ 	 Moving to M	 	
+w y r r r 
+b g b b b 
+w y e r g 
+ 	 Moving to H	 	
+w y r r r 
+b g e b b 
+w y b r g 
+ 	 Moving to G	 	
+w y r r r 
+b e g b b 
+w y b r g 
+ 	 Moving to F	 	
+w y r r r 
+e b g b b 
+w y b r g 
+ 	 Moving to K	 	
+w y r r r 
+w b g b b 
+e y b r g 
+ 	 Moving to L	 	
+w y r r r 
+w b g b b 
+y e b r g 
+ 	 Moving to G	 	
+w y r r r 
+w e g b b 
+y b b r g 
+ 	 Moving to H	 	
+w y r r r 
+w g e b b 
+y b b r g 
+ 	 Moving to M	 	
+w y r r r 
+w g b b b 
+y b e r g 
+ 	 Moving to L	 	
+w y r r r 
+w g b b b 
+y e b r g 
+ 	 Moving to G	 	
+w y r r r 
+w e b b b 
+y g b r g 
+ 	 Moving to H	 	
+w y r r r 
+w b e b b 
+y g b r g 
+ 	 Moving to M	 	
+w y r r r 
+w b b b b 
+y g e r g 
+ 	 Moving to L	 	
+w y r r r 
+w b b b b 
+y e g r g 
+ 	 Moving to K	 	
+w y r r r 
+w b b b b 
+e y g r g 
+ 	 Moving to F	 	
+w y r r r 
+e b b b b 
+w y g r g 
+ 	 Moving to G	 	
+w y r r r 
+b e b b b 
+w y g r g 
+ 	 Moving to H	 	
+w y r r r 
+b b e b b 
+w y g r g 
+ 	 Moving to M	 	
+w y r r r 
+b b g b b 
+w y e r g 
+ 	 Moving to N	 	
+w y r r r 
+b b g b b 
+w y r e g 
+ 	 Moving to I	 	
+w y r r r 
+b b g e b 
+w y r b g 
+ 	 Moving to H	 	
+w y r r r 
+b b e g b 
+w y r b g 
+ 	 Moving to C	 	
+w y e r r 
+b b r g b 
+w y r b g 
+ 	 Moving to D	 	
+w y r e r 
+b b r g b 
+w y r b g 
+ 	 Moving to E	 	
+w y r r e 
+b b r g b 
+w y r b g 
+ 	 Moving to J	 	
+w y r r b 
+b b r g e 
+w y r b g 
+ 	 Moving to I	 	
+w y r r b 
+b b r e g 
+w y r b g 
+ 	 Moving to D	 	
+w y r e b 
+b b r r g 
+w y r b g 
+ 	 Moving to E	 	
+w y r b e 
+b b r r g 
+w y r b g 
+ 	 Moving to J	 	
+w y r b g 
+b b r r e 
+w y r b g 
+ 61- Original Config : 
+
+r b g r b 
+e y y b r 
+r w g w b 
+
+ 	 Moving to G	 	
+r b g r b 
+y e y b r 
+r w g w b 
+ 	 Moving to H	 	
+r b g r b 
+y y e b r 
+r w g w b 
+ 	 Moving to M	 	
+r b g r b 
+y y g b r 
+r w e w b 
+ 	 Moving to L	 	
+r b g r b 
+y y g b r 
+r e w w b 
+ 	 Moving to K	 	
+r b g r b 
+y y g b r 
+e r w w b 
+ 	 Moving to F	 	
+r b g r b 
+e y g b r 
+y r w w b 
+ 	 Moving to G	 	
+r b g r b 
+y e g b r 
+y r w w b 
+ 	 Moving to H	 	
+r b g r b 
+y g e b r 
+y r w w b 
+ 	 Moving to I	 	
+r b g r b 
+y g b e r 
+y r w w b 
+ 	 Moving to N	 	
+r b g r b 
+y g b w r 
+y r w e b 
+ 	 Moving to M	 	
+r b g r b 
+y g b w r 
+y r e w b 
+ 	 Moving to L	 	
+r b g r b 
+y g b w r 
+y e r w b 
+ 	 Moving to G	 	
+r b g r b 
+y e b w r 
+y g r w b 
+ 	 Moving to H	 	
+r b g r b 
+y b e w r 
+y g r w b 
+ 	 Moving to I	 	
+r b g r b 
+y b w e r 
+y g r w b 
+ 	 Moving to N	 	
+r b g r b 
+y b w w r 
+y g r e b 
+ 	 Moving to M	 	
+r b g r b 
+y b w w r 
+y g e r b 
+ 	 Moving to L	 	
+r b g r b 
+y b w w r 
+y e g r b 
+ 	 Moving to G	 	
+r b g r b 
+y e w w r 
+y b g r b 
+ 	 Moving to F	 	
+r b g r b 
+e y w w r 
+y b g r b 
+ 	 Moving to A	 	
+e b g r b 
+r y w w r 
+y b g r b 
+ 	 Moving to B	 	
+b e g r b 
+r y w w r 
+y b g r b 
+ 	 Moving to G	 	
+b y g r b 
+r e w w r 
+y b g r b 
+ 	 Moving to L	 	
+b y g r b 
+r b w w r 
+y e g r b 
+ 	 Moving to M	 	
+b y g r b 
+r b w w r 
+y g e r b 
+ 	 Moving to H	 	
+b y g r b 
+r b e w r 
+y g w r b 
+ 	 Moving to G	 	
+b y g r b 
+r e b w r 
+y g w r b 
+ 	 Moving to F	 	
+b y g r b 
+e r b w r 
+y g w r b 
+ 	 Moving to K	 	
+b y g r b 
+y r b w r 
+e g w r b 
+ 	 Moving to L	 	
+b y g r b 
+y r b w r 
+g e w r b 
+ 	 Moving to G	 	
+b y g r b 
+y e b w r 
+g r w r b 
+ 	 Moving to H	 	
+b y g r b 
+y b e w r 
+g r w r b 
+ 	 Moving to M	 	
+b y g r b 
+y b w w r 
+g r e r b 
+ 	 Moving to L	 	
+b y g r b 
+y b w w r 
+g e r r b 
+ 	 Moving to K	 	
+b y g r b 
+y b w w r 
+e g r r b 
+ 	 Moving to F	 	
+b y g r b 
+e b w w r 
+y g r r b 
+ 	 Moving to G	 	
+b y g r b 
+b e w w r 
+y g r r b 
+ 	 Moving to H	 	
+b y g r b 
+b w e w r 
+y g r r b 
+ 	 Moving to M	 	
+b y g r b 
+b w r w r 
+y g e r b 
+ 	 Moving to L	 	
+b y g r b 
+b w r w r 
+y e g r b 
+ 	 Moving to K	 	
+b y g r b 
+b w r w r 
+e y g r b 
+ 	 Moving to F	 	
+b y g r b 
+e w r w r 
+b y g r b 
+ 62- Original Config : 
+
+r w g r b 
+w r y b g 
+y b r e b 
+
+ 	 Moving to M	 	
+r w g r b 
+w r y b g 
+y b e r b 
+ 	 Moving to H	 	
+r w g r b 
+w r e b g 
+y b y r b 
+ 	 Moving to C	 	
+r w e r b 
+w r g b g 
+y b y r b 
+ 	 Moving to B	 	
+r e w r b 
+w r g b g 
+y b y r b 
+ 	 Moving to G	 	
+r r w r b 
+w e g b g 
+y b y r b 
+ 	 Moving to H	 	
+r r w r b 
+w g e b g 
+y b y r b 
+ 	 Moving to M	 	
+r r w r b 
+w g y b g 
+y b e r b 
+ 	 Moving to N	 	
+r r w r b 
+w g y b g 
+y b r e b 
+ 	 Moving to I	 	
+r r w r b 
+w g y e g 
+y b r b b 
+ 	 Moving to H	 	
+r r w r b 
+w g e y g 
+y b r b b 
+ 	 Moving to G	 	
+r r w r b 
+w e g y g 
+y b r b b 
+ 	 Moving to L	 	
+r r w r b 
+w b g y g 
+y e r b b 
+ 	 Moving to M	 	
+r r w r b 
+w b g y g 
+y r e b b 
+ 	 Moving to H	 	
+r r w r b 
+w b e y g 
+y r g b b 
+ 	 Moving to I	 	
+r r w r b 
+w b y e g 
+y r g b b 
+ 	 Moving to J	 	
+r r w r b 
+w b y g e 
+y r g b b 
+ 	 Moving to O	 	
+r r w r b 
+w b y g b 
+y r g b e 
+ 	 Moving to N	 	
+r r w r b 
+w b y g b 
+y r g e b 
+ 	 Moving to M	 	
+r r w r b 
+w b y g b 
+y r e g b 
+ 	 Moving to H	 	
+r r w r b 
+w b e g b 
+y r y g b 
+ 	 Moving to I	 	
+r r w r b 
+w b g e b 
+y r y g b 
+ 	 Moving to N	 	
+r r w r b 
+w b g g b 
+y r y e b 
+ 	 Moving to O	 	
+r r w r b 
+w b g g b 
+y r y b e 
+ 	 Moving to J	 	
+r r w r b 
+w b g g e 
+y r y b b 
+ 	 Moving to I	 	
+r r w r b 
+w b g e g 
+y r y b b 
+ 	 Moving to H	 	
+r r w r b 
+w b e g g 
+y r y b b 
+ 	 Moving to M	 	
+r r w r b 
+w b y g g 
+y r e b b 
+ 	 Moving to N	 	
+r r w r b 
+w b y g g 
+y r b e b 
+ 	 Moving to I	 	
+r r w r b 
+w b y e g 
+y r b g b 
+ 	 Moving to H	 	
+r r w r b 
+w b e y g 
+y r b g b 
+ 	 Moving to C	 	
+r r e r b 
+w b w y g 
+y r b g b 
+ 	 Moving to D	 	
+r r r e b 
+w b w y g 
+y r b g b 
+ 	 Moving to I	 	
+r r r y b 
+w b w e g 
+y r b g b 
+ 	 Moving to H	 	
+r r r y b 
+w b e w g 
+y r b g b 
+ 	 Moving to G	 	
+r r r y b 
+w e b w g 
+y r b g b 
+ 	 Moving to L	 	
+r r r y b 
+w r b w g 
+y e b g b 
+ 	 Moving to K	 	
+r r r y b 
+w r b w g 
+e y b g b 
+ 	 Moving to F	 	
+r r r y b 
+e r b w g 
+w y b g b 
+ 	 Moving to G	 	
+r r r y b 
+r e b w g 
+w y b g b 
+ 	 Moving to H	 	
+r r r y b 
+r b e w g 
+w y b g b 
+ 	 Moving to M	 	
+r r r y b 
+r b b w g 
+w y e g b 
+ 	 Moving to L	 	
+r r r y b 
+r b b w g 
+w e y g b 
+ 	 Moving to K	 	
+r r r y b 
+r b b w g 
+e w y g b 
+ 	 Moving to F	 	
+r r r y b 
+e b b w g 
+r w y g b 
+ 	 Moving to G	 	
+r r r y b 
+b e b w g 
+r w y g b 
+ 	 Moving to L	 	
+r r r y b 
+b w b w g 
+r e y g b 
+ 	 Moving to K	 	
+r r r y b 
+b w b w g 
+e r y g b 
+ 	 Moving to F	 	
+r r r y b 
+e w b w g 
+b r y g b 
+ 	 Moving to G	 	
+r r r y b 
+w e b w g 
+b r y g b 
+ 	 Moving to H	 	
+r r r y b 
+w b e w g 
+b r y g b 
+ 	 Moving to I	 	
+r r r y b 
+w b w e g 
+b r y g b 
+ 	 Moving to N	 	
+r r r y b 
+w b w g g 
+b r y e b 
+ 	 Moving to M	 	
+r r r y b 
+w b w g g 
+b r e y b 
+ 	 Moving to L	 	
+r r r y b 
+w b w g g 
+b e r y b 
+ 	 Moving to K	 	
+r r r y b 
+w b w g g 
+e b r y b 
+ 	 Moving to F	 	
+r r r y b 
+e b w g g 
+w b r y b 
+ 	 Moving to G	 	
+r r r y b 
+b e w g g 
+w b r y b 
+ 	 Moving to L	 	
+r r r y b 
+b b w g g 
+w e r y b 
+ 	 Moving to M	 	
+r r r y b 
+b b w g g 
+w r e y b 
+ 	 Moving to N	 	
+r r r y b 
+b b w g g 
+w r y e b 
+ 	 Moving to I	 	
+r r r y b 
+b b w e g 
+w r y g b 
+ 	 Moving to H	 	
+r r r y b 
+b b e w g 
+w r y g b 
+ 	 Moving to G	 	
+r r r y b 
+b e b w g 
+w r y g b 
+ 	 Moving to F	 	
+r r r y b 
+e b b w g 
+w r y g b 
+ 	 Moving to K	 	
+r r r y b 
+w b b w g 
+e r y g b 
+ 	 Moving to L	 	
+r r r y b 
+w b b w g 
+r e y g b 
+ 	 Moving to M	 	
+r r r y b 
+w b b w g 
+r y e g b 
+ 	 Moving to H	 	
+r r r y b 
+w b e w g 
+r y b g b 
+ 	 Moving to I	 	
+r r r y b 
+w b w e g 
+r y b g b 
+ 	 Moving to N	 	
+r r r y b 
+w b w g g 
+r y b e b 
+ 	 Moving to M	 	
+r r r y b 
+w b w g g 
+r y e b b 
+ 	 Moving to L	 	
+r r r y b 
+w b w g g 
+r e y b b 
+ 	 Moving to K	 	
+r r r y b 
+w b w g g 
+e r y b b 
+ 	 Moving to F	 	
+r r r y b 
+e b w g g 
+w r y b b 
+ 	 Moving to G	 	
+r r r y b 
+b e w g g 
+w r y b b 
+ 	 Moving to H	 	
+r r r y b 
+b w e g g 
+w r y b b 
+ 	 Moving to I	 	
+r r r y b 
+b w g e g 
+w r y b b 
+ 	 Moving to N	 	
+r r r y b 
+b w g b g 
+w r y e b 
+ 	 Moving to M	 	
+r r r y b 
+b w g b g 
+w r e y b 
+ 	 Moving to H	 	
+r r r y b 
+b w e b g 
+w r g y b 
+ 	 Moving to G	 	
+r r r y b 
+b e w b g 
+w r g y b 
+ 	 Moving to F	 	
+r r r y b 
+e b w b g 
+w r g y b 
+ 	 Moving to K	 	
+r r r y b 
+w b w b g 
+e r g y b 
+ 	 Moving to L	 	
+r r r y b 
+w b w b g 
+r e g y b 
+ 	 Moving to M	 	
+r r r y b 
+w b w b g 
+r g e y b 
+ 	 Moving to H	 	
+r r r y b 
+w b e b g 
+r g w y b 
+ 	 Moving to G	 	
+r r r y b 
+w e b b g 
+r g w y b 
+ 	 Moving to L	 	
+r r r y b 
+w g b b g 
+r e w y b 
+ 	 Moving to K	 	
+r r r y b 
+w g b b g 
+e r w y b 
+ 	 Moving to F	 	
+r r r y b 
+e g b b g 
+w r w y b 
+ 	 Moving to G	 	
+r r r y b 
+g e b b g 
+w r w y b 
+ 	 Moving to H	 	
+r r r y b 
+g b e b g 
+w r w y b 
+ 	 Moving to M	 	
+r r r y b 
+g b w b g 
+w r e y b 
+ 	 Moving to N	 	
+r r r y b 
+g b w b g 
+w r y e b 
+ 	 Moving to I	 	
+r r r y b 
+g b w e g 
+w r y b b 
+ 	 Moving to H	 	
+r r r y b 
+g b e w g 
+w r y b b 
+ 	 Moving to G	 	
+r r r y b 
+g e b w g 
+w r y b b 
+ 	 Moving to F	 	
+r r r y b 
+e g b w g 
+w r y b b 
+ 	 Moving to K	 	
+r r r y b 
+w g b w g 
+e r y b b 
+ 	 Moving to L	 	
+r r r y b 
+w g b w g 
+r e y b b 
+ 	 Moving to M	 	
+r r r y b 
+w g b w g 
+r y e b b 
+ 	 Moving to H	 	
+r r r y b 
+w g e w g 
+r y b b b 
+ 	 Moving to C	 	
+r r e y b 
+w g r w g 
+r y b b b 
+ 	 Moving to D	 	
+r r y e b 
+w g r w g 
+r y b b b 
+ 	 Moving to E	 	
+r r y b e 
+w g r w g 
+r y b b b 
+ 	 Moving to J	 	
+r r y b g 
+w g r w e 
+r y b b b 
+ 	 Moving to I	 	
+r r y b g 
+w g r e w 
+r y b b b 
+ 	 Moving to H	 	
+r r y b g 
+w g e r w 
+r y b b b 
+ 	 Moving to G	 	
+r r y b g 
+w e g r w 
+r y b b b 
+ 	 Moving to B	 	
+r e y b g 
+w r g r w 
+r y b b b 
+ 	 Moving to C	 	
+r y e b g 
+w r g r w 
+r y b b b 
+ 	 Moving to H	 	
+r y g b g 
+w r e r w 
+r y b b b 
+ 	 Moving to I	 	
+r y g b g 
+w r r e w 
+r y b b b 
+ 	 Moving to J	 	
+r y g b g 
+w r r w e 
+r y b b b 
+ 	 Moving to E	 	
+r y g b e 
+w r r w g 
+r y b b b 
+ 	 Moving to D	 	
+r y g e b 
+w r r w g 
+r y b b b 
+ 	 Moving to C	 	
+r y e g b 
+w r r w g 
+r y b b b 
+ 	 Moving to H	 	
+r y r g b 
+w r e w g 
+r y b b b 
+ 	 Moving to I	 	
+r y r g b 
+w r w e g 
+r y b b b 
+ 	 Moving to D	 	
+r y r e b 
+w r w g g 
+r y b b b 
+ 	 Moving to E	 	
+r y r b e 
+w r w g g 
+r y b b b 
+ 	 Moving to J	 	
+r y r b g 
+w r w g e 
+r y b b b 
+ 	 Moving to I	 	
+r y r b g 
+w r w e g 
+r y b b b 
+ 	 Moving to H	 	
+r y r b g 
+w r e w g 
+r y b b b 
+ 	 Moving to C	 	
+r y e b g 
+w r r w g 
+r y b b b 
+ 	 Moving to D	 	
+r y b e g 
+w r r w g 
+r y b b b 
+ 	 Moving to E	 	
+r y b g e 
+w r r w g 
+r y b b b 
+ 	 Moving to J	 	
+r y b g g 
+w r r w e 
+r y b b b 
+ 	 Moving to I	 	
+r y b g g 
+w r r e w 
+r y b b b 
+ 	 Moving to D	 	
+r y b e g 
+w r r g w 
+r y b b b 
+ 	 Moving to C	 	
+r y e b g 
+w r r g w 
+r y b b b 
+ 	 Moving to B	 	
+r e y b g 
+w r r g w 
+r y b b b 
+ 	 Moving to G	 	
+r r y b g 
+w e r g w 
+r y b b b 
+ 	 Moving to H	 	
+r r y b g 
+w r e g w 
+r y b b b 
+ 	 Moving to I	 	
+r r y b g 
+w r g e w 
+r y b b b 
+ 	 Moving to J	 	
+r r y b g 
+w r g w e 
+r y b b b 
+ 	 Moving to E	 	
+r r y b e 
+w r g w g 
+r y b b b 
+ 	 Moving to D	 	
+r r y e b 
+w r g w g 
+r y b b b 
+ 	 Moving to C	 	
+r r e y b 
+w r g w g 
+r y b b b 
+ 	 Moving to H	 	
+r r g y b 
+w r e w g 
+r y b b b 
+ 	 Moving to G	 	
+r r g y b 
+w e r w g 
+r y b b b 
+ 	 Moving to B	 	
+r e g y b 
+w r r w g 
+r y b b b 
+ 	 Moving to C	 	
+r g e y b 
+w r r w g 
+r y b b b 
+ 	 Moving to D	 	
+r g y e b 
+w r r w g 
+r y b b b 
+ 	 Moving to E	 	
+r g y b e 
+w r r w g 
+r y b b b 
+ 	 Moving to J	 	
+r g y b g 
+w r r w e 
+r y b b b 
+ 	 Moving to I	 	
+r g y b g 
+w r r e w 
+r y b b b 
+ 	 Moving to H	 	
+r g y b g 
+w r e r w 
+r y b b b 
+ 	 Moving to G	 	
+r g y b g 
+w e r r w 
+r y b b b 
+ 	 Moving to B	 	
+r e y b g 
+w g r r w 
+r y b b b 
+ 	 Moving to C	 	
+r y e b g 
+w g r r w 
+r y b b b 
+ 	 Moving to D	 	
+r y b e g 
+w g r r w 
+r y b b b 
+ 	 Moving to I	 	
+r y b r g 
+w g r e w 
+r y b b b 
+ 	 Moving to J	 	
+r y b r g 
+w g r w e 
+r y b b b 
+ 	 Moving to E	 	
+r y b r e 
+w g r w g 
+r y b b b 
+ 	 Moving to D	 	
+r y b e r 
+w g r w g 
+r y b b b 
+ 	 Moving to C	 	
+r y e b r 
+w g r w g 
+r y b b b 
+ 	 Moving to B	 	
+r e y b r 
+w g r w g 
+r y b b b 
+ 	 Moving to G	 	
+r g y b r 
+w e r w g 
+r y b b b 
+ 	 Moving to H	 	
+r g y b r 
+w r e w g 
+r y b b b 
+ 	 Moving to I	 	
+r g y b r 
+w r w e g 
+r y b b b 
+ 	 Moving to J	 	
+r g y b r 
+w r w g e 
+r y b b b 
+ 	 Moving to E	 	
+r g y b e 
+w r w g r 
+r y b b b 
+ 	 Moving to D	 	
+r g y e b 
+w r w g r 
+r y b b b 
+ 	 Moving to C	 	
+r g e y b 
+w r w g r 
+r y b b b 
+ 	 Moving to H	 	
+r g w y b 
+w r e g r 
+r y b b b 
+ 	 Moving to G	 	
+r g w y b 
+w e r g r 
+r y b b b 
+ 	 Moving to B	 	
+r e w y b 
+w g r g r 
+r y b b b 
+ 	 Moving to C	 	
+r w e y b 
+w g r g r 
+r y b b b 
+ 	 Moving to D	 	
+r w y e b 
+w g r g r 
+r y b b b 
+ 	 Moving to E	 	
+r w y b e 
+w g r g r 
+r y b b b 
+ 	 Moving to J	 	
+r w y b r 
+w g r g e 
+r y b b b 
+ 	 Moving to I	 	
+r w y b r 
+w g r e g 
+r y b b b 
+ 	 Moving to H	 	
+r w y b r 
+w g e r g 
+r y b b b 
+ 	 Moving to G	 	
+r w y b r 
+w e g r g 
+r y b b b 
+ 	 Moving to B	 	
+r e y b r 
+w w g r g 
+r y b b b 
+ 	 Moving to C	 	
+r y e b r 
+w w g r g 
+r y b b b 
+ 	 Moving to D	 	
+r y b e r 
+w w g r g 
+r y b b b 
+ 	 Moving to E	 	
+r y b r e 
+w w g r g 
+r y b b b 
+ 	 Moving to J	 	
+r y b r g 
+w w g r e 
+r y b b b 
+ 	 Moving to I	 	
+r y b r g 
+w w g e r 
+r y b b b 
+ 	 Moving to D	 	
+r y b e g 
+w w g r r 
+r y b b b 
+ 	 Moving to C	 	
+r y e b g 
+w w g r r 
+r y b b b 
+ 	 Moving to H	 	
+r y g b g 
+w w e r r 
+r y b b b 
+ 	 Moving to I	 	
+r y g b g 
+w w r e r 
+r y b b b 
+ 	 Moving to J	 	
+r y g b g 
+w w r r e 
+r y b b b 
+ 	 Moving to E	 	
+r y g b e 
+w w r r g 
+r y b b b 
+ 	 Moving to D	 	
+r y g e b 
+w w r r g 
+r y b b b 
+ 	 Moving to C	 	
+r y e g b 
+w w r r g 
+r y b b b 
+ 	 Moving to H	 	
+r y r g b 
+w w e r g 
+r y b b b 
+ 	 Moving to I	 	
+r y r g b 
+w w r e g 
+r y b b b 
+ 	 Moving to D	 	
+r y r e b 
+w w r g g 
+r y b b b 
+ 	 Moving to E	 	
+r y r b e 
+w w r g g 
+r y b b b 
+ 	 Moving to J	 	
+r y r b g 
+w w r g e 
+r y b b b 
+ 	 Moving to I	 	
+r y r b g 
+w w r e g 
+r y b b b 
+ 	 Moving to H	 	
+r y r b g 
+w w e r g 
+r y b b b 
+ 	 Moving to C	 	
+r y e b g 
+w w r r g 
+r y b b b 
+ 	 Moving to B	 	
+r e y b g 
+w w r r g 
+r y b b b 
+ 	 Moving to G	 	
+r w y b g 
+w e r r g 
+r y b b b 
+ 	 Moving to H	 	
+r w y b g 
+w r e r g 
+r y b b b 
+ 	 Moving to I	 	
+r w y b g 
+w r r e g 
+r y b b b 
+ 	 Moving to J	 	
+r w y b g 
+w r r g e 
+r y b b b 
+ 	 Moving to E	 	
+r w y b e 
+w r r g g 
+r y b b b 
+ 	 Moving to D	 	
+r w y e b 
+w r r g g 
+r y b b b 
+ 	 Moving to C	 	
+r w e y b 
+w r r g g 
+r y b b b 
+ 	 Moving to H	 	
+r w r y b 
+w r e g g 
+r y b b b 
+ 	 Moving to M	 	
+r w r y b 
+w r b g g 
+r y e b b 
+ 	 Moving to L	 	
+r w r y b 
+w r b g g 
+r e y b b 
+ 	 Moving to K	 	
+r w r y b 
+w r b g g 
+e r y b b 
+ 	 Moving to F	 	
+r w r y b 
+e r b g g 
+w r y b b 
+ 	 Moving to G	 	
+r w r y b 
+r e b g g 
+w r y b b 
+ 	 Moving to H	 	
+r w r y b 
+r b e g g 
+w r y b b 
+ 	 Moving to I	 	
+r w r y b 
+r b g e g 
+w r y b b 
+ 	 Moving to N	 	
+r w r y b 
+r b g b g 
+w r y e b 
+ 	 Moving to M	 	
+r w r y b 
+r b g b g 
+w r e y b 
+ 	 Moving to L	 	
+r w r y b 
+r b g b g 
+w e r y b 
+ 	 Moving to K	 	
+r w r y b 
+r b g b g 
+e w r y b 
+ 	 Moving to F	 	
+r w r y b 
+e b g b g 
+r w r y b 
+ 63- Original Config : 
+
+e g b b g 
+r b r y y 
+r b r w w 
+
+ 	 Moving to F	 	
+r g b b g 
+e b r y y 
+r b r w w 
+ 	 Moving to G	 	
+r g b b g 
+b e r y y 
+r b r w w 
+ 	 Moving to B	 	
+r e b b g 
+b g r y y 
+r b r w w 
+ 	 Moving to C	 	
+r b e b g 
+b g r y y 
+r b r w w 
+ 	 Moving to H	 	
+r b r b g 
+b g e y y 
+r b r w w 
+ 	 Moving to I	 	
+r b r b g 
+b g y e y 
+r b r w w 
+ 	 Moving to N	 	
+r b r b g 
+b g y w y 
+r b r e w 
+ 	 Moving to O	 	
+r b r b g 
+b g y w y 
+r b r w e 
+ 	 Moving to J	 	
+r b r b g 
+b g y w e 
+r b r w y 
+ 	 Moving to I	 	
+r b r b g 
+b g y e w 
+r b r w y 
+ 	 Moving to D	 	
+r b r e g 
+b g y b w 
+r b r w y 
+ 	 Moving to E	 	
+r b r g e 
+b g y b w 
+r b r w y 
+ 	 Moving to J	 	
+r b r g w 
+b g y b e 
+r b r w y 
+ 	 Moving to I	 	
+r b r g w 
+b g y e b 
+r b r w y 
+ 	 Moving to D	 	
+r b r e w 
+b g y g b 
+r b r w y 
+ 	 Moving to C	 	
+r b e r w 
+b g y g b 
+r b r w y 
+ 	 Moving to B	 	
+r e b r w 
+b g y g b 
+r b r w y 
+ 	 Moving to A	 	
+e r b r w 
+b g y g b 
+r b r w y 
+ 	 Moving to F	 	
+b r b r w 
+e g y g b 
+r b r w y 
+ 	 Moving to G	 	
+b r b r w 
+g e y g b 
+r b r w y 
+ 	 Moving to H	 	
+b r b r w 
+g y e g b 
+r b r w y 
+ 	 Moving to I	 	
+b r b r w 
+g y g e b 
+r b r w y 
+ 	 Moving to J	 	
+b r b r w 
+g y g b e 
+r b r w y 
+ 	 Moving to O	 	
+b r b r w 
+g y g b y 
+r b r w e 
+ 	 Moving to N	 	
+b r b r w 
+g y g b y 
+r b r e w 
+ 	 Moving to M	 	
+b r b r w 
+g y g b y 
+r b e r w 
+ 	 Moving to H	 	
+b r b r w 
+g y e b y 
+r b g r w 
+ 	 Moving to G	 	
+b r b r w 
+g e y b y 
+r b g r w 
+ 	 Moving to F	 	
+b r b r w 
+e g y b y 
+r b g r w 
+ 	 Moving to K	 	
+b r b r w 
+r g y b y 
+e b g r w 
+ 	 Moving to L	 	
+b r b r w 
+r g y b y 
+b e g r w 
+ 	 Moving to M	 	
+b r b r w 
+r g y b y 
+b g e r w 
+ 	 Moving to H	 	
+b r b r w 
+r g e b y 
+b g y r w 
+ 	 Moving to G	 	
+b r b r w 
+r e g b y 
+b g y r w 
+ 	 Moving to L	 	
+b r b r w 
+r g g b y 
+b e y r w 
+ 	 Moving to K	 	
+b r b r w 
+r g g b y 
+e b y r w 
+ 	 Moving to F	 	
+b r b r w 
+e g g b y 
+r b y r w 
+ 	 Moving to G	 	
+b r b r w 
+g e g b y 
+r b y r w 
+ 	 Moving to H	 	
+b r b r w 
+g g e b y 
+r b y r w 
+ 	 Moving to M	 	
+b r b r w 
+g g y b y 
+r b e r w 
+ 	 Moving to N	 	
+b r b r w 
+g g y b y 
+r b r e w 
+ 	 Moving to O	 	
+b r b r w 
+g g y b y 
+r b r w e 
+ 	 Moving to J	 	
+b r b r w 
+g g y b e 
+r b r w y 
+ 	 Moving to I	 	
+b r b r w 
+g g y e b 
+r b r w y 
+ 	 Moving to H	 	
+b r b r w 
+g g e y b 
+r b r w y 
+ 	 Moving to G	 	
+b r b r w 
+g e g y b 
+r b r w y 
+ 	 Moving to F	 	
+b r b r w 
+e g g y b 
+r b r w y 
+ 	 Moving to A	 	
+e r b r w 
+b g g y b 
+r b r w y 
+ 	 Moving to B	 	
+r e b r w 
+b g g y b 
+r b r w y 
+ 	 Moving to C	 	
+r b e r w 
+b g g y b 
+r b r w y 
+ 	 Moving to H	 	
+r b g r w 
+b g e y b 
+r b r w y 
+ 	 Moving to I	 	
+r b g r w 
+b g y e b 
+r b r w y 
+ 	 Moving to J	 	
+r b g r w 
+b g y b e 
+r b r w y 
+ 	 Moving to E	 	
+r b g r e 
+b g y b w 
+r b r w y 
+ 	 Moving to D	 	
+r b g e r 
+b g y b w 
+r b r w y 
+ 	 Moving to I	 	
+r b g b r 
+b g y e w 
+r b r w y 
+ 	 Moving to H	 	
+r b g b r 
+b g e y w 
+r b r w y 
+ 	 Moving to C	 	
+r b e b r 
+b g g y w 
+r b r w y 
+ 	 Moving to D	 	
+r b b e r 
+b g g y w 
+r b r w y 
+ 	 Moving to E	 	
+r b b r e 
+b g g y w 
+r b r w y 
+ 	 Moving to J	 	
+r b b r w 
+b g g y e 
+r b r w y 
+ 	 Moving to I	 	
+r b b r w 
+b g g e y 
+r b r w y 
+ 	 Moving to H	 	
+r b b r w 
+b g e g y 
+r b r w y 
+ 	 Moving to C	 	
+r b e r w 
+b g b g y 
+r b r w y 
+ 	 Moving to D	 	
+r b r e w 
+b g b g y 
+r b r w y 
+ 	 Moving to E	 	
+r b r w e 
+b g b g y 
+r b r w y 
+ 	 Moving to J	 	
+r b r w y 
+b g b g e 
+r b r w y 
+ 64- Original Config : 
+
+e w w g r 
+r b r b g 
+b b r y y 
+
+ 	 Moving to F	 	
+r w w g r 
+e b r b g 
+b b r y y 
+ 	 Moving to G	 	
+r w w g r 
+b e r b g 
+b b r y y 
+ 	 Moving to H	 	
+r w w g r 
+b r e b g 
+b b r y y 
+ 	 Moving to I	 	
+r w w g r 
+b r b e g 
+b b r y y 
+ 	 Moving to J	 	
+r w w g r 
+b r b g e 
+b b r y y 
+ 	 Moving to O	 	
+r w w g r 
+b r b g y 
+b b r y e 
+ 	 Moving to N	 	
+r w w g r 
+b r b g y 
+b b r e y 
+ 	 Moving to I	 	
+r w w g r 
+b r b e y 
+b b r g y 
+ 	 Moving to H	 	
+r w w g r 
+b r e b y 
+b b r g y 
+ 	 Moving to G	 	
+r w w g r 
+b e r b y 
+b b r g y 
+ 	 Moving to B	 	
+r e w g r 
+b w r b y 
+b b r g y 
+ 	 Moving to A	 	
+e r w g r 
+b w r b y 
+b b r g y 
+ 	 Moving to F	 	
+b r w g r 
+e w r b y 
+b b r g y 
+ 	 Moving to K	 	
+b r w g r 
+b w r b y 
+e b r g y 
+ 	 Moving to L	 	
+b r w g r 
+b w r b y 
+b e r g y 
+ 	 Moving to G	 	
+b r w g r 
+b e r b y 
+b w r g y 
+ 	 Moving to B	 	
+b e w g r 
+b r r b y 
+b w r g y 
+ 	 Moving to C	 	
+b w e g r 
+b r r b y 
+b w r g y 
+ 	 Moving to H	 	
+b w r g r 
+b r e b y 
+b w r g y 
+ 	 Moving to I	 	
+b w r g r 
+b r b e y 
+b w r g y 
+ 	 Moving to J	 	
+b w r g r 
+b r b y e 
+b w r g y 
+ 	 Moving to E	 	
+b w r g e 
+b r b y r 
+b w r g y 
+ 	 Moving to D	 	
+b w r e g 
+b r b y r 
+b w r g y 
+ 	 Moving to C	 	
+b w e r g 
+b r b y r 
+b w r g y 
+ 	 Moving to B	 	
+b e w r g 
+b r b y r 
+b w r g y 
+ 	 Moving to A	 	
+e b w r g 
+b r b y r 
+b w r g y 
+ 	 Moving to F	 	
+b b w r g 
+e r b y r 
+b w r g y 
+ 	 Moving to G	 	
+b b w r g 
+r e b y r 
+b w r g y 
+ 	 Moving to H	 	
+b b w r g 
+r b e y r 
+b w r g y 
+ 	 Moving to I	 	
+b b w r g 
+r b y e r 
+b w r g y 
+ 	 Moving to J	 	
+b b w r g 
+r b y r e 
+b w r g y 
+ 	 Moving to O	 	
+b b w r g 
+r b y r y 
+b w r g e 
+ 	 Moving to N	 	
+b b w r g 
+r b y r y 
+b w r e g 
+ 	 Moving to M	 	
+b b w r g 
+r b y r y 
+b w e r g 
+ 	 Moving to L	 	
+b b w r g 
+r b y r y 
+b e w r g 
+ 	 Moving to G	 	
+b b w r g 
+r e y r y 
+b b w r g 
+ 65- Original Config : 
+
+w g g y y 
+b b b b e 
+r r r r w 
+
+ 65- Original Config : 
+
+w g g y y 
+b b b b e 
+r r r r w 
+
+ 65- Original Config : 
+
+w g g y y 
+b b b b e 
+r r r r w 
+
+ 65- Original Config : 
+
+w g g y y 
+b b b b e 
+r r r r w 
+
+ 65- Original Config : 
+
+w g g y y 
+b b b b e 
+r r r r w 
+
+ 65- Original Config : 
+
+w g g y y 
+b b b b e 
+r r r r w 

@@ -222,68 +222,75 @@ public class Board implements Comparable{
                 middleReverse += gridToken[1][j].getSign();
             }
 
-            //Top row is the source row
-            String strSearch = middleReverse;
-            strSearch += bottomOrigin;
-
-            //search
+            String strSearch = "";
             int[] sourceIndexAtSearch = new int[5];
-            int minIndexfound = 10;
-            for (int j = 4; j >= 0; j--){
-                int pos;
-                if (minIndexfound == 10){
-                    pos = strSearch.lastIndexOf(gridToken[0][j].getSign());
-                }else{
-                    String tempSubStr = strSearch.substring(0,minIndexfound);
-                    pos = tempSubStr.lastIndexOf(gridToken[0][j].getSign());
-                    if (pos == -1){
-                        pos = strSearch.indexOf(gridToken[0][j].getSign());
+
+            if (topOrigin.indexOf('e') == -1) {
+
+                //Top row is the source row
+                strSearch = middleReverse;
+                strSearch += bottomOrigin;
+
+                //search
+                int minIndexfound = 10;
+                for (int j = 4; j >= 0; j--) {
+                    int pos;
+                    if (minIndexfound == 10) {
+                        pos = strSearch.lastIndexOf(gridToken[0][j].getSign());
+                    } else {
+                        String tempSubStr = strSearch.substring(0, minIndexfound);
+                        pos = tempSubStr.lastIndexOf(gridToken[0][j].getSign());
+                        if (pos == -1) {
+                            pos = strSearch.indexOf(gridToken[0][j].getSign());
+                        }
                     }
+                    sourceIndexAtSearch[j] = pos;
+                    if (pos != -1)
+                        minIndexfound = Math.min(minIndexfound, pos);
                 }
-                sourceIndexAtSearch[j] = pos;
-                if (pos != -1)
-                    minIndexfound = Math.min(minIndexfound, pos);
-            }
-            //calculate distance from the goal
-            for (int i = 0; i < 5;i++){
-                if (i!= 0 && sourceIndexAtSearch[i]!= -1 && sourceIndexAtSearch[i-1]!= -1 &&
-                        sourceIndexAtSearch[i-1]>sourceIndexAtSearch[i]){
-                    topHeuristic += 8;
+                //calculate distance from the goal
+                for (int i = 0; i < 5; i++) {
+                    if (i != 0 && sourceIndexAtSearch[i] != -1 && sourceIndexAtSearch[i - 1] != -1 &&
+                            sourceIndexAtSearch[i - 1] > sourceIndexAtSearch[i]) {
+                        topHeuristic += 8;
+                    }
+                    if (sourceIndexAtSearch[i] == -1)
+                        topHeuristic += 12;
+                    else
+                        topHeuristic += Math.abs((i + 5) - sourceIndexAtSearch[i]);
                 }
-                if (sourceIndexAtSearch[i] == -1)
-                    topHeuristic += 12;
-                else
-                    topHeuristic += Math.abs((i + 5) - sourceIndexAtSearch[i]);
-            }
+                heuristicValue = topHeuristic;
+            }else {
+                //Bottom row is the source row
+                strSearch = topOrigin;
+                strSearch += middleReverse;
 
-            //Bottom row is the source row
-            strSearch = topOrigin;
-            strSearch += middleReverse;
-
-            //search
-            int maxIndexfound = -1;
-            for (int j = 0; j < 5; j++) {
-                int pos = strSearch.indexOf(gridToken[2][j].getSign(), maxIndexfound+1);
-                if (pos == -1) {
-                    pos = strSearch.indexOf(gridToken[2][j].getSign());
+                //search
+                int maxIndexfound = -1;
+                for (int j = 0; j < 5; j++) {
+                    int pos = strSearch.indexOf(gridToken[2][j].getSign(), maxIndexfound + 1);
+                    if (pos == -1) {
+                        pos = strSearch.indexOf(gridToken[2][j].getSign());
+                    }
+                    sourceIndexAtSearch[j] = pos;
+                    maxIndexfound = Math.max(maxIndexfound, pos);
                 }
-                sourceIndexAtSearch[j] = pos;
-                maxIndexfound = Math.max(maxIndexfound, pos);
-            }
 
-            //calculate distance from the goal
-            for (int i = 0; i < 5;i++){
-                if (i!= 0 && sourceIndexAtSearch[i]!= -1 && sourceIndexAtSearch[i-1]!= -1 &&
-                        sourceIndexAtSearch[i-1]>sourceIndexAtSearch[i]){
-                    bottomHeuristic += 8;
+                //calculate distance from the goal
+                for (int i = 0; i < 5; i++) {
+                    if (i != 0 && sourceIndexAtSearch[i] != -1 && sourceIndexAtSearch[i - 1] != -1 &&
+                            sourceIndexAtSearch[i - 1] > sourceIndexAtSearch[i]) {
+                        bottomHeuristic += 8;
+                    }
+                    if (sourceIndexAtSearch[i] == -1)
+                        bottomHeuristic += 12;
+                    else
+                        bottomHeuristic += Math.abs(i - sourceIndexAtSearch[i]);
                 }
-                if (sourceIndexAtSearch[i] == -1)
-                    bottomHeuristic += 12;
-                else
-                    bottomHeuristic += Math.abs(i - sourceIndexAtSearch[i]);
+                heuristicValue = bottomHeuristic;
             }
+            //heuristicValue = Math.min(topHeuristic, bottomHeuristic);
 
-            heuristicValue = Math.min(topHeuristic, bottomHeuristic);
         }
         return heuristicValue;
     }
