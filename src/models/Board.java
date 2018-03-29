@@ -16,8 +16,6 @@ import java.util.*;
  * Created by hamideh on 02/02/2018.
  */
 public class Board implements Comparable{
-    private int length;
-    private int width;
     private Token emptyTokenRef;
     private Token[][] gridToken;
     private Board parent;
@@ -46,8 +44,6 @@ public class Board implements Comparable{
         char alpha = 'A';
         for(int i=0;i<Configuration.ROWS;i++){
             for(int j=0;j<Configuration.COLUMNS;j++){
-                        //characters.
-                //System.out.println(characters[indexCharac].charAt(0));
                 char sign = characters[indexCharac].charAt(0);
                 if (sign != 'e') {
                     gridToken[i][j] = new Token(sign);
@@ -63,21 +59,6 @@ public class Board implements Comparable{
                 alpha++;
             }
         }
-    }
-    public int getLength() {
-        return length;
-    }
-
-    public void setLength(int length) {
-        this.length = length;
-    }
-
-    public int getWidth() {
-        return width;
-    }
-
-    public void setWidth(int width) {
-        this.width = width;
     }
 
     public Token getEmptyTokenRef() {
@@ -140,13 +121,13 @@ public class Board implements Comparable{
                 result = false;
             }
         }
-        if (result) {
+   /*     if (result) {
             //write to the output file
             String characters = this.toString();
             String strNbMoves = ("Number of moves:" + nbMoves);
            // FileOps.writeFile(characters, strNbMoves);
         }
-        return result;
+   */     return result;
     }
     public boolean validateMove(char direction){
         boolean result = true;
@@ -597,21 +578,7 @@ public class Board implements Comparable{
         //TO-DO: Make sucessors of given Model by checking if model exists
         //Board[] sucessors=new Board[4];
         ArrayList<Board> sucessors=new ArrayList<Board>();
-        //Board currentBoard=this.clone();
-/*
-        for(int i=0;i<4;i++){
-            Board sucessor=new Board();
-            sucessor.copyEmptyRef(this.emptyTokenRef);
-            sucessor.copyGrid(this.gridToken);
-           // sucessors[i].length=this.length;
-            //sucessors[i].width=this.width;
-            System.out.println(sucessor.emptyTokenRef.getPos());
-            sucessors.add(sucessor);
-        }
-        for(Board sucessor:sucessors){
-            System.out.println(sucessor.emptyTokenRef.getPos());
-        }
-*/
+
         Board sucessor1=new Board();
         sucessor1.copyEmptyRef(this.emptyTokenRef);
         sucessor1.copyGrid(this.gridToken);
@@ -621,9 +588,6 @@ public class Board implements Comparable{
         if(sucessor1.validateMove('L')){
             sucessor1.move('L');
             sucessor1.directionFromParent='L';
-            //sucessor1.heuristicValue=sucessor1.getHeuristic4();
-            //System.out.println("Left: "+sucessor1.emptyTokenRef.getPos());
-            //System.out.println(sucessor1);
             sucessors.add(sucessor1);
         }
         else{
@@ -633,14 +597,10 @@ public class Board implements Comparable{
         sucessor2.copyEmptyRef(this.emptyTokenRef);
         sucessor2.copyGrid(this.gridToken);
         sucessor2.parent = this;
-        //System.out.println(sucessor2.emptyTokenRef.getPos());
 
         if(sucessor2.validateMove('R')){
             sucessor2.move('R');
             sucessor2.directionFromParent='R';
-            //sucessor2.heuristicValue=sucessor2.getHeuristic2();
-            //System.out.println("Right: "+sucessor2.emptyTokenRef.getPos());
-            //System.out.println(sucessor2);
             sucessors.add(sucessor2);
         }
         else{
@@ -654,9 +614,6 @@ public class Board implements Comparable{
 
         if(sucessor3.validateMove('D')){
             sucessor3.move('D');
-            //System.out.println("Down: "+sucessor3.emptyTokenRef.getPos());
-            //System.out.println(sucessor3);
-            //sucessor3.heuristicValue=sucessor3.getHeuristic2();
             sucessor3.directionFromParent='D';
             sucessors.add(sucessor3);
         }
@@ -667,13 +624,9 @@ public class Board implements Comparable{
         sucessor4.copyEmptyRef(this.emptyTokenRef);
         sucessor4.copyGrid(this.gridToken);
         sucessor4.parent = this;
-        //System.out.println(sucessor4.emptyTokenRef.getPos());
 
         if(sucessor4.validateMove('U')){
             sucessor4.move('U');
-            //System.out.println("Up: "+sucessor4.emptyTokenRef.getPos());
-            //System.out.println(sucessor4);
-            //sucessor4.heuristicValue=sucessor4.getHeuristic2();
             sucessor4.directionFromParent='U';
             sucessors.add(sucessor4);
         }
@@ -692,10 +645,6 @@ public class Board implements Comparable{
         }
     }
     public void copyEmptyRef(Token emptyTokenRef){
-        /*Position ps=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
-        //ps.setY(emptyTokenRef.getPos().getY());
-        //ps.setX(emptyTokenRef.getPos().getX());
-        this.emptyTokenRef.setPos(ps);*/
         this.emptyTokenRef.getPos().setX(emptyTokenRef.getPos().getX());
         this.emptyTokenRef.getPos().setY(emptyTokenRef.getPos().getY());
     }

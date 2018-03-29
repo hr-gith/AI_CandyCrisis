@@ -1,0 +1,4169 @@
+
+ Solving game 1
+ 1- Original Config : 
+
+b r r b w 
+r b r b e 
+r b b r w 
+ 	 	 Solution states : 
+ 	 Moving to I	 	
+b r r b w 
+r b r e b 
+r b b r w 
+ 	 Moving to N	 	
+b r r b w 
+r b r r b 
+r b b e w 
+ 	 Moving to M	 	
+b r r b w 
+r b r r b 
+r b e b w 
+ 	 Moving to H	 	
+b r r b w 
+r b e r b 
+r b r b w 
+ 	 Moving to G	 	
+b r r b w 
+r e b r b 
+r b r b w 
+ 	 Moving to L	 	
+b r r b w 
+r b b r b 
+r e r b w 
+ 	 Moving to K	 	
+b r r b w 
+r b b r b 
+e r r b w 
+ 	 Moving to F	 	
+b r r b w 
+e b b r b 
+r r r b w 
+ 	 Moving to G	 	
+b r r b w 
+b e b r b 
+r r r b w 
+ 	 Moving to L	 	
+b r r b w 
+b r b r b 
+r e r b w 
+ 	 Moving to K	 	
+b r r b w 
+b r b r b 
+e r r b w 
+ 	 Moving to F	 	
+b r r b w 
+e r b r b 
+b r r b w 
+ Solving game 2
+ 2- Original Config : 
+
+r e r b b 
+w r b b w 
+r b b r r 
+ 	 	 Solution states : 
+ 	 Moving to G	 	
+r r r b b 
+w e b b w 
+r b b r r 
+ 	 Moving to H	 	
+r r r b b 
+w b e b w 
+r b b r r 
+ 	 Moving to M	 	
+r r r b b 
+w b b b w 
+r b e r r 
+ 	 Moving to N	 	
+r r r b b 
+w b b b w 
+r b r e r 
+ 	 Moving to I	 	
+r r r b b 
+w b b e w 
+r b r b r 
+ 	 Moving to H	 	
+r r r b b 
+w b e b w 
+r b r b r 
+ 	 Moving to G	 	
+r r r b b 
+w e b b w 
+r b r b r 
+ 	 Moving to L	 	
+r r r b b 
+w b b b w 
+r e r b r 
+ 	 Moving to M	 	
+r r r b b 
+w b b b w 
+r r e b r 
+ 	 Moving to H	 	
+r r r b b 
+w b e b w 
+r r b b r 
+ 	 Moving to C	 	
+r r e b b 
+w b r b w 
+r r b b r 
+ 	 Moving to D	 	
+r r b e b 
+w b r b w 
+r r b b r 
+ 	 Moving to E	 	
+r r b b e 
+w b r b w 
+r r b b r 
+ 	 Moving to J	 	
+r r b b w 
+w b r b e 
+r r b b r 
+ 	 Moving to I	 	
+r r b b w 
+w b r e b 
+r r b b r 
+ 	 Moving to H	 	
+r r b b w 
+w b e r b 
+r r b b r 
+ 	 Moving to C	 	
+r r e b w 
+w b b r b 
+r r b b r 
+ 	 Moving to D	 	
+r r b e w 
+w b b r b 
+r r b b r 
+ 	 Moving to E	 	
+r r b w e 
+w b b r b 
+r r b b r 
+ 	 Moving to J	 	
+r r b w b 
+w b b r e 
+r r b b r 
+ 	 Moving to I	 	
+r r b w b 
+w b b e r 
+r r b b r 
+ 	 Moving to D	 	
+r r b e b 
+w b b w r 
+r r b b r 
+ 	 Moving to E	 	
+r r b b e 
+w b b w r 
+r r b b r 
+ 	 Moving to J	 	
+r r b b r 
+w b b w e 
+r r b b r 
+ Solving game 3
+ 3- Original Config : 
+
+e b r b b 
+r b w w b 
+r r r b r 
+ 	 	 Solution states : 
+ 	 Moving to F	 	
+r b r b b 
+e b w w b 
+r r r b r 
+ 	 Moving to G	 	
+r b r b b 
+b e w w b 
+r r r b r 
+ 	 Moving to B	 	
+r e r b b 
+b b w w b 
+r r r b r 
+ 	 Moving to C	 	
+r r e b b 
+b b w w b 
+r r r b r 
+ 	 Moving to D	 	
+r r b e b 
+b b w w b 
+r r r b r 
+ 	 Moving to E	 	
+r r b b e 
+b b w w b 
+r r r b r 
+ 	 Moving to J	 	
+r r b b b 
+b b w w e 
+r r r b r 
+ 	 Moving to I	 	
+r r b b b 
+b b w e w 
+r r r b r 
+ 	 Moving to H	 	
+r r b b b 
+b b e w w 
+r r r b r 
+ 	 Moving to C	 	
+r r e b b 
+b b b w w 
+r r r b r 
+ 	 Moving to B	 	
+r e r b b 
+b b b w w 
+r r r b r 
+ 	 Moving to A	 	
+e r r b b 
+b b b w w 
+r r r b r 
+ 	 Moving to F	 	
+b r r b b 
+e b b w w 
+r r r b r 
+ 	 Moving to G	 	
+b r r b b 
+b e b w w 
+r r r b r 
+ 	 Moving to H	 	
+b r r b b 
+b b e w w 
+r r r b r 
+ 	 Moving to I	 	
+b r r b b 
+b b w e w 
+r r r b r 
+ 	 Moving to D	 	
+b r r e b 
+b b w b w 
+r r r b r 
+ 	 Moving to E	 	
+b r r b e 
+b b w b w 
+r r r b r 
+ 	 Moving to J	 	
+b r r b w 
+b b w b e 
+r r r b r 
+ 	 Moving to I	 	
+b r r b w 
+b b w e b 
+r r r b r 
+ 	 Moving to H	 	
+b r r b w 
+b b e w b 
+r r r b r 
+ 	 Moving to G	 	
+b r r b w 
+b e b w b 
+r r r b r 
+ 	 Moving to F	 	
+b r r b w 
+e b b w b 
+r r r b r 
+ 	 Moving to A	 	
+e r r b w 
+b b b w b 
+r r r b r 
+ 	 Moving to B	 	
+r e r b w 
+b b b w b 
+r r r b r 
+ 	 Moving to C	 	
+r r e b w 
+b b b w b 
+r r r b r 
+ 	 Moving to D	 	
+r r b e w 
+b b b w b 
+r r r b r 
+ 	 Moving to I	 	
+r r b w w 
+b b b e b 
+r r r b r 
+ 	 Moving to J	 	
+r r b w w 
+b b b b e 
+r r r b r 
+ 	 Moving to E	 	
+r r b w e 
+b b b b w 
+r r r b r 
+ 	 Moving to D	 	
+r r b e w 
+b b b b w 
+r r r b r 
+ 	 Moving to C	 	
+r r e b w 
+b b b b w 
+r r r b r 
+ 	 Moving to B	 	
+r e r b w 
+b b b b w 
+r r r b r 
+ 	 Moving to A	 	
+e r r b w 
+b b b b w 
+r r r b r 
+ 	 Moving to F	 	
+b r r b w 
+e b b b w 
+r r r b r 
+ 	 Moving to G	 	
+b r r b w 
+b e b b w 
+r r r b r 
+ 	 Moving to H	 	
+b r r b w 
+b b e b w 
+r r r b r 
+ 	 Moving to I	 	
+b r r b w 
+b b b e w 
+r r r b r 
+ 	 Moving to J	 	
+b r r b w 
+b b b w e 
+r r r b r 
+ 	 Moving to E	 	
+b r r b e 
+b b b w w 
+r r r b r 
+ 	 Moving to D	 	
+b r r e b 
+b b b w w 
+r r r b r 
+ 	 Moving to C	 	
+b r e r b 
+b b b w w 
+r r r b r 
+ 	 Moving to B	 	
+b e r r b 
+b b b w w 
+r r r b r 
+ 	 Moving to G	 	
+b b r r b 
+b e b w w 
+r r r b r 
+ 	 Moving to H	 	
+b b r r b 
+b b e w w 
+r r r b r 
+ 	 Moving to I	 	
+b b r r b 
+b b w e w 
+r r r b r 
+ 	 Moving to J	 	
+b b r r b 
+b b w w e 
+r r r b r 
+ 	 Moving to O	 	
+b b r r b 
+b b w w r 
+r r r b e 
+ 	 Moving to N	 	
+b b r r b 
+b b w w r 
+r r r e b 
+ 	 Moving to M	 	
+b b r r b 
+b b w w r 
+r r e r b 
+ 	 Moving to L	 	
+b b r r b 
+b b w w r 
+r e r r b 
+ 	 Moving to G	 	
+b b r r b 
+b e w w r 
+r b r r b 
+ 	 Moving to F	 	
+b b r r b 
+e b w w r 
+r b r r b 
+ 	 Moving to K	 	
+b b r r b 
+r b w w r 
+e b r r b 
+ 	 Moving to L	 	
+b b r r b 
+r b w w r 
+b e r r b 
+ 	 Moving to G	 	
+b b r r b 
+r e w w r 
+b b r r b 
+ Solving game 4
+ 4- Original Config : 
+
+b r r b b 
+r w r e r 
+r b w b b 
+ 	 	 Solution states : 
+ 	 Moving to H	 	
+b r r b b 
+r w e r r 
+r b w b b 
+ 	 Moving to G	 	
+b r r b b 
+r e w r r 
+r b w b b 
+ 	 Moving to L	 	
+b r r b b 
+r b w r r 
+r e w b b 
+ 	 Moving to K	 	
+b r r b b 
+r b w r r 
+e r w b b 
+ 	 Moving to F	 	
+b r r b b 
+e b w r r 
+r r w b b 
+ 	 Moving to G	 	
+b r r b b 
+b e w r r 
+r r w b b 
+ 	 Moving to H	 	
+b r r b b 
+b w e r r 
+r r w b b 
+ 	 Moving to M	 	
+b r r b b 
+b w w r r 
+r r e b b 
+ 	 Moving to L	 	
+b r r b b 
+b w w r r 
+r e r b b 
+ 	 Moving to K	 	
+b r r b b 
+b w w r r 
+e r r b b 
+ 	 Moving to F	 	
+b r r b b 
+e w w r r 
+b r r b b 
+ Solving game 5
+ 5- Original Config : 
+
+e b r r b 
+b w w r r 
+b r r b b 
+ 	 	 Solution states : 
+ 	 Moving to F	 	
+b b r r b 
+e w w r r 
+b r r b b 
+ 	 Moving to G	 	
+b b r r b 
+w e w r r 
+b r r b b 
+ 	 Moving to H	 	
+b b r r b 
+w w e r r 
+b r r b b 
+ 	 Moving to I	 	
+b b r r b 
+w w r e r 
+b r r b b 
+ 	 Moving to N	 	
+b b r r b 
+w w r b r 
+b r r e b 
+ 	 Moving to M	 	
+b b r r b 
+w w r b r 
+b r e r b 
+ 	 Moving to H	 	
+b b r r b 
+w w e b r 
+b r r r b 
+ 	 Moving to G	 	
+b b r r b 
+w e w b r 
+b r r r b 
+ 	 Moving to B	 	
+b e r r b 
+w b w b r 
+b r r r b 
+ 	 Moving to C	 	
+b r e r b 
+w b w b r 
+b r r r b 
+ 	 Moving to D	 	
+b r r e b 
+w b w b r 
+b r r r b 
+ 	 Moving to E	 	
+b r r b e 
+w b w b r 
+b r r r b 
+ 	 Moving to J	 	
+b r r b r 
+w b w b e 
+b r r r b 
+ 	 Moving to I	 	
+b r r b r 
+w b w e b 
+b r r r b 
+ 	 Moving to D	 	
+b r r e r 
+w b w b b 
+b r r r b 
+ 	 Moving to E	 	
+b r r r e 
+w b w b b 
+b r r r b 
+ 	 Moving to J	 	
+b r r r b 
+w b w b e 
+b r r r b 
+ Solving game 6
+ 6- Original Config : 
+
+r b b b r 
+b e r b b 
+r r r w w 
+ 	 	 Solution states : 
+ 	 Moving to H	 	
+r b b b r 
+b r e b b 
+r r r w w 
+ 	 Moving to I	 	
+r b b b r 
+b r b e b 
+r r r w w 
+ 	 Moving to J	 	
+r b b b r 
+b r b b e 
+r r r w w 
+ 	 Moving to O	 	
+r b b b r 
+b r b b w 
+r r r w e 
+ 	 Moving to N	 	
+r b b b r 
+b r b b w 
+r r r e w 
+ 	 Moving to I	 	
+r b b b r 
+b r b e w 
+r r r b w 
+ 	 Moving to H	 	
+r b b b r 
+b r e b w 
+r r r b w 
+ 	 Moving to G	 	
+r b b b r 
+b e r b w 
+r r r b w 
+ 	 Moving to B	 	
+r e b b r 
+b b r b w 
+r r r b w 
+ 	 Moving to C	 	
+r b e b r 
+b b r b w 
+r r r b w 
+ 	 Moving to H	 	
+r b r b r 
+b b e b w 
+r r r b w 
+ 	 Moving to G	 	
+r b r b r 
+b e b b w 
+r r r b w 
+ 	 Moving to B	 	
+r e r b r 
+b b b b w 
+r r r b w 
+ 	 Moving to C	 	
+r r e b r 
+b b b b w 
+r r r b w 
+ 	 Moving to D	 	
+r r b e r 
+b b b b w 
+r r r b w 
+ 	 Moving to E	 	
+r r b r e 
+b b b b w 
+r r r b w 
+ 	 Moving to J	 	
+r r b r w 
+b b b b e 
+r r r b w 
+ 	 Moving to I	 	
+r r b r w 
+b b b e b 
+r r r b w 
+ 	 Moving to H	 	
+r r b r w 
+b b e b b 
+r r r b w 
+ 	 Moving to C	 	
+r r e r w 
+b b b b b 
+r r r b w 
+ 	 Moving to D	 	
+r r r e w 
+b b b b b 
+r r r b w 
+ 	 Moving to I	 	
+r r r b w 
+b b b e b 
+r r r b w 
+ Solving game 7
+ 7- Original Config : 
+
+b w b r r 
+b r e b w 
+r r b r b 
+ 	 	 Solution states : 
+ 	 Moving to M	 	
+b w b r r 
+b r b b w 
+r r e r b 
+ 	 Moving to L	 	
+b w b r r 
+b r b b w 
+r e r r b 
+ 	 Moving to G	 	
+b w b r r 
+b e b b w 
+r r r r b 
+ 	 Moving to H	 	
+b w b r r 
+b b e b w 
+r r r r b 
+ 	 Moving to C	 	
+b w e r r 
+b b b b w 
+r r r r b 
+ 	 Moving to D	 	
+b w r e r 
+b b b b w 
+r r r r b 
+ 	 Moving to E	 	
+b w r r e 
+b b b b w 
+r r r r b 
+ 	 Moving to J	 	
+b w r r w 
+b b b b e 
+r r r r b 
+ 	 Moving to I	 	
+b w r r w 
+b b b e b 
+r r r r b 
+ 	 Moving to H	 	
+b w r r w 
+b b e b b 
+r r r r b 
+ 	 Moving to G	 	
+b w r r w 
+b e b b b 
+r r r r b 
+ 	 Moving to B	 	
+b e r r w 
+b w b b b 
+r r r r b 
+ 	 Moving to A	 	
+e b r r w 
+b w b b b 
+r r r r b 
+ 	 Moving to F	 	
+b b r r w 
+e w b b b 
+r r r r b 
+ 	 Moving to G	 	
+b b r r w 
+w e b b b 
+r r r r b 
+ 	 Moving to B	 	
+b e r r w 
+w b b b b 
+r r r r b 
+ 	 Moving to C	 	
+b r e r w 
+w b b b b 
+r r r r b 
+ 	 Moving to D	 	
+b r r e w 
+w b b b b 
+r r r r b 
+ 	 Moving to E	 	
+b r r w e 
+w b b b b 
+r r r r b 
+ 	 Moving to J	 	
+b r r w b 
+w b b b e 
+r r r r b 
+ 	 Moving to I	 	
+b r r w b 
+w b b e b 
+r r r r b 
+ 	 Moving to D	 	
+b r r e b 
+w b b w b 
+r r r r b 
+ 	 Moving to C	 	
+b r e r b 
+w b b w b 
+r r r r b 
+ 	 Moving to B	 	
+b e r r b 
+w b b w b 
+r r r r b 
+ 	 Moving to A	 	
+e b r r b 
+w b b w b 
+r r r r b 
+ 	 Moving to F	 	
+w b r r b 
+e b b w b 
+r r r r b 
+ 	 Moving to G	 	
+w b r r b 
+b e b w b 
+r r r r b 
+ 	 Moving to L	 	
+w b r r b 
+b r b w b 
+r e r r b 
+ 	 Moving to K	 	
+w b r r b 
+b r b w b 
+e r r r b 
+ 	 Moving to F	 	
+w b r r b 
+e r b w b 
+b r r r b 
+ 	 Moving to G	 	
+w b r r b 
+r e b w b 
+b r r r b 
+ 	 Moving to H	 	
+w b r r b 
+r b e w b 
+b r r r b 
+ 	 Moving to I	 	
+w b r r b 
+r b w e b 
+b r r r b 
+ 	 Moving to N	 	
+w b r r b 
+r b w r b 
+b r r e b 
+ 	 Moving to M	 	
+w b r r b 
+r b w r b 
+b r e r b 
+ 	 Moving to L	 	
+w b r r b 
+r b w r b 
+b e r r b 
+ 	 Moving to G	 	
+w b r r b 
+r e w r b 
+b b r r b 
+ 	 Moving to F	 	
+w b r r b 
+e r w r b 
+b b r r b 
+ 	 Moving to K	 	
+w b r r b 
+b r w r b 
+e b r r b 
+ 	 Moving to L	 	
+w b r r b 
+b r w r b 
+b e r r b 
+ 	 Moving to G	 	
+w b r r b 
+b e w r b 
+b r r r b 
+ 	 Moving to H	 	
+w b r r b 
+b w e r b 
+b r r r b 
+ 	 Moving to M	 	
+w b r r b 
+b w r r b 
+b r e r b 
+ 	 Moving to L	 	
+w b r r b 
+b w r r b 
+b e r r b 
+ 	 Moving to K	 	
+w b r r b 
+b w r r b 
+e b r r b 
+ 	 Moving to F	 	
+w b r r b 
+e w r r b 
+b b r r b 
+ 	 Moving to G	 	
+w b r r b 
+w e r r b 
+b b r r b 
+ 	 Moving to L	 	
+w b r r b 
+w b r r b 
+b e r r b 
+ 	 Moving to K	 	
+w b r r b 
+w b r r b 
+e b r r b 
+ 	 Moving to F	 	
+w b r r b 
+e b r r b 
+w b r r b 
+ Solving game 8
+ 8- Original Config : 
+
+b b w r r 
+b b w r b 
+r r r b e 
+ 	 	 Solution states : 
+ 	 Moving to J	 	
+b b w r r 
+b b w r e 
+r r r b b 
+ 	 Moving to I	 	
+b b w r r 
+b b w e r 
+r r r b b 
+ 	 Moving to H	 	
+b b w r r 
+b b e w r 
+r r r b b 
+ 	 Moving to M	 	
+b b w r r 
+b b r w r 
+r r e b b 
+ 	 Moving to L	 	
+b b w r r 
+b b r w r 
+r e r b b 
+ 	 Moving to K	 	
+b b w r r 
+b b r w r 
+e r r b b 
+ 	 Moving to F	 	
+b b w r r 
+e b r w r 
+b r r b b 
+ 	 Moving to G	 	
+b b w r r 
+b e r w r 
+b r r b b 
+ 	 Moving to H	 	
+b b w r r 
+b r e w r 
+b r r b b 
+ 	 Moving to C	 	
+b b e r r 
+b r w w r 
+b r r b b 
+ 	 Moving to D	 	
+b b r e r 
+b r w w r 
+b r r b b 
+ 	 Moving to E	 	
+b b r r e 
+b r w w r 
+b r r b b 
+ 	 Moving to J	 	
+b b r r r 
+b r w w e 
+b r r b b 
+ 	 Moving to I	 	
+b b r r r 
+b r w e w 
+b r r b b 
+ 	 Moving to H	 	
+b b r r r 
+b r e w w 
+b r r b b 
+ 	 Moving to G	 	
+b b r r r 
+b e r w w 
+b r r b b 
+ 	 Moving to B	 	
+b e r r r 
+b b r w w 
+b r r b b 
+ 	 Moving to C	 	
+b r e r r 
+b b r w w 
+b r r b b 
+ 	 Moving to H	 	
+b r r r r 
+b b e w w 
+b r r b b 
+ 	 Moving to I	 	
+b r r r r 
+b b w e w 
+b r r b b 
+ 	 Moving to N	 	
+b r r r r 
+b b w b w 
+b r r e b 
+ 	 Moving to M	 	
+b r r r r 
+b b w b w 
+b r e r b 
+ 	 Moving to H	 	
+b r r r r 
+b b e b w 
+b r w r b 
+ 	 Moving to I	 	
+b r r r r 
+b b b e w 
+b r w r b 
+ 	 Moving to J	 	
+b r r r r 
+b b b w e 
+b r w r b 
+ 	 Moving to O	 	
+b r r r r 
+b b b w b 
+b r w r e 
+ 	 Moving to N	 	
+b r r r r 
+b b b w b 
+b r w e r 
+ 	 Moving to M	 	
+b r r r r 
+b b b w b 
+b r e w r 
+ 	 Moving to L	 	
+b r r r r 
+b b b w b 
+b e r w r 
+ 	 Moving to G	 	
+b r r r r 
+b e b w b 
+b b r w r 
+ 	 Moving to H	 	
+b r r r r 
+b b e w b 
+b b r w r 
+ 	 Moving to I	 	
+b r r r r 
+b b w e b 
+b b r w r 
+ 	 Moving to N	 	
+b r r r r 
+b b w w b 
+b b r e r 
+ 	 Moving to M	 	
+b r r r r 
+b b w w b 
+b b e r r 
+ 	 Moving to H	 	
+b r r r r 
+b b e w b 
+b b w r r 
+ 	 Moving to G	 	
+b r r r r 
+b e b w b 
+b b w r r 
+ 	 Moving to L	 	
+b r r r r 
+b b b w b 
+b e w r r 
+ 	 Moving to M	 	
+b r r r r 
+b b b w b 
+b w e r r 
+ 	 Moving to N	 	
+b r r r r 
+b b b w b 
+b w r e r 
+ 	 Moving to I	 	
+b r r r r 
+b b b e b 
+b w r w r 
+ 	 Moving to H	 	
+b r r r r 
+b b e b b 
+b w r w r 
+ 	 Moving to G	 	
+b r r r r 
+b e b b b 
+b w r w r 
+ 	 Moving to L	 	
+b r r r r 
+b w b b b 
+b e r w r 
+ 	 Moving to M	 	
+b r r r r 
+b w b b b 
+b r e w r 
+ 	 Moving to H	 	
+b r r r r 
+b w e b b 
+b r b w r 
+ 	 Moving to I	 	
+b r r r r 
+b w b e b 
+b r b w r 
+ 	 Moving to N	 	
+b r r r r 
+b w b w b 
+b r b e r 
+ 	 Moving to M	 	
+b r r r r 
+b w b w b 
+b r e b r 
+ 	 Moving to L	 	
+b r r r r 
+b w b w b 
+b e r b r 
+ 	 Moving to G	 	
+b r r r r 
+b e b w b 
+b w r b r 
+ 	 Moving to H	 	
+b r r r r 
+b b e w b 
+b w r b r 
+ 	 Moving to I	 	
+b r r r r 
+b b w e b 
+b w r b r 
+ 	 Moving to N	 	
+b r r r r 
+b b w b b 
+b w r e r 
+ 	 Moving to O	 	
+b r r r r 
+b b w b b 
+b w r r e 
+ 	 Moving to J	 	
+b r r r r 
+b b w b e 
+b w r r b 
+ 	 Moving to I	 	
+b r r r r 
+b b w e b 
+b w r r b 
+ 	 Moving to H	 	
+b r r r r 
+b b e w b 
+b w r r b 
+ 	 Moving to G	 	
+b r r r r 
+b e b w b 
+b w r r b 
+ 	 Moving to L	 	
+b r r r r 
+b w b w b 
+b e r r b 
+ 	 Moving to M	 	
+b r r r r 
+b w b w b 
+b r e r b 
+ 	 Moving to N	 	
+b r r r r 
+b w b w b 
+b r r e b 
+ 	 Moving to I	 	
+b r r r r 
+b w b e b 
+b r r w b 
+ 	 Moving to J	 	
+b r r r r 
+b w b b e 
+b r r w b 
+ 	 Moving to O	 	
+b r r r r 
+b w b b b 
+b r r w e 
+ 	 Moving to N	 	
+b r r r r 
+b w b b b 
+b r r e w 
+ 	 Moving to M	 	
+b r r r r 
+b w b b b 
+b r e r w 
+ 	 Moving to L	 	
+b r r r r 
+b w b b b 
+b e r r w 
+ 	 Moving to G	 	
+b r r r r 
+b e b b b 
+b w r r w 
+ 	 Moving to H	 	
+b r r r r 
+b b e b b 
+b w r r w 
+ 	 Moving to I	 	
+b r r r r 
+b b b e b 
+b w r r w 
+ 	 Moving to J	 	
+b r r r r 
+b b b b e 
+b w r r w 
+ 	 Moving to O	 	
+b r r r r 
+b b b b w 
+b w r r e 
+ 	 Moving to N	 	
+b r r r r 
+b b b b w 
+b w r e r 
+ 	 Moving to M	 	
+b r r r r 
+b b b b w 
+b w e r r 
+ 	 Moving to L	 	
+b r r r r 
+b b b b w 
+b e w r r 
+ 	 Moving to G	 	
+b r r r r 
+b e b b w 
+b b w r r 
+ 	 Moving to H	 	
+b r r r r 
+b b e b w 
+b b w r r 
+ 	 Moving to M	 	
+b r r r r 
+b b w b w 
+b b e r r 
+ 	 Moving to N	 	
+b r r r r 
+b b w b w 
+b b r e r 
+ 	 Moving to I	 	
+b r r r r 
+b b w e w 
+b b r b r 
+ 	 Moving to H	 	
+b r r r r 
+b b e w w 
+b b r b r 
+ 	 Moving to G	 	
+b r r r r 
+b e b w w 
+b b r b r 
+ 	 Moving to L	 	
+b r r r r 
+b b b w w 
+b e r b r 
+ 	 Moving to M	 	
+b r r r r 
+b b b w w 
+b r e b r 
+ 	 Moving to N	 	
+b r r r r 
+b b b w w 
+b r b e r 
+ 	 Moving to O	 	
+b r r r r 
+b b b w w 
+b r b r e 
+ 	 Moving to J	 	
+b r r r r 
+b b b w e 
+b r b r w 
+ 	 Moving to I	 	
+b r r r r 
+b b b e w 
+b r b r w 
+ 	 Moving to H	 	
+b r r r r 
+b b e b w 
+b r b r w 
+ 	 Moving to M	 	
+b r r r r 
+b b b b w 
+b r e r w 
+ 	 Moving to N	 	
+b r r r r 
+b b b b w 
+b r r e w 
+ 	 Moving to I	 	
+b r r r r 
+b b b e w 
+b r r b w 
+ 	 Moving to H	 	
+b r r r r 
+b b e b w 
+b r r b w 
+ 	 Moving to C	 	
+b r e r r 
+b b r b w 
+b r r b w 
+ 	 Moving to D	 	
+b r r e r 
+b b r b w 
+b r r b w 
+ 	 Moving to I	 	
+b r r b r 
+b b r e w 
+b r r b w 
+ 	 Moving to J	 	
+b r r b r 
+b b r w e 
+b r r b w 
+ 	 Moving to E	 	
+b r r b e 
+b b r w r 
+b r r b w 
+ 	 Moving to D	 	
+b r r e b 
+b b r w r 
+b r r b w 
+ 	 Moving to I	 	
+b r r w b 
+b b r e r 
+b r r b w 
+ 	 Moving to J	 	
+b r r w b 
+b b r r e 
+b r r b w 
+ 	 Moving to E	 	
+b r r w e 
+b b r r b 
+b r r b w 
+ 	 Moving to D	 	
+b r r e w 
+b b r r b 
+b r r b w 
+ 	 Moving to I	 	
+b r r r w 
+b b r e b 
+b r r b w 
+ 	 Moving to H	 	
+b r r r w 
+b b e r b 
+b r r b w 
+ 	 Moving to G	 	
+b r r r w 
+b e b r b 
+b r r b w 
+ 	 Moving to B	 	
+b e r r w 
+b r b r b 
+b r r b w 
+ 	 Moving to C	 	
+b r e r w 
+b r b r b 
+b r r b w 
+ 	 Moving to D	 	
+b r r e w 
+b r b r b 
+b r r b w 
+ 	 Moving to I	 	
+b r r r w 
+b r b e b 
+b r r b w 
+ 	 Moving to H	 	
+b r r r w 
+b r e b b 
+b r r b w 
+ 	 Moving to C	 	
+b r e r w 
+b r r b b 
+b r r b w 
+ 	 Moving to D	 	
+b r r e w 
+b r r b b 
+b r r b w 
+ 	 Moving to I	 	
+b r r b w 
+b r r e b 
+b r r b w 
+ Solving game 9
+ 9- Original Config : 
+
+r b r w r 
+b b r r b 
+e r b w b 
+ 	 	 Solution states : 
+ 	 Moving to F	 	
+r b r w r 
+e b r r b 
+b r b w b 
+ 	 Moving to A	 	
+e b r w r 
+r b r r b 
+b r b w b 
+ 	 Moving to B	 	
+b e r w r 
+r b r r b 
+b r b w b 
+ 	 Moving to C	 	
+b r e w r 
+r b r r b 
+b r b w b 
+ 	 Moving to H	 	
+b r r w r 
+r b e r b 
+b r b w b 
+ 	 Moving to G	 	
+b r r w r 
+r e b r b 
+b r b w b 
+ 	 Moving to B	 	
+b e r w r 
+r r b r b 
+b r b w b 
+ 	 Moving to C	 	
+b r e w r 
+r r b r b 
+b r b w b 
+ 	 Moving to H	 	
+b r b w r 
+r r e r b 
+b r b w b 
+ 	 Moving to I	 	
+b r b w r 
+r r r e b 
+b r b w b 
+ 	 Moving to J	 	
+b r b w r 
+r r r b e 
+b r b w b 
+ 	 Moving to E	 	
+b r b w e 
+r r r b r 
+b r b w b 
+ 	 Moving to D	 	
+b r b e w 
+r r r b r 
+b r b w b 
+ 	 Moving to I	 	
+b r b b w 
+r r r e r 
+b r b w b 
+ 	 Moving to H	 	
+b r b b w 
+r r e r r 
+b r b w b 
+ 	 Moving to C	 	
+b r e b w 
+r r b r r 
+b r b w b 
+ 	 Moving to D	 	
+b r b e w 
+r r b r r 
+b r b w b 
+ 	 Moving to I	 	
+b r b r w 
+r r b e r 
+b r b w b 
+ 	 Moving to J	 	
+b r b r w 
+r r b r e 
+b r b w b 
+ 	 Moving to E	 	
+b r b r e 
+r r b r w 
+b r b w b 
+ 	 Moving to D	 	
+b r b e r 
+r r b r w 
+b r b w b 
+ 	 Moving to C	 	
+b r e b r 
+r r b r w 
+b r b w b 
+ 	 Moving to H	 	
+b r b b r 
+r r e r w 
+b r b w b 
+ 	 Moving to I	 	
+b r b b r 
+r r r e w 
+b r b w b 
+ 	 Moving to D	 	
+b r b e r 
+r r r b w 
+b r b w b 
+ 	 Moving to E	 	
+b r b r e 
+r r r b w 
+b r b w b 
+ 	 Moving to J	 	
+b r b r w 
+r r r b e 
+b r b w b 
+ 	 Moving to I	 	
+b r b r w 
+r r r e b 
+b r b w b 
+ 	 Moving to D	 	
+b r b e w 
+r r r r b 
+b r b w b 
+ 	 Moving to E	 	
+b r b w e 
+r r r r b 
+b r b w b 
+ 	 Moving to J	 	
+b r b w b 
+r r r r e 
+b r b w b 
+ Solving game 10
+ 10- Original Config : 
+
+b b b w w 
+r b r r b 
+r r b e r 
+ 	 	 Solution states : 
+ 	 Moving to I	 	
+b b b w w 
+r b r e b 
+r r b r r 
+ 	 Moving to H	 	
+b b b w w 
+r b e r b 
+r r b r r 
+ 	 Moving to G	 	
+b b b w w 
+r e b r b 
+r r b r r 
+ 	 Moving to B	 	
+b e b w w 
+r b b r b 
+r r b r r 
+ 	 Moving to A	 	
+e b b w w 
+r b b r b 
+r r b r r 
+ 	 Moving to F	 	
+r b b w w 
+e b b r b 
+r r b r r 
+ 	 Moving to G	 	
+r b b w w 
+b e b r b 
+r r b r r 
+ 	 Moving to B	 	
+r e b w w 
+b b b r b 
+r r b r r 
+ 	 Moving to A	 	
+e r b w w 
+b b b r b 
+r r b r r 
+ 	 Moving to F	 	
+b r b w w 
+e b b r b 
+r r b r r 
+ 	 Moving to G	 	
+b r b w w 
+b e b r b 
+r r b r r 
+ 	 Moving to H	 	
+b r b w w 
+b b e r b 
+r r b r r 
+ 	 Moving to C	 	
+b r e w w 
+b b b r b 
+r r b r r 
+ 	 Moving to D	 	
+b r w e w 
+b b b r b 
+r r b r r 
+ 	 Moving to I	 	
+b r w r w 
+b b b e b 
+r r b r r 
+ 	 Moving to H	 	
+b r w r w 
+b b e b b 
+r r b r r 
+ 	 Moving to C	 	
+b r e r w 
+b b w b b 
+r r b r r 
+ 	 Moving to D	 	
+b r r e w 
+b b w b b 
+r r b r r 
+ 	 Moving to I	 	
+b r r b w 
+b b w e b 
+r r b r r 
+ 	 Moving to H	 	
+b r r b w 
+b b e w b 
+r r b r r 
+ 	 Moving to G	 	
+b r r b w 
+b e b w b 
+r r b r r 
+ 	 Moving to F	 	
+b r r b w 
+e b b w b 
+r r b r r 
+ 	 Moving to A	 	
+e r r b w 
+b b b w b 
+r r b r r 
+ 	 Moving to B	 	
+r e r b w 
+b b b w b 
+r r b r r 
+ 	 Moving to C	 	
+r r e b w 
+b b b w b 
+r r b r r 
+ 	 Moving to H	 	
+r r b b w 
+b b e w b 
+r r b r r 
+ 	 Moving to I	 	
+r r b b w 
+b b w e b 
+r r b r r 
+ 	 Moving to J	 	
+r r b b w 
+b b w b e 
+r r b r r 
+ 	 Moving to E	 	
+r r b b e 
+b b w b w 
+r r b r r 
+ 	 Moving to D	 	
+r r b e b 
+b b w b w 
+r r b r r 
+ 	 Moving to C	 	
+r r e b b 
+b b w b w 
+r r b r r 
+ 	 Moving to B	 	
+r e r b b 
+b b w b w 
+r r b r r 
+ 	 Moving to A	 	
+e r r b b 
+b b w b w 
+r r b r r 
+ 	 Moving to F	 	
+b r r b b 
+e b w b w 
+r r b r r 
+ 	 Moving to G	 	
+b r r b b 
+b e w b w 
+r r b r r 
+ 	 Moving to H	 	
+b r r b b 
+b w e b w 
+r r b r r 
+ 	 Moving to I	 	
+b r r b b 
+b w b e w 
+r r b r r 
+ 	 Moving to D	 	
+b r r e b 
+b w b b w 
+r r b r r 
+ 	 Moving to C	 	
+b r e r b 
+b w b b w 
+r r b r r 
+ 	 Moving to B	 	
+b e r r b 
+b w b b w 
+r r b r r 
+ 	 Moving to A	 	
+e b r r b 
+b w b b w 
+r r b r r 
+ 	 Moving to F	 	
+b b r r b 
+e w b b w 
+r r b r r 
+ 	 Moving to G	 	
+b b r r b 
+w e b b w 
+r r b r r 
+ 	 Moving to B	 	
+b e r r b 
+w b b b w 
+r r b r r 
+ 	 Moving to C	 	
+b r e r b 
+w b b b w 
+r r b r r 
+ 	 Moving to D	 	
+b r r e b 
+w b b b w 
+r r b r r 
+ 	 Moving to I	 	
+b r r b b 
+w b b e w 
+r r b r r 
+ 	 Moving to H	 	
+b r r b b 
+w b e b w 
+r r b r r 
+ 	 Moving to G	 	
+b r r b b 
+w e b b w 
+r r b r r 
+ 	 Moving to F	 	
+b r r b b 
+e w b b w 
+r r b r r 
+ 	 Moving to A	 	
+e r r b b 
+b w b b w 
+r r b r r 
+ 	 Moving to B	 	
+r e r b b 
+b w b b w 
+r r b r r 
+ 	 Moving to C	 	
+r r e b b 
+b w b b w 
+r r b r r 
+ 	 Moving to D	 	
+r r b e b 
+b w b b w 
+r r b r r 
+ 	 Moving to I	 	
+r r b b b 
+b w b e w 
+r r b r r 
+ 	 Moving to J	 	
+r r b b b 
+b w b w e 
+r r b r r 
+ 	 Moving to E	 	
+r r b b e 
+b w b w b 
+r r b r r 
+ 	 Moving to D	 	
+r r b e b 
+b w b w b 
+r r b r r 
+ 	 Moving to C	 	
+r r e b b 
+b w b w b 
+r r b r r 
+ 	 Moving to B	 	
+r e r b b 
+b w b w b 
+r r b r r 
+ 	 Moving to A	 	
+e r r b b 
+b w b w b 
+r r b r r 
+ 	 Moving to F	 	
+b r r b b 
+e w b w b 
+r r b r r 
+ 	 Moving to G	 	
+b r r b b 
+w e b w b 
+r r b r r 
+ 	 Moving to H	 	
+b r r b b 
+w b e w b 
+r r b r r 
+ 	 Moving to I	 	
+b r r b b 
+w b w e b 
+r r b r r 
+ 	 Moving to D	 	
+b r r e b 
+w b w b b 
+r r b r r 
+ 	 Moving to C	 	
+b r e r b 
+w b w b b 
+r r b r r 
+ 	 Moving to B	 	
+b e r r b 
+w b w b b 
+r r b r r 
+ 	 Moving to A	 	
+e b r r b 
+w b w b b 
+r r b r r 
+ 	 Moving to F	 	
+w b r r b 
+e b w b b 
+r r b r r 
+ 	 Moving to G	 	
+w b r r b 
+b e w b b 
+r r b r r 
+ 	 Moving to H	 	
+w b r r b 
+b w e b b 
+r r b r r 
+ 	 Moving to I	 	
+w b r r b 
+b w b e b 
+r r b r r 
+ 	 Moving to N	 	
+w b r r b 
+b w b r b 
+r r b e r 
+ 	 Moving to M	 	
+w b r r b 
+b w b r b 
+r r e b r 
+ 	 Moving to L	 	
+w b r r b 
+b w b r b 
+r e r b r 
+ 	 Moving to K	 	
+w b r r b 
+b w b r b 
+e r r b r 
+ 	 Moving to F	 	
+w b r r b 
+e w b r b 
+b r r b r 
+ 	 Moving to G	 	
+w b r r b 
+w e b r b 
+b r r b r 
+ 	 Moving to H	 	
+w b r r b 
+w b e r b 
+b r r b r 
+ 	 Moving to I	 	
+w b r r b 
+w b r e b 
+b r r b r 
+ 	 Moving to J	 	
+w b r r b 
+w b r b e 
+b r r b r 
+ 	 Moving to O	 	
+w b r r b 
+w b r b r 
+b r r b e 
+ 	 Moving to N	 	
+w b r r b 
+w b r b r 
+b r r e b 
+ 	 Moving to M	 	
+w b r r b 
+w b r b r 
+b r e r b 
+ 	 Moving to L	 	
+w b r r b 
+w b r b r 
+b e r r b 
+ 	 Moving to K	 	
+w b r r b 
+w b r b r 
+e b r r b 
+ 	 Moving to F	 	
+w b r r b 
+e b r b r 
+w b r r b 
+ Solving game 11
+ 11- Original Config : 
+
+e b w r b 
+r y b y w 
+r r b r r 
+ 	 	 Solution states : 
+ 	 Moving to F	 	
+r b w r b 
+e y b y w 
+r r b r r 
+ 	 Moving to G	 	
+r b w r b 
+y e b y w 
+r r b r r 
+ 	 Moving to B	 	
+r e w r b 
+y b b y w 
+r r b r r 
+ 	 Moving to A	 	
+e r w r b 
+y b b y w 
+r r b r r 
+ 	 Moving to F	 	
+y r w r b 
+e b b y w 
+r r b r r 
+ 	 Moving to G	 	
+y r w r b 
+b e b y w 
+r r b r r 
+ 	 Moving to H	 	
+y r w r b 
+b b e y w 
+r r b r r 
+ 	 Moving to C	 	
+y r e r b 
+b b w y w 
+r r b r r 
+ 	 Moving to D	 	
+y r r e b 
+b b w y w 
+r r b r r 
+ 	 Moving to E	 	
+y r r b e 
+b b w y w 
+r r b r r 
+ 	 Moving to J	 	
+y r r b w 
+b b w y e 
+r r b r r 
+ 	 Moving to I	 	
+y r r b w 
+b b w e y 
+r r b r r 
+ 	 Moving to H	 	
+y r r b w 
+b b e w y 
+r r b r r 
+ 	 Moving to G	 	
+y r r b w 
+b e b w y 
+r r b r r 
+ 	 Moving to F	 	
+y r r b w 
+e b b w y 
+r r b r r 
+ 	 Moving to A	 	
+e r r b w 
+y b b w y 
+r r b r r 
+ 	 Moving to B	 	
+r e r b w 
+y b b w y 
+r r b r r 
+ 	 Moving to C	 	
+r r e b w 
+y b b w y 
+r r b r r 
+ 	 Moving to H	 	
+r r b b w 
+y b e w y 
+r r b r r 
+ 	 Moving to I	 	
+r r b b w 
+y b w e y 
+r r b r r 
+ 	 Moving to J	 	
+r r b b w 
+y b w y e 
+r r b r r 
+ 	 Moving to E	 	
+r r b b e 
+y b w y w 
+r r b r r 
+ 	 Moving to D	 	
+r r b e b 
+y b w y w 
+r r b r r 
+ 	 Moving to C	 	
+r r e b b 
+y b w y w 
+r r b r r 
+ 	 Moving to B	 	
+r e r b b 
+y b w y w 
+r r b r r 
+ 	 Moving to G	 	
+r b r b b 
+y e w y w 
+r r b r r 
+ 	 Moving to H	 	
+r b r b b 
+y w e y w 
+r r b r r 
+ 	 Moving to I	 	
+r b r b b 
+y w y e w 
+r r b r r 
+ 	 Moving to N	 	
+r b r b b 
+y w y r w 
+r r b e r 
+ 	 Moving to M	 	
+r b r b b 
+y w y r w 
+r r e b r 
+ 	 Moving to L	 	
+r b r b b 
+y w y r w 
+r e r b r 
+ 	 Moving to G	 	
+r b r b b 
+y e y r w 
+r w r b r 
+ 	 Moving to H	 	
+r b r b b 
+y y e r w 
+r w r b r 
+ 	 Moving to I	 	
+r b r b b 
+y y r e w 
+r w r b r 
+ 	 Moving to J	 	
+r b r b b 
+y y r w e 
+r w r b r 
+ 	 Moving to O	 	
+r b r b b 
+y y r w r 
+r w r b e 
+ 	 Moving to N	 	
+r b r b b 
+y y r w r 
+r w r e b 
+ 	 Moving to I	 	
+r b r b b 
+y y r e r 
+r w r w b 
+ 	 Moving to H	 	
+r b r b b 
+y y e r r 
+r w r w b 
+ 	 Moving to G	 	
+r b r b b 
+y e y r r 
+r w r w b 
+ 	 Moving to L	 	
+r b r b b 
+y w y r r 
+r e r w b 
+ 	 Moving to M	 	
+r b r b b 
+y w y r r 
+r r e w b 
+ 	 Moving to N	 	
+r b r b b 
+y w y r r 
+r r w e b 
+ 	 Moving to O	 	
+r b r b b 
+y w y r r 
+r r w b e 
+ 	 Moving to J	 	
+r b r b b 
+y w y r e 
+r r w b r 
+ 	 Moving to I	 	
+r b r b b 
+y w y e r 
+r r w b r 
+ 	 Moving to H	 	
+r b r b b 
+y w e y r 
+r r w b r 
+ 	 Moving to M	 	
+r b r b b 
+y w w y r 
+r r e b r 
+ 	 Moving to L	 	
+r b r b b 
+y w w y r 
+r e r b r 
+ 	 Moving to G	 	
+r b r b b 
+y e w y r 
+r w r b r 
+ 	 Moving to H	 	
+r b r b b 
+y w e y r 
+r w r b r 
+ 	 Moving to I	 	
+r b r b b 
+y w y e r 
+r w r b r 
+ 	 Moving to J	 	
+r b r b b 
+y w y r e 
+r w r b r 
+ 	 Moving to O	 	
+r b r b b 
+y w y r r 
+r w r b e 
+ 	 Moving to N	 	
+r b r b b 
+y w y r r 
+r w r e b 
+ 	 Moving to M	 	
+r b r b b 
+y w y r r 
+r w e r b 
+ 	 Moving to H	 	
+r b r b b 
+y w e r r 
+r w y r b 
+ 	 Moving to G	 	
+r b r b b 
+y e w r r 
+r w y r b 
+ 	 Moving to L	 	
+r b r b b 
+y w w r r 
+r e y r b 
+ 	 Moving to M	 	
+r b r b b 
+y w w r r 
+r y e r b 
+ 	 Moving to N	 	
+r b r b b 
+y w w r r 
+r y r e b 
+ 	 Moving to O	 	
+r b r b b 
+y w w r r 
+r y r b e 
+ 	 Moving to J	 	
+r b r b b 
+y w w r e 
+r y r b r 
+ 	 Moving to I	 	
+r b r b b 
+y w w e r 
+r y r b r 
+ 	 Moving to H	 	
+r b r b b 
+y w e w r 
+r y r b r 
+ 	 Moving to G	 	
+r b r b b 
+y e w w r 
+r y r b r 
+ 	 Moving to L	 	
+r b r b b 
+y y w w r 
+r e r b r 
+ 	 Moving to M	 	
+r b r b b 
+y y w w r 
+r r e b r 
+ 	 Moving to H	 	
+r b r b b 
+y y e w r 
+r r w b r 
+ 	 Moving to I	 	
+r b r b b 
+y y w e r 
+r r w b r 
+ 	 Moving to J	 	
+r b r b b 
+y y w r e 
+r r w b r 
+ 	 Moving to O	 	
+r b r b b 
+y y w r r 
+r r w b e 
+ 	 Moving to N	 	
+r b r b b 
+y y w r r 
+r r w e b 
+ 	 Moving to M	 	
+r b r b b 
+y y w r r 
+r r e w b 
+ 	 Moving to L	 	
+r b r b b 
+y y w r r 
+r e r w b 
+ 	 Moving to G	 	
+r b r b b 
+y e w r r 
+r y r w b 
+ 	 Moving to H	 	
+r b r b b 
+y w e r r 
+r y r w b 
+ 	 Moving to I	 	
+r b r b b 
+y w r e r 
+r y r w b 
+ 	 Moving to N	 	
+r b r b b 
+y w r w r 
+r y r e b 
+ 	 Moving to O	 	
+r b r b b 
+y w r w r 
+r y r b e 
+ 	 Moving to J	 	
+r b r b b 
+y w r w e 
+r y r b r 
+ 	 Moving to I	 	
+r b r b b 
+y w r e w 
+r y r b r 
+ 	 Moving to H	 	
+r b r b b 
+y w e r w 
+r y r b r 
+ 	 Moving to G	 	
+r b r b b 
+y e w r w 
+r y r b r 
+ 	 Moving to L	 	
+r b r b b 
+y y w r w 
+r e r b r 
+ 	 Moving to M	 	
+r b r b b 
+y y w r w 
+r r e b r 
+ 	 Moving to H	 	
+r b r b b 
+y y e r w 
+r r w b r 
+ 	 Moving to I	 	
+r b r b b 
+y y r e w 
+r r w b r 
+ 	 Moving to J	 	
+r b r b b 
+y y r w e 
+r r w b r 
+ 	 Moving to O	 	
+r b r b b 
+y y r w r 
+r r w b e 
+ 	 Moving to N	 	
+r b r b b 
+y y r w r 
+r r w e b 
+ 	 Moving to M	 	
+r b r b b 
+y y r w r 
+r r e w b 
+ 	 Moving to L	 	
+r b r b b 
+y y r w r 
+r e r w b 
+ 	 Moving to G	 	
+r b r b b 
+y e r w r 
+r y r w b 
+ 	 Moving to H	 	
+r b r b b 
+y r e w r 
+r y r w b 
+ 	 Moving to I	 	
+r b r b b 
+y r w e r 
+r y r w b 
+ 	 Moving to N	 	
+r b r b b 
+y r w w r 
+r y r e b 
+ 	 Moving to O	 	
+r b r b b 
+y r w w r 
+r y r b e 
+ 	 Moving to J	 	
+r b r b b 
+y r w w e 
+r y r b r 
+ 	 Moving to I	 	
+r b r b b 
+y r w e w 
+r y r b r 
+ 	 Moving to H	 	
+r b r b b 
+y r e w w 
+r y r b r 
+ 	 Moving to G	 	
+r b r b b 
+y e r w w 
+r y r b r 
+ 	 Moving to L	 	
+r b r b b 
+y y r w w 
+r e r b r 
+ 	 Moving to M	 	
+r b r b b 
+y y r w w 
+r r e b r 
+ 	 Moving to H	 	
+r b r b b 
+y y e w w 
+r r r b r 
+ 	 Moving to G	 	
+r b r b b 
+y e y w w 
+r r r b r 
+ 	 Moving to F	 	
+r b r b b 
+e y y w w 
+r r r b r 
+ 	 Moving to K	 	
+r b r b b 
+r y y w w 
+e r r b r 
+ 	 Moving to L	 	
+r b r b b 
+r y y w w 
+r e r b r 
+ 	 Moving to M	 	
+r b r b b 
+r y y w w 
+r r e b r 
+ 	 Moving to H	 	
+r b r b b 
+r y e w w 
+r r y b r 
+ 	 Moving to I	 	
+r b r b b 
+r y w e w 
+r r y b r 
+ 	 Moving to J	 	
+r b r b b 
+r y w w e 
+r r y b r 
+ 	 Moving to O	 	
+r b r b b 
+r y w w r 
+r r y b e 
+ 	 Moving to N	 	
+r b r b b 
+r y w w r 
+r r y e b 
+ 	 Moving to M	 	
+r b r b b 
+r y w w r 
+r r e y b 
+ 	 Moving to L	 	
+r b r b b 
+r y w w r 
+r e r y b 
+ 	 Moving to G	 	
+r b r b b 
+r e w w r 
+r y r y b 
+ 	 Moving to H	 	
+r b r b b 
+r w e w r 
+r y r y b 
+ 	 Moving to I	 	
+r b r b b 
+r w w e r 
+r y r y b 
+ 	 Moving to N	 	
+r b r b b 
+r w w y r 
+r y r e b 
+ 	 Moving to O	 	
+r b r b b 
+r w w y r 
+r y r b e 
+ 	 Moving to J	 	
+r b r b b 
+r w w y e 
+r y r b r 
+ 	 Moving to I	 	
+r b r b b 
+r w w e y 
+r y r b r 
+ 	 Moving to H	 	
+r b r b b 
+r w e w y 
+r y r b r 
+ 	 Moving to G	 	
+r b r b b 
+r e w w y 
+r y r b r 
+ 	 Moving to F	 	
+r b r b b 
+e r w w y 
+r y r b r 
+ 	 Moving to K	 	
+r b r b b 
+r r w w y 
+e y r b r 
+ 	 Moving to L	 	
+r b r b b 
+r r w w y 
+y e r b r 
+ 	 Moving to G	 	
+r b r b b 
+r e w w y 
+y r r b r 
+ 	 Moving to H	 	
+r b r b b 
+r w e w y 
+y r r b r 
+ 	 Moving to M	 	
+r b r b b 
+r w r w y 
+y r e b r 
+ 	 Moving to L	 	
+r b r b b 
+r w r w y 
+y e r b r 
+ 	 Moving to K	 	
+r b r b b 
+r w r w y 
+e y r b r 
+ 	 Moving to F	 	
+r b r b b 
+e w r w y 
+r y r b r 
+ 	 Moving to G	 	
+r b r b b 
+w e r w y 
+r y r b r 
+ 	 Moving to L	 	
+r b r b b 
+w y r w y 
+r e r b r 
+ 	 Moving to M	 	
+r b r b b 
+w y r w y 
+r r e b r 
+ 	 Moving to H	 	
+r b r b b 
+w y e w y 
+r r r b r 
+ 	 Moving to G	 	
+r b r b b 
+w e y w y 
+r r r b r 
+ 	 Moving to F	 	
+r b r b b 
+e w y w y 
+r r r b r 
+ 	 Moving to K	 	
+r b r b b 
+r w y w y 
+e r r b r 
+ 	 Moving to L	 	
+r b r b b 
+r w y w y 
+r e r b r 
+ 	 Moving to M	 	
+r b r b b 
+r w y w y 
+r r e b r 
+ 	 Moving to H	 	
+r b r b b 
+r w e w y 
+r r y b r 
+ 	 Moving to I	 	
+r b r b b 
+r w w e y 
+r r y b r 
+ 	 Moving to J	 	
+r b r b b 
+r w w y e 
+r r y b r 
+ 	 Moving to O	 	
+r b r b b 
+r w w y r 
+r r y b e 
+ 	 Moving to N	 	
+r b r b b 
+r w w y r 
+r r y e b 
+ 	 Moving to M	 	
+r b r b b 
+r w w y r 
+r r e y b 
+ 	 Moving to L	 	
+r b r b b 
+r w w y r 
+r e r y b 
+ 	 Moving to G	 	
+r b r b b 
+r e w y r 
+r w r y b 
+ 	 Moving to H	 	
+r b r b b 
+r w e y r 
+r w r y b 
+ 	 Moving to I	 	
+r b r b b 
+r w y e r 
+r w r y b 
+ 	 Moving to N	 	
+r b r b b 
+r w y y r 
+r w r e b 
+ 	 Moving to O	 	
+r b r b b 
+r w y y r 
+r w r b e 
+ 	 Moving to J	 	
+r b r b b 
+r w y y e 
+r w r b r 
+ 	 Moving to I	 	
+r b r b b 
+r w y e y 
+r w r b r 
+ 	 Moving to H	 	
+r b r b b 
+r w e y y 
+r w r b r 
+ 	 Moving to G	 	
+r b r b b 
+r e w y y 
+r w r b r 
+ 	 Moving to L	 	
+r b r b b 
+r w w y y 
+r e r b r 
+ 	 Moving to K	 	
+r b r b b 
+r w w y y 
+e r r b r 
+ 	 Moving to F	 	
+r b r b b 
+e w w y y 
+r r r b r 
+ 	 Moving to G	 	
+r b r b b 
+w e w y y 
+r r r b r 
+ 	 Moving to H	 	
+r b r b b 
+w w e y y 
+r r r b r 
+ 	 Moving to M	 	
+r b r b b 
+w w r y y 
+r r e b r 
+ 	 Moving to N	 	
+r b r b b 
+w w r y y 
+r r b e r 
+ 	 Moving to O	 	
+r b r b b 
+w w r y y 
+r r b r e 
+ 	 Moving to J	 	
+r b r b b 
+w w r y e 
+r r b r y 
+ 	 Moving to I	 	
+r b r b b 
+w w r e y 
+r r b r y 
+ 	 Moving to H	 	
+r b r b b 
+w w e r y 
+r r b r y 
+ 	 Moving to G	 	
+r b r b b 
+w e w r y 
+r r b r y 
+ 	 Moving to B	 	
+r e r b b 
+w b w r y 
+r r b r y 
+ 	 Moving to C	 	
+r r e b b 
+w b w r y 
+r r b r y 
+ 	 Moving to D	 	
+r r b e b 
+w b w r y 
+r r b r y 
+ 	 Moving to I	 	
+r r b r b 
+w b w e y 
+r r b r y 
+ 	 Moving to J	 	
+r r b r b 
+w b w y e 
+r r b r y 
+ 	 Moving to E	 	
+r r b r e 
+w b w y b 
+r r b r y 
+ 	 Moving to D	 	
+r r b e r 
+w b w y b 
+r r b r y 
+ 	 Moving to I	 	
+r r b y r 
+w b w e b 
+r r b r y 
+ 	 Moving to J	 	
+r r b y r 
+w b w b e 
+r r b r y 
+ 	 Moving to E	 	
+r r b y e 
+w b w b r 
+r r b r y 
+ 	 Moving to D	 	
+r r b e y 
+w b w b r 
+r r b r y 
+ 	 Moving to C	 	
+r r e b y 
+w b w b r 
+r r b r y 
+ 	 Moving to B	 	
+r e r b y 
+w b w b r 
+r r b r y 
+ 	 Moving to A	 	
+e r r b y 
+w b w b r 
+r r b r y 
+ 	 Moving to F	 	
+w r r b y 
+e b w b r 
+r r b r y 
+ 	 Moving to G	 	
+w r r b y 
+b e w b r 
+r r b r y 
+ 	 Moving to H	 	
+w r r b y 
+b w e b r 
+r r b r y 
+ 	 Moving to I	 	
+w r r b y 
+b w b e r 
+r r b r y 
+ 	 Moving to N	 	
+w r r b y 
+b w b r r 
+r r b e y 
+ 	 Moving to M	 	
+w r r b y 
+b w b r r 
+r r e b y 
+ 	 Moving to L	 	
+w r r b y 
+b w b r r 
+r e r b y 
+ 	 Moving to G	 	
+w r r b y 
+b e b r r 
+r w r b y 
+ 	 Moving to F	 	
+w r r b y 
+e b b r r 
+r w r b y 
+ 	 Moving to K	 	
+w r r b y 
+r b b r r 
+e w r b y 
+ 	 Moving to L	 	
+w r r b y 
+r b b r r 
+w e r b y 
+ 	 Moving to M	 	
+w r r b y 
+r b b r r 
+w r e b y 
+ 	 Moving to N	 	
+w r r b y 
+r b b r r 
+w r b e y 
+ 	 Moving to I	 	
+w r r b y 
+r b b e r 
+w r b r y 
+ 	 Moving to H	 	
+w r r b y 
+r b e b r 
+w r b r y 
+ 	 Moving to C	 	
+w r e b y 
+r b r b r 
+w r b r y 
+ 	 Moving to D	 	
+w r b e y 
+r b r b r 
+w r b r y 
+ 	 Moving to I	 	
+w r b b y 
+r b r e r 
+w r b r y 
+ 	 Moving to H	 	
+w r b b y 
+r b e r r 
+w r b r y 
+ 	 Moving to C	 	
+w r e b y 
+r b b r r 
+w r b r y 
+ 	 Moving to D	 	
+w r b e y 
+r b b r r 
+w r b r y 
+ 	 Moving to I	 	
+w r b r y 
+r b b e r 
+w r b r y 
+ Solving game 12
+ 12- Original Config : 
+
+r b w r y 
+w e y b r 
+b r r b r 
+ 	 	 Solution states : 
+ 	 Moving to H	 	
+r b w r y 
+w y e b r 
+b r r b r 
+ 	 Moving to C	 	
+r b e r y 
+w y w b r 
+b r r b r 
+ 	 Moving to D	 	
+r b r e y 
+w y w b r 
+b r r b r 
+ 	 Moving to I	 	
+r b r b y 
+w y w e r 
+b r r b r 
+ 	 Moving to H	 	
+r b r b y 
+w y e w r 
+b r r b r 
+ 	 Moving to G	 	
+r b r b y 
+w e y w r 
+b r r b r 
+ 	 Moving to F	 	
+r b r b y 
+e w y w r 
+b r r b r 
+ 	 Moving to A	 	
+e b r b y 
+r w y w r 
+b r r b r 
+ 	 Moving to B	 	
+b e r b y 
+r w y w r 
+b r r b r 
+ 	 Moving to C	 	
+b r e b y 
+r w y w r 
+b r r b r 
+ 	 Moving to D	 	
+b r b e y 
+r w y w r 
+b r r b r 
+ 	 Moving to E	 	
+b r b y e 
+r w y w r 
+b r r b r 
+ 	 Moving to J	 	
+b r b y r 
+r w y w e 
+b r r b r 
+ 	 Moving to I	 	
+b r b y r 
+r w y e w 
+b r r b r 
+ 	 Moving to D	 	
+b r b e r 
+r w y y w 
+b r r b r 
+ 	 Moving to E	 	
+b r b r e 
+r w y y w 
+b r r b r 
+ 	 Moving to J	 	
+b r b r w 
+r w y y e 
+b r r b r 
+ 	 Moving to I	 	
+b r b r w 
+r w y e y 
+b r r b r 
+ 	 Moving to H	 	
+b r b r w 
+r w e y y 
+b r r b r 
+ 	 Moving to C	 	
+b r e r w 
+r w b y y 
+b r r b r 
+ 	 Moving to D	 	
+b r r e w 
+r w b y y 
+b r r b r 
+ 	 Moving to I	 	
+b r r y w 
+r w b e y 
+b r r b r 
+ 	 Moving to J	 	
+b r r y w 
+r w b y e 
+b r r b r 
+ 	 Moving to E	 	
+b r r y e 
+r w b y w 
+b r r b r 
+ 	 Moving to D	 	
+b r r e y 
+r w b y w 
+b r r b r 
+ 	 Moving to C	 	
+b r e r y 
+r w b y w 
+b r r b r 
+ 	 Moving to H	 	
+b r b r y 
+r w e y w 
+b r r b r 
+ 	 Moving to I	 	
+b r b r y 
+r w y e w 
+b r r b r 
+ 	 Moving to J	 	
+b r b r y 
+r w y w e 
+b r r b r 
+ 	 Moving to E	 	
+b r b r e 
+r w y w y 
+b r r b r 
+ 	 Moving to D	 	
+b r b e r 
+r w y w y 
+b r r b r 
+ 	 Moving to C	 	
+b r e b r 
+r w y w y 
+b r r b r 
+ 	 Moving to B	 	
+b e r b r 
+r w y w y 
+b r r b r 
+ 	 Moving to G	 	
+b w r b r 
+r e y w y 
+b r r b r 
+ 	 Moving to H	 	
+b w r b r 
+r y e w y 
+b r r b r 
+ 	 Moving to M	 	
+b w r b r 
+r y r w y 
+b r e b r 
+ 	 Moving to N	 	
+b w r b r 
+r y r w y 
+b r b e r 
+ 	 Moving to I	 	
+b w r b r 
+r y r e y 
+b r b w r 
+ 	 Moving to J	 	
+b w r b r 
+r y r y e 
+b r b w r 
+ 	 Moving to E	 	
+b w r b e 
+r y r y r 
+b r b w r 
+ 	 Moving to D	 	
+b w r e b 
+r y r y r 
+b r b w r 
+ 	 Moving to C	 	
+b w e r b 
+r y r y r 
+b r b w r 
+ 	 Moving to H	 	
+b w r r b 
+r y e y r 
+b r b w r 
+ 	 Moving to I	 	
+b w r r b 
+r y y e r 
+b r b w r 
+ 	 Moving to D	 	
+b w r e b 
+r y y r r 
+b r b w r 
+ 	 Moving to E	 	
+b w r b e 
+r y y r r 
+b r b w r 
+ 	 Moving to J	 	
+b w r b r 
+r y y r e 
+b r b w r 
+ 	 Moving to I	 	
+b w r b r 
+r y y e r 
+b r b w r 
+ 	 Moving to N	 	
+b w r b r 
+r y y w r 
+b r b e r 
+ 	 Moving to M	 	
+b w r b r 
+r y y w r 
+b r e b r 
+ 	 Moving to L	 	
+b w r b r 
+r y y w r 
+b e r b r 
+ 	 Moving to G	 	
+b w r b r 
+r e y w r 
+b y r b r 
+ 	 Moving to F	 	
+b w r b r 
+e r y w r 
+b y r b r 
+ 	 Moving to K	 	
+b w r b r 
+b r y w r 
+e y r b r 
+ 	 Moving to L	 	
+b w r b r 
+b r y w r 
+y e r b r 
+ 	 Moving to G	 	
+b w r b r 
+b e y w r 
+y r r b r 
+ 	 Moving to H	 	
+b w r b r 
+b y e w r 
+y r r b r 
+ 	 Moving to M	 	
+b w r b r 
+b y r w r 
+y r e b r 
+ 	 Moving to L	 	
+b w r b r 
+b y r w r 
+y e r b r 
+ 	 Moving to K	 	
+b w r b r 
+b y r w r 
+e y r b r 
+ 	 Moving to F	 	
+b w r b r 
+e y r w r 
+b y r b r 
+ 	 Moving to G	 	
+b w r b r 
+y e r w r 
+b y r b r 
+ 	 Moving to L	 	
+b w r b r 
+y y r w r 
+b e r b r 
+ 	 Moving to M	 	
+b w r b r 
+y y r w r 
+b r e b r 
+ 	 Moving to H	 	
+b w r b r 
+y y e w r 
+b r r b r 
+ 	 Moving to G	 	
+b w r b r 
+y e y w r 
+b r r b r 
+ 	 Moving to B	 	
+b e r b r 
+y w y w r 
+b r r b r 
+ 	 Moving to A	 	
+e b r b r 
+y w y w r 
+b r r b r 
+ 	 Moving to F	 	
+y b r b r 
+e w y w r 
+b r r b r 
+ 	 Moving to G	 	
+y b r b r 
+w e y w r 
+b r r b r 
+ 	 Moving to H	 	
+y b r b r 
+w y e w r 
+b r r b r 
+ 	 Moving to M	 	
+y b r b r 
+w y r w r 
+b r e b r 
+ 	 Moving to L	 	
+y b r b r 
+w y r w r 
+b e r b r 
+ 	 Moving to G	 	
+y b r b r 
+w e r w r 
+b y r b r 
+ 	 Moving to F	 	
+y b r b r 
+e w r w r 
+b y r b r 
+ 	 Moving to K	 	
+y b r b r 
+b w r w r 
+e y r b r 
+ 	 Moving to L	 	
+y b r b r 
+b w r w r 
+y e r b r 
+ 	 Moving to M	 	
+y b r b r 
+b w r w r 
+y r e b r 
+ 	 Moving to H	 	
+y b r b r 
+b w e w r 
+y r r b r 
+ 	 Moving to G	 	
+y b r b r 
+b e w w r 
+y r r b r 
+ 	 Moving to L	 	
+y b r b r 
+b r w w r 
+y e r b r 
+ 	 Moving to K	 	
+y b r b r 
+b r w w r 
+e y r b r 
+ 	 Moving to F	 	
+y b r b r 
+e r w w r 
+b y r b r 
+ 	 Moving to G	 	
+y b r b r 
+r e w w r 
+b y r b r 
+ 	 Moving to L	 	
+y b r b r 
+r y w w r 
+b e r b r 
+ 	 Moving to K	 	
+y b r b r 
+r y w w r 
+e b r b r 
+ 	 Moving to F	 	
+y b r b r 
+e y w w r 
+r b r b r 
+ 	 Moving to G	 	
+y b r b r 
+y e w w r 
+r b r b r 
+ 	 Moving to H	 	
+y b r b r 
+y w e w r 
+r b r b r 
+ 	 Moving to M	 	
+y b r b r 
+y w r w r 
+r b e b r 
+ 	 Moving to L	 	
+y b r b r 
+y w r w r 
+r e b b r 
+ 	 Moving to K	 	
+y b r b r 
+y w r w r 
+e r b b r 
+ 	 Moving to F	 	
+y b r b r 
+e w r w r 
+y r b b r 
+ 	 Moving to G	 	
+y b r b r 
+w e r w r 
+y r b b r 
+ 	 Moving to H	 	
+y b r b r 
+w r e w r 
+y r b b r 
+ 	 Moving to M	 	
+y b r b r 
+w r b w r 
+y r e b r 
+ 	 Moving to L	 	
+y b r b r 
+w r b w r 
+y e r b r 
+ 	 Moving to G	 	
+y b r b r 
+w e b w r 
+y r r b r 
+ 	 Moving to H	 	
+y b r b r 
+w b e w r 
+y r r b r 
+ 	 Moving to M	 	
+y b r b r 
+w b r w r 
+y r e b r 
+ 	 Moving to L	 	
+y b r b r 
+w b r w r 
+y e r b r 
+ 	 Moving to G	 	
+y b r b r 
+w e r w r 
+y b r b r 
+ Solving game 13
+ 13- Original Config : 
+
+r r b y b 
+e r w r w 
+y r b b r 
+ 	 	 Solution states : 
+ 	 Moving to G	 	
+r r b y b 
+r e w r w 
+y r b b r 
+ 	 Moving to L	 	
+r r b y b 
+r r w r w 
+y e b b r 
+ 	 Moving to K	 	
+r r b y b 
+r r w r w 
+e y b b r 
+ 	 Moving to F	 	
+r r b y b 
+e r w r w 
+r y b b r 
+ 	 Moving to G	 	
+r r b y b 
+r e w r w 
+r y b b r 
+ 	 Moving to H	 	
+r r b y b 
+r w e r w 
+r y b b r 
+ 	 Moving to I	 	
+r r b y b 
+r w r e w 
+r y b b r 
+ 	 Moving to J	 	
+r r b y b 
+r w r w e 
+r y b b r 
+ 	 Moving to O	 	
+r r b y b 
+r w r w r 
+r y b b e 
+ 	 Moving to N	 	
+r r b y b 
+r w r w r 
+r y b e b 
+ 	 Moving to M	 	
+r r b y b 
+r w r w r 
+r y e b b 
+ 	 Moving to L	 	
+r r b y b 
+r w r w r 
+r e y b b 
+ 	 Moving to K	 	
+r r b y b 
+r w r w r 
+e r y b b 
+ 	 Moving to F	 	
+r r b y b 
+e w r w r 
+r r y b b 
+ 	 Moving to G	 	
+r r b y b 
+w e r w r 
+r r y b b 
+ 	 Moving to H	 	
+r r b y b 
+w r e w r 
+r r y b b 
+ 	 Moving to I	 	
+r r b y b 
+w r w e r 
+r r y b b 
+ 	 Moving to J	 	
+r r b y b 
+w r w r e 
+r r y b b 
+ 	 Moving to E	 	
+r r b y e 
+w r w r b 
+r r y b b 
+ 	 Moving to D	 	
+r r b e y 
+w r w r b 
+r r y b b 
+ 	 Moving to C	 	
+r r e b y 
+w r w r b 
+r r y b b 
+ 	 Moving to B	 	
+r e r b y 
+w r w r b 
+r r y b b 
+ 	 Moving to G	 	
+r r r b y 
+w e w r b 
+r r y b b 
+ 	 Moving to H	 	
+r r r b y 
+w w e r b 
+r r y b b 
+ 	 Moving to C	 	
+r r e b y 
+w w r r b 
+r r y b b 
+ 	 Moving to D	 	
+r r b e y 
+w w r r b 
+r r y b b 
+ 	 Moving to E	 	
+r r b y e 
+w w r r b 
+r r y b b 
+ 	 Moving to J	 	
+r r b y b 
+w w r r e 
+r r y b b 
+ 	 Moving to I	 	
+r r b y b 
+w w r e r 
+r r y b b 
+ 	 Moving to H	 	
+r r b y b 
+w w e r r 
+r r y b b 
+ 	 Moving to C	 	
+r r e y b 
+w w b r r 
+r r y b b 
+ 	 Moving to D	 	
+r r y e b 
+w w b r r 
+r r y b b 
+ 	 Moving to I	 	
+r r y r b 
+w w b e r 
+r r y b b 
+ 	 Moving to H	 	
+r r y r b 
+w w e b r 
+r r y b b 
+ 	 Moving to G	 	
+r r y r b 
+w e w b r 
+r r y b b 
+ 	 Moving to B	 	
+r e y r b 
+w r w b r 
+r r y b b 
+ 	 Moving to C	 	
+r y e r b 
+w r w b r 
+r r y b b 
+ 	 Moving to D	 	
+r y r e b 
+w r w b r 
+r r y b b 
+ 	 Moving to I	 	
+r y r b b 
+w r w e r 
+r r y b b 
+ 	 Moving to H	 	
+r y r b b 
+w r e w r 
+r r y b b 
+ 	 Moving to G	 	
+r y r b b 
+w e r w r 
+r r y b b 
+ 	 Moving to F	 	
+r y r b b 
+e w r w r 
+r r y b b 
+ 	 Moving to K	 	
+r y r b b 
+r w r w r 
+e r y b b 
+ 	 Moving to L	 	
+r y r b b 
+r w r w r 
+r e y b b 
+ 	 Moving to M	 	
+r y r b b 
+r w r w r 
+r y e b b 
+ 	 Moving to H	 	
+r y r b b 
+r w e w r 
+r y r b b 
+ Solving game 14
+ 14- Original Config : 
+
+r r w b w 
+r y b b r 
+e b r y r 
+ 	 	 Solution states : 
+ 	 Moving to F	 	
+r r w b w 
+e y b b r 
+r b r y r 
+ 	 Moving to G	 	
+r r w b w 
+y e b b r 
+r b r y r 
+ 	 Moving to B	 	
+r e w b w 
+y r b b r 
+r b r y r 
+ 	 Moving to C	 	
+r w e b w 
+y r b b r 
+r b r y r 
+ 	 Moving to D	 	
+r w b e w 
+y r b b r 
+r b r y r 
+ 	 Moving to E	 	
+r w b w e 
+y r b b r 
+r b r y r 
+ 	 Moving to J	 	
+r w b w r 
+y r b b e 
+r b r y r 
+ 	 Moving to I	 	
+r w b w r 
+y r b e b 
+r b r y r 
+ 	 Moving to D	 	
+r w b e r 
+y r b w b 
+r b r y r 
+ 	 Moving to E	 	
+r w b r e 
+y r b w b 
+r b r y r 
+ 	 Moving to J	 	
+r w b r b 
+y r b w e 
+r b r y r 
+ 	 Moving to I	 	
+r w b r b 
+y r b e w 
+r b r y r 
+ 	 Moving to H	 	
+r w b r b 
+y r e b w 
+r b r y r 
+ 	 Moving to G	 	
+r w b r b 
+y e r b w 
+r b r y r 
+ 	 Moving to B	 	
+r e b r b 
+y w r b w 
+r b r y r 
+ 	 Moving to C	 	
+r b e r b 
+y w r b w 
+r b r y r 
+ 	 Moving to D	 	
+r b r e b 
+y w r b w 
+r b r y r 
+ 	 Moving to I	 	
+r b r b b 
+y w r e w 
+r b r y r 
+ 	 Moving to N	 	
+r b r b b 
+y w r y w 
+r b r e r 
+ 	 Moving to O	 	
+r b r b b 
+y w r y w 
+r b r r e 
+ 	 Moving to J	 	
+r b r b b 
+y w r y e 
+r b r r w 
+ 	 Moving to I	 	
+r b r b b 
+y w r e y 
+r b r r w 
+ 	 Moving to D	 	
+r b r e b 
+y w r b y 
+r b r r w 
+ 	 Moving to C	 	
+r b e r b 
+y w r b y 
+r b r r w 
+ 	 Moving to H	 	
+r b r r b 
+y w e b y 
+r b r r w 
+ 	 Moving to I	 	
+r b r r b 
+y w b e y 
+r b r r w 
+ 	 Moving to J	 	
+r b r r b 
+y w b y e 
+r b r r w 
+ 	 Moving to E	 	
+r b r r e 
+y w b y b 
+r b r r w 
+ 	 Moving to D	 	
+r b r e r 
+y w b y b 
+r b r r w 
+ 	 Moving to C	 	
+r b e r r 
+y w b y b 
+r b r r w 
+ 	 Moving to H	 	
+r b b r r 
+y w e y b 
+r b r r w 
+ 	 Moving to G	 	
+r b b r r 
+y e w y b 
+r b r r w 
+ 	 Moving to B	 	
+r e b r r 
+y b w y b 
+r b r r w 
+ 	 Moving to C	 	
+r b e r r 
+y b w y b 
+r b r r w 
+ 	 Moving to H	 	
+r b w r r 
+y b e y b 
+r b r r w 
+ 	 Moving to I	 	
+r b w r r 
+y b y e b 
+r b r r w 
+ 	 Moving to J	 	
+r b w r r 
+y b y b e 
+r b r r w 
+ 	 Moving to E	 	
+r b w r e 
+y b y b r 
+r b r r w 
+ 	 Moving to D	 	
+r b w e r 
+y b y b r 
+r b r r w 
+ 	 Moving to C	 	
+r b e w r 
+y b y b r 
+r b r r w 
+ 	 Moving to H	 	
+r b y w r 
+y b e b r 
+r b r r w 
+ 	 Moving to I	 	
+r b y w r 
+y b b e r 
+r b r r w 
+ 	 Moving to D	 	
+r b y e r 
+y b b w r 
+r b r r w 
+ 	 Moving to E	 	
+r b y r e 
+y b b w r 
+r b r r w 
+ 	 Moving to J	 	
+r b y r r 
+y b b w e 
+r b r r w 
+ 	 Moving to I	 	
+r b y r r 
+y b b e w 
+r b r r w 
+ 	 Moving to H	 	
+r b y r r 
+y b e b w 
+r b r r w 
+ 	 Moving to C	 	
+r b e r r 
+y b y b w 
+r b r r w 
+ 	 Moving to D	 	
+r b r e r 
+y b y b w 
+r b r r w 
+ 	 Moving to E	 	
+r b r r e 
+y b y b w 
+r b r r w 
+ 	 Moving to J	 	
+r b r r w 
+y b y b e 
+r b r r w 
+ Solving game 15
+ 15- Original Config : 
+
+r r y r e 
+b r r y w 
+b r b b w 
+ 	 	 Solution states : 
+ 	 Moving to J	 	
+r r y r w 
+b r r y e 
+b r b b w 
+ 	 Moving to I	 	
+r r y r w 
+b r r e y 
+b r b b w 
+ 	 Moving to N	 	
+r r y r w 
+b r r b y 
+b r b e w 
+ 	 Moving to M	 	
+r r y r w 
+b r r b y 
+b r e b w 
+ 	 Moving to H	 	
+r r y r w 
+b r e b y 
+b r r b w 
+ 	 Moving to C	 	
+r r e r w 
+b r y b y 
+b r r b w 
+ 	 Moving to D	 	
+r r r e w 
+b r y b y 
+b r r b w 
+ 	 Moving to I	 	
+r r r b w 
+b r y e y 
+b r r b w 
+ 	 Moving to H	 	
+r r r b w 
+b r e y y 
+b r r b w 
+ 	 Moving to G	 	
+r r r b w 
+b e r y y 
+b r r b w 
+ 	 Moving to F	 	
+r r r b w 
+e b r y y 
+b r r b w 
+ 	 Moving to K	 	
+r r r b w 
+b b r y y 
+e r r b w 
+ 	 Moving to L	 	
+r r r b w 
+b b r y y 
+r e r b w 
+ 	 Moving to M	 	
+r r r b w 
+b b r y y 
+r r e b w 
+ 	 Moving to H	 	
+r r r b w 
+b b e y y 
+r r r b w 
+ Solving game 16
+ 16- Original Config : 
+
+b w b r r 
+r b r y y 
+e b r r w 
+ 	 	 Solution states : 
+ 	 Moving to L	 	
+b w b r r 
+r b r y y 
+b e r r w 
+ 	 Moving to G	 	
+b w b r r 
+r e r y y 
+b b r r w 
+ 	 Moving to B	 	
+b e b r r 
+r w r y y 
+b b r r w 
+ 	 Moving to C	 	
+b b e r r 
+r w r y y 
+b b r r w 
+ 	 Moving to H	 	
+b b r r r 
+r w e y y 
+b b r r w 
+ 	 Moving to I	 	
+b b r r r 
+r w y e y 
+b b r r w 
+ 	 Moving to J	 	
+b b r r r 
+r w y y e 
+b b r r w 
+ 	 Moving to O	 	
+b b r r r 
+r w y y w 
+b b r r e 
+ 	 Moving to N	 	
+b b r r r 
+r w y y w 
+b b r e r 
+ 	 Moving to I	 	
+b b r r r 
+r w y e w 
+b b r y r 
+ 	 Moving to H	 	
+b b r r r 
+r w e y w 
+b b r y r 
+ 	 Moving to C	 	
+b b e r r 
+r w r y w 
+b b r y r 
+ 	 Moving to D	 	
+b b r e r 
+r w r y w 
+b b r y r 
+ 	 Moving to I	 	
+b b r y r 
+r w r e w 
+b b r y r 
+ Solving game 17
+ 17- Original Config : 
+
+y r r w b 
+b y r b e 
+b r w r r 
+ 	 	 Solution states : 
+ 	 Moving to I	 	
+y r r w b 
+b y r e b 
+b r w r r 
+ 	 Moving to H	 	
+y r r w b 
+b y e r b 
+b r w r r 
+ 	 Moving to G	 	
+y r r w b 
+b e y r b 
+b r w r r 
+ 	 Moving to F	 	
+y r r w b 
+e b y r b 
+b r w r r 
+ 	 Moving to A	 	
+e r r w b 
+y b y r b 
+b r w r r 
+ 	 Moving to B	 	
+r e r w b 
+y b y r b 
+b r w r r 
+ 	 Moving to G	 	
+r b r w b 
+y e y r b 
+b r w r r 
+ 	 Moving to F	 	
+r b r w b 
+e y y r b 
+b r w r r 
+ 	 Moving to A	 	
+e b r w b 
+r y y r b 
+b r w r r 
+ 	 Moving to B	 	
+b e r w b 
+r y y r b 
+b r w r r 
+ 	 Moving to C	 	
+b r e w b 
+r y y r b 
+b r w r r 
+ 	 Moving to D	 	
+b r w e b 
+r y y r b 
+b r w r r 
+ 	 Moving to I	 	
+b r w r b 
+r y y e b 
+b r w r r 
+ 	 Moving to J	 	
+b r w r b 
+r y y b e 
+b r w r r 
+ 	 Moving to E	 	
+b r w r e 
+r y y b b 
+b r w r r 
+ 	 Moving to D	 	
+b r w e r 
+r y y b b 
+b r w r r 
+ 	 Moving to C	 	
+b r e w r 
+r y y b b 
+b r w r r 
+ 	 Moving to B	 	
+b e r w r 
+r y y b b 
+b r w r r 
+ 	 Moving to G	 	
+b y r w r 
+r e y b b 
+b r w r r 
+ 	 Moving to H	 	
+b y r w r 
+r y e b b 
+b r w r r 
+ 	 Moving to I	 	
+b y r w r 
+r y b e b 
+b r w r r 
+ 	 Moving to N	 	
+b y r w r 
+r y b r b 
+b r w e r 
+ 	 Moving to M	 	
+b y r w r 
+r y b r b 
+b r e w r 
+ 	 Moving to L	 	
+b y r w r 
+r y b r b 
+b e r w r 
+ 	 Moving to G	 	
+b y r w r 
+r e b r b 
+b y r w r 
+ Solving game 18
+ 18- Original Config : 
+
+b r y r w 
+w b r e r 
+r b r b y 
+ 	 	 Solution states : 
+ 	 Moving to D	 	
+b r y e w 
+w b r r r 
+r b r b y 
+ 	 Moving to C	 	
+b r e y w 
+w b r r r 
+r b r b y 
+ 	 Moving to B	 	
+b e r y w 
+w b r r r 
+r b r b y 
+ 	 Moving to G	 	
+b b r y w 
+w e r r r 
+r b r b y 
+ 	 Moving to H	 	
+b b r y w 
+w r e r r 
+r b r b y 
+ 	 Moving to M	 	
+b b r y w 
+w r r r r 
+r b e b y 
+ 	 Moving to N	 	
+b b r y w 
+w r r r r 
+r b b e y 
+ 	 Moving to I	 	
+b b r y w 
+w r r e r 
+r b b r y 
+ 	 Moving to J	 	
+b b r y w 
+w r r r e 
+r b b r y 
+ 	 Moving to E	 	
+b b r y e 
+w r r r w 
+r b b r y 
+ 	 Moving to D	 	
+b b r e y 
+w r r r w 
+r b b r y 
+ 	 Moving to I	 	
+b b r r y 
+w r r e w 
+r b b r y 
+ 	 Moving to H	 	
+b b r r y 
+w r e r w 
+r b b r y 
+ 	 Moving to G	 	
+b b r r y 
+w e r r w 
+r b b r y 
+ 	 Moving to F	 	
+b b r r y 
+e w r r w 
+r b b r y 
+ 	 Moving to K	 	
+b b r r y 
+r w r r w 
+e b b r y 
+ 	 Moving to L	 	
+b b r r y 
+r w r r w 
+b e b r y 
+ 	 Moving to M	 	
+b b r r y 
+r w r r w 
+b b e r y 
+ 	 Moving to H	 	
+b b r r y 
+r w e r w 
+b b r r y 
+ Solving game 19
+ 19- Original Config : 
+
+r r r y r 
+b w b r b 
+r w e b y 
+ 	 	 Solution states : 
+ 	 Moving to H	 	
+r r r y r 
+b w e r b 
+r w b b y 
+ 	 Moving to G	 	
+r r r y r 
+b e w r b 
+r w b b y 
+ 	 Moving to F	 	
+r r r y r 
+e b w r b 
+r w b b y 
+ 	 Moving to A	 	
+e r r y r 
+r b w r b 
+r w b b y 
+ 	 Moving to B	 	
+r e r y r 
+r b w r b 
+r w b b y 
+ 	 Moving to G	 	
+r b r y r 
+r e w r b 
+r w b b y 
+ 	 Moving to H	 	
+r b r y r 
+r w e r b 
+r w b b y 
+ 	 Moving to C	 	
+r b e y r 
+r w r r b 
+r w b b y 
+ 	 Moving to B	 	
+r e b y r 
+r w r r b 
+r w b b y 
+ 	 Moving to G	 	
+r w b y r 
+r e r r b 
+r w b b y 
+ 	 Moving to H	 	
+r w b y r 
+r r e r b 
+r w b b y 
+ 	 Moving to I	 	
+r w b y r 
+r r r e b 
+r w b b y 
+ 	 Moving to J	 	
+r w b y r 
+r r r b e 
+r w b b y 
+ 	 Moving to E	 	
+r w b y e 
+r r r b r 
+r w b b y 
+ 	 Moving to D	 	
+r w b e y 
+r r r b r 
+r w b b y 
+ 	 Moving to I	 	
+r w b b y 
+r r r e r 
+r w b b y 
+ Solving game 20
+ 20- Original Config : 
+
+r r b r y 
+r b r b y 
+w b r w e 
+ 	 	 Solution states : 
+ 	 Moving to J	 	
+r r b r y 
+r b r b e 
+w b r w y 
+ 	 Moving to I	 	
+r r b r y 
+r b r e b 
+w b r w y 
+ 	 Moving to N	 	
+r r b r y 
+r b r w b 
+w b r e y 
+ 	 Moving to M	 	
+r r b r y 
+r b r w b 
+w b e r y 
+ 	 Moving to L	 	
+r r b r y 
+r b r w b 
+w e b r y 
+ 	 Moving to G	 	
+r r b r y 
+r e r w b 
+w b b r y 
+ 	 Moving to H	 	
+r r b r y 
+r r e w b 
+w b b r y 
+ 	 Moving to M	 	
+r r b r y 
+r r b w b 
+w b e r y 
+ 	 Moving to L	 	
+r r b r y 
+r r b w b 
+w e b r y 
+ 	 Moving to G	 	
+r r b r y 
+r e b w b 
+w r b r y 
+ 	 Moving to F	 	
+r r b r y 
+e r b w b 
+w r b r y 
+ 	 Moving to K	 	
+r r b r y 
+w r b w b 
+e r b r y 
+ 	 Moving to L	 	
+r r b r y 
+w r b w b 
+r e b r y 
+ 	 Moving to G	 	
+r r b r y 
+w e b w b 
+r r b r y 
+ Solving game 21
+ 21- Original Config : 
+
+w r b b e 
+b b w g r 
+r y r g y 
+ 	 	 Solution states : 
+ 	 Moving to J	 	
+w r b b r 
+b b w g e 
+r y r g y 
+ 	 Moving to I	 	
+w r b b r 
+b b w e g 
+r y r g y 
+ 	 Moving to N	 	
+w r b b r 
+b b w g g 
+r y r e y 
+ 	 Moving to M	 	
+w r b b r 
+b b w g g 
+r y e r y 
+ 	 Moving to H	 	
+w r b b r 
+b b e g g 
+r y w r y 
+ 	 Moving to I	 	
+w r b b r 
+b b g e g 
+r y w r y 
+ 	 Moving to J	 	
+w r b b r 
+b b g g e 
+r y w r y 
+ 	 Moving to O	 	
+w r b b r 
+b b g g y 
+r y w r e 
+ 	 Moving to N	 	
+w r b b r 
+b b g g y 
+r y w e r 
+ 	 Moving to I	 	
+w r b b r 
+b b g e y 
+r y w g r 
+ 	 Moving to H	 	
+w r b b r 
+b b e g y 
+r y w g r 
+ 	 Moving to M	 	
+w r b b r 
+b b w g y 
+r y e g r 
+ 	 Moving to L	 	
+w r b b r 
+b b w g y 
+r e y g r 
+ 	 Moving to G	 	
+w r b b r 
+b e w g y 
+r b y g r 
+ 	 Moving to H	 	
+w r b b r 
+b w e g y 
+r b y g r 
+ 	 Moving to M	 	
+w r b b r 
+b w y g y 
+r b e g r 
+ 	 Moving to L	 	
+w r b b r 
+b w y g y 
+r e b g r 
+ 	 Moving to K	 	
+w r b b r 
+b w y g y 
+e r b g r 
+ 	 Moving to F	 	
+w r b b r 
+e w y g y 
+b r b g r 
+ 	 Moving to G	 	
+w r b b r 
+w e y g y 
+b r b g r 
+ 	 Moving to H	 	
+w r b b r 
+w y e g y 
+b r b g r 
+ 	 Moving to I	 	
+w r b b r 
+w y g e y 
+b r b g r 
+ 	 Moving to N	 	
+w r b b r 
+w y g g y 
+b r b e r 
+ 	 Moving to M	 	
+w r b b r 
+w y g g y 
+b r e b r 
+ 	 Moving to L	 	
+w r b b r 
+w y g g y 
+b e r b r 
+ 	 Moving to K	 	
+w r b b r 
+w y g g y 
+e b r b r 
+ 	 Moving to F	 	
+w r b b r 
+e y g g y 
+w b r b r 
+ 	 Moving to G	 	
+w r b b r 
+y e g g y 
+w b r b r 
+ 	 Moving to H	 	
+w r b b r 
+y g e g y 
+w b r b r 
+ 	 Moving to M	 	
+w r b b r 
+y g r g y 
+w b e b r 
+ 	 Moving to L	 	
+w r b b r 
+y g r g y 
+w e b b r 
+ 	 Moving to G	 	
+w r b b r 
+y e r g y 
+w g b b r 
+ 	 Moving to F	 	
+w r b b r 
+e y r g y 
+w g b b r 
+ 	 Moving to K	 	
+w r b b r 
+w y r g y 
+e g b b r 
+ 	 Moving to L	 	
+w r b b r 
+w y r g y 
+g e b b r 
+ 	 Moving to M	 	
+w r b b r 
+w y r g y 
+g b e b r 
+ 	 Moving to H	 	
+w r b b r 
+w y e g y 
+g b r b r 
+ 	 Moving to G	 	
+w r b b r 
+w e y g y 
+g b r b r 
+ 	 Moving to F	 	
+w r b b r 
+e w y g y 
+g b r b r 
+ 	 Moving to K	 	
+w r b b r 
+g w y g y 
+e b r b r 
+ 	 Moving to L	 	
+w r b b r 
+g w y g y 
+b e r b r 
+ 	 Moving to G	 	
+w r b b r 
+g e y g y 
+b w r b r 
+ 	 Moving to F	 	
+w r b b r 
+e g y g y 
+b w r b r 
+ 	 Moving to K	 	
+w r b b r 
+b g y g y 
+e w r b r 
+ 	 Moving to L	 	
+w r b b r 
+b g y g y 
+w e r b r 
+ 	 Moving to M	 	
+w r b b r 
+b g y g y 
+w r e b r 
+ 	 Moving to N	 	
+w r b b r 
+b g y g y 
+w r b e r 
+ 	 Moving to O	 	
+w r b b r 
+b g y g y 
+w r b r e 
+ 	 Moving to J	 	
+w r b b r 
+b g y g e 
+w r b r y 
+ 	 Moving to I	 	
+w r b b r 
+b g y e g 
+w r b r y 
+ 	 Moving to H	 	
+w r b b r 
+b g e y g 
+w r b r y 
+ 	 Moving to C	 	
+w r e b r 
+b g b y g 
+w r b r y 
+ 	 Moving to D	 	
+w r b e r 
+b g b y g 
+w r b r y 
+ 	 Moving to I	 	
+w r b y r 
+b g b e g 
+w r b r y 
+ 	 Moving to J	 	
+w r b y r 
+b g b g e 
+w r b r y 
+ 	 Moving to E	 	
+w r b y e 
+b g b g r 
+w r b r y 
+ 	 Moving to D	 	
+w r b e y 
+b g b g r 
+w r b r y 
+ 	 Moving to C	 	
+w r e b y 
+b g b g r 
+w r b r y 
+ 	 Moving to H	 	
+w r b b y 
+b g e g r 
+w r b r y 
+ 	 Moving to I	 	
+w r b b y 
+b g g e r 
+w r b r y 
+ 	 Moving to D	 	
+w r b e y 
+b g g b r 
+w r b r y 
+ 	 Moving to C	 	
+w r e b y 
+b g g b r 
+w r b r y 
+ 	 Moving to B	 	
+w e r b y 
+b g g b r 
+w r b r y 
+ 	 Moving to G	 	
+w g r b y 
+b e g b r 
+w r b r y 
+ 	 Moving to H	 	
+w g r b y 
+b g e b r 
+w r b r y 
+ 	 Moving to I	 	
+w g r b y 
+b g b e r 
+w r b r y 
+ 	 Moving to N	 	
+w g r b y 
+b g b r r 
+w r b e y 
+ 	 Moving to M	 	
+w g r b y 
+b g b r r 
+w r e b y 
+ 	 Moving to L	 	
+w g r b y 
+b g b r r 
+w e r b y 
+ 	 Moving to G	 	
+w g r b y 
+b e b r r 
+w g r b y 
+ Solving game 22

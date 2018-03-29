@@ -105,7 +105,7 @@ public class GameController implements Initializable{
     @FXML
     private void automaticMode(ActionEvent event){
         int currentLevel=0;
-        //int totalLengthSolution=0;
+
         long totalTime=0;
         Board automaticBoard=new Board();
         long startTimeProcess = System.currentTimeMillis();
@@ -113,41 +113,30 @@ public class GameController implements Initializable{
         while(currentLevel<levels.getListOfLevels().size())
         {
             long startTimeLevel=System.currentTimeMillis();
-            //LoggingView.getLoggingViewObject().AddAction("\n Solving game "+(currentLevel+1));
+
             FileOps.writeFile2("\n Solving game "+(currentLevel+1) );
             automaticBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
 
 
             BestFirstSearch bfs = new BestFirstSearch();
             bfs.search(automaticBoard);
-            //LoggingView.getLoggingViewObject().AddAction("\n"+(currentLevel+1)+"- Original Config : \n"+automaticBoard);
+
             FileOps.writeFile2("\n "+(currentLevel+1)+"- Original Config : \n"+automaticBoard);
             String solution = bfs.getSolution();
 			String solutionName = bfs.getSolutionName();
-            //totalLengthSolution+=solution.length();
-
-
-
-            //LoggingView.getLoggingViewObject().AddAction("\n Solution Path : "+solution+" Length : "+solution.length());
             FileOps.writeFile1(solutionName+"\n");
-            FileOps.writeFile1("Length: "+solutionName.length()+"---");
-            //FileOps.writeFile1("\n Solution Name Path : "+solutionName+" Length : "+solutionName.length());
             FileOps.writeFile2("\n \t \t Solution states : ");
             for(int i = 0; i<solution.length(); ++i){
                 FileOps.writeFile2("\n \t Moving to "+solutionName.charAt(i));
-                //LoggingView.getLoggingViewObject().AddAction("\n \t Moving to "+solutionName.charAt(i));
                 automaticBoard.move(solution.charAt(i));
                 FileOps.writeFile2("\t \t"+automaticBoard.toString());
-                //LoggingView.getLoggingViewObject().AddAction("\t \t"+automaticBoard.toString());
-                //  displayBoard();
-                //System.out.println( automaticBoard.toString());
+
             }
             long stopTimeLevel = System.currentTimeMillis();
             long elapsedTime = stopTimeLevel - startTimeLevel;
-            // totalTime+=elapsedTime;
+
             FileOps.writeFile1(elapsedTime+"ms \n");
-            //LoggingView.getLoggingViewObject().AddAction("\n Time taken to solve : "+elapsedTime+" ms");
-            //displayBoard();
+
         currentLevel++;
         }
         long stopTimeProcess = System.currentTimeMillis();
@@ -159,13 +148,6 @@ public class GameController implements Initializable{
     @FXML
     private void solveCurrentGame(ActionEvent event){
         System.out.println("Automatic mode");
-        /*Board[]sucessors=gameBoard.getSucessors();
-        for(int i=0;i<sucessors.length;i++)
-        {
-            System.out.println("Board : "+sucessors[i].getEmptyTokenRef().getPos());
-            //sucessors[i].heuricticFunction();
-        }*/
-        //TO-DO: do search
         BestFirstSearch bfs = new BestFirstSearch();
         bfs.search(this.gameBoard);
         String solution = bfs.getSolution();
@@ -228,11 +210,6 @@ public class GameController implements Initializable{
     }
 
     public void displayBoard(){
-        /*for(int i = 0 ; i< Configuration.ROWS; ++i){
-            for (int j = 0; j <Configuration.COLUMNS; ++j){
-
-            }
-        }*/
         tile00.setText(String.valueOf(gameBoard.getGridToken()[0][0].getSign()));
         tile01.setText(String.valueOf(gameBoard.getGridToken()[0][1].getSign()));
         tile02.setText(String.valueOf(gameBoard.getGridToken()[0][2].getSign()));
@@ -269,7 +246,6 @@ public class GameController implements Initializable{
         gameBoard = new Board();
         gameBoard.setBoard(levels.getListOfLevels().get(currentLevel).getCharacters());
         status = false;
-        LoggingView.getLoggingViewObject().AddAction("Starting game...");
         displayBoard();
     }
 
