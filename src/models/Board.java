@@ -189,18 +189,18 @@ public class Board implements Comparable{
     public Position getNewPosition(char direction){
         Position pos=new Position(emptyTokenRef.getPos().getX(),emptyTokenRef.getPos().getY());
         switch (direction){
-        case 'U':
-            pos.setX(pos.getX()-1);
-            break;
-        case 'D':
-            pos.setX(pos.getX()+1);
-            break;
-        case 'L':
-            pos.setY(pos.getY()-1);
-            break;
-        case 'R':
-            pos.setY(pos.getY()+1);
-            break;
+            case 'U':
+                pos.setX(pos.getX()-1);
+                break;
+            case 'D':
+                pos.setX(pos.getX()+1);
+                break;
+            case 'L':
+                pos.setY(pos.getY()-1);
+                break;
+            case 'R':
+                pos.setY(pos.getY()+1);
+                break;
 
         }
         return pos;
@@ -225,8 +225,7 @@ public class Board implements Comparable{
             String strSearch = "";
             int[] sourceIndexAtSearch = new int[5];
 
-            if (topOrigin.indexOf('e') == -1) {
-
+            if (topOrigin.indexOf(' ') != -1) {
                 //Top row is the source row
                 strSearch = middleReverse;
                 strSearch += bottomOrigin;
@@ -260,7 +259,7 @@ public class Board implements Comparable{
                         topHeuristic += Math.abs((i + 5) - sourceIndexAtSearch[i]);
                 }
                 heuristicValue = topHeuristic;
-            }else {
+            }else{
                 //Bottom row is the source row
                 strSearch = topOrigin;
                 strSearch += middleReverse;
@@ -287,9 +286,9 @@ public class Board implements Comparable{
                     else
                         bottomHeuristic += Math.abs(i - sourceIndexAtSearch[i]);
                 }
-                heuristicValue = bottomHeuristic;
+            heuristicValue = bottomHeuristic;
             }
-            //heuristicValue = Math.min(topHeuristic, bottomHeuristic);
+            //    heuristicValue = Math.min(topHeuristic, bottomHeuristic);
 
         }
         return heuristicValue;
@@ -476,16 +475,16 @@ public class Board implements Comparable{
                     //System.out.println("-----Checking "+j+"th Column---");
                     if(this.gridToken[0][i].getSign()==this.gridToken[1][j].getSign()){
                         //TO-DO: Make sure we choose position closest to j
-                            int currentTopMatchPosition=topMatchPosition;
+                        int currentTopMatchPosition=topMatchPosition;
 
-                            if(currentTopMatchPosition==10)
+                        if(currentTopMatchPosition==10)
+                            topMatchPosition=j;
+                        else{
+                            if(Math.abs(currentTopMatchPosition-i)<Math.abs(i-j)){
                                 topMatchPosition=j;
-                            else{
-                                if(Math.abs(currentTopMatchPosition-i)<Math.abs(i-j)){
-                                    topMatchPosition=j;
-                                }
                             }
-                               // System.out.println("TOPMatch : "+topMatchPosition+"  J: "+j);
+                        }
+                        // System.out.println("TOPMatch : "+topMatchPosition+"  J: "+j);
                     }
                     if(this.gridToken[2][i].getSign()==this.gridToken[1][j].getSign()){
                         //TO-DO: Make sure we choose position closest to j
@@ -533,54 +532,54 @@ public class Board implements Comparable{
     // */
 
 
-   /* public int getHeurictic(){
-        
-        HashMap<Character,Integer> topRow=new HashMap<Character, Integer>();
-        HashMap<Character,Integer> bottomRow=new HashMap<Character, Integer>();
+    /* public int getHeurictic(){
 
-            for(int j=0;j<Configuration.COLUMNS;j++) {
-                if(topRow.containsKey(this.gridToken[0][j].getSign())){
-                    int newCount=topRow.get(this.gridToken[0][j].getSign())+1;
-                    topRow.put(this.gridToken[0][j].getSign(),newCount);
-                }else{
-                    topRow.put(this.gridToken[0][j].getSign(),1);
-                }
-            }
-        for(int j=0;j<Configuration.COLUMNS;j++) {
-            if(bottomRow.containsKey(this.gridToken[Configuration.ROWS-1][j].getSign())){
-                int newCount=bottomRow.get(this.gridToken[Configuration.ROWS-1][j].getSign())+1;
-                bottomRow.put(this.gridToken[Configuration.ROWS-1][j].getSign(),newCount);
-            }else{
-                bottomRow.put(this.gridToken[Configuration.ROWS-1][j].getSign(),1);
-            }
-        }
-        //ArrayList<Character> keys=new ArrayList<Character>();
-        Set<Character> keys=new HashSet();
-            //--Calculating Heuristic
-        for ( Character key : topRow.keySet() ) {
-            keys.add(key);
-        }
-        for ( Character key : bottomRow.keySet() ) {
-            keys.add(key);
-        }
-        int heuristic=0;
-        for(Character key:keys){
-            int top=0,bottom=0;
+         HashMap<Character,Integer> topRow=new HashMap<Character, Integer>();
+         HashMap<Character,Integer> bottomRow=new HashMap<Character, Integer>();
 
-            if(topRow.containsKey(key))
-                top=topRow.get(key);
-            if(bottomRow.containsKey(key))
-                bottom=bottomRow.get(key);
-            heuristic+=Math.abs(top-bottom);
+             for(int j=0;j<Configuration.COLUMNS;j++) {
+                 if(topRow.containsKey(this.gridToken[0][j].getSign())){
+                     int newCount=topRow.get(this.gridToken[0][j].getSign())+1;
+                     topRow.put(this.gridToken[0][j].getSign(),newCount);
+                 }else{
+                     topRow.put(this.gridToken[0][j].getSign(),1);
+                 }
+             }
+         for(int j=0;j<Configuration.COLUMNS;j++) {
+             if(bottomRow.containsKey(this.gridToken[Configuration.ROWS-1][j].getSign())){
+                 int newCount=bottomRow.get(this.gridToken[Configuration.ROWS-1][j].getSign())+1;
+                 bottomRow.put(this.gridToken[Configuration.ROWS-1][j].getSign(),newCount);
+             }else{
+                 bottomRow.put(this.gridToken[Configuration.ROWS-1][j].getSign(),1);
+             }
+         }
+         //ArrayList<Character> keys=new ArrayList<Character>();
+         Set<Character> keys=new HashSet();
+             //--Calculating Heuristic
+         for ( Character key : topRow.keySet() ) {
+             keys.add(key);
+         }
+         for ( Character key : bottomRow.keySet() ) {
+             keys.add(key);
+         }
+         int heuristic=0;
+         for(Character key:keys){
+             int top=0,bottom=0;
 
-        }
-        System.out.println("----------------------");
-        System.out.println("Keys : "+keys);
-        System.out.println(topRow);
-        System.out.println(bottomRow);
-        System.out.println("Heuristic : "+heuristic);
-                return 0;
-    }*/
+             if(topRow.containsKey(key))
+                 top=topRow.get(key);
+             if(bottomRow.containsKey(key))
+                 bottom=bottomRow.get(key);
+             heuristic+=Math.abs(top-bottom);
+
+         }
+         System.out.println("----------------------");
+         System.out.println("Keys : "+keys);
+         System.out.println(topRow);
+         System.out.println(bottomRow);
+         System.out.println("Heuristic : "+heuristic);
+                 return 0;
+     }*/
     public Board[] getSucessors(){
         //TO-DO: Make sucessors of given Model by checking if model exists
         //Board[] sucessors=new Board[4];
